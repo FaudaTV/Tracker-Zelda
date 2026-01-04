@@ -15,7 +15,7 @@ body {
 }
 
 h2 {
-    font-size: 1vw;
+    font-size: 0.8vw;
 }
 
 p {
@@ -103,7 +103,7 @@ p {
 }
 
 .quest-number {
-    font-size: 1.2vw;
+    font-size: 1vw;
     font-weight: bold;
     opacity: 0.5;
     display: block;
