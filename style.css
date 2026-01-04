@@ -14,14 +14,23 @@ body {
     min-height: 100vh;
 }
 
+h2 {
+    font-size: 1vw;
+}
+
+p {
+    font-size: 0.6vw;
+}
+
 /* --- TITRES --- */
 .main-title {
     text-align: center;
     letter-spacing: 4px;
     color: var(--gold);
     text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
-    padding: 50px 0;
+    padding: 4.5vh 0;
     margin: 0;
+    font-size: 1.5vw;
     text-transform: uppercase;
 }
 
@@ -30,7 +39,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 15px;
-    font-size: 1.4rem;
+    font-size: 1vw;
     text-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
     text-align: center;
 }
@@ -42,7 +51,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 1500px;
+    max-width: 80vw;
     margin: 0 auto;
 }
 
@@ -66,7 +75,7 @@ body {
 
 .quest-card .cover-img {
     display: block;
-    max-height: 450px;
+    max-height: 28vh;
     width: auto;
     height: auto;
 }
@@ -94,7 +103,7 @@ body {
 }
 
 .quest-number {
-    font-size: 2.5rem;
+    font-size: 1.2vw;
     font-weight: bold;
     opacity: 0.5;
     display: block;
@@ -104,7 +113,7 @@ body {
 main.quest-container {
     flex-direction: column; /* Empile Titre / Row / Map verticalement */
     align-items: center;
-    gap: 60px;
+    gap: 2vw;
 }
 
 /* La ligne qui contient les 3 colonnes d'items */
@@ -114,7 +123,7 @@ main.quest-container {
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 1.17vw;
     width: 100%;
 }
 
@@ -122,7 +131,7 @@ main.quest-container {
 .inventory-row > .inventory-section, 
 .inventory-row > .inventory-column {
     width: 30%; /* Garde tes 3 colonnes */
-    min-width: 350px;
+    min-width: 13.67vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,7 +139,7 @@ main.quest-container {
 
 /* La colonne pour empiler Son et Accessoire */
 .inventory-column {
-    gap: 40px;
+    gap: 1.56vw;
 }
 
 /* --- DESIGN DES CADRES D'INVENTAIRE --- */
@@ -138,7 +147,7 @@ main.quest-container {
     background: var(--card-bg);
     border: 2px solid var(--gold);
     border-radius: 20px;
-    padding: 30px;
+    padding: 1vw;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
     display: inline-block;
     width: fit-content;
@@ -156,19 +165,19 @@ main.quest-container {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 0.8vw;
 }
 
 .item-wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px;
+    gap: 0.2vw;
 }
 
 .item {
-    width: 40px; 
-    height: 40px;
+    width: 1.56vw; 
+    height: 1.56vw;
     object-fit: contain; 
     cursor: pointer;
     filter: grayscale(1) brightness(0.2); 
