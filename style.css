@@ -1,0 +1,255 @@
+/* --- VARIABLES ET DESIGN GLOBAL --- */
+:root {
+    --gold: #ffd700;
+    --dark-bg: #0a0a0a;
+    --card-bg: rgba(30, 30, 30, 0.9);
+}
+
+body {
+    background-color: var(--dark-bg);
+    background-image: radial-gradient(circle, #1a1a1a 0%, #000 100%);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* --- TITRES --- */
+.main-title {
+    text-align: center;
+    letter-spacing: 4px;
+    color: var(--gold);
+    text-shadow: 0 0 20px rgba(255, 215, 0, 0.5);
+    padding: 50px 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.section-title {
+    color: var(--gold);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+    text-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+    text-align: center;
+}
+
+/* --- CONTENEURS D'ACCUEIL ET SELECTION (Cartes de jeux) --- */
+.card-container, .quest-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.main-content {
+    padding: 40px;
+    gap: 40px;
+}
+
+/* --- STYLE DES CARTES (Image cover + texte) --- */
+.quest-card {
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background-color: #000;
+    display: flex;
+}
+
+.quest-card .cover-img {
+    display: block;
+    max-height: 450px;
+    width: auto;
+    height: auto;
+}
+
+.quest-card:hover {
+    transform: scale(1.05);
+    border-color: var(--gold);
+    box-shadow: 0 0 30px rgba(255, 215, 0, 0.3);
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.9) 20%, transparent 100%);
+    z-index: 1;
+}
+
+.content {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    right: 15px;
+    z-index: 2;
+    text-align: left;
+}
+
+.quest-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    opacity: 0.5;
+    display: block;
+}
+
+/* --- SPECIFIQUE TRACKER (OOT.HTML) --- */
+main.quest-container {
+    flex-direction: column; /* Empile Titre / Row / Map verticalement */
+    align-items: center;
+    gap: 60px;
+}
+
+/* La ligne qui contient les 3 colonnes d'items */
+.inventory-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+}
+
+/* Les 3 blocs : Equipement / Colonne(Son+Acc) / Médaillon */
+.inventory-row > .inventory-section, 
+.inventory-row > .inventory-column {
+    width: 30%; /* Garde tes 3 colonnes */
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* La colonne pour empiler Son et Accessoire */
+.inventory-column {
+    gap: 40px;
+}
+
+/* --- DESIGN DES CADRES D'INVENTAIRE --- */
+.inventory-card {
+    background: var(--card-bg);
+    border: 2px solid var(--gold);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+    display: inline-block;
+    width: fit-content;
+}
+
+.purple-card { border-color: #aa00aa; background: rgba(50, 10, 50, 0.9); }
+.red-card { border-color: #aa1100; background: rgba(50, 10, 10, 0.9); }
+.green-card { border-color: #00aa00; background: rgba(10, 50, 10, 0.9); }
+.blue-card { border-color: #0080ff; background: rgba(10, 30, 50, 0.9); }
+.dark-card { border-color: #555555; background: rgba(20, 20, 20, 0.9); }
+
+/* --- GRILLE D'OBJETS --- */
+.tracker-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.item-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.item {
+    width: 40px; 
+    height: 40px;
+    object-fit: contain; 
+    cursor: pointer;
+    filter: grayscale(1) brightness(0.2); 
+    transition: all 0.3s ease;
+}
+
+.item.active {
+    filter: grayscale(0) brightness(1.2) drop-shadow(0 0 10px var(--gold));
+    transform: scale(1.1);
+}
+
+.item-name {
+    font-size: 0.8rem;
+    color: #888;
+    padding: 0;
+    margin: 0;
+}
+
+/* --- PROGRESSION MAP (DONJONS) --- */
+.dungeon-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dungeon-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.dungeon-column:not(:first-child)::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10%;
+    height: 90%;
+    width: 1px;
+    background: rgba(255, 215, 0, 0.3);
+}
+
+.dungeon-title {
+    font-size: 0.9rem;
+    color: var(--gold);
+    margin-bottom: 5px;
+}
+
+/* --- NAVIGATION --- */
+.back-link {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: var(--gold);
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 10;
+}
+
+.item.boss-item {
+    width: 100px;  /* Double la taille par rapport aux autres items */
+    height: 100px;
+}
+
+/* Effet au survol/actif pour Ganon */
+.item.boss-item.active {
+    filter: grayscale(0) brightness(1.2) drop-shadow(0 0 20px #ff0000);
+    transform: scale(1.2); /* S'agrandit encore plus quand il est activé */
+}
+
+.item.active + .item-name {
+    color: var(--gold);
+    text-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+}
+
+.item-name.maxed {
+    color: #00ffff !important; /* Exemple : Cyan électrique */
+    text-shadow: 0 0 12px rgba(0, 255, 255, 1);
+    font-weight: bold;
+    transform: scale(1.2); /* Légèrement plus gros pour bien le voir */
+}

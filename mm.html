@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - Zelda MM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="index.html" class="back-link">← Retour</a>
+        <h1 class="main-title">Zelda MM - ITEMS</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="inventory-row">
+            <div class="inventory-section">
+                <h2 class="section-title">Équipement</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/sword.png" 
+                                class="item" 
+                                id="zmm-f-sword" 
+                                data-levels="images/ZeldaMM/sword.png,images/ZeldaMM/sword2.png,images/ZeldaMM/sword3.png"
+                                onclick="toggleItem('zmm-f-sword')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/shield.png" 
+                                class="item" 
+                                id="zmm-f-shield" 
+                                data-levels="images/ZeldaMM/shield.png,images/ZeldaMM/shield2.png"
+                                onclick="toggleItem('zmm-f-shield')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/arc.png" 
+                                class="item" 
+                                id="zmm-f-arc" 
+                                onclick="toggleItem('zmm-f-arc')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/quiver.png" 
+                                class="item" 
+                                id="zmm-f-quiver" 
+                                data-levels="images/ZeldaMM/quiver.png,images/ZeldaMM/quiver2.png,images/ZeldaMM/quiver3.png"
+                                onclick="toggleItem('zmm-f-quiver')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/fire_arrow.png" 
+                                class="item" 
+                                id="zmm-f-fire-arrow" 
+                                onclick="toggleItem('zmm-f-fire-arrow')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/ice_arrow.png" 
+                                class="item" 
+                                id="zmm-f-ice-arrow" 
+                                onclick="toggleItem('zmm-f-ice-arrow')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/light_arrow.png" 
+                                class="item" 
+                                id="zmm-f-light-arrow" 
+                                onclick="toggleItem('zmm-f-light-arrow')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/magic.png" 
+                                class="item" 
+                                id="zmm-f-magic"
+                                data-levels="images/ZeldaMM/magic.png,images/ZeldaMM/magic2.png"
+                                onclick="toggleItem('zmm-f-magic')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/hookshot.png" 
+                                class="item" 
+                                id="zmm-f-hookshot"
+                                onclick="toggleItem('zmm-f-hookshot')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/wallet.png" 
+                                class="item" 
+                                id="zmm-f-wallet"
+                                data-levels="images/ZeldaMM/wallet.png,images/ZeldaMM/wallet2.png,images/ZeldaMM/wallet3.png"
+                                onclick="toggleItem('zmm-f-wallet')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/skultula_waterfall.png" 
+                                class="item" 
+                                id="zmm-f-skultula-waterfall"
+                                data-max="30"
+                                data-name="0"
+                                onclick="toggleItem('zmm-f-skultula-waterfall')">
+                                <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/heart.png" 
+                                class="item" 
+                                id="zmm-f-heart"
+                                data-max="52"
+                                data-name="0"
+                                onclick="toggleItem('zmm-f-heart')">
+                                <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/full_heart.png" 
+                                class="item" 
+                                id="zmm-f-full-heart"
+                                data-max="4"
+                                data-name="0"
+                                onclick="toggleItem('zmm-f-full-heart')">
+                                <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/skultula_baie.png" 
+                                class="item" 
+                                id="zmm-f-skultula-baie"
+                                data-max="30"
+                                data-name="0"
+                                onclick="toggleItem('zmm-f-skultula-baie')">
+                                <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/moon.png" 
+                                class="item" 
+                                id="zmm-f-moon"
+                                data-levels="images/ZeldaMM/moon.png,images/ZeldaMM/title.png,images/ZeldaMM/title2.png,images/ZeldaMM/title3.png,images/ZeldaMM/title4.png"
+                                onclick="toggleItem('zmm-f-moon')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/kafei.png" 
+                                class="item" 
+                                id="zmm-f-kafei"
+                                data-levels="images/ZeldaMM/kafei.png,images/ZeldaMM/pandant.png,images/ZeldaMM/mama.png"
+                                onclick="toggleItem('zmm-f-kafei')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/room.png" 
+                                class="item" 
+                                id="zmm-f-room"
+                                onclick="toggleItem('zmm-f-room')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/photo.png" 
+                                class="item" 
+                                id="zmm-f-photo"
+                                onclick="toggleItem('zmm-f-photo')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/ocarina.png" 
+                                class="item" 
+                                id="zmm-f-ocarina"
+                                onclick="toggleItem('zmm-f-ocarina')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/noix.png" 
+                                class="item" 
+                                id="zmm-f-noix"
+                                onclick="toggleItem('zmm-f-noix')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/baton.png" 
+                                class="item" 
+                                id="zmm-f-baton"
+                                onclick="toggleItem('zmm-f-baton')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/bomb_bag.png" 
+                                class="item" 
+                                id="zmm-f-bomb_bag"
+                                data-levels="images/ZeldaMM/bomb_bag.png,images/ZeldaMM/bomb_bag2.png,images/ZeldaMM/bomb_bag3.png"
+                                onclick="toggleItem('zmm-f-bomb_bag')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/baril.png" 
+                                class="item" 
+                                id="zmm-f-baril"
+                                onclick="toggleItem('zmm-f-baril')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/bombchu.png" 
+                                class="item" 
+                                id="zmm-f-bombchu"
+                                onclick="toggleItem('zmm-f-bombchu')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/bomber.png" 
+                                class="item" 
+                                id="zmm-f-bomber"
+                                onclick="toggleItem('zmm-f-bomber')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/bottle.png" 
+                                class="item" 
+                                id="zmm-f-bottle"
+                                data-max="6"
+                                data-name="0"
+                                onclick="toggleItem('zmm-f-bottle')">
+                                <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/fairy_sword.png" 
+                                class="item" 
+                                id="zmm-f-fairy_sword"
+                                onclick="toggleItem('zmm-f-fairy_sword')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/haricot.png" 
+                                class="item" 
+                                id="zmm-f-haricot"
+                                onclick="toggleItem('zmm-f-haricot')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/double.png" 
+                                class="item" 
+                                id="zmm-f-double"
+                                onclick="toggleItem('zmm-f-double')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/spin.png" 
+                                class="item" 
+                                id="zmm-f-spin"
+                                onclick="toggleItem('zmm-f-spin')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/monocle.png" 
+                                class="item" 
+                                id="zmm-f-monocle"
+                                onclick="toggleItem('zmm-f-monocle')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/bomb.png" 
+                            class="item" 
+                            id="zmm-f-bomb" 
+                            onclick="toggleItem('zmm-f-bomb')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-column">
+                <div class="inventory-section">
+                    <h2 class="section-title">Masques</h2>
+                    <div class="inventory-card red-card"> 
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/postman.png" 
+                                    class="item" 
+                                    id="zmm-f-postman"
+                                    onclick="toggleItem('zmm-f-postman')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/night.png" 
+                                    class="item" 
+                                    id="zmm-f-night"
+                                    onclick="toggleItem('zmm-f-night')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/blast.png" 
+                                    class="item" 
+                                    id="zmm-f-blast"
+                                    onclick="toggleItem('zmm-f-blast')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/stone.png" 
+                                    class="item" 
+                                    id="zmm-f-stone"
+                                    onclick="toggleItem('zmm-f-stone')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/fee.png" 
+                                    class="item" 
+                                    id="zmm-f-fee"
+                                    onclick="toggleItem('zmm-f-fee')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/deku.png" 
+                                    class="item" 
+                                    id="zmm-f-deku"
+                                    onclick="toggleItem('zmm-f-deku')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/renard.png" 
+                                    class="item" 
+                                    id="zmm-f-renard"
+                                    onclick="toggleItem('zmm-f-renard')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/bremen.png" 
+                                    class="item" 
+                                    id="zmm-f-bremen"
+                                    onclick="toggleItem('zmm-f-bremen')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/lapin.png" 
+                                    class="item" 
+                                    id="zmm-f-lapin"
+                                    onclick="toggleItem('zmm-f-lapin')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/don_gero.png" 
+                                    class="item" 
+                                    id="zmm-f-don-gero"
+                                    onclick="toggleItem('zmm-f-don-gero')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/scents.png" 
+                                    class="item" 
+                                    id="zmm-f-scents"
+                                    onclick="toggleItem('zmm-f-scents')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/goron.png" 
+                                    class="item" 
+                                    id="zmm-f-goron"
+                                    onclick="toggleItem('zmm-f-goron')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/romani.png" 
+                                    class="item" 
+                                    id="zmm-f-romani"
+                                    onclick="toggleItem('zmm-f-romani')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/troupe.png" 
+                                    class="item" 
+                                    id="zmm-f-troupe"
+                                    onclick="toggleItem('zmm-f-troupe')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/kafei_mask.png" 
+                                    class="item" 
+                                    id="zmm-f-kafei_mask"
+                                    onclick="toggleItem('zmm-f-kafei_mask')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/couple.png" 
+                                    class="item" 
+                                    id="zmm-f-couple"
+                                    onclick="toggleItem('zmm-f-couple')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/verite.png" 
+                                    class="item" 
+                                    id="zmm-f-verite"
+                                    onclick="toggleItem('zmm-f-verite')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/zora.png" 
+                                    class="item" 
+                                    id="zmm-f-zora"
+                                    onclick="toggleItem('zmm-f-zora')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/kamaro.png" 
+                                    class="item" 
+                                    id="zmm-f-kamaro"
+                                    onclick="toggleItem('zmm-f-kamaro')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/gibdo.png" 
+                                    class="item" 
+                                    id="zmm-f-gibdo"
+                                    onclick="toggleItem('zmm-f-gibdo')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/garo.png" 
+                                    class="item" 
+                                    id="zmm-f-garo"
+                                    onclick="toggleItem('zmm-f-garo')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/captain.png" 
+                                    class="item" 
+                                    id="zmm-f-captain"
+                                    onclick="toggleItem('zmm-f-captain')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/giant.png" 
+                                    class="item" 
+                                    id="zmm-f-giant"
+                                    onclick="toggleItem('zmm-f-giant')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/demon.png" 
+                                    class="item" 
+                                    id="zmm-f-demon"
+                                    onclick="toggleItem('zmm-f-demon')">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inventory-section">
+                    <h2 class="section-title">Son</h2>
+                    <div class="inventory-card purple-card"> 
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/time_song.png" class="item" id="zmm-f-time_song" onclick="toggleItem('zmm-f-time_song')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/speed_song.png" class="item" id="zmm-f-speed_song" onclick="toggleItem('zmm-f-speed_song')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/reverse_song.png" class="item" id="zmm-f-reverse_song" onclick="toggleItem('zmm-f-reverse_song')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/healing_song.png" class="item" id="zmm-f-healing_song" onclick="toggleItem('zmm-f-healing_song')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/epona_song.png" class="item" id="zmm-f-epona_song" onclick="toggleItem('zmm-f-epona_song')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/storm_song.png" class="item" id="zmm-f-storm_song" onclick="toggleItem('zmm-f-storm_song')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/envol_song.png" class="item" id="zmm-f-envol_song" onclick="toggleItem('zmm-f-envol_song')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/ode_song.png" class="item" id="zmm-f-ode_song" onclick="toggleItem('zmm-f-ode_song')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/sonate_song.png" class="item" id="zmm-f-sonate_song" onclick="toggleItem('zmm-f-sonate_song')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/berceuse_song.png" class="item" id="zmm-f-berceuse_song" onclick="toggleItem('zmm-f-berceuse_song')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/bossa_song.png" class="item" id="zmm-f-bossa_song" onclick="toggleItem('zmm-f-bossa_song')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/vide_song.png" class="item" id="zmm-f-vide_song" onclick="toggleItem('zmm-f-vide_song')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaMM/epouvantail.png" class="item" id="zmm-f-epouvantail" onclick="toggleItem('zmm-f-epouvantail')">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+            <h2 class="section-title">Progression Map</h2>
+            <div class="inventory-card blue-card"> 
+                <div class="tracker-grid dungeon-grid">
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D1</h3>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/map.png" class="item" id="zmm-f-map1" onclick="toggleItem('zmm-f-map1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/compass.png" class="item" id="zmm-f-cp1" onclick="toggleItem('zmm-f-cp1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/key.png" class="item" id="zmm-f-key1" onclick="toggleItem('zmm-f-key1')" data-max="1" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/boss_key.png" class="item" id="zmm-f-boss1" onclick="toggleItem('zmm-f-boss1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/odolwa.png" class="item" id="zmm-f-odolwa" onclick="toggleItem('zmm-f-odolwa')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D2</h3>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/map.png" class="item" id="zmm-f-map2" onclick="toggleItem('zmm-f-map2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/compass.png" class="item" id="zmm-f-cp2" onclick="toggleItem('zmm-f-cp2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/key.png" class="item" id="zmm-f-key2" onclick="toggleItem('zmm-f-key2')" data-max="3" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/boss_key.png" class="item" id="zmm-f-boss2" onclick="toggleItem('zmm-f-boss2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/goht.png" class="item" id="zmm-f-goht" onclick="toggleItem('zmm-f-goht')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D3</h3>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/map.png" class="item" id="zmm-f-map3" onclick="toggleItem('zmm-f-map3')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/compass.png" class="item" id="zmm-f-cp3" onclick="toggleItem('zmm-f-cp3')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/key.png" class="item" id="zmm-f-key3" onclick="toggleItem('zmm-f-key3')" data-max="1" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/boss_key.png" class="item" id="zmm-f-boss3" onclick="toggleItem('zmm-f-boss3')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/gyorg.png" class="item" id="zmm-f-gyorg" onclick="toggleItem('zmm-f-gyorg')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D4</h3>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/map.png" class="item" id="zmm-f-map4" onclick="toggleItem('zmm-f-map4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/compass.png" class="item" id="zmm-f-cp4" onclick="toggleItem('zmm-f-cp4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/key.png" class="item" id="zmm-f-key4" onclick="toggleItem('zmm-f-key4')" data-max="4" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/boss_key.png" class="item" id="zmm-f-boss4" onclick="toggleItem('zmm-f-boss4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaMM/twinmolds.png" class="item" id="zmm-f-twinmolds" onclick="toggleItem('zmm-f-twinmolds')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-section">
+            <h2 class="section-title">Majora</h2>
+            <div class="inventory-card dark-card">
+                <div class="tracker-grid">
+                    <div class="item-wrapper">
+                        <img src="images/ZeldaMM/majora.png" class="item boss-item" id="zmm-f-majora" onclick="toggleItem('zmm-f-majora')">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
