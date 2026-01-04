@@ -123,13 +123,13 @@ main.quest-container {
     justify-content: center;
     align-items: stretch;
     gap: 1.17vw;
-    width: 100%;
+    width: 80%;
 }
 
 /* Les 3 blocs : Equipement / Colonne(Son+Acc) / Médaillon */
 .split-3-columns > .inventory-section, 
 .split-3-columns > .inventory-column {
-    max-width: 25vw; /* Garde tes 3 colonnes */
+    max-width: 22vw; /* Garde tes 3 colonnes */
 }
 
 .split-2-columns > .inventory-section, 
