@@ -12,266 +12,279 @@
     </header>
 
     <main class="quest-container">
-        <div class="inventory-section">
-            <h2 class="section-title">Équipement</h2>
-            <div class="inventory-card base-card"> 
-                <div class="tracker-grid">
+        <div class="inventory-row">
+            <div class="inventory-section">
+                <h2 class="section-title">Équipement</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
 
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/sword.png" 
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/sword.png" 
+                                class="item" 
+                                id="zalttp-f-sword" 
+                                data-levels="images/ZeldaALTTP/sword.png,images/ZeldaALTTP/sword2.png,images/ZeldaALTTP/sword3.png,images/ZeldaALTTP/sword4.png" 
+                                onclick="toggleItem('zalttp-f-sword')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/shield.png" 
+                                class="item" 
+                                id="zalttp-f-shield" 
+                                data-levels="images/ZeldaALTTP/shield.png,images/ZeldaALTTP/shield2.png,images/ZeldaALTTP/shield3.png" 
+                                onclick="toggleItem('zalttp-f-shield')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/boomerang.png" 
+                                class="item" 
+                                id="zalttp-f-boomerang" 
+                                data-levels="images/ZeldaALTTP/boomerang.png,images/ZeldaALTTP/boomerang2.png" 
+                                onclick="toggleItem('zalttp-f-boomerang')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/bomb.png" 
+                                class="item" 
+                                id="zalttp-f-bomb"  
+                            onclick="toggleItem('zalttp-f-bomb')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/super_bomb.png" 
+                                class="item" 
+                                id="zalttp-f-super_bomb"  
+                            onclick="toggleItem('zalttp-f-super_bomb')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/arc.png" 
+                                class="item" 
+                                id="zalttp-f-arc"
+                                data-levels="images/ZeldaALTTP/arc.png,images/ZeldaALTTP/arc2.png" 
+                                onclick="toggleItem('zalttp-f-arc')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/book.png" 
+                                class="item" 
+                                id="zalttp-f-book" 
+                                onclick="toggleItem('zalttp-f-book')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/heart.png" 
                             class="item" 
-                            id="zalttp-f-sword" 
-                            data-levels="images/ZeldaALTTP/sword.png,images/ZeldaALTTP/sword2.png,images/ZeldaALTTP/sword3.png,images/ZeldaALTTP/sword4.png" 
-                            onclick="toggleItem('zalttp-f-sword')">
+                            id="zalttp-f-heart"
+                            data-max="24"
+                            data-name="0"
+                            onclick="toggleItem('zalttp-f-heart')">
+                            <p class="item-name">0</p>
                     </div>
 
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/shield.png" 
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/glove.png" 
                             class="item" 
-                            id="zalttp-f-shield" 
-                            data-levels="images/ZeldaALTTP/shield.png,images/ZeldaALTTP/shield2.png,images/ZeldaALTTP/shield3.png" 
-                            onclick="toggleItem('zalttp-f-shield')">
-                    </div>
+                            id="zalttp-f-glove" 
+                            data-levels="images/ZeldaALTTP/glove.png,images/ZeldaALTTP/glove2.png"
+                            onclick="toggleItem('zalttp-f-glove')">
+                        </div>
 
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/boomerang.png" 
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/hookshot.png" 
                             class="item" 
-                            id="zalttp-f-boomerang" 
-                            data-levels="images/ZeldaALTTP/boomerang.png,images/ZeldaALTTP/boomerang2.png" 
-                            onclick="toggleItem('zalttp-f-boomerang')">
-                    </div>
+                            id="zalttp-f-hookshot" 
+                            onclick="toggleItem('zalttp-f-hookshot')">
+                        </div>
 
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/bomb.png" 
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/hammer.png" 
                             class="item" 
-                            id="zalttp-f-bomb"  
-                        onclick="toggleItem('zalttp-f-bomb')">
-                    </div>
+                            id="zalttp-f-hammer" 
+                            onclick="toggleItem('zalttp-f-hammer')">
+                        </div>
 
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/super_bomb.png" 
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/lamp.png" 
                             class="item" 
-                            id="zalttp-f-super_bomb"  
-                        onclick="toggleItem('zalttp-f-super_bomb')">
-                    </div>
+                            id="zalttp-f-lamp" 
+                            onclick="toggleItem('zalttp-f-lamp')">
+                        </div>
 
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/arc.png" 
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/magic.png" 
                             class="item" 
-                            id="zalttp-f-arc"
-                            data-levels="images/ZeldaALTTP/arc.png,images/ZeldaALTTP/arc2.png" 
-                            onclick="toggleItem('zalttp-f-arc')">
-                    </div>
+                            id="zalttp-f-magic" 
+                            onclick="toggleItem('zalttp-f-magic')">
+                        </div>
 
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/book.png" 
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/moon.png" 
                             class="item" 
-                            id="zalttp-f-book" 
-                            onclick="toggleItem('zalttp-f-book')">
-                    </div>
+                            id="zalttp-f-moon" 
+                            onclick="toggleItem('zalttp-f-moon')">
+                        </div>
 
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/heart.png" 
-                        class="item" 
-                        id="zalttp-f-heart"
-                        data-max="24"
-                        data-name="0"
-                        onclick="toggleItem('zalttp-f-heart')">
-                        <p class="item-name">0</p>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/shovel.png" 
+                            class="item" 
+                            id="zalttp-f-shovel" 
+                            onclick="toggleItem('zalttp-f-shovel')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/magic_jar.png" 
+                            class="item" 
+                            id="zalttp-f-Bible"
+                            data-levels="images/ZeldaALTTP/magic_jar.png,images/ZeldaALTTP/magic_jar2.png"
+                            onclick="toggleItem('zalttp-f-Bible')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/ice.png" 
+                            class="item" 
+                            id="zalttp-f-ice" 
+                            onclick="toggleItem('zalttp-f-ice')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/fire.png" 
+                            class="item" 
+                            id="zalttp-f-fire" 
+                            onclick="toggleItem('zalttp-f-fire')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/flute.png" 
+                            class="item" 
+                            id="zalttp-f-flute" 
+                            onclick="toggleItem('zalttp-f-flute')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/flipper.png" 
+                            class="item" 
+                            id="zalttp-f-flipper" 
+                            onclick="toggleItem('zalttp-f-flipper')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/filet.png" 
+                            class="item" 
+                            id="zalttp-f-filet" 
+                            onclick="toggleItem('zalttp-f-filet')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/champi.png" 
+                            class="item" 
+                            id="zalttp-f-champi" 
+                            onclick="toggleItem('zalttp-f-champi')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/cap.png" 
+                            class="item" 
+                            id="zalttp-f-cap" 
+                            onclick="toggleItem('zalttp-f-cap')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/boots.png" 
+                            class="item" 
+                            id="zalttp-f-boots" 
+                            onclick="toggleItem('zalttp-f-boots')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/bottle.png" 
+                            class="item" 
+                            id="zalttp-f-bottle" 
+                            data-max="4"
+                            data-name="0"
+                            onclick="toggleItem('zalttp-f-bottle')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/ether.png" 
+                            class="item" 
+                            id="zalttp-f-ether" 
+                            onclick="toggleItem('zalttp-f-ether')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/quake.png" 
+                            class="item" 
+                            id="zalttp-f-quake" 
+                            onclick="toggleItem('zalttp-f-quake')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/bombos.png" 
+                            class="item" 
+                            id="zalttp-f-bombos" 
+                            onclick="toggleItem('zalttp-f-bombos')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/green.png" 
+                            class="item" 
+                            id="zalttp-f-green"
+                            data-levels="images/ZeldaALTTP/green.png,images/ZeldaALTTP/blue.png,images/ZeldaALTTP/red.png"
+                            onclick="toggleItem('zalttp-f-green')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/byrna.png" 
+                            class="item" 
+                            id="zalttp-f-byrna" 
+                            onclick="toggleItem('zalttp-f-byrna')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/somaria.png" 
+                            class="item" 
+                            id="zalttp-f-somaria" 
+                            onclick="toggleItem('zalttp-f-somaria')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/mirror.png" 
+                            class="item" 
+                            id="zalttp-f-mirror" 
+                            onclick="toggleItem('zalttp-f-mirror')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/golden.png" 
+                            class="item" 
+                            id="zalttp-f-golden" 
+                            onclick="toggleItem('zalttp-f-golden')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/full_heart.png" 
+                            class="item" 
+                            id="zalttp-f-full_heart"
+                            data-max="11"
+                            data-name="0"
+                            onclick="toggleItem('zalttp-f-full_heart')">
+                            <p class="item-name">0</p>
+                        </div>
+                    </div>
+                </div>        
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Ganon</h2>
+                <div class="inventory-card dark-card">
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaALTTP/ganon.png" class="item boss-item" id="zalttp-f-ganon" onclick="toggleItem('zalttp-f-ganon')">
+                        </div>
+                    </div>
                 </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/glove.png" 
-                        class="item" 
-                        id="zalttp-f-glove" 
-                        data-levels="images/ZeldaALTTP/glove.png,images/ZeldaALTTP/glove2.png"
-                        onclick="toggleItem('zalttp-f-glove')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/hookshot.png" 
-                        class="item" 
-                        id="zalttp-f-hookshot" 
-                        onclick="toggleItem('zalttp-f-hookshot')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/hammer.png" 
-                        class="item" 
-                        id="zalttp-f-hammer" 
-                        onclick="toggleItem('zalttp-f-hammer')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/lamp.png" 
-                        class="item" 
-                        id="zalttp-f-lamp" 
-                        onclick="toggleItem('zalttp-f-lamp')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/magic.png" 
-                        class="item" 
-                        id="zalttp-f-magic" 
-                        onclick="toggleItem('zalttp-f-magic')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/moon.png" 
-                        class="item" 
-                        id="zalttp-f-moon" 
-                        onclick="toggleItem('zalttp-f-moon')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/shovel.png" 
-                        class="item" 
-                        id="zalttp-f-shovel" 
-                        onclick="toggleItem('zalttp-f-shovel')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/magic_jar.png" 
-                        class="item" 
-                        id="zalttp-f-Bible"
-                        data-levels="images/ZeldaALTTP/magic_jar.png,images/ZeldaALTTP/magic_jar2.png"
-                        onclick="toggleItem('zalttp-f-Bible')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/ice.png" 
-                        class="item" 
-                        id="zalttp-f-ice" 
-                        onclick="toggleItem('zalttp-f-ice')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/fire.png" 
-                        class="item" 
-                        id="zalttp-f-fire" 
-                        onclick="toggleItem('zalttp-f-fire')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/flute.png" 
-                        class="item" 
-                        id="zalttp-f-flute" 
-                        onclick="toggleItem('zalttp-f-flute')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/flipper.png" 
-                        class="item" 
-                        id="zalttp-f-flipper" 
-                        onclick="toggleItem('zalttp-f-flipper')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/filet.png" 
-                        class="item" 
-                        id="zalttp-f-filet" 
-                        onclick="toggleItem('zalttp-f-filet')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/champi.png" 
-                        class="item" 
-                        id="zalttp-f-champi" 
-                        onclick="toggleItem('zalttp-f-champi')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/cap.png" 
-                        class="item" 
-                        id="zalttp-f-cap" 
-                        onclick="toggleItem('zalttp-f-cap')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/boots.png" 
-                        class="item" 
-                        id="zalttp-f-boots" 
-                        onclick="toggleItem('zalttp-f-boots')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/bottle.png" 
-                        class="item" 
-                        id="zalttp-f-bottle" 
-                        data-max="4"
-                        data-name="0"
-                        onclick="toggleItem('zalttp-f-bottle')">
-                        <p class="item-name">0</p>
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/ether.png" 
-                        class="item" 
-                        id="zalttp-f-ether" 
-                        onclick="toggleItem('zalttp-f-ether')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/quake.png" 
-                        class="item" 
-                        id="zalttp-f-quake" 
-                        onclick="toggleItem('zalttp-f-quake')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/bombos.png" 
-                        class="item" 
-                        id="zalttp-f-bombos" 
-                        onclick="toggleItem('zalttp-f-bombos')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/green.png" 
-                        class="item" 
-                        id="zalttp-f-green"
-                        data-levels="images/ZeldaALTTP/green.png,images/ZeldaALTTP/blue.png,images/ZeldaALTTP/red.png"
-                        onclick="toggleItem('zalttp-f-green')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/byrna.png" 
-                        class="item" 
-                        id="zalttp-f-byrna" 
-                        onclick="toggleItem('zalttp-f-byrna')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/somaria.png" 
-                        class="item" 
-                        id="zalttp-f-somaria" 
-                        onclick="toggleItem('zalttp-f-somaria')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/mirror.png" 
-                        class="item" 
-                        id="zalttp-f-mirror" 
-                        onclick="toggleItem('zalttp-f-mirror')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/golden.png" 
-                        class="item" 
-                        id="zalttp-f-golden" 
-                        onclick="toggleItem('zalttp-f-golden')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/full_heart.png" 
-                        class="item" 
-                        id="zalttp-f-full_heart"
-                        data-max="11"
-                        data-name="0"
-                        onclick="toggleItem('zalttp-f-full_heart')">
-                        <p class="item-name">0</p>
-                    </div>
-                </div>
-            </div>        
+            </div>
         </div>
 
         <div class="inventory-section">
@@ -513,17 +526,6 @@
                         </div>
                     </div>
 
-                </div>
-            </div>
-        </div>
-
-        <div class="inventory-section">
-            <h2 class="section-title">Ganon</h2>
-            <div class="inventory-card dark-card">
-                <div class="tracker-grid">
-                    <div class="item-wrapper">
-                        <img src="images/ZeldaALTTP/ganon.png" class="item boss-item" id="zalttp-f-ganon" onclick="toggleItem('zalttp-f-ganon')">
-                    </div>
                 </div>
             </div>
         </div>
