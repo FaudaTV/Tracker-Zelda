@@ -121,25 +121,29 @@ main.quest-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
+    align-items: stretch;
     gap: 1.17vw;
     width: 100%;
 }
 
 /* Les 3 blocs : Equipement / Colonne(Son+Acc) / Médaillon */
-.inventory-row > .inventory-section, 
-.inventory-row > .inventory-column {
-    width: 30%; /* Garde tes 3 colonnes */
-    min-width: 13.67vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.split-3-columns > .inventory-section, 
+.split-3-columns > .inventory-column {
+    max-width: 25vw; /* Garde tes 3 colonnes */
+}
+
+.split-2-columns > .inventory-section, 
+.split-2-columns > .inventory-column {
+    max-width: 35vw; /* Garde tes 2 colonnes */
 }
 
 /* La colonne pour empiler Son et Accessoire */
 .inventory-column {
-    gap: 1.56vw;
+    gap: 1.17vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* --- DESIGN DES CADRES D'INVENTAIRE --- */
@@ -208,7 +212,7 @@ main.quest-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 0.6vw;
     padding: 10px 20px;
     position: relative;
 }
@@ -241,8 +245,8 @@ main.quest-container {
 }
 
 .item.boss-item {
-    width: 100px;  /* Double la taille par rapport aux autres items */
-    height: 100px;
+    width: 4vw;  /* Double la taille par rapport aux autres items */
+    height: 4vw;
 }
 
 /* Effet au survol/actif pour Ganon */

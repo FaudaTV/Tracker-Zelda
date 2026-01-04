@@ -12,147 +12,160 @@
     </header>
 
     <main class="quest-container">
-        <div class="inventory-section">
-            <h2 class="section-title">Équipement</h2>
-            <div class="inventory-card base-card"> 
-                <div class="tracker-grid">
-                    <div class="item-wrapper">
-                        <img src="images/Zelda1/sword.png" 
-                            class="item" 
-                            id="z1-f-sword" 
-                            data-levels="images/Zelda1/sword.png,images/Zelda1/sword2.png,images/Zelda1/sword3.png" 
-                            onclick="toggleItem('z1-f-sword')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/Zelda1/shield.png" 
-                            class="item" 
-                            id="z1-f-shield" 
-                            data-levels="images/Zelda1/shield.png,images/Zelda1/magic_shield.png" 
-                            onclick="toggleItem('z1-f-shield')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/Zelda1/boomerang.png" 
-                            class="item" 
-                            id="z1-f-boomerang" 
-                            data-levels="images/Zelda1/boomerang.png,images/Zelda1/boomerang2.png" 
-                            onclick="toggleItem('z1-f-boomerang')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/Zelda1/bomb.png" 
-                            class="item" 
-                            id="z1-f-bomb"  
-                        onclick="toggleItem('z1-f-bomb')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/Zelda1/arc.png" 
-                            class="item" 
-                            id="z1-f-arc" 
-                            onclick="toggleItem('z1-f-arc')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/Zelda1/fleche.png" 
-                            class="item" 
-                            id="z1-f-fleche"
-                            data-levels="images/Zelda1/fleche.png,images/Zelda1/flecheacier.png"
-                            onclick="toggleItem('z1-f-fleche')">
+        <div class="inventory-row split-2-columns">
+            <div class="inventory-section">
+                <h2 class="section-title">Équipement</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="images/Zelda1/sword.png" 
+                                class="item" 
+                                id="z1-f-sword" 
+                                data-levels="images/Zelda1/sword.png,images/Zelda1/sword2.png,images/Zelda1/sword3.png" 
+                                onclick="toggleItem('z1-f-sword')">
                         </div>
 
-                    <div class="item-wrapper">
-                        <img src="images/Zelda1/viande.png" 
-                        class="item" 
-                        id="z1-f-viande" 
-                        onclick="toggleItem('z1-f-viande')">
-                    </div>
+                        <div class="item-wrapper">
+                            <img src="images/Zelda1/shield.png" 
+                                class="item" 
+                                id="z1-f-shield" 
+                                data-levels="images/Zelda1/shield.png,images/Zelda1/magic_shield.png" 
+                                onclick="toggleItem('z1-f-shield')">
+                        </div>
 
-                    <div class="item-wrapper">
-                        <img src="images/Zelda1/lettre.png" 
+                        <div class="item-wrapper">
+                            <img src="images/Zelda1/boomerang.png" 
+                                class="item" 
+                                id="z1-f-boomerang" 
+                                data-levels="images/Zelda1/boomerang.png,images/Zelda1/boomerang2.png" 
+                                onclick="toggleItem('z1-f-boomerang')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/Zelda1/bomb.png" 
+                                class="item" 
+                                id="z1-f-bomb"  
+                            onclick="toggleItem('z1-f-bomb')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/Zelda1/arc.png" 
+                                class="item" 
+                                id="z1-f-arc" 
+                                onclick="toggleItem('z1-f-arc')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/Zelda1/fleche.png" 
+                                class="item" 
+                                id="z1-f-fleche"
+                                data-levels="images/Zelda1/fleche.png,images/Zelda1/flecheacier.png"
+                                onclick="toggleItem('z1-f-fleche')">
+                            </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/Zelda1/viande.png" 
                             class="item" 
-                            id="z1-f-lettre" 
-                            data-levels="images/Zelda1/lettre.png,images/Zelda1/PotionBleu.png,images/Zelda1/PotionRouge.png" 
-                            onclick="toggleItem('z1-f-lettre')">
+                            id="z1-f-viande" 
+                            onclick="toggleItem('z1-f-viande')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/Zelda1/lettre.png" 
+                                class="item" 
+                                id="z1-f-lettre" 
+                                data-levels="images/Zelda1/lettre.png,images/Zelda1/PotionBleu.png,images/Zelda1/PotionRouge.png" 
+                                onclick="toggleItem('z1-f-lettre')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/Zelda1/FragementCoeur.png" 
+                            class="item" 
+                            id="z1-f-FragementCoeur"
+                            data-max="13"
+                            data-name="0"
+                            onclick="toggleItem('z1-f-FragementCoeur')">
+                            <p class="item-name">0</p>
                     </div>
 
                     <div class="item-wrapper">
-                        <img src="images/Zelda1/FragementCoeur.png" 
-                        class="item" 
-                        id="z1-f-FragementCoeur"
-                        data-max="13"
-                        data-name="0"
-                        onclick="toggleItem('z1-f-FragementCoeur')">
-                        <p class="item-name">0</p>
-                   </div>
+                            <img src="images/Zelda1/AnneauForce.png" 
+                            class="item" 
+                            id="z1-f-AnneauForce" 
+                            onclick="toggleItem('z1-f-AnneauForce')">
+                        </div>
 
-                   <div class="item-wrapper">
-                        <img src="images/Zelda1/AnneauForce.png" 
-                        class="item" 
-                        id="z1-f-AnneauForce" 
-                        onclick="toggleItem('z1-f-AnneauForce')">
+                        <div class="item-wrapper">
+                            <img src="images/Zelda1/BagueBleu.png" 
+                            class="item" 
+                            id="z1-f-Bague" 
+                            data-levels="images/Zelda1/BagueBleu.png,images/Zelda1/Bague.png"
+                            onclick="toggleItem('z1-f-Bague')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/Zelda1/CléLion.png" 
+                            class="item" 
+                            id="z1-f-CléLion" 
+                            onclick="toggleItem('z1-f-CléLion')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/Zelda1/Echelle.png" 
+                            class="item" 
+                            id="z1-f-Echelle" 
+                            onclick="toggleItem('z1-f-Echelle')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/Zelda1/Flute.png" 
+                            class="item" 
+                            id="z1-f-Flute" 
+                            onclick="toggleItem('z1-f-Flute')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/Zelda1/Radeau.png" 
+                            class="item" 
+                            id="z1-f-Radeau" 
+                            onclick="toggleItem('z1-f-Radeau')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/Zelda1/BougieBleu.png" 
+                            class="item" 
+                            id="z1-f-Bougie" 
+                            data-levels="images/Zelda1/BougieBleu.png,images/Zelda1/Bougie.png"
+                            onclick="toggleItem('z1-f-Bougie')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/Zelda1/Baguette.png" 
+                            class="item" 
+                            id="z1-f-Baguette" 
+                            onclick="toggleItem('z1-f-Baguette')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/Zelda1/Bible.png" 
+                            class="item" 
+                            id="z1-f-Bible" 
+                            onclick="toggleItem('z1-f-Bible')">
+                        </div>
                     </div>
+                </div>        
+            </div>
 
-                    <div class="item-wrapper">
-                        <img src="images/Zelda1/BagueBleu.png" 
-                        class="item" 
-                        id="z1-f-Bague" 
-                        data-levels="images/Zelda1/BagueBleu.png,images/Zelda1/Bague.png"
-                        onclick="toggleItem('z1-f-Bague')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/Zelda1/CléLion.png" 
-                        class="item" 
-                        id="z1-f-CléLion" 
-                        onclick="toggleItem('z1-f-CléLion')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/Zelda1/Echelle.png" 
-                        class="item" 
-                        id="z1-f-Echelle" 
-                        onclick="toggleItem('z1-f-Echelle')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/Zelda1/Flute.png" 
-                        class="item" 
-                        id="z1-f-Flute" 
-                        onclick="toggleItem('z1-f-Flute')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/Zelda1/Radeau.png" 
-                        class="item" 
-                        id="z1-f-Radeau" 
-                        onclick="toggleItem('z1-f-Radeau')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/Zelda1/BougieBleu.png" 
-                        class="item" 
-                        id="z1-f-Bougie" 
-                        data-levels="images/Zelda1/BougieBleu.png,images/Zelda1/Bougie.png"
-                        onclick="toggleItem('z1-f-Bougie')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/Zelda1/Baguette.png" 
-                        class="item" 
-                        id="z1-f-Baguette" 
-                        onclick="toggleItem('z1-f-Baguette')">
-                    </div>
-
-                    <div class="item-wrapper">
-                        <img src="images/Zelda1/Bible.png" 
-                        class="item" 
-                        id="z1-f-Bible" 
-                        onclick="toggleItem('z1-f-Bible')">
+            <div class="inventory-section">
+                <h2 class="section-title">Ganon</h2>
+                <div class="inventory-card dark-card">
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="images/Zelda1/ganon.png" class="item boss-item" id="z1-f-ganon" onclick="toggleItem('z1-f-ganon')">
+                        </div>
                     </div>
                 </div>
-            </div>        
+            </div>
         </div>
 
         <div class="inventory-section">
@@ -313,17 +326,6 @@
                         </div>
                     </div>
 
-                </div>
-            </div>
-        </div>
-
-        <div class="inventory-section">
-            <h2 class="section-title">Ganon</h2>
-            <div class="inventory-card dark-card">
-                <div class="tracker-grid">
-                    <div class="item-wrapper">
-                        <img src="images/Zelda1/ganon.png" class="item boss-item" id="z1-f-ganon" onclick="toggleItem('z1-f-ganon')">
-                    </div>
                 </div>
             </div>
         </div>
