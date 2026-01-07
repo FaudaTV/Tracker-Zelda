@@ -266,3 +266,38 @@ main.quest-container {
     font-weight: bold;
     transform: scale(1.2); /* Légèrement plus gros pour bien le voir */
 }
+
+/* --- POPUP MODALE --- */
+.modal {
+    display: none;
+    position: absolute; /* Changement de fixed à absolute */
+    z-index: 100;
+    /* On enlève le background noir plein écran */
+    background-color: transparent; 
+}
+
+.modal-content {
+    background-color: rgba(20, 20, 20, 0.95); /* Fond sombre mais compact */
+    padding: 0.1rem 0.3rem 0.3rem 0.3rem;
+    border: 1px solid var(--gold);
+    border-radius: 10px;
+    width: fit-content;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.modal-content .section-title {
+    font-size: 0.7vw;
+    margin-bottom: 8px;
+}
+
+/* On réduit la taille des icônes dans la popup pour la discrétion */
+.modal-content .item {
+    width: 1.2vw;
+    height: 1.2vw;
+}
+
+.close-btn {
+    display: none; /* Plus besoin du bouton annuler, on cliquera ailleurs */
+}
