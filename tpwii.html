@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - Zelda TP First Quest</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="index.html" class="back-link">← Retour</a>
+        <h1 class="main-title">FIRST QUEST - ITEMS</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="inventory-row split-2-columns">
+            <div class="inventory-section">
+                <h2 class="section-title">Équipement</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/sword.png" 
+                                class="item" 
+                                id="ztp-f-sword" 
+                                data-levels="images/ZeldaTP/sword.png,images/ZeldaTP/sword2.png,images/ZeldaTP/sword3.png" 
+                                onclick="toggleItem('ztp-f-sword')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/bomb.png" 
+                                class="item" 
+                                id="ztp-f-bomb"  
+                            onclick="toggleItem('ztp-f-bomb')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/FragementCoeur.png" 
+                            class="item" 
+                            id="ztp-f-FragementCoeur"
+                            data-max="13"
+                            data-name="0"
+                            onclick="toggleItem('ztp-f-FragementCoeur')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                    </div>
+                </div>        
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Ganon</h2>
+                <div class="inventory-card dark-card">
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/ganon.png" class="item boss-item" id="ztp-f-ganon" onclick="toggleItem('ztp-f-ganon')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-section">
+            <h2 class="section-title">Progression Map</h2>
+            <div class="inventory-card blue-card"> 
+                <div class="tracker-grid">
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D1</h3>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/map.png" class="item" id="ztp-f-map1" onclick="toggleItem('ztp-f-map1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/Boussole.png" class="item" id="ztp-f-cp1" onclick="toggleItem('ztp-f-cp1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/Clé.png" class="item" id="ztp-f-key1" onclick="toggleItem('ztp-f-key1')" data-max="6" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/Triforce.png" class="item" id="ztp-f-triforce1" onclick="toggleItem('ztp-f-triforce1')">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
