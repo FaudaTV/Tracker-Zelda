@@ -11,34 +11,59 @@
         <h1 class="main-title">ZELDA TP - ITEMS</h1>
     </header>
 
-    <main class="quest-container">
+      <main class="quest-container">
         <div class="inventory-row split-2-columns">
             <div class="inventory-section">
                 <h2 class="section-title">Équipement</h2>
                 <div class="inventory-card base-card"> 
                     <div class="tracker-grid">
                         <div class="item-wrapper">
-                            <img src="images/ZeldaTP/sword.png" 
+                            <img src="images/ZeldaTP/Sword1.png" 
                                 class="item" 
-                                id="ztp-f-sword" 
-                                data-levels="images/ZeldaTP/sword.png,images/ZeldaTP/sword2.png,images/ZeldaTP/sword3.png" 
-                                onclick="toggleItem('ztp-f-sword')">
+                                id="ztp-f-Sword1" 
+                                data-levels="images/ZeldaTP/Sword1.png,images/ZeldaTP/Sword2.png,images/ZeldaTP/Sword3.png" 
+                                onclick="toggleItem('ztp-f-Sword1')">
+                          </div>
+                        
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/shield1.png" 
+                                class="item" 
+                                id="ztp-f-shield1" 
+                                data-levels="images/ZeldaTP/shield1.png,images/ZeldaTP/shield2.png,images/ZeldaTP/shield3.png" 
+                                onclick="toggleItem('ztp-f-shield1')">
+                            </div>
+                        
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/Tenu1.png" 
+                                class="item" 
+                                id="ztp-f-Tenu1" 
+                                data-levels="images/ZeldaTP/Tenu1.png,images/ZeldaTP/Tenu2.png,images/ZeldaTP/Tenu3.png" 
+                                onclick="toggleItem('ztp-f-Tenu1')">
+                            </div>
+
+                         <div class="item-wrapper">
+                            <img src="images/ZeldaTP/bombe.png" 
+                                class="item" 
+                                id="ztp-f-bombe" 
+                                data-levels="images/ZeldaTP/bombe.png,images/ZeldaTP/bombeeau.png,images/ZeldaTP/bombeinsecte.png" 
+                                onclick="toggleItem('ztp-f-bombe')">
                         </div>
 
                         <div class="item-wrapper">
-                            <img src="images/ZeldaTP/bomb.png" 
+                            <img src="images/ZeldaTP/grappin.png" 
                                 class="item" 
-                                id="ztp-f-bomb"  
-                            onclick="toggleItem('ztp-f-bomb')">
-                        </div>
+                                id="ztp-f-grappin" 
+                                data-levels="images/ZeldaTP/grappin.png,images/ZeldaTP/doublegrappin.png"
+                                onclick="toggleItem('ztp-f-grappin')">
+                            </div>
 
                         <div class="item-wrapper">
-                            <img src="images/ZeldaTP/FragementCoeur.png" 
+                            <img src="images/ZeldaTP/fragementcoeur.png" 
                             class="item" 
-                            id="ztp-f-FragementCoeur"
-                            data-max="13"
+                            id="ztp-f-fragementcoeur"
+                            data-max="45"
                             data-name="0"
-                            onclick="toggleItem('ztp-f-FragementCoeur')">
+                            onclick="toggleItem('ztp-f-fragementcoeur')">
                             <p class="item-name">0</p>
                         </div>
 
@@ -79,8 +104,163 @@
                             <img src="images/ZeldaTP/Triforce.png" class="item" id="ztp-f-triforce1" onclick="toggleItem('ztp-f-triforce1')">
                         </div>
                     </div>
-
                 </div>
+            </div>
+        </div>
+          
+        <div class="inventory-section">
+                <h2 class="section-title">Quest Items</h2>
+                <div class="inventory-card green-card">
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/calisse.png" 
+                                class="item" 
+                                id="ztp-f-calisse" 
+                                data-levels="images/ZeldaTP/calisse.png" 
+                                onclick="toggleItem('ztp-f-calisse')">
+                         </div>
+                        
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/NoteLafrel.png" 
+                                class="item" 
+                                id="ztp-f-NoteLafrel" 
+                                data-levels="images/ZeldaTP/NoteLafrel.png"
+                                onclick="toggleItem('ztp-f-NoteLafrel')">
+                            </div>
+                        
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/CroquisYéti.png" 
+                                class="item" 
+                                id="ztp-f-CroquisYéti" 
+                                data-levels="images/ZeldaTP/CroquisYéti.png"
+                                onclick="toggleItem('ztp-f-CroquisYéti')">
+                            </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/citrouilleordon.png" 
+                                class="item" 
+                                id="ztp-f-citrouilleordon" 
+                                data-levels="images/ZeldaTP/citrouilleordon.png"
+                                onclick="toggleItem('ztp-f-citrouilleordon')">
+                            </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/frommagechevreordon.png" 
+                                class="item" 
+                                id="ztp-f-frommagechevreordon" 
+                                data-levels="images/ZeldaTP/frommagechevreordon.png"
+                                onclick="toggleItem('ztp-f-frommagechevreordon')">
+                            </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/LettreReynald.png" 
+                                class="item" 
+                                id="ztp-f-LettreReynald" 
+                                data-levels="images/ZeldaTP/LettreReynald.png"
+                                onclick="toggleItem('ztp-f-LettreReynald')">
+                            </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/Facture.png" 
+                                class="item" 
+                                id="ztp-f-Facture" 
+                                data-levels="images/ZeldaTP/Facture.png"
+                                onclick="toggleItem('ztp-f-Facture')">
+                            </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/statuedebois.png" 
+                                class="item" 
+                                id="ztp-f-statuedebois" 
+                                data-levels="images/ZeldaTP/statuedebois.png"
+                                onclick="toggleItem('ztp-f-statuedebois')">
+                            </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/Lienamitié.png" 
+                                class="item" 
+                                id="ztp-f-Lienamitié" 
+                                data-levels="images/ZeldaTP/Lienamitié.png"
+                                onclick="toggleItem('ztp-f-Lienamitié')">
+                            </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/livreancien.png" 
+                                class="item" 
+                                id="ztp-f-livreancien" 
+                                data-levels="images/ZeldaTP/livreancien.png"
+                                onclick="toggleItem('ztp-f-livreancien')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       <div class="inventory-section">
+                <h3 class="section-title">Hidden Skills</h3>
+                <div class="inventory-card red-card">
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/skill1.png" 
+                                class="item" 
+                                id="ztp-f-skill1" 
+                                data-levels="images/ZeldaTP/skill1.png" 
+                                onclick="toggleItem('ztp-f-skill1')">
+                          </div>
+                        
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/skill2.png" 
+                                class="item" 
+                                id="ztp-f-skill2" 
+                                data-levels="images/ZeldaTP/skill2.png"
+                                onclick="toggleItem('ztp-f-skill2')">
+                            </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/skill3.png" 
+                                class="item" 
+                                id="ztp-f-skill3" 
+                                data-levels="images/ZeldaTP/skill3.png"
+                                onclick="toggleItem('ztp-f-skill3')">
+                            </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/skill4.png" 
+                                class="item" 
+                                id="ztp-f-skill4" 
+                                data-levels="images/ZeldaTP/skill4.png"
+                                onclick="toggleItem('ztp-f-skill4')">
+                            </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/skill5.png" 
+                                class="item" 
+                                id="ztp-f-skill5" 
+                                data-levels="images/ZeldaTP/skill5.png"
+                                onclick="toggleItem('ztp-f-skill5')">
+                            </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/skill6.png" 
+                                class="item" 
+                                id="ztp-f-skill6" 
+                                data-levels="images/ZeldaTP/skill6.png"
+                                onclick="toggleItem('ztp-f-skill6')">
+                            </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaTP/skill7.png" 
+                                class="item" 
+                                id="ztp-f-skill7" 
+                                data-levels="images/ZeldaTP/skill7.png"
+                                onclick="toggleItem('ztp-f-skill7')">
+                            </div>
+                        
+                        
+                        
+                        
+                                               
+                        
             </div>
         </div>
     </main>
