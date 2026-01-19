@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - Zelda SS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="ss.html" class="back-link">← Retour</a>
+        <h1 class="main-title">Zelda SS - ITEMS</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="inventory-row split-3-columns">
+            <div class="inventory-section">
+                <h2 class="section-title">Équipement</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/sword.png" 
+                            class="item" 
+                            id="zss-f-sword"
+                            data-levels="images/ZeldaSS/sword.png,images/ZeldaSS/sword2.png,images/ZeldaSS/sword3.png,images/ZeldaSS/sword4.png,images/ZeldaSS/sword5.png,images/ZeldaSS/sword6.png"
+                            onclick="toggleItem('zss-f-sword')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/shield1.png" 
+                            class="item" 
+                            id="zss-f-shield1"
+                            data-levels="images/ZeldaSS/shield1.png,images/ZeldaSS/shield12.png,images/ZeldaSS/shield13.png"
+                            onclick="toggleItem('zss-f-shield1')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/shield2.png" 
+                            class="item" 
+                            id="zss-f-shield2"
+                            data-levels="images/ZeldaSS/shield2.png,images/ZeldaSS/shield22.png,images/ZeldaSS/shield23.png"
+                            onclick="toggleItem('zss-f-shield2')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/shield3.png" 
+                            class="item" 
+                            id="zss-f-shield3"
+                            data-levels="images/ZeldaSS/shield3.png,images/ZeldaSS/shield32.png,images/ZeldaSS/shield33.png"
+                            onclick="toggleItem('zss-f-shield3')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/shield4.png" 
+                            class="item" 
+                            id="zss-f-shield4"
+                            onclick="toggleItem('zss-f-shield4')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/slingshot.png" 
+                            class="item" 
+                            id="zss-f-slingshot"
+                            data-levels="images/ZeldaSS/slingshot.png,images/ZeldaSS/slingshot2.png"
+                            onclick="toggleItem('zss-f-slingshot')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/beetle.png" 
+                            class="item" 
+                            id="zss-f-beetle"
+                            data-levels="images/ZeldaSS/beetle.png,images/ZeldaSS/beetle2.png,images/ZeldaSS/beetle3.png,images/ZeldaSS/beetle4.png"
+                            onclick="toggleItem('zss-f-beetle')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/bomb.png" 
+                            class="item" 
+                            id="zss-f-bomb"
+                            onclick="toggleItem('zss-f-bomb')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/gust.png" 
+                            class="item" 
+                            id="zss-f-gust"
+                            onclick="toggleItem('zss-f-gust')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/whip.png" 
+                            class="item" 
+                            id="zss-f-whip"
+                            onclick="toggleItem('zss-f-whip')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/clawshot.png" 
+                            class="item" 
+                            id="zss-f-clawshot"
+                            onclick="toggleItem('zss-f-clawshot')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/bow.png" 
+                            class="item" 
+                            id="zss-f-bow"
+                            data-levels="images/ZeldaSS/bow.png,images/ZeldaSS/bow2.png,images/ZeldaSS/bow3.png"
+                            onclick="toggleItem('zss-f-bow')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/net.png" 
+                            class="item" 
+                            id="zss-f-net"
+                            data-levels="images/ZeldaSS/net.png,images/ZeldaSS/net2.png"
+                            onclick="toggleItem('zss-f-net')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/emerald.png" 
+                            class="item" 
+                            id="zss-f-emerald"
+                            onclick="toggleItem('zss-f-emerald')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/ruby.png" 
+                            class="item" 
+                            id="zss-f-ruby"
+                            onclick="toggleItem('zss-f-ruby')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/amber.png" 
+                            class="item" 
+                            id="zss-f-amber"
+                            onclick="toggleItem('zss-f-amber')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/adventure_pouch.png" 
+                            class="item" 
+                            id="zss-f-adventure-pouch"
+                            onclick="toggleItem('zss-f-adventure-pouch')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/pouch.png" 
+                            class="item" 
+                            id="zss-f-pouch"
+                            data-max="4"
+                            data-name="0"
+                            onclick="toggleItem('zss-f-pouch')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/bird.png" 
+                            class="item" 
+                            id="zss-f-bird"
+                            onclick="toggleItem('zss-f-bird')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/bottle.png" 
+                            class="item" 
+                            id="zss-f-bottle"
+                            data-max="5"
+                            data-name="0"
+                            onclick="toggleItem('zss-f-bottle')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/scale.png" 
+                            class="item" 
+                            id="zss-f-scale"
+                            onclick="toggleItem('zss-f-scale')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/fireshield.png" 
+                            class="item" 
+                            id="zss-f-fireshield"
+                            onclick="toggleItem('zss-f-fireshield')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/trials.png" 
+                            class="item" 
+                            id="zss-f-trials"
+                            onclick="toggleItem('zss-f-trials')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/sea.png" 
+                            class="item" 
+                            id="zss-f-sea"
+                            onclick="toggleItem('zss-f-sea')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/sailcloth.png" 
+                            class="item" 
+                            id="zss-f-sailcloth"
+                            onclick="toggleItem('zss-f-sailcloth')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/letter.png" 
+                            class="item" 
+                            id="zss-f-letter"
+                            onclick="toggleItem('zss-f-letter')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/rattle.png" 
+                            class="item" 
+                            id="zss-f-rattle"
+                            onclick="toggleItem('zss-f-rattle')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/beedle.png" 
+                            class="item" 
+                            id="zss-f-beedle"
+                            onclick="toggleItem('zss-f-beedle')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/gratitude.png" 
+                            class="item" 
+                            id="zss-f-gratitude"
+                            data-max="80"
+                            data-name="0"
+                            onclick="toggleItem('zss-f-gratitude')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/harp.png" 
+                            class="item" 
+                            id="zss-f-harp"
+                            onclick="toggleItem('zss-f-harp')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/ballad.png" 
+                            class="item" 
+                            id="zss-f-ballad"
+                            onclick="toggleItem('zss-f-ballad')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/courage.png" 
+                            class="item" 
+                            id="zss-f-courage"
+                            onclick="toggleItem('zss-f-courage')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/wisdom.png" 
+                            class="item" 
+                            id="zss-f-wisdom"
+                            onclick="toggleItem('zss-f-wisdom')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/power.png" 
+                            class="item" 
+                            id="zss-f-power"
+                            onclick="toggleItem('zss-f-power')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/hero.png" 
+                            class="item" 
+                            id="zss-f-hero"
+                            data-levels="images/ZeldaSS/hero.png,images/ZeldaSS/hero2.png,images/ZeldaSS/hero3.png,images/ZeldaSS/hero4.png"
+                            onclick="toggleItem('zss-f-hero')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/life.png" 
+                            class="item" 
+                            id="zss-f-life"
+                            data-levels="images/ZeldaSS/life.png,images/ZeldaSS/life2.png,images/ZeldaSS/life3.png"
+                            onclick="toggleItem('zss-f-life')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/seed.png" 
+                            class="item" 
+                            id="zss-f-seed"
+                            data-levels="images/ZeldaSS/seed.png,images/ZeldaSS/seed2.png,images/ZeldaSS/seed3.png"
+                            onclick="toggleItem('zss-f-seed')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/bomb_bag.png" 
+                            class="item" 
+                            id="zss-f-bomb_bag"
+                            data-levels="images/ZeldaSS/bomb_bag.png,images/ZeldaSS/bomb_bag2.png,images/ZeldaSS/bomb_bag3.png"
+                            onclick="toggleItem('zss-f-bomb_bag')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/quiver.png" 
+                            class="item" 
+                            id="zss-f-quiver"
+                            data-levels="images/ZeldaSS/quiver.png,images/ZeldaSS/quiver2.png,images/ZeldaSS/quiver3.png"
+                            onclick="toggleItem('zss-f-quiver')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/heart_piece.png" 
+                            class="item" 
+                            id="zss-f-heart_piece"
+                            data-max="24"
+                            data-name="0"
+                            onclick="toggleItem('zss-f-heart_piece')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/full_heart.png" 
+                            class="item" 
+                            id="zss-f-full_heart"
+                            data-max="6"
+                            data-name="0"
+                            onclick="toggleItem('zss-f-full_heart')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/goddess.png" 
+                            class="item" 
+                            id="zss-f-goddess"
+                            data-max="27"
+                            data-name="0"
+                            onclick="toggleItem('zss-f-goddess')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/extra_wallet.png" 
+                            class="item" 
+                            id="zss-f-extra_wallet"
+                            data-max="3"
+                            data-name="0"
+                            onclick="toggleItem('zss-f-extra_wallet')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/wallet.png" 
+                            class="item" 
+                            id="zss-f-wallet"
+                            data-levels="images/ZeldaSS/wallet.png,images/ZeldaSS/wallet2.png,images/ZeldaSS/wallet3.png,images/ZeldaSS/wallet4.png,images/ZeldaSS/wallet5.png"
+                            onclick="toggleItem('zss-f-wallet')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/mitts.png" 
+                            class="item" 
+                            id="zss-f-mitts"
+                            data-levels="images/ZeldaSS/mitts.png,images/ZeldaSS/mitts2.png"
+                            onclick="toggleItem('zss-f-mitts')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/triforce.png" 
+                            class="item" 
+                            id="zss-f-triforce"
+                            data-levels="images/ZeldaSS/triforce.png,images/ZeldaSS/triforce2.png,images/ZeldaSS/triforce3.png"
+                            onclick="toggleItem('zss-f-triforce')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-column">
+                <div class="inventory-section">
+                    <h2 class="section-title">Insectes</h2>
+                    <div class="inventory-card green-card"> 
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/bug_crasshopper.png" class="item" id="zss-f-bug_crasshopper" onclick="toggleItem('zss-f-bug_crasshopper')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/bug_rhino.png" class="item" id="zss-f-bug_rhino" onclick="toggleItem('zss-f-bug_rhino')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/bug_hornet.png" class="item" id="zss-f-bug_hornet" onclick="toggleItem('zss-f-bug_hornet')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/bug_mantis.png" class="item" id="zss-f-bug_mantis" onclick="toggleItem('zss-f-bug_mantis')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/bug_ladybug.png" class="item" id="zss-f-bug_ladybug" onclick="toggleItem('zss-f-bug_ladybug')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/bug_butterfly.png" class="item" id="zss-f-bug_butterfly" onclick="toggleItem('zss-f-bug_butterfly')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/bug_ant.png" class="item" id="zss-f-bug_ant" onclick="toggleItem('zss-f-bug_ant')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/bug_cicada.png" class="item" id="zss-f-bug_cicada" onclick="toggleItem('zss-f-bug_cicada')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/bug_dragonfly.png" class="item" id="zss-f-bug_dragonfly" onclick="toggleItem('zss-f-bug_dragonfly')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/bug_roller.png" class="item" id="zss-f-bug_roller" onclick="toggleItem('zss-f-bug_roller')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/bug_stag.png" class="item" id="zss-f-bug_stag" onclick="toggleItem('zss-f-bug_stag')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/bug_firefly.png" class="item" id="zss-f-bug_firefly" onclick="toggleItem('zss-f-bug_firefly')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="inventory-section">
+                    <h2 class="section-title">Trésores</h2>
+                    <div class="inventory-card purple-card"> 
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/treasure_larvae.png" class="item" id="zss-f-treasure_larvae" onclick="toggleItem('zss-f-treasure_larvae')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/treasure_bird.png" class="item" id="zss-f-treasure_bird" onclick="toggleItem('zss-f-treasure_bird')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/treasure_tumbleweed.png" class="item" id="zss-f-treasure_tumbleweed" onclick="toggleItem('zss-f-treasure_tumbleweed')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/treasure_lizard.png" class="item" id="zss-f-treasure_lizard" onclick="toggleItem('zss-f-treasure_lizard')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/treasure_ore.png" class="item" id="zss-f-treasure_ore" onclick="toggleItem('zss-f-treasure_ore')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/treasure_flower.png" class="item" id="zss-f-treasure_flower" onclick="toggleItem('zss-f-treasure_flower')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/treasure_amber.png" class="item" id="zss-f-treasure_amber" onclick="toggleItem('zss-f-treasure_amber')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/treasure_dusk.png" class="item" id="zss-f-treasure_dusk" onclick="toggleItem('zss-f-treasure_dusk')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/treasure_jelly.png" class="item" id="zss-f-treasure_jelly" onclick="toggleItem('zss-f-treasure_jelly')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/treasure_claw.png" class="item" id="zss-f-treasure_claw" onclick="toggleItem('zss-f-treasure_claw')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/treasure_horn.png" class="item" id="zss-f-treasure_horn" onclick="toggleItem('zss-f-treasure_horn')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/treasure_skull.png" class="item" id="zss-f-treasure_skull" onclick="toggleItem('zss-f-treasure_skull')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/treasure_evil.png" class="item" id="zss-f-treasure_evil" onclick="toggleItem('zss-f-treasure_evil')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/treasure_blue.png" class="item" id="zss-f-treasure_blue" onclick="toggleItem('zss-f-treasure_blue')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/treasure_golden.png" class="item" id="zss-f-treasure_golden" onclick="toggleItem('zss-f-treasure_golden')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/treasure_goddess.png" class="item" id="zss-f-treasure_goddess" onclick="toggleItem('zss-f-treasure_goddess')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-column">
+                <div class="inventory-section">
+                    <h2 class="section-title">Potions & Bonus</h2>
+                    <div class="inventory-card red-card"> 
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/heart++.png" 
+                                class="item" 
+                                id="zss-f-heart++"
+                                onclick="toggleItem('zss-f-heart++')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/stamina+.png" 
+                                class="item" 
+                                id="zss-f-stamina+"
+                                onclick="toggleItem('zss-f-stamina+')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/air+.png" 
+                                class="item" 
+                                id="zss-f-air+"
+                                onclick="toggleItem('zss-f-air+')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/revitalizing++.png" 
+                                class="item" 
+                                id="zss-f-revitalizing++"
+                                onclick="toggleItem('zss-f-revitalizing++')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/guardian+.png" 
+                                class="item" 
+                                id="zss-f-guardian+"
+                                onclick="toggleItem('zss-f-guardian+')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/bug.png" 
+                                class="item" 
+                                id="zss-f-bug"
+                                onclick="toggleItem('zss-f-bug')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/cursed.png" 
+                                class="item" 
+                                id="zss-f-cursed"
+                                onclick="toggleItem('zss-f-cursed')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/heart.png" 
+                                class="item" 
+                                id="zss-f-heart"
+                                data-max="2"
+                                data-name="0"
+                                onclick="toggleItem('zss-f-heart')">
+                                <p class="item-name">0</p>
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/life_medal.png" 
+                                class="item" 
+                                id="zss-f-life_medal"
+                                data-max="2"
+                                data-name="0"
+                                onclick="toggleItem('zss-f-life_medal')">
+                                <p class="item-name">0</p>
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/rupee.png" 
+                                class="item" 
+                                id="zss-f-rupee"
+                                data-max="2"
+                                data-name="0"
+                                onclick="toggleItem('zss-f-rupee')">
+                                <p class="item-name">0</p>
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/treasure.png" 
+                                class="item" 
+                                id="zss-f-treasure"
+                                onclick="toggleItem('zss-f-treasure')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/potion.png" 
+                                class="item" 
+                                id="zss-f-potion"
+                                onclick="toggleItem('zss-f-potion')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/cubes.png" 
+                                class="item" 
+                                id="zss-f-cubes"
+                                onclick="toggleItem('zss-f-cubes')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/crystals.png" 
+                                class="item" 
+                                id="zss-f-crystals"
+                                onclick="toggleItem('zss-f-crystals')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/hearts.png" 
+                                class="item" 
+                                id="zss-f-hearts"
+                                onclick="toggleItem('zss-f-hearts')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/rupees.png" 
+                                class="item" 
+                                id="zss-f-rupees"
+                                onclick="toggleItem('zss-f-rupees')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/treasures.png" 
+                                class="item" 
+                                id="zss-f-treasures"
+                                onclick="toggleItem('zss-f-treasures')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inventory-section">
+                    <h2 class="section-title">Avatar du Néant</h2>
+                    <div class="inventory-card dark-card">
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="images/ZeldaSS/avatar.png" class="item boss-item" id="zss-f-avatar" onclick="toggleItem('zss-f-avatar')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-section">
+            <h2 class="section-title">Progression Map</h2>
+            <div class="inventory-card blue-card"> 
+                <div class="tracker-grid">
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D1</h3>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/map.png" class="item" id="zss-f-map1" onclick="toggleItem('zss-f-map1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/key.png" class="item" id="zss-f-key1" data-max="1" data-name="0" onclick="toggleItem('zss-f-key1')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/boss1.png" class="item" id="zss-f-boss1" onclick="toggleItem('zss-f-boss1')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D2</h3>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/map.png" class="item" id="zss-f-map2" onclick="toggleItem('zss-f-map2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/earth.png" class="item" id="zss-f-earth" data-max="5" data-name="0" onclick="toggleItem('zss-f-earth')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/boss2.png" class="item" id="zss-f-boss2" onclick="toggleItem('zss-f-boss2')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D3</h3>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/map.png" class="item" id="zss-f-map3" onclick="toggleItem('zss-f-map3')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/key.png" class="item" id="zss-f-key3" data-max="1" data-name="0" onclick="toggleItem('zss-f-key3')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/boss3.png" class="item" id="zss-f-boss3" onclick="toggleItem('zss-f-boss3')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D4</h3>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/map.png" class="item" id="zss-f-map4" onclick="toggleItem('zss-f-map4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/key.png" class="item" id="zss-f-key4" data-max="2" data-name="0" onclick="toggleItem('zss-f-key4')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/boss4.png" class="item" id="zss-f-boss4" onclick="toggleItem('zss-f-boss4')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D5</h3>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/map.png" class="item" id="zss-f-map5" onclick="toggleItem('zss-f-map5')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/key.png" class="item" id="zss-f-key5" data-max="2" data-name="0" onclick="toggleItem('zss-f-key5')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/boss5.png" class="item" id="zss-f-boss5" onclick="toggleItem('zss-f-boss5')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D6</h3>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/map.png" class="item" id="zss-f-map6" onclick="toggleItem('zss-f-map6')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/key.png" class="item" id="zss-f-key6" data-max="3" data-name="0" onclick="toggleItem('zss-f-key6')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/boss6.png" class="item" id="zss-f-boss6" onclick="toggleItem('zss-f-boss6')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D7</h3>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/map.png" class="item" id="zss-f-map7" onclick="toggleItem('zss-f-map7')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/key.png" class="item" id="zss-f-key7" data-max="1" data-name="0" onclick="toggleItem('zss-f-key7')"><p class="item-name">0</p>
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">Cave</h3>
+                        <div class="item-wrapper">
+                            <img src="images/ZeldaSS/key.png" class="item" id="zss-f-key8" data-max="1" data-name="0" onclick="toggleItem('zss-f-key8')"><p class="item-name">0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

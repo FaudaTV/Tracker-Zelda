@@ -38,7 +38,6 @@ p {
     color: var(--gold);
     text-transform: uppercase;
     letter-spacing: 2px;
-    margin-bottom: 15px;
     font-size: 1vw;
     text-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
     text-align: center;
@@ -121,7 +120,7 @@ main.quest-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: stretch;
+    align-items: flex-start;
     gap: 1.17vw;
     width: 80%;
 }
@@ -130,11 +129,21 @@ main.quest-container {
 .split-3-columns > .inventory-section, 
 .split-3-columns > .inventory-column {
     max-width: 22vw; /* Garde tes 3 colonnes */
+    display: grid;
+    justify-items: center;
 }
 
 .split-2-columns > .inventory-section, 
 .split-2-columns > .inventory-column {
     max-width: 35vw; /* Garde tes 2 colonnes */
+    display: grid;
+    justify-items: center;
+}
+
+.inventory-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* La colonne pour empiler Son et Accessoire */
@@ -289,7 +298,6 @@ main.quest-container {
 
 .modal-content .section-title {
     font-size: 0.7vw;
-    margin-bottom: 8px;
 }
 
 /* On réduit la taille des icônes dans la popup pour la discrétion */
