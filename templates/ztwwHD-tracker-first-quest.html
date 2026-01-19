@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - Zelda TWW HD First Quest</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="twwHD.html" class="back-link">← Retour</a>
+        <h1 class="main-title">FIRST QUEST - ITEMS</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="inventory-row split-3-columns">
+            <div class="inventory-section">
+                <h2 class="section-title">Équipement</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/sword.png" 
+                            class="item" 
+                            id="ztwwHD-f-sword" 
+                            data-levels="../images/ZeldaWW/sword.png,../images/ZeldaWW/sword2.png,../images/ZeldaWW/sword3.png,../images/ZeldaWW/sword4.png" 
+                            onclick="toggleItem('ztwwHD-f-sword')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/shield.png" 
+                            class="item" 
+                            id="ztwwHD-f-shield" 
+                            data-levels="../images/ZeldaWW/shield.png,../images/ZeldaWW/shield2.png" 
+                            onclick="toggleItem('ztwwHD-f-shield')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/arc.png" 
+                            class="item" 
+                            id="ztwwHD-f-arc"  
+                            onclick="toggleItem('ztwwHD-f-arc')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/arrows.png" 
+                            class="item" 
+                            id="ztwwHD-f-arrows"  
+                            onclick="toggleItem('ztwwHD-f-arrows')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/arrow_light.png" 
+                            class="item" 
+                            id="ztwwHD-f-arrow_light"  
+                            onclick="toggleItem('ztwwHD-f-arrow_light')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/bait.png" 
+                            class="item" 
+                            id="ztwwHD-f-bait"  
+                            onclick="toggleItem('ztwwHD-f-bait')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/beedle.png" 
+                            class="item" 
+                            id="ztwwHD-f-beedle"
+                            data-levels="../images/ZeldaWW/beedle.png,../images/ZeldaWW/beedle2.png"
+                            onclick="toggleItem('ztwwHD-f-beedle')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/blue.png" 
+                            class="item" 
+                            id="ztwwHD-f-blue"
+                            data-max="23"
+                            data-name="0" 
+                            onclick="toggleItem('ztwwHD-f-blue')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/bomb.png" 
+                            class="item" 
+                            id="ztwwHD-f-bomb"  
+                            onclick="toggleItem('ztwwHD-f-bomb')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/bomb_bag2.png" 
+                            class="item" 
+                            id="ztwwHD-f-bomb_bag"
+                            data-levels="../images/ZeldaWW/bomb_bag2.png,../images/ZeldaWW/bomb_bag3.png"
+                            onclick="toggleItem('ztwwHD-f-bomb_bag')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/boomerang.png" 
+                            class="item" 
+                            id="ztwwHD-f-boomerang"  
+                            onclick="toggleItem('ztwwHD-f-boomerang')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/boots.png" 
+                            class="item" 
+                            id="ztwwHD-f-boots"  
+                            onclick="toggleItem('ztwwHD-f-boots')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/bottle.png" 
+                            class="item" 
+                            id="ztwwHD-f-bottle"
+                            data-max="4"
+                            data-name="0"
+                            onclick="toggleItem('ztwwHD-f-bottle')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/bracelets.png" 
+                            class="item" 
+                            id="ztwwHD-f-bracelets"  
+                            onclick="toggleItem('ztwwHD-f-bracelets')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/cabana.png" 
+                            class="item" 
+                            id="ztwwHD-f-cabana"  
+                            onclick="toggleItem('ztwwHD-f-cabana')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/deku.png" 
+                            class="item" 
+                            id="ztwwHD-f-deku"  
+                            onclick="toggleItem('ztwwHD-f-deku')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/delivery.png" 
+                            class="item" 
+                            id="ztwwHD-f-delivery"  
+                            onclick="toggleItem('ztwwHD-f-delivery')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/echange.png" 
+                            class="item" 
+                            id="ztwwHD-f-echange"
+                            data-levels="../images/ZeldaWW/echange.png,../images/ZeldaWW/echange2.png,../images/ZeldaWW/echange3.png,../images/ZeldaWW/echange4.png,../images/ZeldaWW/echange5.png,../images/ZeldaWW/echange6.png,../images/ZeldaWW/echange7.png,../images/ZeldaWW/echange8.png,../images/ZeldaWW/echange9.png,../images/ZeldaWW/echange10.png,../images/ZeldaWW/echange11.png,../images/ZeldaWW/echange12.png"
+                            onclick="toggleItem('ztwwHD-f-echange')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/fishman.png" 
+                            class="item" 
+                            id="ztwwHD-f-fishman"
+                            data-max="49"
+                            data-name="0"
+                            onclick="toggleItem('ztwwHD-f-fishman')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/full_heart.png" 
+                            class="item" 
+                            id="ztwwHD-f-full_heart"
+                            data-max="6"
+                            data-name="0"
+                            onclick="toggleItem('ztwwHD-f-full_heart')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/grandma.png" 
+                            class="item" 
+                            id="ztwwHD-f-grandma"  
+                            onclick="toggleItem('ztwwHD-f-grandma')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/grappling.png" 
+                            class="item" 
+                            id="ztwwHD-f-grappling"  
+                            onclick="toggleItem('ztwwHD-f-grappling')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/hammer.png" 
+                            class="item" 
+                            id="ztwwHD-f-hammer"  
+                            onclick="toggleItem('ztwwHD-f-hammer')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/heart.png" 
+                            class="item" 
+                            id="ztwwHD-f-heart"
+                            data-max="44"
+                            data-name="0"
+                            onclick="toggleItem('ztwwHD-f-heart')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/hero.png" 
+                            class="item" 
+                            id="ztwwHD-f-hero"  
+                            onclick="toggleItem('ztwwHD-f-hero')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/hookshot.png" 
+                            class="item" 
+                            id="ztwwHD-f-hookshot"  
+                            onclick="toggleItem('ztwwHD-f-hookshot')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/hurricane.png" 
+                            class="item" 
+                            id="ztwwHD-f-hurricane"  
+                            onclick="toggleItem('ztwwHD-f-hurricane')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/joy.png" 
+                            class="item" 
+                            id="ztwwHD-f-joy"
+                            data-max="99"
+                            data-name="0"
+                            onclick="toggleItem('ztwwHD-f-joy')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/magic.png" 
+                            class="item" 
+                            id="ztwwHD-f-magic"  
+                            onclick="toggleItem('ztwwHD-f-magic')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/magic_metter.png" 
+                            class="item" 
+                            id="ztwwHD-f-magic_metter"  
+                            onclick="toggleItem('ztwwHD-f-magic_metter')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/octo.png" 
+                            class="item" 
+                            id="ztwwHD-f-octo"
+                            data-max="6"
+                            data-name="0"
+                            onclick="toggleItem('ztwwHD-f-octo')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/picto.png" 
+                            class="item" 
+                            id="ztwwHD-f-picto"
+                            data-levels="../images/ZeldaWW/picto.png,../images/ZeldaWW/picto2.png"
+                            onclick="toggleItem('ztwwHD-f-picto')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/pirate.png" 
+                            class="item" 
+                            id="ztwwHD-f-pirate"  
+                            onclick="toggleItem('ztwwHD-f-pirate')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/puzzle.png" 
+                            class="item" 
+                            id="ztwwHD-f-puzzle"
+                            data-max="16"
+                            data-name="0"
+                            onclick="toggleItem('ztwwHD-f-puzzle')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/quiver2.png" 
+                            class="item" 
+                            id="ztwwHD-f-quiver"
+                            data-levels="../images/ZeldaWW/quiver2.png,../images/ZeldaWW/quiver3.png"
+                            onclick="toggleItem('ztwwHD-f-quiver')">
+                        </div>
+                        
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/sail.png" 
+                            class="item" 
+                            id="ztwwHD-f-sail"
+                            data-levels="../images/ZeldaWW/sail.png,../images/ZeldaWW/sail2.png"
+                            onclick="toggleItem('ztwwHD-f-sail')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/spoils.png" 
+                            class="item" 
+                            id="ztwwHD-f-spoils"  
+                            onclick="toggleItem('ztwwHD-f-spoils')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/telescope.png" 
+                            class="item" 
+                            id="ztwwHD-f-telescope"  
+                            onclick="toggleItem('ztwwHD-f-telescope')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/tingle_statue.png" 
+                            class="item" 
+                            id="ztwwHD-f-tingle_statue"
+                            data-max="5"
+                            data-name="0"
+                            onclick="toggleItem('ztwwHD-f-tingle_statue')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/tingle_tuner.png" 
+                            class="item" 
+                            id="ztwwHD-f-tingle_tuner"  
+                            onclick="toggleItem('ztwwHD-f-tingle_tuner')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/wallet2.png" 
+                            class="item" 
+                            id="ztwwHD-f-wallet"
+                            data-levels="../images/ZeldaWW/wallet2.png,../images/ZeldaWW/wallet3.png"
+                            onclick="toggleItem('ztwwHD-f-wallet')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/wind_waker.png" 
+                            class="item" 
+                            id="ztwwHD-f-wind_waker"  
+                            onclick="toggleItem('ztwwHD-f-wind_waker')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/mom_letter.png" 
+                            class="item" 
+                            id="ztwwHD-f-mom_letter"  
+                            onclick="toggleItem('ztwwHD-f-mom_letter')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/father_letter.png" 
+                            class="item" 
+                            id="ztwwHD-f-father_letter"  
+                            onclick="toggleItem('ztwwHD-f-father_letter')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/maggie_letter.png" 
+                            class="item" 
+                            id="ztwwHD-f-maggie_letter"  
+                            onclick="toggleItem('ztwwHD-f-maggie_letter')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/moblin_letter.png" 
+                            class="item" 
+                            id="ztwwHD-f-moblin_letter"  
+                            onclick="toggleItem('ztwwHD-f-moblin_letter')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/echange.png" 
+                            class="item" 
+                            id="ztwwHD-f-plants"
+                            data-max="39"
+                            data-name="0"
+                            onclick="toggleItem('ztwwHD-f-plants')">
+                            <p class="item-name">0</p>
+                        </div>
+                    </div>
+                </div>        
+            </div>
+
+            <div class="inventory-column">
+                <div class="inventory-section">
+                    <h2 class="section-title">Son</h2>
+                    <div class="inventory-card purple-card"> 
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/musique_wind.png" class="item" id="ztwwHD-f-musique_wind" onclick="toggleItem('ztwwHD-f-musique_wind')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/musique_gales.png" class="item" id="ztwwHD-f-musique_gales" onclick="toggleItem('ztwwHD-f-musique_gales')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/musique_melody.png" class="item" id="ztwwHD-f-musique_melody" onclick="toggleItem('ztwwHD-f-musique_melody')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/musique_earth.png" class="item" id="ztwwHD-f-musique_earth" onclick="toggleItem('ztwwHD-f-musique_earth')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/musique_aria.png" class="item" id="ztwwHD-f-musique_aria" onclick="toggleItem('ztwwHD-f-musique_aria')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/musique_passing.png" class="item" id="ztwwHD-f-musique_passing" onclick="toggleItem('ztwwHD-f-musique_passing')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inventory-section">
+                    <h2 class="section-title">Reliques des Déesses</h2>
+                    <div class="inventory-card red-card"> 
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/din.png" class="item" id="ztwwHD-f-din" onclick="toggleItem('ztwwHD-f-din')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/farore.png" class="item" id="ztwwHD-f-farore" onclick="toggleItem('ztwwHD-f-farore')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/nayru.png" class="item" id="ztwwHD-f-nayru" onclick="toggleItem('ztwwHD-f-nayru')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/triforce.png" class="item" id="ztwwHD-f-triforce" onclick="toggleItem('ztwwHD-f-triforce')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/triforce2.png" class="item" id="ztwwHD-f-triforce2" onclick="toggleItem('ztwwHD-f-triforce2')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/triforce3.png" class="item" id="ztwwHD-f-triforce3" onclick="toggleItem('ztwwHD-f-triforce3')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/triforce4.png" class="item" id="ztwwHD-f-triforce4" onclick="toggleItem('ztwwHD-f-triforce4')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/triforce5.png" class="item" id="ztwwHD-f-triforce5" onclick="toggleItem('ztwwHD-f-triforce5')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/triforce6.png" class="item" id="ztwwHD-f-triforce6" onclick="toggleItem('ztwwHD-f-triforce6')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/triforce7.png" class="item" id="ztwwHD-f-triforce7" onclick="toggleItem('ztwwHD-f-triforce7')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/triforce8.png" class="item" id="ztwwHD-f-triforce8" onclick="toggleItem('ztwwHD-f-triforce8')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-column">
+                <div class="inventory-section">
+                    <h2 class="section-title">Carte</h2>
+                    <div class="inventory-card green-card">
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/tingle_shart.png" class="item" id="ztwwHD-f-tingle_shart" onclick="toggleItem('ztwwHD-f-tingle_shart')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/in-credible.png" class="item" id="ztwwHD-f-in-credible" onclick="toggleItem('ztwwHD-f-in-credible')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/triforce_chart.png" class="item" id="ztwwHD-f-triforce_chart" data-max="8" data-name="0" onclick="toggleItem('ztwwHD-f-triforce_chart')"><p class="item-name">0</p>
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/ghost.png" class="item" id="ztwwHD-f-ghost" onclick="toggleItem('ztwwHD-f-ghost')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/treasure.png" class="item" id="ztwwHD-f-treasure" data-max="61" data-name="0" onclick="toggleItem('ztwwHD-f-treasure')"><p class="item-name">0</p>
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/beedle_chart.png" class="item" id="ztwwHD-f-beedle_chart" onclick="toggleItem('ztwwHD-f-beedle_chart')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/octo_chart.png" class="item" id="ztwwHD-f-octo_chart" onclick="toggleItem('ztwwHD-f-octo_chart')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/fairy_chart.png" class="item" id="ztwwHD-f-fairy_chart" onclick="toggleItem('ztwwHD-f-fairy_chart')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/heart_chart.png" class="item" id="ztwwHD-f-heart_chart" onclick="toggleItem('ztwwHD-f-heart_chart')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/island_chart.png" class="item" id="ztwwHD-f-island_chart" onclick="toggleItem('ztwwHD-f-island_chart')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/cave_chart.png" class="item" id="ztwwHD-f-cave_chart" onclick="toggleItem('ztwwHD-f-cave_chart')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/light_chart.png" class="item" id="ztwwHD-f-light_chart" onclick="toggleItem('ztwwHD-f-light_chart')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/plateform_chart.png" class="item" id="ztwwHD-f-plateform_chart" onclick="toggleItem('ztwwHD-f-plateform_chart')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/submarine_chart.png" class="item" id="ztwwHD-f-submarine_chart" onclick="toggleItem('ztwwHD-f-submarine_chart')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inventory-section">
+                    <h2 class="section-title">Ganondorf</h2>
+                    <div class="inventory-card dark-card">
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaWW/ganondorf.png" class="item boss-item" id="ztwwHD-f-ganondorf" onclick="toggleItem('ztwwHD-f-ganondorf')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-section">
+            <h2 class="section-title">Progression Map</h2>
+            <div class="inventory-card blue-card"> 
+                <div class="tracker-grid">
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">FM</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/map.png" class="item" id="ztwwHD-f-map1" onclick="toggleItem('ztwwHD-f-map1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/compass.png" class="item" id="ztwwHD-f-cp1" onclick="toggleItem('ztwwHD-f-cp1')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D1</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/map.png" class="item" id="ztwwHD-f-map1" onclick="toggleItem('ztwwHD-f-map1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/compass.png" class="item" id="ztwwHD-f-cp1" onclick="toggleItem('ztwwHD-f-cp1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/key.png" class="item" id="ztwwHD-f-key1" onclick="toggleItem('ztwwHD-f-key1')" data-max="4" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/boss.png" class="item" id="ztwwHD-f-boss1" onclick="toggleItem('ztwwHD-f-boss1')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D2</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/map.png" class="item" id="ztwwHD-f-map2" onclick="toggleItem('ztwwHD-f-map2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/compass.png" class="item" id="ztwwHD-f-cp2" onclick="toggleItem('ztwwHD-f-cp2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/key.png" class="item" id="ztwwHD-f-key2" onclick="toggleItem('ztwwHD-f-key2')" data-max="2" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/boss.png" class="item" id="ztwwHD-f-boss2" onclick="toggleItem('ztwwHD-f-boss2')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D3</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/map.png" class="item" id="ztwwHD-f-map3" onclick="toggleItem('ztwwHD-f-map3')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/compass.png" class="item" id="ztwwHD-f-cp3" onclick="toggleItem('ztwwHD-f-cp3')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/key.png" class="item" id="ztwwHD-f-key3" onclick="toggleItem('ztwwHD-f-key3')" data-max="2" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/boss.png" class="item" id="ztwwHD-f-boss3" onclick="toggleItem('ztwwHD-f-boss3')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D4</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/map.png" class="item" id="ztwwHD-f-map4" onclick="toggleItem('ztwwHD-f-map4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/compass.png" class="item" id="ztwwHD-f-cp4" onclick="toggleItem('ztwwHD-f-cp4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/key.png" class="item" id="ztwwHD-f-key4" onclick="toggleItem('ztwwHD-f-key4')" data-max="3" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/boss.png" class="item" id="ztwwHD-f-boss4" onclick="toggleItem('ztwwHD-f-boss4')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D5</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/map.png" class="item" id="ztwwHD-f-map5" onclick="toggleItem('ztwwHD-f-map5')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/compass.png" class="item" id="ztwwHD-f-cp5" onclick="toggleItem('ztwwHD-f-cp5')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/key.png" class="item" id="ztwwHD-f-key5" onclick="toggleItem('ztwwHD-f-key5')" data-max="2" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaWW/boss.png" class="item" id="ztwwHD-f-boss5" onclick="toggleItem('ztwwHD-f-boss5')">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>
