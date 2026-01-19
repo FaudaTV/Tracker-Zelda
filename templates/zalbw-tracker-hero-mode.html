@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - Zelda ALBW</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="albw.html" class="back-link">← Retour</a>
+        <h1 class="main-title">Zelda ALBW - ITEMS</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="inventory-row split-3-columns">
+            <div class="inventory-section">
+                <h2 class="section-title">Équipement</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/sword.png" 
+                            class="item" 
+                            id="zalbw-f-2-sword"
+                            data-levels="../images/ZeldaALBW/sword.png,../images/ZeldaALBW/sword2.png,../images/ZeldaALBW/sword3.png,../images/ZeldaALBW/sword4.png"
+                            onclick="toggleItem('zalbw-f-2-sword')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/shield.png" 
+                            class="item" 
+                            id="zalbw-f-2-shield"
+                            data-levels="../images/ZeldaALBW/shield.png,../images/ZeldaALBW/shield2.png"
+                            onclick="toggleItem('zalbw-f-2-shield')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/arc0.png" 
+                            class="item" 
+                            id="zalbw-f-2-arc"
+                            data-levels="../images/ZeldaALBW/arc0.png,../images/ZeldaALBW/arc.png,../images/ZeldaALBW/arc2.png"
+                            onclick="toggleItem('zalbw-f-2-arc')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/hammer0.png" 
+                            class="item" 
+                            id="zalbw-f-2-hammer"
+                            data-levels="../images/ZeldaALBW/hammer0.png,../images/ZeldaALBW/hammer.png,../images/ZeldaALBW/hammer2.png"
+                            onclick="toggleItem('zalbw-f-2-hammer')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/lamp.png" 
+                            class="item" 
+                            id="zalbw-f-2-lamp"
+                            data-levels="../images/ZeldaALBW/lamp.png,../images/ZeldaALBW/lamp2.png"
+                            onclick="toggleItem('zalbw-f-2-lamp')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/hookshot0.png" 
+                            class="item" 
+                            id="zalbw-f-2-hookshot"
+                            data-levels="../images/ZeldaALBW/hookshot0.png,../images/ZeldaALBW/hookshot.png,../images/ZeldaALBW/hookshot2.png"
+                            onclick="toggleItem('zalbw-f-2-hookshot')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/glove.png" 
+                            class="item" 
+                            id="zalbw-f-2-glove"
+                            data-levels="../images/ZeldaALBW/glove.png,../images/ZeldaALBW/glove2.png"
+                            onclick="toggleItem('zalbw-f-2-glove')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/bug.png" 
+                            class="item" 
+                            id="zalbw-f-2-bug"
+                            data-levels="../images/ZeldaALBW/bug.png,../images/ZeldaALBW/bug2.png"
+                            onclick="toggleItem('zalbw-f-2-bug')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/bracelet.png" 
+                            class="item" 
+                            id="zalbw-f-2-bracelet"
+                            data-levels="../images/ZeldaALBW/bracelet.png,../images/ZeldaALBW/bracelet2.png"
+                            onclick="toggleItem('zalbw-f-2-bracelet')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/bomb0.png" 
+                            class="item" 
+                            id="zalbw-f-2-bomb"
+                            data-levels="../images/ZeldaALBW/bomb0.png,../images/ZeldaALBW/bomb.png,../images/ZeldaALBW/bomb2.png"
+                            onclick="toggleItem('zalbw-f-2-bomb')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/boomerang0.png" 
+                            class="item" 
+                            id="zalbw-f-2-boomerang"
+                            data-levels="../images/ZeldaALBW/boomerang0.png,../images/ZeldaALBW/boomerang.png,../images/ZeldaALBW/boomerang2.png"
+                            onclick="toggleItem('zalbw-f-2-boomerang')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/fire0.png" 
+                            class="item" 
+                            id="zalbw-f-2-fire"
+                            data-levels="../images/ZeldaALBW/fire0.png,../images/ZeldaALBW/fire.png,../images/ZeldaALBW/fire2.png"
+                            onclick="toggleItem('zalbw-f-2-fire')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/ice0.png" 
+                            class="item" 
+                            id="zalbw-f-2-ice"
+                            data-levels="../images/ZeldaALBW/ice0.png,../images/ZeldaALBW/ice.png,../images/ZeldaALBW/ice2.png"
+                            onclick="toggleItem('zalbw-f-2-ice')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/tornado0.png" 
+                            class="item" 
+                            id="zalbw-f-2-tornado"
+                            data-levels="../images/ZeldaALBW/tornado0.png,../images/ZeldaALBW/tornado.png,../images/ZeldaALBW/tornado2.png"
+                            onclick="toggleItem('zalbw-f-2-tornado')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/sand0.png" 
+                            class="item" 
+                            id="zalbw-f-2-sand"
+                            data-levels="../images/ZeldaALBW/sand0.png,../images/ZeldaALBW/sand.png,../images/ZeldaALBW/sand2.png"
+                            onclick="toggleItem('zalbw-f-2-sand')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/bell.png" 
+                            class="item" 
+                            id="zalbw-f-2-bell"
+                            onclick="toggleItem('zalbw-f-2-bell')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/bee.png" 
+                            class="item" 
+                            id="zalbw-f-2-bee"
+                            onclick="toggleItem('zalbw-f-2-bee')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/boots.png" 
+                            class="item" 
+                            id="zalbw-f-2-boots"
+                            onclick="toggleItem('zalbw-f-2-boots')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/gem.png" 
+                            class="item" 
+                            id="zalbw-f-2-gem"
+                            onclick="toggleItem('zalbw-f-2-gem')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/foul.png" 
+                            class="item" 
+                            id="zalbw-f-2-foul"
+                            onclick="toggleItem('zalbw-f-2-foul')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/glasses.png" 
+                            class="item" 
+                            id="zalbw-f-2-glasses"
+                            onclick="toggleItem('zalbw-f-2-glasses')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/guts.png" 
+                            class="item" 
+                            id="zalbw-f-2-guts"
+                            onclick="toggleItem('zalbw-f-2-guts')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/tail.png" 
+                            class="item" 
+                            id="zalbw-f-2-tail"
+                            onclick="toggleItem('zalbw-f-2-tail')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/horn.png" 
+                            class="item" 
+                            id="zalbw-f-2-horn"
+                            onclick="toggleItem('zalbw-f-2-horn')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/light.png" 
+                            class="item" 
+                            id="zalbw-f-2-light"
+                            onclick="toggleItem('zalbw-f-2-light')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/pouch.png" 
+                            class="item" 
+                            id="zalbw-f-2-pouch"
+                            onclick="toggleItem('zalbw-f-2-pouch')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/scoot.png" 
+                            class="item" 
+                            id="zalbw-f-2-scoot"
+                            onclick="toggleItem('zalbw-f-2-scoot')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/scroll.png" 
+                            class="item" 
+                            id="zalbw-f-2-scroll"
+                            onclick="toggleItem('zalbw-f-2-scroll')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/zora.png" 
+                            class="item" 
+                            id="zalbw-f-2-zora"
+                            onclick="toggleItem('zalbw-f-2-zora')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/bottle.png" 
+                            class="item" 
+                            id="zalbw-f-2-bottle"
+                            data-max="5"
+                            data-name="0"
+                            onclick="toggleItem('zalbw-f-2-bottle')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/full_heart.png" 
+                            class="item" 
+                            id="zalbw-f-2-full_heart"
+                            data-max="10"
+                            data-name="0"
+                            onclick="toggleItem('zalbw-f-2-full_heart')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/heart.png" 
+                            class="item" 
+                            id="zalbw-f-2-heart"
+                            data-max="28"
+                            data-name="0"
+                            onclick="toggleItem('zalbw-f-2-heart')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/maiamai.png" 
+                            class="item" 
+                            id="zalbw-f-2-maiamai"
+                            data-max="100"
+                            data-name="0"
+                            onclick="toggleItem('zalbw-f-2-maiamai')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/ore.png" 
+                            class="item" 
+                            id="zalbw-f-2-ore"
+                            data-max="4"
+                            data-name="0"
+                            onclick="toggleItem('zalbw-f-2-ore')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/green.png" 
+                            class="item" 
+                            id="zalbw-f-2-green"
+                            onclick="toggleItem('zalbw-f-2-green')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/blue.png" 
+                            class="item" 
+                            id="zalbw-f-2-blue"
+                            onclick="toggleItem('zalbw-f-2-blue')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/red.png" 
+                            class="item" 
+                            id="zalbw-f-2-red"
+                            onclick="toggleItem('zalbw-f-2-red')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/gramps.png" 
+                            class="item" 
+                            id="zalbw-f-gramps"
+                            data-max="50"
+                            data-name="0"
+                            onclick="toggleItem('zalbw-f-gramps')">
+                            <p class="item-name">0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Objet de Quête</h2>
+                <div class="inventory-card green-card"> 
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/courage.png" class="item" id="zalbw-f-2-courage" onclick="toggleItem('zalbw-f-2-courage')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/power.png" class="item" id="zalbw-f-2-power" onclick="toggleItem('zalbw-f-2-power')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/wisdom.png" class="item" id="zalbw-f-2-wisdom" onclick="toggleItem('zalbw-f-2-wisdom')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/gulley.png" class="item" id="zalbw-f-2-gulley" onclick="toggleItem('zalbw-f-2-gulley')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/oren.png" class="item" id="zalbw-f-2-oren" onclick="toggleItem('zalbw-f-2-oren')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/rosso.png" class="item" id="zalbw-f-2-rosso" onclick="toggleItem('zalbw-f-2-rosso')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/impa.png" class="item" id="zalbw-f-2-impa" onclick="toggleItem('zalbw-f-2-impa')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/irene.png" class="item" id="zalbw-f-2-irene" onclick="toggleItem('zalbw-f-2-irene')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/osfala.png" class="item" id="zalbw-f-2-osfala" onclick="toggleItem('zalbw-f-2-osfala')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/seres.png" class="item" id="zalbw-f-2-seres" onclick="toggleItem('zalbw-f-2-seres')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">YuGanon</h2>
+                <div class="inventory-card dark-card">
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/yuganon.png" class="item boss-item" id="zalbw-f-2-yuganon" onclick="toggleItem('zalbw-f-2-yuganon')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-section">
+            <h2 class="section-title">Progression Map</h2>
+            <div class="inventory-card red-card"> 
+                <div class="tracker-grid">
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D1</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/compass.png" class="item" id="zalbw-f-2-compass1" onclick="toggleItem('zalbw-f-2-compass1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/key.png" class="item" id="zalbw-f-2-key1" data-max="2" data-name="0" onclick="toggleItem('zalbw-f-2-key1')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/boss.png" class="item" id="zalbw-f-2-boss1" onclick="toggleItem('zalbw-f-2-boss1')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D2</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/compass.png" class="item" id="zalbw-f-2-compass2" onclick="toggleItem('zalbw-f-2-compass2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/key.png" class="item" id="zalbw-f-2-key2" data-max="1" data-name="0" onclick="toggleItem('zalbw-f-2-key2')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/boss.png" class="item" id="zalbw-f-2-boss2" onclick="toggleItem('zalbw-f-2-boss2')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D3</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/compass.png" class="item" id="zalbw-f-2-compass3" onclick="toggleItem('zalbw-f-2-compass3')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/key.png" class="item" id="zalbw-f-2-key3" data-max="1" data-name="0" onclick="toggleItem('zalbw-f-2-key3')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/boss.png" class="item" id="zalbw-f-2-boss3" onclick="toggleItem('zalbw-f-2-boss3')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D4</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/compass.png" class="item" id="zalbw-f-2-compass4" onclick="toggleItem('zalbw-f-2-compass4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/key.png" class="item" id="zalbw-f-2-key4" data-max="1" data-name="0" onclick="toggleItem('zalbw-f-2-key4')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/boss.png" class="item" id="zalbw-f-2-boss4" onclick="toggleItem('zalbw-f-2-boss4')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D5</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/compass.png" class="item" id="zalbw-f-2-compass5" onclick="toggleItem('zalbw-f-2-compass5')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/key.png" class="item" id="zalbw-f-2-key5" data-max="4" data-name="0" onclick="toggleItem('zalbw-f-2-key5')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/boss.png" class="item" id="zalbw-f-2-boss5" onclick="toggleItem('zalbw-f-2-boss5')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D6</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/compass.png" class="item" id="zalbw-f-2-compass6" onclick="toggleItem('zalbw-f-2-compass6')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/key.png" class="item" id="zalbw-f-2-key6" data-max="2" data-name="0" onclick="toggleItem('zalbw-f-2-key6')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/boss.png" class="item" id="zalbw-f-2-boss6" onclick="toggleItem('zalbw-f-2-boss6')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D7</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/compass.png" class="item" id="zalbw-f-2-compass7" onclick="toggleItem('zalbw-f-2-compass7')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/key.png" class="item" id="zalbw-f-2-key7" data-max="3" data-name="0" onclick="toggleItem('zalbw-f-2-key7')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/boss.png" class="item" id="zalbw-f-2-boss7" onclick="toggleItem('zalbw-f-2-boss7')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D8</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/compass.png" class="item" id="zalbw-f-2-compass8" onclick="toggleItem('zalbw-f-2-compass8')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/key.png" class="item" id="zalbw-f-2-key8" data-max="2" data-name="0" onclick="toggleItem('zalbw-f-2-key8')"><p class="item-name">0</p>
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D9</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/compass.png" class="item" id="zalbw-f-2-compass9" onclick="toggleItem('zalbw-f-2-compass9')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/key.png" class="item" id="zalbw-f-2-key9" data-max="4" data-name="0" onclick="toggleItem('zalbw-f-2-key9')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/boss.png" class="item" id="zalbw-f-2-boss9" onclick="toggleItem('zalbw-f-2-boss9')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D10</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/compass.png" class="item" id="zalbw-f-2-compass10" onclick="toggleItem('zalbw-f-2-compass10')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/key.png" class="item" id="zalbw-f-2-key10" data-max="3" data-name="0" onclick="toggleItem('zalbw-f-2-key10')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/boss.png" class="item" id="zalbw-f-2-boss10" onclick="toggleItem('zalbw-f-2-boss10')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D11</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/compass.png" class="item" id="zalbw-f-2-compass11" onclick="toggleItem('zalbw-f-2-compass11')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/key.png" class="item" id="zalbw-f-2-key11" data-max="2" data-name="0" onclick="toggleItem('zalbw-f-2-key11')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/boss.png" class="item" id="zalbw-f-2-boss11" onclick="toggleItem('zalbw-f-2-boss11')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D12</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/compass.png" class="item" id="zalbw-f-2-compass12" onclick="toggleItem('zalbw-f-2-compass12')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/key.png" class="item" id="zalbw-f-2-key12" data-max="1" data-name="0" onclick="toggleItem('zalbw-f-2-key12')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaALBW/boss.png" class="item" id="zalbw-f-2-boss12" onclick="toggleItem('zalbw-f-2-boss12')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>
