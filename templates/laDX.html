@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - Zelda LA DX</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="../index.html" class="back-link">← Retour</a>
+        <h1 class="main-title">Zelda LA DX - ITEMS</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="inventory-row split-2-columns">
+            <div class="inventory-section">
+                <h2 class="section-title">Équipement</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/sword.png" 
+                                class="item" 
+                                id="zla-f-sword" 
+                                data-levels="images/ZeldaLADX/sword.png,images/ZeldaLADX/sword2.png" 
+                                onclick="toggleItem('zla-f-sword')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/shield.png" 
+                                class="item" 
+                                id="zla-f-shield" 
+                                data-levels="images/ZeldaLADX/shield.png,images/ZeldaLADX/shield2.png" 
+                                onclick="toggleItem('zla-f-shield')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/boomerang.png" 
+                                class="item" 
+                                id="zla-f-boomerang" 
+                                onclick="toggleItem('zla-f-boomerang')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/bomb.png" 
+                                class="item" 
+                                id="zla-f-bomb"  
+                            onclick="toggleItem('zla-f-bomb')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/arc.png" 
+                                class="item" 
+                                id="zla-f-arc"
+                                onclick="toggleItem('zla-f-arc')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/heart.png" 
+                            class="item" 
+                            id="zla-f-heart"
+                            data-max="12"
+                            data-name="0"
+                            onclick="toggleItem('zla-f-heart')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/bracelet.png" 
+                            class="item" 
+                            id="zla-f-bracelet" 
+                            data-levels="images/ZeldaLADX/bracelet.png,images/ZeldaLADX/bracelet2.png"
+                            onclick="toggleItem('zla-f-bracelet')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/hookshot.png" 
+                            class="item" 
+                            id="zla-f-hookshot" 
+                            onclick="toggleItem('zla-f-hookshot')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/magic.png" 
+                            class="item" 
+                            id="zla-f-magic" 
+                            onclick="toggleItem('zla-f-magic')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/shovel.png" 
+                            class="item" 
+                            id="zla-f-shovel" 
+                            onclick="toggleItem('zla-f-shovel')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/rod.png" 
+                            class="item" 
+                            id="zla-f-rod" 
+                            onclick="toggleItem('zla-f-rod')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/ocarina.png" 
+                            class="item" 
+                            id="zla-f-ocarina" 
+                            onclick="toggleItem('zla-f-ocarina')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/flipper.png" 
+                            class="item" 
+                            id="zla-f-flipper" 
+                            onclick="toggleItem('zla-f-flipper')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/champi.png" 
+                            class="item" 
+                            id="zla-f-champi" 
+                            onclick="toggleItem('zla-f-champi')">
+                        </div>
+                        
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/leaf.png" 
+                            class="item" 
+                            id="zla-f-leaf" 
+                            onclick="toggleItem('zla-f-leaf')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/pegasus.png" 
+                            class="item" 
+                            id="zla-f-pegasus" 
+                            onclick="toggleItem('zla-f-pegasus')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/full_heart.png" 
+                            class="item" 
+                            id="zla-f-full_heart"
+                            data-max="8"
+                            data-name="0"
+                            onclick="toggleItem('zla-f-full_heart')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/medicine.png" 
+                            class="item" 
+                            id="zla-f-medicine" 
+                            onclick="toggleItem('zla-f-medicine')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/marine.png" 
+                            class="item" 
+                            id="zla-f-marine" 
+                            onclick="toggleItem('zla-f-marine')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/manbo.png" 
+                            class="item" 
+                            id="zla-f-manbo" 
+                            onclick="toggleItem('zla-f-manbo')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/rap.png" 
+                            class="item" 
+                            id="zla-f-rap" 
+                            onclick="toggleItem('zla-f-rap')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/mad_batter_bomb.png" 
+                            class="item" 
+                            id="zla-f-mad_batter_bomb" 
+                            onclick="toggleItem('zla-f-mad_batter_bomb')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/mad_batter_arrow.png" 
+                            class="item" 
+                            id="zla-f-mad_batter_arrow" 
+                            onclick="toggleItem('zla-f-mad_batter_arrow')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/mad_batter_magic.png" 
+                            class="item" 
+                            id="zla-f-mad_batter_magic" 
+                            onclick="toggleItem('zla-f-mad_batter_magic')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/golden_leaf.png" 
+                            class="item" 
+                            id="zla-f-golden_leaf"
+                            data-max="5"
+                            data-name="0"
+                            onclick="toggleItem('zla-f-golden_leaf')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/echange.png" 
+                            class="item" 
+                            id="zla-f-echange" 
+                            data-levels="images/ZeldaLADX/echange.png,images/ZeldaLADX/echange2.png,images/ZeldaLADX/echange3.png,images/ZeldaLADX/echange4.png,images/ZeldaLADX/echange5.png,images/ZeldaLADX/echange6.png,images/ZeldaLADX/echange7.png,images/ZeldaLADX/echange8.png,images/ZeldaLADX/echange9.png,images/ZeldaLADX/echange10.png,images/ZeldaLADX/echange11.png,images/ZeldaLADX/echange12.png,images/ZeldaLADX/echange13.png,images/ZeldaLADX/echange14.png"
+                            onclick="toggleItem('zla-f-echange')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/chomp.png" 
+                            class="item" 
+                            id="zla-f-chomp" 
+                            onclick="toggleItem('zla-f-chomp')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/rooster.png" 
+                            class="item" 
+                            id="zla-f-rooster" 
+                            onclick="toggleItem('zla-f-rooster')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/coquillage.png" 
+                            class="item" 
+                            id="zla-f-coquillage"
+                            data-max="26"
+                            data-name="0"
+                            onclick="toggleItem('zla-f-coquillage')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/green.png" 
+                            class="item" 
+                            id="zla-f-green"
+                            data-levels="images/ZeldaLADX/green.png,images/ZeldaLADX/bluered.png"
+                            onclick="toggleItem('zla-f-green')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/photographer.png" 
+                            class="item" 
+                            id="zla-f-photographer"
+                            data-max="12"
+                            data-name="0"
+                            onclick="toggleItem('zla-f-photographer')">
+                            <p class="item-name">0</p>
+                        </div>
+                    </div>
+                </div>        
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Maléfice</h2>
+                <div class="inventory-card dark-card">
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/dethl.png" class="item boss-item" id="zla-f-dethl" onclick="toggleItem('zla-f-dethl')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-section">
+            <h2 class="section-title">Progression Map</h2>
+            <div class="inventory-card blue-card"> 
+                <div class="tracker-grid">
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D1</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/map.png" class="item" id="zla-f-map1" onclick="toggleItem('zla-f-map1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/compass.png" class="item" id="zla-f-cp1" onclick="toggleItem('zla-f-cp1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/bec.png" class="item" id="zla-f-bec1" onclick="toggleItem('zla-f-bec1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/key.png" class="item" id="zla-f-key1" onclick="toggleItem('zla-f-key1')" data-max="3" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/boss.png" class="item" id="zla-f-boss1" onclick="toggleItem('zla-f-boss1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/guitard.png" class="item" id="zla-f-guitard" onclick="toggleItem('zla-f-guitard')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D2</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/map.png" class="item" id="zla-f-map2" onclick="toggleItem('zla-f-map2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/compass.png" class="item" id="zla-f-cp2" onclick="toggleItem('zla-f-cp2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/bec.png" class="item" id="zla-f-bec2" onclick="toggleItem('zla-f-bec2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/key.png" class="item" id="zla-f-key2" onclick="toggleItem('zla-f-key2')" data-max="5" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/boss.png" class="item" id="zla-f-boss2" onclick="toggleItem('zla-f-boss2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/trompette.png" class="item" id="zla-f-trompette" onclick="toggleItem('zla-f-trompette')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D3</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/map.png" class="item" id="zla-f-map3" onclick="toggleItem('zla-f-map3')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/compass.png" class="item" id="zla-f-cp3" onclick="toggleItem('zla-f-cp3')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/bec.png" class="item" id="zla-f-bec3" onclick="toggleItem('zla-f-bec3')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/key.png" class="item" id="zla-f-key3" onclick="toggleItem('zla-f-key3')" data-max="9" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/boss.png" class="item" id="zla-f-boss3" onclick="toggleItem('zla-f-boss3')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/cloche.png" class="item" id="zla-f-cloche" onclick="toggleItem('zla-f-cloche')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D4</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/map.png" class="item" id="zla-f-map4" onclick="toggleItem('zla-f-map4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/compass.png" class="item" id="zla-f-cp4" onclick="toggleItem('zla-f-cp4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/bec.png" class="item" id="zla-f-bec4" onclick="toggleItem('zla-f-bec4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/key.png" class="item" id="zla-f-key4" onclick="toggleItem('zla-f-key4')" data-max="5" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/boss.png" class="item" id="zla-f-boss4" onclick="toggleItem('zla-f-boss4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/harp.png" class="item" id="zla-f-harp" onclick="toggleItem('zla-f-harp')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D5</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/map.png" class="item" id="zla-f-map5" onclick="toggleItem('zla-f-map5')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/compass.png" class="item" id="zla-f-cp5" onclick="toggleItem('zla-f-cp5')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/bec.png" class="item" id="zla-f-bec5" onclick="toggleItem('zla-f-bec5')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/key.png" class="item" id="zla-f-key5" onclick="toggleItem('zla-f-key5')" data-max="3" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/boss.png" class="item" id="zla-f-boss5" onclick="toggleItem('zla-f-boss5')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/xylophone.png" class="item" id="zla-f-xylophone" onclick="toggleItem('zla-f-xylophone')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D6</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/map.png" class="item" id="zla-f-map6" onclick="toggleItem('zla-f-map6')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/compass.png" class="item" id="zla-f-cp6" onclick="toggleItem('zla-f-cp6')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/bec.png" class="item" id="zla-f-bec6" onclick="toggleItem('zla-f-bec6')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/key.png" class="item" id="zla-f-key6" onclick="toggleItem('zla-f-key6')" data-max="3" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/boss.png" class="item" id="zla-f-boss6" onclick="toggleItem('zla-f-boss6')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/triangle.png" class="item" id="zla-f-triangle" onclick="toggleItem('zla-f-triangle')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D7</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/map.png" class="item" id="zla-f-map7" onclick="toggleItem('zla-f-map7')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/compass.png" class="item" id="zla-f-cp7" onclick="toggleItem('zla-f-cp7')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/bec.png" class="item" id="zla-f-bec7" onclick="toggleItem('zla-f-bec7')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/key.png" class="item" id="zla-f-key7" onclick="toggleItem('zla-f-key7')" data-max="3" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/boss.png" class="item" id="zla-f-boss7" onclick="toggleItem('zla-f-boss7')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/piano.png" class="item" id="zla-f-piano" onclick="toggleItem('zla-f-piano')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D8</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/map.png" class="item" id="zla-f-map8" onclick="toggleItem('zla-f-map8')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/compass.png" class="item" id="zla-f-cp8" onclick="toggleItem('zla-f-cp8')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/bec.png" class="item" id="zla-f-bec8" onclick="toggleItem('zla-f-bec8')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/key.png" class="item" id="zla-f-key8" onclick="toggleItem('zla-f-key8')" data-max="7" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/boss.png" class="item" id="zla-f-boss8" onclick="toggleItem('zla-f-boss8')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLADX/tambourre.png" class="item" id="zla-f-tambourre" onclick="toggleItem('zla-f-tambourre')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

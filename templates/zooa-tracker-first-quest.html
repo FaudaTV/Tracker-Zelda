@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - Zelda OOA First Quest</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="ooa.html" class="back-link">← Retour</a>
+        <h1 class="main-title">FIRST QUEST - ITEMS</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="inventory-row split-3-columns">
+            <div class="inventory-section">
+                <h2 class="section-title">Équipement</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/sword.png" 
+                                class="item" 
+                                id="zooa-f-sword" 
+                                data-levels="images/ZeldaOOA/sword.png,images/ZeldaOOA/sword2.png" 
+                                onclick="toggleItem('zooa-f-sword')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/shield.png" 
+                                class="item" 
+                                id="zooa-f-shield" 
+                                data-levels="images/ZeldaOOA/shield.png,images/ZeldaOOA/shield2.png" 
+                                onclick="toggleItem('zooa-f-shield')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/boomerang.png" 
+                                class="item" 
+                                id="zooa-f-boomerang" 
+                                onclick="toggleItem('zooa-f-boomerang')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/bomb.png" 
+                                class="item" 
+                                id="zooa-f-bomb"
+                                data-levels="images/ZeldaOOA/bomb.png,images/ZeldaOOA/bomb2.png"
+                            onclick="toggleItem('zooa-f-bomb')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/bracelet.png" 
+                                class="item" 
+                                id="zooa-f-bracelet"
+                                data-levels="images/ZeldaOOA/bracelet.png,images/ZeldaOOA/bracelet2.png"
+                                onclick="toggleItem('zooa-f-bracelet')">
+                            </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/cap.png" 
+                            class="item" 
+                            id="zooa-f-cap"
+                            onclick="toggleItem('zooa-f-cap')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/harp.png" 
+                                class="item" 
+                                id="zooa-f-harp" 
+                                onclick="toggleItem('zooa-f-harp')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/heart.png" 
+                            class="item" 
+                            id="zooa-f-heart"
+                            data-max="12"
+                            data-name="0"
+                            onclick="toggleItem('zooa-f-heart')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/seed.png" 
+                            class="item" 
+                            id="zooa-f-seed"
+                            data-levels="images/ZeldaOOA/seed.png,images/ZeldaOOA/seed2.png"
+                            onclick="toggleItem('zooa-f-seed')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/shooter.png" 
+                            class="item" 
+                            id="zooa-f-shooter" 
+                            onclick="toggleItem('zooa-f-shooter')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/potion.png" 
+                            class="item" 
+                            id="zooa-f-potion" 
+                            onclick="toggleItem('zooa-f-potion')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/hookshot.png" 
+                            class="item" 
+                            id="zooa-f-hookshot"
+                            data-levels="images/ZeldaOOA/hookshot.png,images/ZeldaOOA/hookshot2.png"
+                            onclick="toggleItem('zooa-f-hookshot')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/rope.png" 
+                            class="item" 
+                            id="zooa-f-rope"
+                            onclick="toggleItem('zooa-f-rope')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/echange.png" 
+                            class="item" 
+                            id="zooa-f-echange" 
+                            data-levels="images/ZeldaOOA/echange.png,images/ZeldaOOA/echange2.png,images/ZeldaOOA/echange3.png,images/ZeldaOOA/echange4.png,images/ZeldaOOA/echange5.png,images/ZeldaOOA/echange6.png,images/ZeldaOOA/echange7.png,images/ZeldaOOA/echange8.png,images/ZeldaOOA/echange9.png,images/ZeldaOOA/echange10.png,images/ZeldaOOA/echange11.png,images/ZeldaOOA/echange12.png"
+                            onclick="toggleItem('zooa-f-echange')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/flipper.png" 
+                            class="item" 
+                            id="zooa-f-flipper"
+                            data-levels="images/ZeldaOOA/flipper.png,images/ZeldaOOA/flipper2.png"
+                            onclick="toggleItem('zooa-f-flipper')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/box.png" 
+                            class="item" 
+                            id="zooa-f-box"
+                            data-levels="images/ZeldaOOA/box.png,images/ZeldaOOA/box2.png"
+                            onclick="toggleItem('zooa-f-box')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/shovel.png" 
+                            class="item" 
+                            id="zooa-f-shovel"
+                            onclick="toggleItem('zooa-f-shovel')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/somaria.png" 
+                            class="item" 
+                            id="zooa-f-somaria" 
+                            onclick="toggleItem('zooa-f-somaria')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/zora.png" 
+                            class="item" 
+                            id="zooa-f-zora"
+                            data-levels="images/ZeldaOOA/zora.png,images/ZeldaOOA/tokey.png"
+                            onclick="toggleItem('zooa-f-zora')">
+                        </div>
+                        
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/lava.png" 
+                            class="item" 
+                            id="zooa-f-lava"
+                            data-levels="images/ZeldaOOA/lava.png,images/ZeldaOOA/letter.png,images/ZeldaOOA/mermaid2.png"
+                            onclick="toggleItem('zooa-f-lava')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/brother.png" 
+                            class="item" 
+                            id="zooa-f-brother"
+                            data-levels="images/ZeldaOOA/brother.png,images/ZeldaOOA/rock.png,images/ZeldaOOA/goron.png,images/ZeldaOOA/goronade.png,images/ZeldaOOA/mermaid.png"
+                            onclick="toggleItem('zooa-f-brother')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/crown.png" 
+                            class="item" 
+                            id="zooa-f-crown" 
+                            onclick="toggleItem('zooa-f-crown')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/graveyard.png" 
+                            class="item" 
+                            id="zooa-f-graveyard" 
+                            onclick="toggleItem('zooa-f-graveyard')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/maku.png" 
+                            class="item" 
+                            id="zooa-f-maku" 
+                            onclick="toggleItem('zooa-f-maku')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/book_key.png" 
+                            class="item" 
+                            id="zooa-f-book"
+                            data-levels="images/ZeldaOOA/book_key.png,images/ZeldaOOA/book.png,images/ZeldaOOA/fairy.png"
+                            onclick="toggleItem('zooa-f-book')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/ricky_glove.png" 
+                            class="item" 
+                            id="zooa-f-ricky_glove" 
+                            onclick="toggleItem('zooa-f-ricky_glove')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/nuts.png" 
+                            class="item" 
+                            id="zooa-f-nuts" 
+                            onclick="toggleItem('zooa-f-nuts')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/chart.png" 
+                            class="item" 
+                            id="zooa-f-chart" 
+                            onclick="toggleItem('zooa-f-chart')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/full_heart.png" 
+                            class="item" 
+                            id="zooa-f-full_heart"
+                            data-max="8"
+                            data-name="0"
+                            onclick="toggleItem('zooa-f-full_heart')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/flute.png" 
+                                class="item" 
+                                id="zooa-f-flute" 
+                                data-default-img="images/ZeldaOOA/flute.png"
+                                onclick="openItemPopup(event, 'modal-flute')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/spot.png" 
+                            class="item" 
+                            id="zooa-f-spot"
+                            data-max="15"
+                            data-name="0"
+                            onclick="toggleItem('zooa-f-spot')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/bip.png" 
+                            class="item" 
+                            id="zooa-f-bip" 
+                            onclick="toggleItem('zooa-f-bip')">
+                        </div>
+                    </div>
+                </div>        
+            </div>
+
+            <div class="inventory-column">
+                <div class="inventory-section">
+                    <h2 class="section-title">Essences</h2>
+                    <div class="inventory-card green-card"> 
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOA/spirit.png" class="item" id="zooa-f-spirit" onclick="toggleItem('zooa-f-spirit')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOA/wood.png" class="item" id="zooa-f-wood" onclick="toggleItem('zooa-f-wood')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOA/howl.png" class="item" id="zooa-f-howl" onclick="toggleItem('zooa-f-howl')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOA/flame.png" class="item" id="zooa-f-flame" onclick="toggleItem('zooa-f-flame')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOA/soil.png" class="item" id="zooa-f-soil" onclick="toggleItem('zooa-f-soil')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOA/peak.png" class="item" id="zooa-f-peak" onclick="toggleItem('zooa-f-peak')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOA/sea.png" class="item" id="zooa-f-sea" onclick="toggleItem('zooa-f-sea')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOA/star.png" class="item" id="zooa-f-star" onclick="toggleItem('zooa-f-star')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inventory-section">
+                    <h2 class="section-title">Veran</h2>
+                    <div class="inventory-card dark-card">
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOA/veran.png" class="item boss-item" id="zooa-f-veran" onclick="toggleItem('zooa-f-veran')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-section">
+            <h2 class="section-title">Progression Map</h2>
+            <div class="inventory-card red-card"> 
+                <div class="tracker-grid">
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D1</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/map.png" class="item" id="zooa-f-map1" onclick="toggleItem('zooa-f-map1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/compass.png" class="item" id="zooa-f-cp1" onclick="toggleItem('zooa-f-cp1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/key.png" class="item" id="zooa-f-key1" onclick="toggleItem('zooa-f-key1')" data-max="3" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/boss.png" class="item" id="zooa-f-boss1" onclick="toggleItem('zooa-f-boss1')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D2</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/map.png" class="item" id="zooa-f-map2" onclick="toggleItem('zooa-f-map2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/compass.png" class="item" id="zooa-f-cp2" onclick="toggleItem('zooa-f-cp2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/key.png" class="item" id="zooa-f-key2" onclick="toggleItem('zooa-f-key2')" data-max="5" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/boss.png" class="item" id="zooa-f-boss2" onclick="toggleItem('zooa-f-boss2')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D3</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/map.png" class="item" id="zooa-f-map3" onclick="toggleItem('zooa-f-map3')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/compass.png" class="item" id="zooa-f-cp3" onclick="toggleItem('zooa-f-cp3')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/key.png" class="item" id="zooa-f-key3" onclick="toggleItem('zooa-f-key3')" data-max="3" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/boss.png" class="item" id="zooa-f-boss3" onclick="toggleItem('zooa-f-boss3')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D4</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/map.png" class="item" id="zooa-f-map4" onclick="toggleItem('zooa-f-map4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/compass.png" class="item" id="zooa-f-cp4" onclick="toggleItem('zooa-f-cp4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/key.png" class="item" id="zooa-f-key4" onclick="toggleItem('zooa-f-key4')" data-max="3" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/boss.png" class="item" id="zooa-f-boss4" onclick="toggleItem('zooa-f-boss4')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D5</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/map.png" class="item" id="zooa-f-map5" onclick="toggleItem('zooa-f-map5')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/compass.png" class="item" id="zooa-f-cp5" onclick="toggleItem('zooa-f-cp5')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/key.png" class="item" id="zooa-f-key5" onclick="toggleItem('zooa-f-key5')" data-max="3" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/boss.png" class="item" id="zooa-f-boss5" onclick="toggleItem('zooa-f-boss5')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D6</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/map.png" class="item" id="zooa-f-map6" onclick="toggleItem('zooa-f-map6')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/compass.png" class="item" id="zooa-f-cp6" onclick="toggleItem('zooa-f-cp6')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/key.png" class="item" id="zooa-f-key6" onclick="toggleItem('zooa-f-key6')" data-max="6" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/boss.png" class="item" id="zooa-f-boss6" onclick="toggleItem('zooa-f-boss6')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D7</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/map.png" class="item" id="zooa-f-map7" onclick="toggleItem('zooa-f-map7')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/compass.png" class="item" id="zooa-f-cp7" onclick="toggleItem('zooa-f-cp7')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/key.png" class="item" id="zooa-f-key7" onclick="toggleItem('zooa-f-key7')" data-max="4" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/boss.png" class="item" id="zooa-f-boss7" onclick="toggleItem('zooa-f-boss7')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D8</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/map.png" class="item" id="zooa-f-map8" onclick="toggleItem('zooa-f-map8')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/compass.png" class="item" id="zooa-f-cp8" onclick="toggleItem('zooa-f-cp8')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/key.png" class="item" id="zooa-f-key8" onclick="toggleItem('zooa-f-key8')" data-max="5" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOA/boss.png" class="item" id="zooa-f-boss8" onclick="toggleItem('zooa-f-boss8')">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="modal-flute" class="modal">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <h3 class="section-title">Choisir la flute</h3>
+            <div class="tracker-grid">
+                <img src="../images/ZeldaOOA/flute.png" class="item active" onclick="selectPopupItem(this.src, 'modal-flute')">
+                <img src="../images/ZeldaOOA/ricky.png" class="item active" onclick="selectPopupItem(this.src, 'modal-flute')">
+                <img src="../images/ZeldaOOA/dimitri.png" class="item active" onclick="selectPopupItem(this.src, 'modal-flute')">
+                <img src="../images/ZeldaOOA/moosh.png" class="item active" onclick="selectPopupItem(this.src, 'modal-flute')">
+            </div>
+        </div>
+    </div>
+    <script src="../script.js"></script>
+</body>
+</html>

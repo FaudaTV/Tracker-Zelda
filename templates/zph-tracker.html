@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - Zelda PH</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="ph.html" class="back-link">← Retour</a>
+        <h1 class="main-title">Zelda PH - ITEMS</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="inventory-row split-3-columns">
+            <div class="inventory-section">
+                <h2 class="section-title">Équipement</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/sword.png" 
+                            class="item" 
+                            id="zph-f-sword"
+                            data-levels="images/ZeldaPH/sword.png,images/ZeldaPH/sword2.png"
+                            onclick="toggleItem('zph-f-sword')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/shield.png" 
+                            class="item" 
+                            id="zph-f-shield"
+                            onclick="toggleItem('zph-f-shield')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/arc.png" 
+                            class="item" 
+                            id="zph-f-arc"
+                            onclick="toggleItem('zph-f-arc')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/bomb.png" 
+                            class="item" 
+                            id="zph-f-bomb"
+                            onclick="toggleItem('zph-f-bomb')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/bombchu.png" 
+                            class="item" 
+                            id="zph-f-bombchu"
+                            onclick="toggleItem('zph-f-bombchu')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/boomerang.png" 
+                            class="item" 
+                            id="zph-f-boomerang"
+                            onclick="toggleItem('zph-f-boomerang')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/grappling.png" 
+                            class="item" 
+                            id="zph-f-grappling"
+                            onclick="toggleItem('zph-f-grappling')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/hammer.png" 
+                            class="item" 
+                            id="zph-f-hammer"
+                            onclick="toggleItem('zph-f-hammer')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/heart.png" 
+                            class="item" 
+                            id="zph-f-heart"
+                            data-max="13"
+                            data-name="0"
+                            onclick="toggleItem('zph-f-heart')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/bomb_bag.png" 
+                            class="item" 
+                            id="zph-f-bomb_bag"
+                            data-levels="images/ZeldaPH/bomb_bag.png,images/ZeldaPH/bomb_bag2.png,images/ZeldaPH/bomb_bag3.png"
+                            onclick="toggleItem('zph-f-bomb_bag')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/quiver.png" 
+                            class="item" 
+                            id="zph-f-quiver"
+                            data-levels="images/ZeldaPH/quiver.png,images/ZeldaPH/quiver2.png"
+                            onclick="toggleItem('zph-f-quiver')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/bombchu_bag.png" 
+                            class="item" 
+                            id="zph-f-bombchu_bag"
+                            data-levels="images/ZeldaPH/bombchu_bag.png,images/ZeldaPH/bombchu_bag2.png"
+                            onclick="toggleItem('zph-f-bombchu_bag')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/phantom.png" 
+                            class="item" 
+                            id="zph-f-phantom"
+                            onclick="toggleItem('zph-f-phantom')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/leurre.png" 
+                            class="item" 
+                            id="zph-f-leurre"
+                            onclick="toggleItem('zph-f-leurre')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/rod.png" 
+                            class="item" 
+                            id="zph-f-rod"
+                            onclick="toggleItem('zph-f-rod')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/shovel.png" 
+                            class="item" 
+                            id="zph-f-shovel"
+                            onclick="toggleItem('zph-f-shovel')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/salvage.png" 
+                            class="item" 
+                            id="zph-f-salvage"
+                            onclick="toggleItem('zph-f-salvage')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/canon.png" 
+                            class="item" 
+                            id="zph-f-canon"
+                            onclick="toggleItem('zph-f-canon')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/sun.png" 
+                            class="item" 
+                            id="zph-f-sun"
+                            onclick="toggleItem('zph-f-sun')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/ghost.png" 
+                            class="item" 
+                            id="zph-f-ghost"
+                            onclick="toggleItem('zph-f-ghost')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/king.png" 
+                            class="item" 
+                            id="zph-f-king"
+                            onclick="toggleItem('zph-f-king')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/regal.png" 
+                            class="item" 
+                            id="zph-f-regal"
+                            onclick="toggleItem('zph-f-regal')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/crismonine.png" 
+                            class="item" 
+                            id="zph-f-crismonine"
+                            onclick="toggleItem('zph-f-crismonine')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/azurine.png" 
+                            class="item" 
+                            id="zph-f-azurine"
+                            onclick="toggleItem('zph-f-azurine')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/aquanine.png" 
+                            class="item" 
+                            id="zph-f-aquanine"
+                            onclick="toggleItem('zph-f-aquanine')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/blade.png" 
+                            class="item" 
+                            id="zph-f-blade"
+                            onclick="toggleItem('zph-f-blade')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/cyclone.png" 
+                            class="item" 
+                            id="zph-f-cyclone"
+                            onclick="toggleItem('zph-f-cyclone')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/frog.png" 
+                            class="item" 
+                            id="zph-f-frog"
+                            data-max="6"
+                            data-name="0"
+                            onclick="toggleItem('zph-f-frog')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/freebie.png" 
+                            class="item" 
+                            id="zph-f-freebie"
+                            onclick="toggleItem('zph-f-freebie')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/compliment.png" 
+                            class="item" 
+                            id="zph-f-compliment"
+                            onclick="toggleItem('zph-f-compliment')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/ary.png" 
+                            class="item" 
+                            id="zph-f-ary"
+                            onclick="toggleItem('zph-f-ary')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/prize.png" 
+                            class="item" 
+                            id="zph-f-prize"
+                            onclick="toggleItem('zph-f-prize')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/jolene.png" 
+                            class="item" 
+                            id="zph-f-jolene"
+                            onclick="toggleItem('zph-f-jolene')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/invisible.png" 
+                            class="item" 
+                            id="zph-f-invisible"
+                            data-levels="images/ZeldaPH/invisible.png,images/ZeldaPH/kaleidoscope.png,images/ZeldaPH/notebook.png,images/ZeldaPH/wood.png,images/ZeldaPH/swordsman.png"
+                            onclick="toggleItem('zph-f-invisible')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/sand.png" 
+                            class="item" 
+                            id="zph-f-sand"
+                            data-max="8"
+                            data-name="0"
+                            onclick="toggleItem('zph-f-sand')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/treasure.png" 
+                            class="item" 
+                            id="zph-f-treasure"
+                            data-max="31"
+                            data-name="0"
+                            onclick="toggleItem('zph-f-treasure')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/sea.png" 
+                            class="item" 
+                            id="zph-f-sea"
+                            onclick="toggleItem('zph-f-sea')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/fee.png" 
+                            class="item" 
+                            id="zph-f-fee"
+                            onclick="toggleItem('zph-f-fee')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/fee2.png" 
+                            class="item" 
+                            id="zph-f-fee2"
+                            onclick="toggleItem('zph-f-fee2')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/fee3.png" 
+                            class="item" 
+                            id="zph-f-fee3"
+                            onclick="toggleItem('zph-f-fee3')">
+                        </div>
+
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/courage.png" 
+                            class="item" 
+                            id="zph-f-courage"
+                            data-max="20"
+                            data-name="0"
+                            onclick="toggleItem('zph-f-courage')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/power.png" 
+                            class="item" 
+                            id="zph-f-power"
+                            data-max="20"
+                            data-name="0"
+                            onclick="toggleItem('zph-f-power')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/wisdom.png" 
+                            class="item" 
+                            id="zph-f-wisdom"
+                            data-max="20"
+                            data-name="0"
+                            onclick="toggleItem('zph-f-wisdom')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/red.png" 
+                                class="item" 
+                                id="zph-f-potion" 
+                                data-default-img="images/ZeldaPH/red.png"
+                                onclick="openItemPopup(event, 'modal-potion')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/red.png" 
+                                class="item" 
+                                id="zph-f-potion2" 
+                                data-default-img="images/ZeldaPH/red.png"
+                                onclick="openItemPopup(event, 'modal-potion')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/combat.png" 
+                            class="item" 
+                            id="zph-f-combat"
+                            data-max="16"
+                            data-name="0"
+                            onclick="toggleItem('zph-f-combat')">
+                            <p class="item-name">0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-column">
+                <div class="inventory-section">
+                    <h2 class="section-title">Trésore</h2>
+                    <div class="inventory-card purple-card"> 
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaPH/coral.png" class="item" id="zph-f-coral" onclick="toggleItem('zph-f-coral')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaPH/pearl.png" class="item" id="zph-f-pearl" onclick="toggleItem('zph-f-pearl')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaPH/dark.png" class="item" id="zph-f-dark" onclick="toggleItem('zph-f-dark')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaPH/zora.png" class="item" id="zph-f-zora" onclick="toggleItem('zph-f-zora')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaPH/goron.png" class="item" id="zph-f-goron" onclick="toggleItem('zph-f-goron')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaPH/ruto.png" class="item" id="zph-f-ruto" onclick="toggleItem('zph-f-ruto')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaPH/helmaroc.png" class="item" id="zph-f-helmaroc" onclick="toggleItem('zph-f-helmaroc')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaPH/regalking.png" class="item" id="zph-f-regalking" onclick="toggleItem('zph-f-regalking')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inventory-section">
+                    <h2 class="section-title">Poisson</h2>
+                    <div class="inventory-card green-card"> 
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaPH/fish.png" class="item" id="zph-f-fish" onclick="toggleItem('zph-f-fish')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaPH/fish2.png" class="item" id="zph-f-fish2" onclick="toggleItem('zph-f-fish2')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaPH/fish3.png" class="item" id="zph-f-fish3" onclick="toggleItem('zph-f-fish3')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaPH/fish4.png" class="item" id="zph-f-fish4" onclick="toggleItem('zph-f-fish4')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaPH/fish5.png" class="item" id="zph-f-fish5" onclick="toggleItem('zph-f-fish5')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaPH/fish6.png" class="item" id="zph-f-fish6" onclick="toggleItem('zph-f-fish6')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Bellum</h2>
+                <div class="inventory-card dark-card">
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/bellum.png" class="item boss-item" id="zph-f-bellum" onclick="toggleItem('zph-f-bellum')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-section">
+            <h2 class="section-title">Progression Map</h2>
+            <div class="inventory-card blue-card"> 
+                <div class="tracker-grid">
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D1</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/key.png" class="item" id="zph-f-key1" data-max="3" data-name="0" onclick="toggleItem('zph-f-key1')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/boss.png" class="item" id="zph-f-boss1" onclick="toggleItem('zph-f-boss1')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D2</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/key.png" class="item" id="zph-f-key2" data-max="2" data-name="0" onclick="toggleItem('zph-f-key2')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/boss.png" class="item" id="zph-f-boss2" onclick="toggleItem('zph-f-boss2')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D3</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/key.png" class="item" id="zph-f-key3" data-max="2" data-name="0" onclick="toggleItem('zph-f-key3')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/boss.png" class="item" id="zph-f-boss3" onclick="toggleItem('zph-f-boss3')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D4</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/key.png" class="item" id="zph-f-key4" data-max="2" data-name="0" onclick="toggleItem('zph-f-key4')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/boss.png" class="item" id="zph-f-boss4" onclick="toggleItem('zph-f-boss4')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D5</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/key.png" class="item" id="zph-f-key5" data-max="1" data-name="0" onclick="toggleItem('zph-f-key5')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/boss.png" class="item" id="zph-f-boss5" onclick="toggleItem('zph-f-boss5')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D6</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/key.png" class="item" id="zph-f-key6" data-max="2" data-name="0" onclick="toggleItem('zph-f-key6')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/boss.png" class="item" id="zph-f-boss6" onclick="toggleItem('zph-f-boss6')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D7</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/key.png" class="item" id="zph-f-key7" data-max="3" data-name="0" onclick="toggleItem('zph-f-key7')"><p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaPH/boss.png" class="item" id="zph-f-boss7" onclick="toggleItem('zph-f-boss7')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="modal-potion" class="modal">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <h3 class="section-title">Choisir la potion</h3>
+            <div class="tracker-grid">
+                <img src="../images/ZeldaPH/red.png" class="item active" onclick="selectPopupItem(this.src, 'modal-potion')">
+                <img src="../images/ZeldaPH/yellow.png" class="item active" onclick="selectPopupItem(this.src, 'modal-potion')">
+                <img src="../images/ZeldaPH/purple.png" class="item active" onclick="selectPopupItem(this.src, 'modal-potion')">
+            </div>
+        </div>
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>

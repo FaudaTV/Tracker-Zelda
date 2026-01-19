@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - Zelda OOT 3D First Quest</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="oot3D.html" class="back-link">← Retour</a>
+        <h1 class="main-title">FIRST QUEST - ITEMS</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="inventory-row split-3-columns">
+            <div class="inventory-section">
+                <h2 class="section-title">Équipement</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/kokiri.png" 
+                                class="item" 
+                                id="zoot3D-f-kokiri" 
+                                onclick="toggleItem('zoot3D-f-kokiri')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/deku.png" 
+                                class="item" 
+                                id="zoot3D-f-shield" 
+                                onclick="toggleItem('zoot3D-f-shield')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/slingshot.png" 
+                                class="item" 
+                                id="zoot3D-f-lancepierre" 
+                                onclick="toggleItem('zoot3D-f-lancepierre')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/bracelet.png" 
+                                class="item" 
+                                id="zoot3D-f-bracelet"  
+                                onclick="toggleItem('zoot3D-f-bracelet')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/boomerang.png" 
+                            class="item" 
+                            id="zoot3D-f-boomerang" 
+                            onclick="toggleItem('zoot3D-f-boomerang')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/arc.png" 
+                            class="item" 
+                            id="zoot3D-f-arc" 
+                            onclick="toggleItem('zoot3D-f-arc')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/bomb_bag.png" 
+                            class="item" 
+                            id="zoot3D-f-bomb_bag" 
+                            data-levels="images/ZeldaOOT3D/bomb_bag.png,images/ZeldaOOT3D/bomb_bag2.png,images/ZeldaOOT3D/bomb_bag3.png" 
+                            onclick="toggleItem('zoot3D-f-bomb_bag')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/din.png" 
+                            class="item" 
+                            id="zoot3D-f-din"  
+                            onclick="toggleItem('zoot3D-f-din')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/farore.png" 
+                            class="item" 
+                            id="zoot3D-f-farore" 
+                            onclick="toggleItem('zoot3D-f-farore')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/nayru.png" 
+                            class="item" 
+                            id="zoot3D-f-nayru" 
+                            onclick="toggleItem('zoot3D-f-nayru')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/fire_arrow.png" 
+                            class="item" 
+                            id="zoot3D-f-fire_arrow" 
+                            onclick="toggleItem('zoot3D-f-fire_arrow')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/ice_arrow.png" 
+                            class="item" 
+                            id="zoot3D-f-ice_arrow" 
+                            onclick="toggleItem('zoot3D-f-ice_arrow')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/light_arrow.png" 
+                            class="item" 
+                            id="zoot3D-f-light_arrow" 
+                            onclick="toggleItem('zoot3D-f-light_arrow')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/goron.png" 
+                            class="item" 
+                            id="zoot3D-f-goron" 
+                            onclick="toggleItem('zoot3D-f-goron')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/zora.png" 
+                            class="item" 
+                            id="zoot3D-f-zora" 
+                            onclick="toggleItem('zoot3D-f-zora')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/hookshot.png" 
+                            class="item" 
+                            id="zoot3D-f-hookshot" 
+                            data-levels="images/ZeldaOOT3D/hookshot.png,images/ZeldaOOT3D/hookshot2.png" 
+                            onclick="toggleItem('zoot3D-f-hookshot')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/iron.png" 
+                            class="item" 
+                            id="zoot3D-f-iron" 
+                            onclick="toggleItem('zoot3D-f-iron')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/hover.png" 
+                            class="item" 
+                            id="zoot3D-f-hover" 
+                            onclick="toggleItem('zoot3D-f-hover')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/scale.png" 
+                            class="item" 
+                            id="zoot3D-f-scale" 
+                            data-levels="images/ZeldaOOT3D/scale.png,images/ZeldaOOT3D/scale2.png" 
+                            onclick="toggleItem('zoot3D-f-scale')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/quiver.png" 
+                            class="item" 
+                            id="zoot3D-f-quiver" 
+                            data-levels="images/ZeldaOOT3D/quiver.png,images/ZeldaOOT3D/quiver2.png,images/ZeldaOOT3D/quiver3.png" 
+                            onclick="toggleItem('zoot3D-f-quiver')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/ocarina.png" 
+                            class="item" 
+                            id="zoot3D-f-ocarina" 
+                            data-levels="images/ZeldaOOT3D/ocarina.png,images/ZeldaOOT3D/ocarina2.png" 
+                            onclick="toggleItem('zoot3D-f-ocarina')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/monocle.png" 
+                            class="item" 
+                            id="zoot3D-f-monocle" 
+                            onclick="toggleItem('zoot3D-f-monocle')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/gauntlets.png" 
+                            class="item" 
+                            id="zoot3D-f-gauntlets" 
+                            data-levels="images/ZeldaOOT3D/gauntlets.png,images/ZeldaOOT3D/gauntlets2.png" 
+                            onclick="toggleItem('zoot3D-f-gauntlets')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/wallet.png" 
+                            class="item" 
+                            id="zoot3D-f-wallet" 
+                            data-levels="images/ZeldaOOT3D/wallet.png,images/ZeldaOOT3D/wallet2.png,images/ZeldaOOT3D/wallet3.png" 
+                            onclick="toggleItem('zoot3D-f-wallet')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/hylian.png" 
+                            class="item" 
+                            id="zoot3D-f-hylian" 
+                            onclick="toggleItem('zoot3D-f-hylian')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/mirror.png" 
+                            class="item" 
+                            id="zoot3D-f-mirror" 
+                            onclick="toggleItem('zoot3D-f-mirror')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/bullet.png" 
+                            class="item" 
+                            id="zoot3D-f-bullet" 
+                            data-levels="images/ZeldaOOT3D/bullet.png,images/ZeldaOOT3D/bullet2.png,images/ZeldaOOT3D/bullet3.png" 
+                            onclick="toggleItem('zoot3D-f-bullet')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/bottle_poe_big.png" 
+                            class="item" 
+                            id="zoot3D-f-bottle_poe_big"  
+                            data-max="10"
+                            data-name="0"
+                            onclick="toggleItem('zoot3D-f-bottle_poe_big')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/bottle.png" 
+                            class="item" 
+                            id="zoot3D-f-bottle" 
+                            data-max="4"
+                            data-name="0"
+                            onclick="toggleItem('zoot3D-f-bottle')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/echange.png" 
+                            class="item" 
+                            id="zoot3D-f-echange" 
+                            data-levels="images/ZeldaOOT3D/echange.png,images/ZeldaOOT3D/echange2.png,images/ZeldaOOT3D/echange3.png,images/ZeldaOOT3D/echange4.png,images/ZeldaOOT3D/echange5.png,images/ZeldaOOT3D/echange6.png,images/ZeldaOOT3D/echange7.png,images/ZeldaOOT3D/echange8.png,images/ZeldaOOT3D/echange9.png,images/ZeldaOOT3D/echange10.png,images/ZeldaOOT3D/echange11.png"
+                            onclick="toggleItem('zoot3D-f-echange')">
+                        </div>
+                        
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/biggoron.png" 
+                            class="item" 
+                            id="zoot3D-f-biggoron" 
+                            onclick="toggleItem('zoot3D-f-biggoron')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/heart.png" 
+                            class="item" 
+                            id="zoot3D-f-heart"  
+                            data-max="36"
+                            data-name="0"
+                            onclick="toggleItem('zoot3D-f-heart')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/full_heart.png" 
+                            class="item" 
+                            id="zoot3D-f-full_heart"  
+                            data-max="8"
+                            data-name="0"
+                            onclick="toggleItem('zoot3D-f-full_heart')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/stone.png" 
+                            class="item" 
+                            id="zoot3D-f-stone" 
+                            onclick="toggleItem('zoot3D-f-stone')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/double.png" 
+                            class="item" 
+                            id="zoot3D-f-double" 
+                            onclick="toggleItem('zoot3D-f-double')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/skultula.png" 
+                            class="item" 
+                            id="zoot3D-f-skultula"  
+                            data-max="100"
+                            data-name="0"
+                            onclick="toggleItem('zoot3D-f-skultula')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/hammer.png" 
+                            class="item" 
+                            id="zoot3D-f-hammer" 
+                            onclick="toggleItem('zoot3D-f-hammer')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/haricot.png" 
+                            class="item" 
+                            id="zoot3D-f-haricot" 
+                            onclick="toggleItem('zoot3D-f-haricot')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/bombchu.png" 
+                            class="item" 
+                            id="zoot3D-f-bombchu" 
+                            onclick="toggleItem('zoot3D-f-bombchu')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/magic.png" 
+                            class="item" 
+                            id="zoot3D-f-magic" 
+                            data-levels="images/ZeldaOOT3D/magic.png,images/ZeldaOOT3D/magic2.png" 
+                            onclick="toggleItem('zoot3D-f-magic')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/master_sword.png" 
+                            class="item" 
+                            id="zoot3D-f-master_sword" 
+                            onclick="toggleItem('zoot3D-f-master_sword')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/bomb.png" 
+                            class="item" 
+                            id="zoot3D-f-bomb" 
+                            onclick="toggleItem('zoot3D-f-bomb')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/baton.png" 
+                            class="item" 
+                            id="zoot3D-f-baton"
+                            data-levels="images/ZeldaOOT3D/baton.png,images/ZeldaOOT3D/baton2.png,images/ZeldaOOT3D/baton3.png"
+                            onclick="toggleItem('zoot3D-f-baton')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/noix.png" 
+                            class="item" 
+                            id="zoot3D-f-noix"
+                            data-levels="images/ZeldaOOT3D/noix.png,images/ZeldaOOT3D/noix2.png,images/ZeldaOOT3D/noix3.png"
+                            onclick="toggleItem('zoot3D-f-noix')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/botte.png" 
+                            class="item" 
+                            id="zoot3D-f-botte" 
+                            onclick="toggleItem('zoot3D-f-botte')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/green.png" 
+                            class="item" 
+                            id="zoot3D-f-green" 
+                            onclick="toggleItem('zoot3D-f-green')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/spin.png" 
+                            class="item" 
+                            id="zoot3D-f-spin" 
+                            onclick="toggleItem('zoot3D-f-spin')">
+                        </div>
+                        
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/cow.png" 
+                            class="item" 
+                            id="zoot3D-f-cow" 
+                            onclick="toggleItem('zoot3D-f-cow')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/brother.png" 
+                            class="item" 
+                            id="zoot3D-f-brother" 
+                            onclick="toggleItem('zoot3D-f-brother')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/brother2.png" 
+                            class="item" 
+                            id="zoot3D-f-brother2" 
+                            onclick="toggleItem('zoot3D-f-brother2')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/boss.png" 
+                            class="item" 
+                            id="zoot3D-f-boss"
+                            data-levels="images/ZeldaOOT3D/boss.png,images/ZeldaOOT3D/boss2.png,images/ZeldaOOT3D/boss3.png,images/ZeldaOOT3D/boss4.png,images/ZeldaOOT3D/boss5.png,images/ZeldaOOT3D/boss6.png,images/ZeldaOOT3D/boss7.png,images/ZeldaOOT3D/boss8.png,images/ZeldaOOT3D/gauntlet.png"
+                            onclick="toggleItem('zoot3D-f-boss')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-column">
+                <div class="inventory-section">
+                    <h2 class="section-title">Son</h2>
+                    <div class="inventory-card purple-card"> 
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/zelda_song.png" class="item" id="zoot3D-f-zelda_song" onclick="toggleItem('zoot3D-f-zelda_song')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/saria_song.png" class="item" id="zoot3D-f-saria_song" onclick="toggleItem('zoot3D-f-saria_song')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/epona_song.png" class="item" id="zoot3D-f-epona_song" onclick="toggleItem('zoot3D-f-epona_song')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/sun_song.png" class="item" id="zoot3D-f-sun_song" onclick="toggleItem('zoot3D-f-sun_song')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/time_song.png" class="item" id="zoot3D-f-time_song" onclick="toggleItem('zoot3D-f-time_song')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/storm_song.png" class="item" id="zoot3D-f-storm_song" onclick="toggleItem('zoot3D-f-storm_song')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/epouvantail.png" class="item" id="zoot3D-f-epouvantail" onclick="toggleItem('zoot3D-f-epouvantail')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/menuet_song.png" class="item" id="zoot3D-f-menuet_song" onclick="toggleItem('zoot3D-f-menuet_song')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/bolero_song.png" class="item" id="zoot3D-f-bolero_song" onclick="toggleItem('zoot3D-f-bolero_song')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/serenade_song.png" class="item" id="zoot3D-f-serenade_song" onclick="toggleItem('zoot3D-f-serenade_song')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/requiem_song.png" class="item" id="zoot3D-f-requiem_song" onclick="toggleItem('zoot3D-f-requiem_song')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/nocturne_song.png" class="item" id="zoot3D-f-nocturne_song" onclick="toggleItem('zoot3D-f-nocturne_song')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/prelude_song.png" class="item" id="zoot3D-f-prelude_song" onclick="toggleItem('zoot3D-f-prelude_song')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inventory-section">
+                    <h2 class="section-title">Accessoire</h2>
+                    <div class="inventory-card red-card"> 
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/echange.png" class="item" id="zoot3D-f-oeuf" onclick="toggleItem('zoot3D-f-oeuf')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/echange2.png" class="item" id="zoot3D-f-poule" onclick="toggleItem('zoot3D-f-poule')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/lettre.png" class="item" id="zoot3D-f-lettre" onclick="toggleItem('zoot3D-f-lettre')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/renard.png" class="item" id="zoot3D-f-renard" onclick="toggleItem('zoot3D-f-renard')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/mort.png" class="item" id="zoot3D-f-mort" onclick="toggleItem('zoot3D-f-mort')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/effroi.png" class="item" id="zoot3D-f-effroi" onclick="toggleItem('zoot3D-f-effroi')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/lapin.png" class="item" id="zoot3D-f-lapin" onclick="toggleItem('zoot3D-f-lapin')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/masque_gerudo.png" class="item" id="zoot3D-f-masque_gerudo" onclick="toggleItem('zoot3D-f-masque_gerudo')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/masque_goron.png" class="item" id="zoot3D-f-masque_goron" onclick="toggleItem('zoot3D-f-masque_goron')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/masque_zora.png" class="item" id="zoot3D-f-masque_zora" onclick="toggleItem('zoot3D-f-masque_zora')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/verite.png" class="item" id="zoot3D-f-verite" onclick="toggleItem('zoot3D-f-verite')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-column">
+                <div class="inventory-section">
+                    <h2 class="section-title">Médaillon</h2>
+                    <div class="inventory-card green-card"> 
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/emeraude.png" class="item" id="zoot3D-f-emeraude" onclick="toggleItem('zoot3D-f-emeraude')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/rubis.png" class="item" id="zoot3D-f-rubis" onclick="toggleItem('zoot3D-f-rubis')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/saphire.png" class="item" id="zoot3D-f-saphire" onclick="toggleItem('zoot3D-f-saphire')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/lumiere.png" class="item" id="zoot3D-f-lumiere" onclick="toggleItem('zoot3D-f-lumiere')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/foret.png" class="item" id="zoot3D-f-foret" onclick="toggleItem('zoot3D-f-foret')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/feu.png" class="item" id="zoot3D-f-feu" onclick="toggleItem('zoot3D-f-feu')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/eau.png" class="item" id="zoot3D-f-eau" onclick="toggleItem('zoot3D-f-eau')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/ombre.png" class="item" id="zoot3D-f-ombre" onclick="toggleItem('zoot3D-f-ombre')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/esprit.png" class="item" id="zoot3D-f-esprit" onclick="toggleItem('zoot3D-f-esprit')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inventory-section">
+                    <h2 class="section-title">Ganon</h2>
+                    <div class="inventory-card dark-card">
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOT3D/ganon.png" class="item boss-item" id="zoot3D-f-ganon" onclick="toggleItem('zoot3D-f-ganon')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-section">
+            <h2 class="section-title">Progression Map</h2>
+            <div class="inventory-card blue-card"> 
+                <div class="tracker-grid dungeon-grid">
+                    
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D1</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/map.png" class="item" id="zoot3D-f-map1" onclick="toggleItem('zoot3D-f-map1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/compass.png" class="item" id="zoot3D-f-cp1" onclick="toggleItem('zoot3D-f-cp1')">
+                        </div>
+                    </div>
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D2</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/map.png" class="item" id="zoot3D-f-map2" onclick="toggleItem('zoot3D-f-map2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/compass.png" class="item" id="zoot3D-f-cp2" onclick="toggleItem('zoot3D-f-cp2')">
+                        </div>
+                    </div>
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D3</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/map.png" class="item" id="zoot3D-f-map3" onclick="toggleItem('zoot3D-f-map3')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/compass.png" class="item" id="zoot3D-f-cp3" onclick="toggleItem('zoot3D-f-cp3')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D4</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/map.png" class="item" id="zoot3D-f-map4" onclick="toggleItem('zoot3D-f-map4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/compass.png" class="item" id="zoot3D-f-cp4" onclick="toggleItem('zoot3D-f-cp4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/key.png" class="item" id="zoot3D-f-key4" onclick="toggleItem('zoot3D-f-key4')" data-max="5" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/boss_key.png" class="item" id="zoot3D-f-boss4" onclick="toggleItem('zoot3D-f-boss4')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D5</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/map.png" class="item" id="zoot3D-f-map5" onclick="toggleItem('zoot3D-f-map5')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/compass.png" class="item" id="zoot3D-f-cp5" onclick="toggleItem('zoot3D-f-cp5')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/key.png" class="item" id="zoot3D-f-key5" onclick="toggleItem('zoot3D-f-key5')" data-max="8" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/boss_key.png" class="item" id="zoot3D-f-boss5" onclick="toggleItem('zoot3D-f-boss5')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D6</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/map.png" class="item" id="zoot3D-f-map6" onclick="toggleItem('zoot3D-f-map6')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/compass.png" class="item" id="zoot3D-f-cp6" onclick="toggleItem('zoot3D-f-cp6')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/key.png" class="item" id="zoot3D-f-key6" onclick="toggleItem('zoot3D-f-key6')" data-max="6" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/boss_key.png" class="item" id="zoot3D-f-boss6" onclick="toggleItem('zoot3D-f-boss6')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D7</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/map.png" class="item" id="zoot3D-f-map7" onclick="toggleItem('zoot3D-f-map7')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/compass.png" class="item" id="zoot3D-f-cp7" onclick="toggleItem('zoot3D-f-cp7')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/key.png" class="item" id="zoot3D-f-key7" onclick="toggleItem('zoot3D-f-key7')" data-max="5" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/boss_key.png" class="item" id="zoot3D-f-boss7" onclick="toggleItem('zoot3D-f-boss7')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D8</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/map.png" class="item" id="zoot3D-f-map8" onclick="toggleItem('zoot3D-f-map8')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/compass.png" class="item" id="zoot3D-f-cp8" onclick="toggleItem('zoot3D-f-cp8')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/key.png" class="item" id="zoot3D-f-key8" onclick="toggleItem('zoot3D-f-key8')" data-max="5" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/boss_key.png" class="item" id="zoot3D-f-boss8" onclick="toggleItem('zoot3D-f-boss8')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">Puit</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/key.png" class="item" id="zoot3D-f-key9" onclick="toggleItem('zoot3D-f-key9')" data-max="3" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">Forteresse Gerudo</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/key.png" class="item" id="zoot3D-f-key10" onclick="toggleItem('zoot3D-f-key10')" data-max="4" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/gerudo.png" class="item" id="zoot3D-f-gerudo10" onclick="toggleItem('zoot3D-f-gerudo10')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">Gymnase Gerudo</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/key.png" class="item" id="zoot3D-f-key11" onclick="toggleItem('zoot3D-f-key11')" data-max="9" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D9</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/map.png" class="item" id="zoot3D-f-map12" onclick="toggleItem('zoot3D-f-map12')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/compass.png" class="item" id="zoot3D-f-cp12" onclick="toggleItem('zoot3D-f-cp12')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/key.png" class="item" id="zoot3D-f-key12" onclick="toggleItem('zoot3D-f-key12')" data-max="2" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOT3D/boss_key.png" class="item" id="zoot3D-f-boss12" onclick="toggleItem('zoot3D-f-boss12')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

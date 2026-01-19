@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - Zelda FSA</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="../index.html" class="back-link">← Retour</a>
+        <h1 class="main-title">Zelda FSA - ITEMS</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="inventory-row split-2-columns">
+            <div class="inventory-section">
+                <h2 class="section-title">Équipement</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/blue.png" 
+                            class="item" 
+                            id="zfsa-f-blue"
+                            onclick="toggleItem('zfsa-f-blue')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/yellow.png" 
+                            class="item" 
+                            id="zfsa-f-yellow"
+                            onclick="toggleItem('zfsa-f-yellow')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/green.png" 
+                            class="item" 
+                            id="zfsa-f-green"
+                            onclick="toggleItem('zfsa-f-green')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/white.png" 
+                            class="item" 
+                            id="zfsa-f-white"
+                            onclick="toggleItem('zfsa-f-white')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/red.png" 
+                            class="item" 
+                            id="zfsa-f-red"
+                            onclick="toggleItem('zfsa-f-red')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/purple.png" 
+                            class="item" 
+                            id="zfsa-f-purple"
+                            onclick="toggleItem('zfsa-f-purple')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/zelda.png" 
+                            class="item" 
+                            id="zfsa-f-zelda"
+                            onclick="toggleItem('zfsa-f-zelda')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/link.png" 
+                            class="item" 
+                            id="zfsa-f-link"
+                            onclick="toggleItem('zfsa-f-link')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/shadow.png" 
+                            class="item" 
+                            id="zfsa-f-shadow"
+                            data-max="10"
+                            data-name="0"
+                            onclick="toggleItem('zfsa-f-shadow')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/tingle.png" 
+                            class="item" 
+                            id="zfsa-f-tingle"
+                            data-max="8"
+                            data-name="0"
+                            onclick="toggleItem('zfsa-f-tingle')">
+                            <p class="item-name">0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Ganon</h2>
+                <div class="inventory-card dark-card">
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/ganon.png" class="item boss-item" id="zfsa-f-ganon" onclick="toggleItem('zfsa-f-ganon')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-section">
+            <h2 class="section-title">Progression Zone</h2>
+            <div class="inventory-card blue-card"> 
+                <div class="tracker-grid">
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">Z1</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem1-1" onclick="toggleItem('zfsa-f-gem1-1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem1-2" onclick="toggleItem('zfsa-f-gem1-2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem1-3" onclick="toggleItem('zfsa-f-gem1-3')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">Z2</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem2-1" onclick="toggleItem('zfsa-f-gem2-1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem2-2" onclick="toggleItem('zfsa-f-gem2-2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem2-3" onclick="toggleItem('zfsa-f-gem2-3')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">Z3</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem3-1" onclick="toggleItem('zfsa-f-gem3-1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem3-2" onclick="toggleItem('zfsa-f-gem3-2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem3-3" onclick="toggleItem('zfsa-f-gem3-3')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">Z4</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem4-1" onclick="toggleItem('zfsa-f-gem4-1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem4-2" onclick="toggleItem('zfsa-f-gem4-2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem4-3" onclick="toggleItem('zfsa-f-gem4-3')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">Z5</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem5-1" onclick="toggleItem('zfsa-f-gem5-1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem5-2" onclick="toggleItem('zfsa-f-gem5-2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem5-3" onclick="toggleItem('zfsa-f-gem5-3')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">Z6</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem6-1" onclick="toggleItem('zfsa-f-gem6-1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem6-2" onclick="toggleItem('zfsa-f-gem6-2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem6-3" onclick="toggleItem('zfsa-f-gem6-3')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">Z7</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem7-1" onclick="toggleItem('zfsa-f-gem7-1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem7-2" onclick="toggleItem('zfsa-f-gem7-2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem7-3" onclick="toggleItem('zfsa-f-gem7-3')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">Z8</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem8-1" onclick="toggleItem('zfsa-f-gem8-1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem8-2" onclick="toggleItem('zfsa-f-gem8-2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaFSA/gem.png" class="item" id="zfsa-f-gem8-3" onclick="toggleItem('zfsa-f-gem8-3')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - Zelda OOS Hero Quest</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="oos.html" class="back-link">← Retour</a>
+        <h1 class="main-title">HERO QUEST - ITEMS</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="inventory-row split-3-columns">
+            <div class="inventory-section">
+                <h2 class="section-title">Équipement</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/sword.png" 
+                                class="item" 
+                                id="zoos-f-3-sword" 
+                                data-levels="images/ZeldaOOS/sword.png,images/ZeldaOOS/sword2.png" 
+                                onclick="toggleItem('zoos-f-3-sword')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/shield.png" 
+                                class="item" 
+                                id="zoos-f-3-shield" 
+                                data-levels="images/ZeldaOOS/shield.png,images/ZeldaOOS/shield2.png" 
+                                onclick="toggleItem('zoos-f-3-shield')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/boomerang.png" 
+                                class="item" 
+                                id="zoos-f-3-boomerang" 
+                                data-levels="images/ZeldaOOS/boomerang.png,images/ZeldaOOS/boomerang2.png" 
+                                onclick="toggleItem('zoos-f-3-boomerang')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/bomb.png" 
+                                class="item" 
+                                id="zoos-f-3-bomb"
+                                data-levels="images/ZeldaOOS/bomb.png,images/ZeldaOOS/bomb2.png"
+                            onclick="toggleItem('zoos-f-3-bomb')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/bracelet.png" 
+                                class="item" 
+                                id="zoos-f-3-bracelet"
+                                onclick="toggleItem('zoos-f-3-bracelet')">
+                            </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/cap.png" 
+                            class="item" 
+                            id="zoos-f-3-cap"
+                            data-levels="images/ZeldaOOS/cap.png,images/ZeldaOOS/cap2.png"
+                            onclick="toggleItem('zoos-f-3-cap')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/rod.png" 
+                                class="item" 
+                                id="zoos-f-3-rod" 
+                                onclick="toggleItem('zoos-f-3-rod')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/heart.png" 
+                            class="item" 
+                            id="zoos-f-3-heart"
+                            data-max="12"
+                            data-name="0"
+                            onclick="toggleItem('zoos-f-3-heart')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/seed.png" 
+                            class="item" 
+                            id="zoos-f-3-seed"
+                            data-levels="images/ZeldaOOS/seed.png,images/ZeldaOOS/seed2.png" 
+                            onclick="toggleItem('zoos-f-3-seed')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/slingshot.png" 
+                            class="item" 
+                            id="zoos-f-3-slingshot" 
+                            data-levels="images/ZeldaOOS/slingshot.png,images/ZeldaOOS/slingshot2.png"
+                            onclick="toggleItem('zoos-f-3-slingshot')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/shovel.png" 
+                            class="item" 
+                            id="zoos-f-3-shovel"
+                            onclick="toggleItem('zoos-f-3-shovel')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/potion.png" 
+                            class="item" 
+                            id="zoos-f-3-potion" 
+                            onclick="toggleItem('zoos-f-3-potion')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/glove.png" 
+                            class="item" 
+                            id="zoos-f-3-glove" 
+                            onclick="toggleItem('zoos-f-3-glove')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/member.png" 
+                            class="item" 
+                            id="zoos-f-3-member"
+                            data-levels="images/ZeldaOOS/member.png,images/ZeldaOOS/master.png"
+                            onclick="toggleItem('zoos-f-3-member')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/flipper.png" 
+                            class="item" 
+                            id="zoos-f-3-flipper" 
+                            onclick="toggleItem('zoos-f-3-flipper')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/echange.png" 
+                            class="item" 
+                            id="zoos-f-3-echange" 
+                            data-levels="images/ZeldaOOS/echange.png,images/ZeldaOOS/echange2.png,images/ZeldaOOS/echange3.png,images/ZeldaOOS/echange4.png,images/ZeldaOOS/echange5.png,images/ZeldaOOS/echange6.png,images/ZeldaOOS/echange7.png,images/ZeldaOOS/echange8.png,images/ZeldaOOS/echange9.png,images/ZeldaOOS/echange10.png,images/ZeldaOOS/echange11.png,images/ZeldaOOS/echange12.png"
+                            onclick="toggleItem('zoos-f-3-echange')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/box.png" 
+                            class="item" 
+                            id="zoos-f-3-box"
+                            data-levels="images/ZeldaOOS/box.png,images/ZeldaOOS/box2.png"
+                            onclick="toggleItem('zoos-f-3-box')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/bell.png" 
+                            class="item" 
+                            id="zoos-f-3-bell"
+                            data-levels="images/ZeldaOOS/bell.png,images/ZeldaOOS/bell2.png"
+                            onclick="toggleItem('zoos-f-3-bell')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/banana.png" 
+                            class="item" 
+                            id="zoos-f-3-banana" 
+                            onclick="toggleItem('zoos-f-3-banana')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/dragon.png" 
+                            class="item" 
+                            id="zoos-f-3-dragon" 
+                            onclick="toggleItem('zoos-f-3-dragon')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/floodgate.png" 
+                            class="item" 
+                            id="zoos-f-3-floodgate" 
+                            onclick="toggleItem('zoos-f-3-floodgate')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/gnarled.png" 
+                            class="item" 
+                            id="zoos-f-3-gnarled" 
+                            onclick="toggleItem('zoos-f-3-gnarled')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/maku.png" 
+                            class="item" 
+                            id="zoos-f-3-maku" 
+                            onclick="toggleItem('zoos-f-3-maku')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/ribbon.png" 
+                            class="item" 
+                            id="zoos-f-3-ribbon" 
+                            onclick="toggleItem('zoos-f-3-ribbon')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/ricky_glove.png" 
+                            class="item" 
+                            id="zoos-f-3-ricky_glove" 
+                            onclick="toggleItem('zoos-f-3-ricky_glove')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/treasure_map.png" 
+                            class="item" 
+                            id="zoos-f-3-treasure_map" 
+                            onclick="toggleItem('zoos-f-3-treasure_map')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/ore1.png" 
+                            class="item" 
+                            id="zoos-f-3-ore1" 
+                            onclick="toggleItem('zoos-f-3-ore1')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/ore2.png" 
+                            class="item" 
+                            id="zoos-f-3-ore2" 
+                            onclick="toggleItem('zoos-f-3-ore2')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/ore3.png" 
+                            class="item" 
+                            id="zoos-f-3-ore3" 
+                            onclick="toggleItem('zoos-f-3-ore3')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/ore.png" 
+                            class="item" 
+                            id="zoos-f-3-ore" 
+                            onclick="toggleItem('zoos-f-3-ore')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/round.png" 
+                            class="item" 
+                            id="zoos-f-3-round" 
+                            onclick="toggleItem('zoos-f-3-round')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/square.png" 
+                            class="item" 
+                            id="zoos-f-3-square" 
+                            onclick="toggleItem('zoos-f-3-square')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/pyramid.png" 
+                            class="item" 
+                            id="zoos-f-3-pyramid" 
+                            onclick="toggleItem('zoos-f-3-pyramid')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/x.png" 
+                            class="item" 
+                            id="zoos-f-3-x" 
+                            onclick="toggleItem('zoos-f-3-x')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/full_heart.png" 
+                            class="item" 
+                            id="zoos-f-3-full_heart"
+                            data-max="8"
+                            data-name="0"
+                            onclick="toggleItem('zoos-f-3-full_heart')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/flute.png" 
+                                class="item" 
+                                id="zoos-f-3-flute" 
+                                data-default-img="images/ZeldaOOS/flute.png"
+                                onclick="openItemPopup(event, 'modal-flute')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/spot.png" 
+                            class="item" 
+                            id="zoos-f-3-spot"
+                            data-max="16"
+                            data-name="0"
+                            onclick="toggleItem('zoos-f-3-spot')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/darknut.png" 
+                            class="item" 
+                            id="zoos-f-3-darknut" 
+                            onclick="toggleItem('zoos-f-3-darknut')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/lynel.png" 
+                            class="item" 
+                            id="zoos-f-3-lynel" 
+                            onclick="toggleItem('zoos-f-3-lynel')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/moblin.png" 
+                            class="item" 
+                            id="zoos-f-3-moblin" 
+                            onclick="toggleItem('zoos-f-3-moblin')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/octorok.png" 
+                            class="item" 
+                            id="zoos-f-3-octorok" 
+                            onclick="toggleItem('zoos-f-3-octorok')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/bip.png" 
+                            class="item" 
+                            id="zoos-f-3-bip" 
+                            onclick="toggleItem('zoos-f-3-bip')">
+                        </div>
+                    </div>
+                </div>        
+            </div>
+
+            <div class="inventory-column">
+                <div class="inventory-section">
+                    <h2 class="section-title">Essences</h2>
+                    <div class="inventory-card green-card"> 
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOS/soil.png" class="item" id="zoos-f-3-soil" onclick="toggleItem('zoos-f-3-soil')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOS/time.png" class="item" id="zoos-f-3-time" onclick="toggleItem('zoos-f-3-time')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOS/sun.png" class="item" id="zoos-f-3-sun" onclick="toggleItem('zoos-f-3-sun')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOS/rain.png" class="item" id="zoos-f-3-rain" onclick="toggleItem('zoos-f-3-rain')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOS/warmth.png" class="item" id="zoos-f-3-warmth" onclick="toggleItem('zoos-f-3-warmth')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOS/wind.png" class="item" id="zoos-f-3-wind" onclick="toggleItem('zoos-f-3-wind')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOS/life.png" class="item" id="zoos-f-3-life" onclick="toggleItem('zoos-f-3-life')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOS/season.png" class="item" id="zoos-f-3-season" onclick="toggleItem('zoos-f-3-season')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inventory-section">
+                    <h2 class="section-title">Onox</h2>
+                    <div class="inventory-card dark-card">
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaOOS/onox.png" class="item boss-item" id="zoos-f-3-onox" onclick="toggleItem('zoos-f-3-onox')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-section">
+            <h2 class="section-title">Progression Map</h2>
+            <div class="inventory-card purple-card"> 
+                <div class="tracker-grid">
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D1</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/map.png" class="item" id="zoos-f-3-map1" onclick="toggleItem('zoos-f-3-map1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/compass.png" class="item" id="zoos-f-3-cp1" onclick="toggleItem('zoos-f-3-cp1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/key.png" class="item" id="zoos-f-3-key1" onclick="toggleItem('zoos-f-3-key1')" data-max="3" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/boss.png" class="item" id="zoos-f-3-boss1" onclick="toggleItem('zoos-f-3-boss1')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D2</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/map.png" class="item" id="zoos-f-3-map2" onclick="toggleItem('zoos-f-3-map2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/compass.png" class="item" id="zoos-f-3-cp2" onclick="toggleItem('zoos-f-3-cp2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/key.png" class="item" id="zoos-f-3-key2" onclick="toggleItem('zoos-f-3-key2')" data-max="4" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/boss.png" class="item" id="zoos-f-3-boss2" onclick="toggleItem('zoos-f-3-boss2')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D3</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/map.png" class="item" id="zoos-f-3-map3" onclick="toggleItem('zoos-f-3-map3')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/compass.png" class="item" id="zoos-f-3-cp3" onclick="toggleItem('zoos-f-3-cp3')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/key.png" class="item" id="zoos-f-3-key3" onclick="toggleItem('zoos-f-3-key3')" data-max="2" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/boss.png" class="item" id="zoos-f-3-boss3" onclick="toggleItem('zoos-f-3-boss3')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D4</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/map.png" class="item" id="zoos-f-3-map4" onclick="toggleItem('zoos-f-3-map4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/compass.png" class="item" id="zoos-f-3-cp4" onclick="toggleItem('zoos-f-3-cp4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/key.png" class="item" id="zoos-f-3-key4" onclick="toggleItem('zoos-f-3-key4')" data-max="3" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/boss.png" class="item" id="zoos-f-3-boss4" onclick="toggleItem('zoos-f-3-boss4')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D5</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/map.png" class="item" id="zoos-f-3-map5" onclick="toggleItem('zoos-f-3-map5')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/compass.png" class="item" id="zoos-f-3-cp5" onclick="toggleItem('zoos-f-3-cp5')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/key.png" class="item" id="zoos-f-3-key5" onclick="toggleItem('zoos-f-3-key5')" data-max="5" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/boss.png" class="item" id="zoos-f-3-boss5" onclick="toggleItem('zoos-f-3-boss5')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D6</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/map.png" class="item" id="zoos-f-3-map6" onclick="toggleItem('zoos-f-3-map6')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/compass.png" class="item" id="zoos-f-3-cp6" onclick="toggleItem('zoos-f-3-cp6')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/key.png" class="item" id="zoos-f-3-key6" onclick="toggleItem('zoos-f-3-key6')" data-max="3" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/boss.png" class="item" id="zoos-f-3-boss6" onclick="toggleItem('zoos-f-3-boss6')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D7</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/map.png" class="item" id="zoos-f-3-map7" onclick="toggleItem('zoos-f-3-map7')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/compass.png" class="item" id="zoos-f-3-cp7" onclick="toggleItem('zoos-f-3-cp7')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/key.png" class="item" id="zoos-f-3-key7" onclick="toggleItem('zoos-f-3-key7')" data-max="5" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/boss.png" class="item" id="zoos-f-3-boss7" onclick="toggleItem('zoos-f-3-boss7')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D8</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/map.png" class="item" id="zoos-f-3-map8" onclick="toggleItem('zoos-f-3-map8')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/compass.png" class="item" id="zoos-f-3-cp8" onclick="toggleItem('zoos-f-3-cp8')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/key.png" class="item" id="zoos-f-3-key8" onclick="toggleItem('zoos-f-3-key8')" data-max="2" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaOOS/boss.png" class="item" id="zoos-f-3-boss8" onclick="toggleItem('zoos-f-3-boss8')">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="modal-flute" class="modal">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <h3 class="section-title">Choisir la flute</h3>
+            <div class="tracker-grid">
+                <img src="../images/ZeldaOOS/flute.png" class="item active" onclick="selectPopupItem(this.src, 'modal-flute')">
+                <img src="../images/ZeldaOOS/ricky.png" class="item active" onclick="selectPopupItem(this.src, 'modal-flute')">
+                <img src="../images/ZeldaOOS/dimitri.png" class="item active" onclick="selectPopupItem(this.src, 'modal-flute')">
+                <img src="../images/ZeldaOOS/moosh.png" class="item active" onclick="selectPopupItem(this.src, 'modal-flute')">
+            </div>
+        </div>
+    </div>
+    <script src="../script.js"></script>
+</body>
+</html>
