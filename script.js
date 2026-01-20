@@ -1,13 +1,14 @@
 /**
- * Gère l'activation, les niveaux et les compteurs des items standards.
+ * Gère l'activation, les niveaux, les compteurs et les étoiles des items.
  */
 function toggleItem(id, direction = 1) {
     const item = document.getElementById(id);
+    if (!item) return;
+
     const textElement = item.nextElementSibling; 
     const originalName = item.getAttribute('data-name'); 
     
-    // --- RESET UNIVERSEL POUR LES OBJETS À POPUP (CLIC DROIT) ---
-    // Si l'objet a une sélection enregistrée et qu'on fait un clic droit
+    // --- RESET UNIVERSEL (CLIC DROIT / DIRECTION -1) ---
     if (direction === -1 && localStorage.getItem(id + '-selected')) {
         const defaultImg = item.getAttribute('data-default-img') || item.src;
         item.src = defaultImg;
@@ -16,7 +17,46 @@ function toggleItem(id, direction = 1) {
         return;
     }
 
-    // 1. GESTION DES COMPTEURS (Cœurs, clés, etc.)
+    // 1. GESTION DES ÉTOILES (0 étoile = Arme active, 1-5 = Étoiles visibles)
+    if (item.hasAttribute('data-stars')) {
+        let currentStars = parseInt(item.getAttribute('data-stars') || "-1");
+        const starImg = document.getElementById('star-' + id);
+
+        currentStars += direction;
+
+        // Cycle : -1 (éteint), 0 (allumé sans étoile), 1, 2, 3, 4, 5 étoiles
+        if (currentStars > 5) currentStars = -1;
+        if (currentStars < -1) currentStars = 5;
+
+        item.setAttribute('data-stars', currentStars);
+        localStorage.setItem(id + '-stars', currentStars);
+
+        if (currentStars === -1) {
+            // État éteint
+            item.classList.remove('active');
+            if (starImg) {
+                starImg.classList.remove('visible');
+                starImg.src = "";
+            }
+        } else if (currentStars === 0) {
+            // État allumé mais 0 étoile
+            item.classList.add('active');
+            if (starImg) {
+                starImg.classList.remove('visible');
+                starImg.src = "";
+            }
+        } else {
+            // État allumé avec étoiles (1 à 5)
+            item.classList.add('active');
+            if (starImg) {
+                starImg.src = `../images/HW/star${currentStars}.png`;
+                starImg.classList.add('visible');
+            }
+        }
+        return; 
+    }
+
+    // 2. GESTION DES COMPTEURS (Cœurs, clés, etc.)
     const maxCountAttr = item.getAttribute('data-max');
     if (maxCountAttr) {
         const maxCount = parseInt(maxCountAttr);
@@ -53,7 +93,7 @@ function toggleItem(id, direction = 1) {
         return;
     }
 
-    // 2. GESTION DES NIVEAUX OU ITEMS SIMPLES
+    // 3. GESTION DES NIVEAUX OU ITEMS SIMPLES
     const levelsAttr = item.getAttribute('data-levels');
     const levels = levelsAttr ? levelsAttr.split(',') : [];
     let currentLevel = parseInt(item.getAttribute('data-current-level') || "-1");
@@ -81,13 +121,8 @@ function toggleItem(id, direction = 1) {
 
 // --- LOGIQUE DE POPUP GÉNÉRALISÉE ---
 
-/**
- * Ouvre une popup spécifique à côté de l'élément cliqué.
- */
 function openItemPopup(event, modalId) {
     if(event) event.stopPropagation();
-    
-    // Ferme les autres popups ouvertes
     closeAllPopups();
 
     const modal = document.getElementById(modalId);
@@ -96,26 +131,17 @@ function openItemPopup(event, modalId) {
     const triggerItem = event.currentTarget; 
     const rect = triggerItem.getBoundingClientRect();
     
-    // On lie la popup à l'item déclencheur pour savoir quoi mettre à jour
     modal.setAttribute('data-target-id', triggerItem.id);
-    
-    // Positionnement à droite de l'item
     modal.style.left = (rect.right + 10) + 'px';
     modal.style.top = (rect.top + window.scrollY) + 'px';
     modal.style.display = 'block';
 }
 
-/**
- * Ferme toutes les fenêtres modales/popups.
- */
 function closeAllPopups() {
     const modals = document.querySelectorAll('.modal');
     modals.forEach(m => m.style.display = 'none');
 }
 
-/**
- * Sélectionne un item dans la popup et met à jour l'item parent.
- */
 function selectPopupItem(imgSrc, modalId) {
     const modal = document.getElementById(modalId);
     const targetId = modal.getAttribute('data-target-id');
@@ -124,11 +150,8 @@ function selectPopupItem(imgSrc, modalId) {
     if (targetItem) {
         targetItem.src = imgSrc;
         targetItem.classList.add('active');
-        
-        // Sauvegarde spécifique pour les sélections de popup
         localStorage.setItem(targetId + '-selected', imgSrc);
     }
-    
     closeAllPopups();
 }
 
@@ -138,20 +161,35 @@ window.addEventListener('load', () => {
     const allItems = document.querySelectorAll('.item');
     
     allItems.forEach(item => {
-        // 1. Désactiver le menu contextuel et gérer le clic droit
+        // Clic droit pour décrémenter
         item.addEventListener('contextmenu', (e) => {
             e.preventDefault();
             toggleItem(item.id, -1);
         });
 
-        // 2. Restauration des sélections de popups (ex: animal choisi)
+        // Restauration des sélections de popups
         const savedChoice = localStorage.getItem(item.id + '-selected');
         if (savedChoice) {
             item.src = savedChoice;
             item.classList.add('active');
         }
 
-        // 3. Restauration standard (compteurs et niveaux)
+        // Restauration des ÉTOILES (Armes)
+        if (item.hasAttribute('data-stars')) {
+            const savedStars = localStorage.getItem(item.id + '-stars');
+            if (savedStars !== null && savedStars !== "-1") {
+                item.setAttribute('data-stars', savedStars);
+                item.classList.add('active'); // L'arme est active pour 0, 1, 2, 3, 4, 5
+                
+                const starImg = document.getElementById('star-' + item.id);
+                if (starImg && savedStars !== "0") {
+                    starImg.src = `../images/HW/star${savedStars}.png`;
+                    starImg.classList.add('visible');
+                }
+            }
+        }
+
+        // Restauration standard (compteurs et niveaux)
         const savedValue = localStorage.getItem(item.id);
         const textElement = item.nextElementSibling;
         const maxCountAttr = item.getAttribute('data-max');
@@ -167,26 +205,21 @@ window.addEventListener('load', () => {
                         if (currentCount === parseInt(maxCountAttr)) textElement.classList.add('maxed');
                     }
                 }
-            } else {
-                // Si l'item n'a pas déjà été activé par une sélection de popup
-                if (!savedChoice) {
-                    item.classList.add('active');
-                    item.setAttribute('data-current-level', savedValue);
-                    const levelsAttr = item.getAttribute('data-levels');
-                    if (levelsAttr) {
-                        const levels = levelsAttr.split(',');
-                        const levelIndex = parseInt(savedValue);
-                        if (levels[levelIndex]) item.src = levels[levelIndex];
-                    }
+            } else if (!savedChoice && !item.hasAttribute('data-stars')) {
+                item.classList.add('active');
+                item.setAttribute('data-current-level', savedValue);
+                const levelsAttr = item.getAttribute('data-levels');
+                if (levelsAttr) {
+                    const levels = levelsAttr.split(',');
+                    const levelIndex = parseInt(savedValue);
+                    if (levels[levelIndex]) item.src = levels[levelIndex];
                 }
             }
         }
     });
 });
 
-// Fermeture des popups si on clique n'importe où ailleurs sur la page
 window.addEventListener('click', (event) => {
-    // Si on ne clique pas à l'intérieur d'une popup
     if (!event.target.closest('.modal-content')) {
         closeAllPopups();
     }

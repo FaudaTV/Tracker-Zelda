@@ -309,3 +309,23 @@ main.quest-container {
 .close-btn {
     display: none; /* Plus besoin du bouton annuler, on cliquera ailleurs */
 }
+
+.item-star {
+    position: relative; /* Indispensable pour le placement des étoiles */
+    display: inline-block;
+}
+
+.star-badge {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    width: 30px; /* À ajuster selon la taille de tes icônes */
+    height: 30px;
+    pointer-events: none; /* Pour que le clic passe à travers l'étoile et touche l'arme */
+    display: none; /* Caché par défaut (0 étoile) */
+}
+
+/* Quand l'étoile est active */
+.star-badge.visible {
+    display: block;
+}
