@@ -125,6 +125,10 @@ main.quest-container {
     width: 80%;
 }
 
+.row-full {
+    width: 100%;
+}
+
 /* Les 3 blocs : Equipement / Colonne(Son+Acc) / Médaillon */
 .split-3-columns > .inventory-section, 
 .split-3-columns > .inventory-column {
@@ -171,6 +175,13 @@ main.quest-container {
 .green-card { border-color: #00aa00; background: rgba(10, 50, 10, 0.9); }
 .blue-card { border-color: #0080ff; background: rgba(10, 30, 50, 0.9); }
 .dark-card { border-color: #555555; background: rgba(20, 20, 20, 0.9); }
+.orange-card { border-color: #ff8800; background: rgba(50, 30, 10, 0.9); }
+.brown-card { border-color: #885522; background: rgba(40, 25, 10, 0.9); }
+.pink-card { border-color: #ff55aa; background: rgba(50, 10, 30, 0.9); }
+.white-card { border-color: #ffffff; background: rgba(50, 50, 50, 0.9); }
+.cyan-card { border-color: #00ffff; background: rgba(10, 50, 50, 0.9); }
+.emerald-card { border-color: #00aa88; background: rgba(10, 40, 30, 0.9); }
+.grey-card { border-color: #888888; background: rgba(30, 30, 30, 0.9); }
 
 /* --- GRILLE D'OBJETS --- */
 .tracker-grid {
@@ -242,6 +253,21 @@ main.quest-container {
     margin-bottom: 5px;
 }
 
+.split-column {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vw;
+    align-items: center;
+    margin-left: 0.6vw;
+    margin-right: 0.6vw;
+}
+
+.split-row {
+    display: flex;
+    flex-direction: row;
+    gap: 0.6vw;
+}
+
 /* --- NAVIGATION --- */
 .back-link {
     position: absolute;
@@ -256,6 +282,11 @@ main.quest-container {
 .item.boss-item {
     width: 4vw;  /* Double la taille par rapport aux autres items */
     height: 4vw;
+}
+
+.gros-item {
+    width: 2.5vw;
+    height: 2.5vw;
 }
 
 /* Effet au survol/actif pour Ganon */
@@ -328,4 +359,40 @@ main.quest-container {
 /* Quand l'étoile est active */
 .star-badge.visible {
     display: block;
+}
+
+a.hw-warriors {
+    min-width: 10vw;
+    max-width: 10vw;
+    min-height: 28vh;
+    max-height: 28vh;
+    justify-content: center;
+}
+
+span.hw-warriors {
+    font-size: 0.8vw;
+    font-weight: bold;
+    opacity: 0.5;
+    display: block;
+}
+
+h2.hw-warriors {
+    font-size: 0.6vw;
+}
+
+p.hw-warriors {
+    font-size: 0.5vw;
+}
+
+.hw-illustration {
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    height: auto;
+    width: auto;
+}
+
+.hw-illustration > .active {
+    transform: none;
+    filter: grayscale(0) brightness(1.2);
 }
