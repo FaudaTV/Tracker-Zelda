@@ -410,3 +410,12 @@ p.hw-warriors {
     display: block;     /* Supprime l'espace sous l'image */
     margin: auto;
 }
+
+.invisible-item {
+    opacity: 0;
+}
+
+.map {
+    padding: 2px;
+    border: solid 2px grey;
+}
