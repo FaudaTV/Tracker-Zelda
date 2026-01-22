@@ -392,7 +392,21 @@ p.hw-warriors {
     width: auto;
 }
 
+.hw-ill-im {
+    max-width: 9vw;
+    max-height: 8.25vh;
+}
+
 .hw-illustration > .active {
     transform: none;
     filter: grayscale(0) brightness(1.2);
+}
+
+.hw-image {
+    max-width: 100%;    /* Empêche de déborder à gauche/droite */
+    max-height: 100%;   /* Empêche de déborder en haut/bas */
+    width: auto;        /* Calcule la largeur proportionnellement */
+    height: auto;       /* Calcule la hauteur proportionnellement */
+    display: block;     /* Supprime l'espace sous l'image */
+    margin: auto;
 }
