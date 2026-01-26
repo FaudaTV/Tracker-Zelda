@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - HYRULE WARRIORS LEGENDS - Skull Kid</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="hwl.html" class="back-link">← Retour</a>
+        <h1 class="main-title">HYRULE WARRIORS LEGENDS - Skull Kid</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="inventory-section">
+            <h2 class="section-title">Global</h2>
+            <div class="inventory-card base-card"> 
+                <div class="tracker-grid">
+
+                    <div class="item-wrapper">
+                        <img src="../images/HW/heart.png" 
+                        class="item" 
+                        id="hwl-f-skullkid-heart"
+                        data-max="4"
+                        data-name="0"
+                        onclick="toggleItem('hwl-f-skullkid-heart')">
+                        <p class="item-name">0</p>
+                    </div>
+
+                    <div class="item-wrapper">
+                        <img src="../images/HW/full_heart.png" 
+                        class="item" 
+                        id="hwl-f-skullkid-full_heart"
+                        data-max="49"
+                        data-name="0"
+                        onclick="toggleItem('hwl-f-skullkid-full_heart')">
+                        <p class="item-name">0</p>
+                    </div>
+
+                    <div class="item-wrapper">
+                        <img src="../images/HW/lvl255.png" 
+                        class="item" 
+                        id="hwl-f-skullkid-lvl255"
+                        onclick="toggleItem('hwl-f-skullkid-lvl255')">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-row split-2-columns row-full">
+            <div class="inventory-section">
+                <h2 class="section-title">Costumes</h2>
+                <div class="inventory-card red-card"> 
+                    <div class="tracker-grid">
+                        
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/skullkid1.png" 
+                                    class="item gros-item" 
+                                    id="hwl-f-skullkid-costume1"
+                                    onclick="toggleItem('hwl-f-skullkid-costume1')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/skullkid2.png" 
+                                    class="item gros-item" 
+                                    id="hwl-f-skullkid-costume2"
+                                    onclick="toggleItem('hwl-f-skullkid-costume2')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/skullkid3.png" 
+                                    class="item gros-item" 
+                                    id="hwl-f-skullkid-costume3"
+                                    onclick="toggleItem('hwl-f-skullkid-costume3')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/skullkid4.png" 
+                                    class="item gros-item" 
+                                    id="hwl-f-skullkid-costume4"
+                                    onclick="toggleItem('hwl-f-skullkid-costume4')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/skullkid5.png" 
+                                    class="item gros-item" 
+                                    id="hwl-f-skullkid-costume5"
+                                    onclick="toggleItem('hwl-f-skullkid-costume5')">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Armes</h2>
+                <div class="inventory-card blue-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/skullkid1-1.png" class="item gros-item" id="hwl-f-skullkid-arme11" data-stars="-1" onclick="toggleItem('hwl-f-skullkid-arme11')">
+                                    <img src="" class="star-badge" id="star-hwl-f-skullkid-arme11">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/skullkid1-2.png" class="item gros-item" id="hwl-f-skullkid-arme12" data-stars="-1" onclick="toggleItem('hwl-f-skullkid-arme12')">
+                                    <img src="" class="star-badge" id="star-hwl-f-skullkid-arme12">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/skullkid1-3.png" class="item gros-item" id="hwl-f-skullkid-arme13" data-stars="-1" onclick="toggleItem('hwl-f-skullkid-arme13')">
+                                    <img src="" class="star-badge" id="star-hwl-f-skullkid-arme13">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/skullkid1-3.png" class="item gros-item" id="hwl-f-skullkid-arme14" data-stars="-1" onclick="toggleItem('hwl-f-skullkid-arme14')">
+                                    <img src="" class="star-badge" id="star-hwl-f-skullkid-arme14">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/skullkid1-3.png" class="item gros-item" id="hwl-f-skullkid-arme15" data-stars="-1" onclick="toggleItem('hwl-f-skullkid-arme15')">
+                                    <img src="" class="star-badge" id="star-hwl-f-skullkid-arme15">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Badges</h2>
+                <div class="inventory-card green-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a1.png" 
+                                    class="item" 
+                                    id="hwl-f-skullkid-a1"
+                                    onclick="toggleItem('hwl-f-skullkid-a1')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a2.png" 
+                                    class="item" 
+                                    id="hwl-f-skullkid-a2"
+                                    onclick="toggleItem('hwl-f-skullkid-a2')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a3.png" 
+                                    class="item" 
+                                    id="hwl-f-skullkid-a3"
+                                    onclick="toggleItem('hwl-f-skullkid-a3')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a4.png" class="item" id="hwl-f-skullkid-a4" onclick="toggleItem('hwl-f-skullkid-a4')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a5.png" class="item" id="hwl-f-skullkid-a5" onclick="toggleItem('hwl-f-skullkid-a5')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a6.png" class="item" id="hwl-f-skullkid-a6" onclick="toggleItem('hwl-f-skullkid-a6')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a7.png" class="item" id="hwl-f-skullkid-a7" onclick="toggleItem('hwl-f-skullkid-a7')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a8.png" class="item" id="hwl-f-skullkid-a8" onclick="toggleItem('hwl-f-skullkid-a8')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a9.png" class="item" id="hwl-f-skullkid-a9" onclick="toggleItem('hwl-f-skullkid-a9')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a10.png" class="item" id="hwl-f-skullkid-a10" onclick="toggleItem('hwl-f-skullkid-a10')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a11.png" class="item" id="hwl-f-skullkid-a11" onclick="toggleItem('hwl-f-skullkid-a11')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a12.png" class="item" id="hwl-f-skullkid-a12" onclick="toggleItem('hwl-f-skullkid-a12')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a13.png" class="item" id="hwl-f-skullkid-a13" onclick="toggleItem('hwl-f-skullkid-a13')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a14.png" class="item" id="hwl-f-skullkid-a14" onclick="toggleItem('hwl-f-skullkid-a14')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a15.png" class="item" id="hwl-f-skullkid-a15" onclick="toggleItem('hwl-f-skullkid-a15')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a16.png" class="item" id="hwl-f-skullkid-a16" onclick="toggleItem('hwl-f-skullkid-a16')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a17.png" class="item" id="hwl-f-skullkid-a17" onclick="toggleItem('hwl-f-skullkid-a17')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a18.png" class="item" id="hwl-f-skullkid-a18" onclick="toggleItem('hwl-f-skullkid-a18')">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d1.png" class="item" id="hwl-f-skullkid-d1" onclick="toggleItem('hwl-f-skullkid-d1')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d2.png" class="item" id="hwl-f-skullkid-d2" onclick="toggleItem('hwl-f-skullkid-d2')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d3.png" class="item" id="hwl-f-skullkid-d3" onclick="toggleItem('hwl-f-skullkid-d3')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d4.png" class="item" id="hwl-f-skullkid-d4" onclick="toggleItem('hwl-f-skullkid-d4')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d5.png" class="item" id="hwl-f-skullkid-d5" onclick="toggleItem('hwl-f-skullkid-d5')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d6.png" class="item" id="hwl-f-skullkid-d6" onclick="toggleItem('hwl-f-skullkid-d6')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d7.png" class="item" id="hwl-f-skullkid-d7" onclick="toggleItem('hwl-f-skullkid-d7')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d8.png" class="item" id="hwl-f-skullkid-d8" onclick="toggleItem('hwl-f-skullkid-d8')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d9.png" class="item" id="hwl-f-skullkid-d9" onclick="toggleItem('hwl-f-skullkid-d9')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d10.png" class="item" id="hwl-f-skullkid-d10" onclick="toggleItem('hwl-f-skullkid-d10')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d11.png" class="item" id="hwl-f-skullkid-d11" onclick="toggleItem('hwl-f-skullkid-d11')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d12.png" class="item" id="hwl-f-skullkid-d12" onclick="toggleItem('hwl-f-skullkid-d12')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d13.png" class="item" id="hwl-f-skullkid-d13" onclick="toggleItem('hwl-f-skullkid-d13')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d14.png" class="item" id="hwl-f-skullkid-d14" onclick="toggleItem('hwl-f-skullkid-d14')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d15.png" class="item" id="hwl-f-skullkid-d15" onclick="toggleItem('hwl-f-skullkid-d15')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d16.png" class="item" id="hwl-f-skullkid-d16" onclick="toggleItem('hwl-f-skullkid-d16')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d17.png" class="item" id="hwl-f-skullkid-d17" onclick="toggleItem('hwl-f-skullkid-d17')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d18.png" class="item" id="hwl-f-skullkid-d18" onclick="toggleItem('hwl-f-skullkid-d18')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d19.png" class="item" id="hwl-f-skullkid-d19" onclick="toggleItem('hwl-f-skullkid-d19')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d20.png" class="item" id="hwl-f-skullkid-d20" onclick="toggleItem('hwl-f-skullkid-d20')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d21.png" class="item" id="hwl-f-skullkid-d21" onclick="toggleItem('hwl-f-skullkid-d21')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d22.png" class="item" id="hwl-f-skullkid-d22" onclick="toggleItem('hwl-f-skullkid-d22')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d23.png" class="item" id="hwl-f-skullkid-d23" onclick="toggleItem('hwl-f-skullkid-d23')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d24.png" class="item" id="hwl-f-skullkid-d24" onclick="toggleItem('hwl-f-skullkid-d24')">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s1.png" class="item" id="hwl-f-skullkid-s1" onclick="toggleItem('hwl-f-skullkid-s1')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s2.png" class="item" id="hwl-f-skullkid-s2" onclick="toggleItem('hwl-f-skullkid-s2')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s3.png" class="item" id="hwl-f-skullkid-s3" onclick="toggleItem('hwl-f-skullkid-s3')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s4.png" class="item" id="hwl-f-skullkid-s4" onclick="toggleItem('hwl-f-skullkid-s4')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s5.png" class="item" id="hwl-f-skullkid-s5" onclick="toggleItem('hwl-f-skullkid-s5')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s7.png" class="item" id="hwl-f-skullkid-s7" onclick="toggleItem('hwl-f-skullkid-s7')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s8.png" class="item" id="hwl-f-skullkid-s8" onclick="toggleItem('hwl-f-skullkid-s8')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s10.png" class="item" id="hwl-f-skullkid-s10" onclick="toggleItem('hwl-f-skullkid-s10')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s11.png" class="item" id="hwl-f-skullkid-s11" onclick="toggleItem('hwl-f-skullkid-s11')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s13.png" class="item" id="hwl-f-skullkid-s13" onclick="toggleItem('hwl-f-skullkid-s13')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s14.png" class="item" id="hwl-f-skullkid-s14" onclick="toggleItem('hwl-f-skullkid-s14')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s16.png" class="item" id="hwl-f-skullkid-s16" onclick="toggleItem('hwl-f-skullkid-s16')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s17.png" class="item" id="hwl-f-skullkid-s17" onclick="toggleItem('hwl-f-skullkid-s17')">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

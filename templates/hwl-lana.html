@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - HYRULE WARRIORS LEGENDS - Lana</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="hwl.html" class="back-link">← Retour</a>
+        <h1 class="main-title">HYRULE WARRIORS LEGENDS - Lana</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="inventory-section">
+            <h2 class="section-title">Global</h2>
+            <div class="inventory-card base-card"> 
+                <div class="tracker-grid">
+
+                    <div class="item-wrapper">
+                        <img src="../images/HW/heart.png" 
+                        class="item" 
+                        id="hwl-f-lana-heart"
+                        data-max="8"
+                        data-name="0"
+                        onclick="toggleItem('hwl-f-lana-heart')">
+                        <p class="item-name">0</p>
+                    </div>
+
+                    <div class="item-wrapper">
+                        <img src="../images/HW/full_heart.png" 
+                        class="item" 
+                        id="hwl-f-lana-full_heart"
+                        data-max="48"
+                        data-name="0"
+                        onclick="toggleItem('hwl-f-lana-full_heart')">
+                        <p class="item-name">0</p>
+                    </div>
+
+                    <div class="item-wrapper">
+                        <img src="../images/HW/lvl255.png" 
+                        class="item" 
+                        id="hwl-f-lana-lvl255"
+                        onclick="toggleItem('hwl-f-lana-lvl255')">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-row split-2-columns row-full">
+            <div class="inventory-section">
+                <h2 class="section-title">Costumes</h2>
+                <div class="inventory-card red-card"> 
+                    <div class="tracker-grid">
+                        
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/lana1.png" 
+                                    class="item gros-item" 
+                                    id="hwl-f-lana-costume1"
+                                    onclick="toggleItem('hwl-f-lana-costume1')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/lana2.png" 
+                                    class="item gros-item"
+                                    id="hwl-f-lana-costume2"
+                                    onclick="toggleItem('hwl-f-lana-costume2')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/lana3.png" 
+                                    class="item gros-item" 
+                                    id="hwl-f-lana-costume3"
+                                    onclick="toggleItem('hwl-f-lana-costume3')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/lana4.png" 
+                                    class="item gros-item" 
+                                    id="hwl-f-lana-costume4"
+                                    onclick="toggleItem('hwl-f-lana-costume4')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/lana5.png" 
+                                    class="item gros-item" 
+                                    id="hwl-f-lana-costume5"
+                                    onclick="toggleItem('hwl-f-lana-costume5')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/lana6.png" 
+                                    class="item gros-item" 
+                                    id="hwl-f-lana-costume6"
+                                    onclick="toggleItem('hwl-f-lana-costume6')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/lana7.png" 
+                                    class="item gros-item" 
+                                    id="hwl-f-lana-costume7"
+                                    onclick="toggleItem('hwl-f-lana-costume7')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/lana8.png" 
+                                    class="item gros-item" 
+                                    id="hwl-f-lana-costume8"
+                                    onclick="toggleItem('hwl-f-lana-costume8')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/lana9.png" 
+                                    class="item gros-item" 
+                                    id="hwl-f-lana-costume9"
+                                    onclick="toggleItem('hwl-f-lana-costume9')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/lana10.png" 
+                                    class="item gros-item" 
+                                    id="hwl-f-lana-costume10"
+                                    onclick="toggleItem('hwl-f-lana-costume10')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/lana11.png" 
+                                    class="item gros-item" 
+                                    id="hwl-f-lana-costume11"
+                                    onclick="toggleItem('hwl-f-lana-costume11')">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Armes</h2>
+                <div class="inventory-card blue-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/lana1-1.png" class="item gros-item" id="hwl-f-lana-arme11" data-stars="-1" onclick="toggleItem('hwl-f-lana-arme11')">
+                                    <img src="" class="star-badge" id="star-hwl-f-lana-arme11">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/lana1-2.png" class="item gros-item" id="hwl-f-lana-arme12" data-stars="-1" onclick="toggleItem('hwl-f-lana-arme12')">
+                                    <img src="" class="star-badge" id="star-hwl-f-lana-arme12">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/lana1-3.png" class="item gros-item" id="hwl-f-lana-arme13" data-stars="-1" onclick="toggleItem('hwl-f-lana-arme13')">
+                                    <img src="" class="star-badge" id="star-hwl-f-lana-arme13">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/lana1-3.png" class="item gros-item" id="hwl-f-lana-arme14" data-stars="-1" onclick="toggleItem('hwl-f-lana-arme14')">
+                                    <img src="" class="star-badge" id="star-hwl-f-lana-arme14">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/lana1-3.png" class="item gros-item" id="hwl-f-lana-arme15" data-stars="-1" onclick="toggleItem('hwl-f-lana-arme15')">
+                                    <img src="" class="star-badge" id="star-hwl-f-lana-arme15">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/lana2-1.png" class="item gros-item" id="hwl-f-lana-arme21" data-stars="-1" onclick="toggleItem('hwl-f-lana-arme21')">
+                                    <img src="" class="star-badge" id="star-hwl-f-lana-arme21">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/lana2-2.png" class="item gros-item" id="hwl-f-lana-arme22" data-stars="-1" onclick="toggleItem('hwl-f-lana-arme22')">
+                                    <img src="" class="star-badge" id="star-hwl-f-lana-arme22">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/lana2-3.png" class="item gros-item" id="hwl-f-lana-arme23" data-stars="-1" onclick="toggleItem('hwl-f-lana-arme23')">
+                                    <img src="" class="star-badge" id="star-hwl-f-lana-arme23">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/lana2-3.png" class="item gros-item" id="hwl-f-lana-arme24" data-stars="-1" onclick="toggleItem('hwl-f-lana-arme24')">
+                                    <img src="" class="star-badge" id="star-hwl-f-lana-arme24">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/lana2-3.png" class="item gros-item" id="hwl-f-lana-arme25" data-stars="-1" onclick="toggleItem('hwl-f-lana-arme25')">
+                                    <img src="" class="star-badge" id="star-hwl-f-lana-arme25">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/lana3-1.png" class="item gros-item" id="hwl-f-lana-arme31" data-stars="-1" onclick="toggleItem('hwl-f-lana-arme31')">
+                                    <img src="" class="star-badge" id="star-hwl-f-lana-arme31">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/lana3-2.png" class="item gros-item" id="hwl-f-lana-arme32" data-stars="-1" onclick="toggleItem('hwl-f-lana-arme32')">
+                                    <img src="" class="star-badge" id="star-hwl-f-lana-arme32">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/lana3-3.png" class="item gros-item" id="hwl-f-lana-arme33" data-stars="-1" onclick="toggleItem('hwl-f-lana-arme33')">
+                                    <img src="" class="star-badge" id="star-hwl-f-lana-arme33">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/lana3-3.png" class="item gros-item" id="hwl-f-lana-arme34" data-stars="-1" onclick="toggleItem('hwl-f-lana-arme34')">
+                                    <img src="" class="star-badge" id="star-hwl-f-lana-arme34">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/lana3-3.png" class="item gros-item" id="hwl-f-lana-arme35" data-stars="-1" onclick="toggleItem('hwl-f-lana-arme35')">
+                                    <img src="" class="star-badge" id="star-hwl-f-lana-arme35">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Badges</h2>
+                <div class="inventory-card green-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a1.png" 
+                                    class="item" 
+                                    id="hwl-f-lana-a1"
+                                    onclick="toggleItem('hwl-f-lana-a1')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a2.png" 
+                                    class="item" 
+                                    id="hwl-f-lana-a2"
+                                    onclick="toggleItem('hwl-f-lana-a2')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a3.png" 
+                                    class="item" 
+                                    id="hwl-f-lana-a3"
+                                    onclick="toggleItem('hwl-f-lana-a3')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a4.png" class="item" id="hwl-f-lana-a4" onclick="toggleItem('hwl-f-lana-a4')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a5.png" class="item" id="hwl-f-lana-a5" onclick="toggleItem('hwl-f-lana-a5')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a6.png" class="item" id="hwl-f-lana-a6" onclick="toggleItem('hwl-f-lana-a6')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a7.png" class="item" id="hwl-f-lana-a7" onclick="toggleItem('hwl-f-lana-a7')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a8.png" class="item" id="hwl-f-lana-a8" onclick="toggleItem('hwl-f-lana-a8')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a9.png" class="item" id="hwl-f-lana-a9" onclick="toggleItem('hwl-f-lana-a9')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a10.png" class="item" id="hwl-f-lana-a10" onclick="toggleItem('hwl-f-lana-a10')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a11.png" class="item" id="hwl-f-lana-a11" onclick="toggleItem('hwl-f-lana-a11')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a12.png" class="item" id="hwl-f-lana-a12" onclick="toggleItem('hwl-f-lana-a12')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a13.png" class="item" id="hwl-f-lana-a13" onclick="toggleItem('hwl-f-lana-a13')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a14.png" class="item" id="hwl-f-lana-a14" onclick="toggleItem('hwl-f-lana-a14')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a15.png" class="item" id="hwl-f-lana-a15" onclick="toggleItem('hwl-f-lana-a15')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a16.png" class="item" id="hwl-f-lana-a16" onclick="toggleItem('hwl-f-lana-a16')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a17.png" class="item" id="hwl-f-lana-a17" onclick="toggleItem('hwl-f-lana-a17')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a18.png" class="item" id="hwl-f-lana-a18" onclick="toggleItem('hwl-f-lana-a18')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a19.png" class="item" id="hwl-f-lana-a19" onclick="toggleItem('hwl-f-lana-a19')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a20.png" class="item" id="hwl-f-lana-a20" onclick="toggleItem('hwl-f-lana-a20')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a21.png" class="item" id="hwl-f-lana-a21" onclick="toggleItem('hwl-f-lana-a21')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a22.png" class="item" id="hwl-f-lana-a22" onclick="toggleItem('hwl-f-lana-a22')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a23.png" class="item" id="hwl-f-lana-a23" onclick="toggleItem('hwl-f-lana-a23')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a24.png" class="item" id="hwl-f-lana-a24" onclick="toggleItem('hwl-f-lana-a24')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a25.png" class="item" id="hwl-f-lana-a25" onclick="toggleItem('hwl-f-lana-a25')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a26.png" class="item" id="hwl-f-lana-a26" onclick="toggleItem('hwl-f-lana-a26')">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d1.png" class="item" id="hwl-f-lana-d1" onclick="toggleItem('hwl-f-lana-d1')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d2.png" class="item" id="hwl-f-lana-d2" onclick="toggleItem('hwl-f-lana-d2')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d3.png" class="item" id="hwl-f-lana-d3" onclick="toggleItem('hwl-f-lana-d3')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d4.png" class="item" id="hwl-f-lana-d4" onclick="toggleItem('hwl-f-lana-d4')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d5.png" class="item" id="hwl-f-lana-d5" onclick="toggleItem('hwl-f-lana-d5')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d6.png" class="item" id="hwl-f-lana-d6" onclick="toggleItem('hwl-f-lana-d6')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d7.png" class="item" id="hwl-f-lana-d7" onclick="toggleItem('hwl-f-lana-d7')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d8.png" class="item" id="hwl-f-lana-d8" onclick="toggleItem('hwl-f-lana-d8')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d9.png" class="item" id="hwl-f-lana-d9" onclick="toggleItem('hwl-f-lana-d9')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d10.png" class="item" id="hwl-f-lana-d10" onclick="toggleItem('hwl-f-lana-d10')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d11.png" class="item" id="hwl-f-lana-d11" onclick="toggleItem('hwl-f-lana-d11')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d12.png" class="item" id="hwl-f-lana-d12" onclick="toggleItem('hwl-f-lana-d12')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d13.png" class="item" id="hwl-f-lana-d13" onclick="toggleItem('hwl-f-lana-d13')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d14.png" class="item" id="hwl-f-lana-d14" onclick="toggleItem('hwl-f-lana-d14')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d15.png" class="item" id="hwl-f-lana-d15" onclick="toggleItem('hwl-f-lana-d15')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d16.png" class="item" id="hwl-f-lana-d16" onclick="toggleItem('hwl-f-lana-d16')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d17.png" class="item" id="hwl-f-lana-d17" onclick="toggleItem('hwl-f-lana-d17')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d18.png" class="item" id="hwl-f-lana-d18" onclick="toggleItem('hwl-f-lana-d18')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d19.png" class="item" id="hwl-f-lana-d19" onclick="toggleItem('hwl-f-lana-d19')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d20.png" class="item" id="hwl-f-lana-d20" onclick="toggleItem('hwl-f-lana-d20')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d21.png" class="item" id="hwl-f-lana-d21" onclick="toggleItem('hwl-f-lana-d21')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d22.png" class="item" id="hwl-f-lana-d22" onclick="toggleItem('hwl-f-lana-d22')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d23.png" class="item" id="hwl-f-lana-d23" onclick="toggleItem('hwl-f-lana-d23')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d24.png" class="item" id="hwl-f-lana-d24" onclick="toggleItem('hwl-f-lana-d24')">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s1.png" class="item" id="hwl-f-lana-s1" onclick="toggleItem('hwl-f-lana-s1')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s2.png" class="item" id="hwl-f-lana-s2" onclick="toggleItem('hwl-f-lana-s2')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s3.png" class="item" id="hwl-f-lana-s3" onclick="toggleItem('hwl-f-lana-s3')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s4.png" class="item" id="hwl-f-lana-s4" onclick="toggleItem('hwl-f-lana-s4')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s5.png" class="item" id="hwl-f-lana-s5" onclick="toggleItem('hwl-f-lana-s5')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s7.png" class="item" id="hwl-f-lana-s7" onclick="toggleItem('hwl-f-lana-s7')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s8.png" class="item" id="hwl-f-lana-s8" onclick="toggleItem('hwl-f-lana-s8')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s10.png" class="item" id="hwl-f-lana-s10" onclick="toggleItem('hwl-f-lana-s10')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s11.png" class="item" id="hwl-f-lana-s11" onclick="toggleItem('hwl-f-lana-s11')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s13.png" class="item" id="hwl-f-lana-s13" onclick="toggleItem('hwl-f-lana-s13')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s14.png" class="item" id="hwl-f-lana-s14" onclick="toggleItem('hwl-f-lana-s14')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s16.png" class="item" id="hwl-f-lana-s16" onclick="toggleItem('hwl-f-lana-s16')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s17.png" class="item" id="hwl-f-lana-s17" onclick="toggleItem('hwl-f-lana-s17')">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

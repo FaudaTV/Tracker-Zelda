@@ -393,8 +393,7 @@ p.hw-warriors {
 }
 
 .hw-ill-im {
-    max-width: 9vw;
-    max-height: 8.25vh;
+    width: 6vw;
 }
 
 .hw-illustration > .active {
@@ -413,6 +412,7 @@ p.hw-warriors {
 
 .invisible-item {
     opacity: 0;
+    cursor: default;
 }
 
 .map {

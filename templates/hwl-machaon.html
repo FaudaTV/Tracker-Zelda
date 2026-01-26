@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - HYRULE WARRIORS LEGENDS - Machaon</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="hwl.html" class="back-link">← Retour</a>
+        <h1 class="main-title">HYRULE WARRIORS LEGENDS - Machaon</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="inventory-section">
+            <h2 class="section-title">Global</h2>
+            <div class="inventory-card base-card"> 
+                <div class="tracker-grid">
+
+                    <div class="item-wrapper">
+                        <img src="../images/HW/heart.png" 
+                        class="item" 
+                        id="hwl-f-machaon-heart"
+                        data-max="4"
+                        data-name="0"
+                        onclick="toggleItem('hwl-f-machaon-heart')">
+                        <p class="item-name">0</p>
+                    </div>
+
+                    <div class="item-wrapper">
+                        <img src="../images/HW/full_heart.png" 
+                        class="item" 
+                        id="hwl-f-machaon-full_heart"
+                        data-max="49"
+                        data-name="0"
+                        onclick="toggleItem('hwl-f-machaon-full_heart')">
+                        <p class="item-name">0</p>
+                    </div>
+
+                    <div class="item-wrapper">
+                        <img src="../images/HW/lvl255.png" 
+                        class="item" 
+                        id="hwl-f-machaon-lvl255"
+                        onclick="toggleItem('hwl-f-machaon-lvl255')">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-row split-2-columns row-full">
+            <div class="inventory-section">
+                <h2 class="section-title">Costumes</h2>
+                <div class="inventory-card red-card"> 
+                    <div class="tracker-grid">
+                        
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/agitha1.png" 
+                                    class="item gros-item" 
+                                    id="hwl-f-machaon-costume1"
+                                    onclick="toggleItem('hwl-f-machaon-costume1')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/agitha2.png" 
+                                    class="item gros-item"
+                                    id="hwl-f-machaon-costume2"
+                                    onclick="toggleItem('hwl-f-machaon-costume2')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/agitha3.png" 
+                                    class="item gros-item" 
+                                    id="hwl-f-machaon-costume3"
+                                    onclick="toggleItem('hwl-f-machaon-costume3')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/agitha4.png" 
+                                    class="item gros-item" 
+                                    id="hwl-f-machaon-costume4"
+                                    onclick="toggleItem('hwl-f-machaon-costume4')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/agitha5.png" 
+                                    class="item gros-item" 
+                                    id="hwl-f-machaon-costume5"
+                                    onclick="toggleItem('hwl-f-machaon-costume5')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/agitha6.png" 
+                                    class="item gros-item"
+                                    id="hwl-f-machaon-costume6"
+                                    onclick="toggleItem('hwl-f-machaon-costume6')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/agitha7.png" 
+                                    class="item gros-item" 
+                                    id="hwl-f-machaon-costume7"
+                                    onclick="toggleItem('hwl-f-machaon-costume7')">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Armes</h2>
+                <div class="inventory-card blue-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/agitha1-1.png" class="item gros-item" id="hwl-f-machaon-arme11" data-stars="-1" onclick="toggleItem('hwl-f-machaon-arme11')">
+                                    <img src="" class="star-badge" id="star-hwl-f-machaon-arme11">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/agitha1-2.png" class="item gros-item" id="hwl-f-machaon-arme12" data-stars="-1" onclick="toggleItem('hwl-f-machaon-arme12')">
+                                    <img src="" class="star-badge" id="star-hwl-f-machaon-arme12">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/agitha1-3.png" class="item gros-item" id="hwl-f-machaon-arme13" data-stars="-1" onclick="toggleItem('hwl-f-machaon-arme13')">
+                                    <img src="" class="star-badge" id="star-hwl-f-machaon-arme13">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/agitha1-3.png" class="item gros-item" id="hwl-f-machaon-arme14" data-stars="-1" onclick="toggleItem('hwl-f-machaon-arme14')">
+                                    <img src="" class="star-badge" id="star-hwl-f-machaon-arme14">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/agitha1-3.png" class="item gros-item" id="hwl-f-machaon-arme15" data-stars="-1" onclick="toggleItem('hwl-f-machaon-arme15')">
+                                    <img src="" class="star-badge" id="star-hwl-f-machaon-arme15">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Badges</h2>
+                <div class="inventory-card green-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a1.png" 
+                                    class="item" 
+                                    id="hwl-f-machaon-a1"
+                                    onclick="toggleItem('hwl-f-machaon-a1')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a2.png" 
+                                    class="item" 
+                                    id="hwl-f-machaon-a2"
+                                    onclick="toggleItem('hwl-f-machaon-a2')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a3.png" 
+                                    class="item" 
+                                    id="hwl-f-machaon-a3"
+                                    onclick="toggleItem('hwl-f-machaon-a3')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a4.png" class="item" id="hwl-f-machaon-a4" onclick="toggleItem('hwl-f-machaon-a4')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a5.png" class="item" id="hwl-f-machaon-a5" onclick="toggleItem('hwl-f-machaon-a5')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a6.png" class="item" id="hwl-f-machaon-a6" onclick="toggleItem('hwl-f-machaon-a6')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a7.png" class="item" id="hwl-f-machaon-a7" onclick="toggleItem('hwl-f-machaon-a7')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a8.png" class="item" id="hwl-f-machaon-a8" onclick="toggleItem('hwl-f-machaon-a8')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a9.png" class="item" id="hwl-f-machaon-a9" onclick="toggleItem('hwl-f-machaon-a9')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a10.png" class="item" id="hwl-f-machaon-a10" onclick="toggleItem('hwl-f-machaon-a10')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a11.png" class="item" id="hwl-f-machaon-a11" onclick="toggleItem('hwl-f-machaon-a11')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a12.png" class="item" id="hwl-f-machaon-a12" onclick="toggleItem('hwl-f-machaon-a12')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a13.png" class="item" id="hwl-f-machaon-a13" onclick="toggleItem('hwl-f-machaon-a13')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a14.png" class="item" id="hwl-f-machaon-a14" onclick="toggleItem('hwl-f-machaon-a14')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a15.png" class="item" id="hwl-f-machaon-a15" onclick="toggleItem('hwl-f-machaon-a15')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a16.png" class="item" id="hwl-f-machaon-a16" onclick="toggleItem('hwl-f-machaon-a16')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a17.png" class="item" id="hwl-f-machaon-a17" onclick="toggleItem('hwl-f-machaon-a17')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a18.png" class="item" id="hwl-f-machaon-a18" onclick="toggleItem('hwl-f-machaon-a18')">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d1.png" class="item" id="hwl-f-machaon-d1" onclick="toggleItem('hwl-f-machaon-d1')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d2.png" class="item" id="hwl-f-machaon-d2" onclick="toggleItem('hwl-f-machaon-d2')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d3.png" class="item" id="hwl-f-machaon-d3" onclick="toggleItem('hwl-f-machaon-d3')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d4.png" class="item" id="hwl-f-machaon-d4" onclick="toggleItem('hwl-f-machaon-d4')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d5.png" class="item" id="hwl-f-machaon-d5" onclick="toggleItem('hwl-f-machaon-d5')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d6.png" class="item" id="hwl-f-machaon-d6" onclick="toggleItem('hwl-f-machaon-d6')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d7.png" class="item" id="hwl-f-machaon-d7" onclick="toggleItem('hwl-f-machaon-d7')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d8.png" class="item" id="hwl-f-machaon-d8" onclick="toggleItem('hwl-f-machaon-d8')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d9.png" class="item" id="hwl-f-machaon-d9" onclick="toggleItem('hwl-f-machaon-d9')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d10.png" class="item" id="hwl-f-machaon-d10" onclick="toggleItem('hwl-f-machaon-d10')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d11.png" class="item" id="hwl-f-machaon-d11" onclick="toggleItem('hwl-f-machaon-d11')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d12.png" class="item" id="hwl-f-machaon-d12" onclick="toggleItem('hwl-f-machaon-d12')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d13.png" class="item" id="hwl-f-machaon-d13" onclick="toggleItem('hwl-f-machaon-d13')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d14.png" class="item" id="hwl-f-machaon-d14" onclick="toggleItem('hwl-f-machaon-d14')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d15.png" class="item" id="hwl-f-machaon-d15" onclick="toggleItem('hwl-f-machaon-d15')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d16.png" class="item" id="hwl-f-machaon-d16" onclick="toggleItem('hwl-f-machaon-d16')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d17.png" class="item" id="hwl-f-machaon-d17" onclick="toggleItem('hwl-f-machaon-d17')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d18.png" class="item" id="hwl-f-machaon-d18" onclick="toggleItem('hwl-f-machaon-d18')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d19.png" class="item" id="hwl-f-machaon-d19" onclick="toggleItem('hwl-f-machaon-d19')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d20.png" class="item" id="hwl-f-machaon-d20" onclick="toggleItem('hwl-f-machaon-d20')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d21.png" class="item" id="hwl-f-machaon-d21" onclick="toggleItem('hwl-f-machaon-d21')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d22.png" class="item" id="hwl-f-machaon-d22" onclick="toggleItem('hwl-f-machaon-d22')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d23.png" class="item" id="hwl-f-machaon-d23" onclick="toggleItem('hwl-f-machaon-d23')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d24.png" class="item" id="hwl-f-machaon-d24" onclick="toggleItem('hwl-f-machaon-d24')">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s1.png" class="item" id="hwl-f-machaon-s1" onclick="toggleItem('hwl-f-machaon-s1')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s2.png" class="item" id="hwl-f-machaon-s2" onclick="toggleItem('hwl-f-machaon-s2')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s3.png" class="item" id="hwl-f-machaon-s3" onclick="toggleItem('hwl-f-machaon-s3')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s4.png" class="item" id="hwl-f-machaon-s4" onclick="toggleItem('hwl-f-machaon-s4')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s5.png" class="item" id="hwl-f-machaon-s5" onclick="toggleItem('hwl-f-machaon-s5')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s7.png" class="item" id="hwl-f-machaon-s7" onclick="toggleItem('hwl-f-machaon-s7')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s8.png" class="item" id="hwl-f-machaon-s8" onclick="toggleItem('hwl-f-machaon-s8')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s10.png" class="item" id="hwl-f-machaon-s10" onclick="toggleItem('hwl-f-machaon-s10')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s11.png" class="item" id="hwl-f-machaon-s11" onclick="toggleItem('hwl-f-machaon-s11')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s13.png" class="item" id="hwl-f-machaon-s13" onclick="toggleItem('hwl-f-machaon-s13')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s14.png" class="item" id="hwl-f-machaon-s14" onclick="toggleItem('hwl-f-machaon-s14')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s16.png" class="item" id="hwl-f-machaon-s16" onclick="toggleItem('hwl-f-machaon-s16')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s17.png" class="item" id="hwl-f-machaon-s17" onclick="toggleItem('hwl-f-machaon-s17')">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>
