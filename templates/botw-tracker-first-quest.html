@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - Zelda BOTW</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="botw.html" class="back-link">← Retour</a>
+        <h1 class="main-title">Zelda BOTW - ITEMS</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="inventory-row split-2-columns">
+            <div class="inventory-section">
+                <h2 class="section-title">Équipement</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/polaris.png" 
+                            class="item" 
+                            id="zbotw-f-polaris"
+                            onclick="toggleItem('zbotw-f-polaris')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/cinetis.png" 
+                            class="item" 
+                            id="zbotw-f-cinetis"
+                            data-levels="../images/ZeldaBOTW/cinetis.png,../images/ZeldaBOTW/cinetis2.png"
+                            onclick="toggleItem('zbotw-f-cinetis')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/bomb.png" 
+                            class="item" 
+                            id="zbotw-f-bomb"
+                            data-levels="../images/ZeldaBOTW/bomb.png,../images/ZeldaBOTW/bomb2.png"
+                            onclick="toggleItem('zbotw-f-bomb')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/cryonis.png" 
+                            class="item" 
+                            id="zbotw-f-cryonis"
+                            onclick="toggleItem('zbotw-f-cryonis')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/camera.png" 
+                            class="item" 
+                            id="zbotw-f-camera"
+                            data-levels="../images/ZeldaBOTW/camera.png,../images/ZeldaBOTW/camera2.png"
+                            onclick="toggleItem('zbotw-f-camera')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/motorcycle.png" 
+                            class="item" 
+                            id="zbotw-f-motorcycle"
+                            onclick="toggleItem('zbotw-f-motorcycle')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/tower.png" 
+                            class="item" 
+                            id="zbotw-f-tower"
+                            data-max="15"
+                            data-name="0"
+                            onclick="toggleItem('zbotw-f-tower')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/shrine.png" 
+                            class="item" 
+                            id="zbotw-f-shrine"
+                            data-max="124"
+                            data-name="0"
+                            onclick="toggleItem('zbotw-f-shrine')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/dlc-chest.png" 
+                            class="item" 
+                            id="zbotw-f-dlc-chest"
+                            data-max="3"
+                            data-name="0"
+                            onclick="toggleItem('zbotw-f-dlc-chest')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/chest.png" 
+                            class="item" 
+                            id="zbotw-f-chest"
+                            data-max="124"
+                            data-name="0"
+                            onclick="toggleItem('zbotw-f-chest')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/main.png" 
+                            class="item" 
+                            id="zbotw-f-main"
+                            data-max="28"
+                            data-name="0"
+                            onclick="toggleItem('zbotw-f-main')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/side.png" 
+                            class="item" 
+                            id="zbotw-f-side"
+                            data-max="90"
+                            data-name="0"
+                            onclick="toggleItem('zbotw-f-side')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/shrineq.png" 
+                            class="item" 
+                            id="zbotw-f-shrineq"
+                            data-max="42"
+                            data-name="0"
+                            onclick="toggleItem('zbotw-f-shrineq')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/memory.png" 
+                            class="item" 
+                            id="zbotw-f-memory"
+                            data-max="18"
+                            data-name="0"
+                            onclick="toggleItem('zbotw-f-memory')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/korok.png" 
+                            class="item" 
+                            id="zbotw-f-korok"
+                            data-max="900"
+                            data-name="0"
+                            onclick="toggleItem('zbotw-f-korok')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/korok2.png" 
+                            class="item" 
+                            id="zbotw-f-korok2"
+                            onclick="toggleItem('zbotw-f-korok2')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/location.png" 
+                            class="item" 
+                            id="zbotw-f-location"
+                            data-max="226"
+                            data-name="0"
+                            onclick="toggleItem('zbotw-f-location')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/envelope.png" 
+                            class="item" 
+                            id="zbotw-f-envelope"
+                            onclick="toggleItem('zbotw-f-envelope')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/tunic.png" 
+                            class="item" 
+                            id="zbotw-f-tunic"
+                            data-max="84"
+                            data-name="0"
+                            onclick="toggleItem('zbotw-f-tunic')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/mipha.png" 
+                            class="item" 
+                            id="zbotw-f-mipha"
+                            data-levels="../images/ZeldaBOTW/mipha.png,../images/ZeldaBOTW/mipha2.png"
+                            onclick="toggleItem('zbotw-f-mipha')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/daruk.png" 
+                            class="item" 
+                            id="zbotw-f-daruk"
+                            data-levels="../images/ZeldaBOTW/daruk.png,../images/ZeldaBOTW/daruk2.png"
+                            onclick="toggleItem('zbotw-f-daruk')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/revali.png" 
+                            class="item" 
+                            id="zbotw-f-revali"
+                            data-levels="../images/ZeldaBOTW/revali.png,../images/ZeldaBOTW/revali2.png"
+                            onclick="toggleItem('zbotw-f-revali')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/urbosa.png" 
+                            class="item" 
+                            id="zbotw-f-urbosa"
+                            data-levels="../images/ZeldaBOTW/urbosa.png,../images/ZeldaBOTW/urbosa2.png"
+                            onclick="toggleItem('zbotw-f-urbosa')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/hinox.png" 
+                            class="item" 
+                            id="zbotw-f-hinox"
+                            onclick="toggleItem('zbotw-f-hinox')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/talus.png" 
+                            class="item" 
+                            id="zbotw-f-talus"
+                            onclick="toggleItem('zbotw-f-talus')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/molduga.png" 
+                            class="item" 
+                            id="zbotw-f-molduga"
+                            onclick="toggleItem('zbotw-f-molduga')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/picture.png" 
+                            class="item" 
+                            id="zbotw-f-picture"
+                            onclick="toggleItem('zbotw-f-picture')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/epreuve.png" 
+                            class="item" 
+                            id="zbotw-f-epreuve"
+                            data-levels="../images/ZeldaBOTW/epreuve.png,../images/ZeldaBOTW/epreuve2.png,../images/ZeldaBOTW/epreuve3.png"
+                            onclick="toggleItem('zbotw-f-epreuve')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Ganon</h2>
+                <div class="inventory-card dark-card">
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaBOTW/ganon.png" class="item boss-item" id="zbotw-f-ganon" onclick="toggleItem('zbotw-f-ganon')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-section">
+            <h2 class="section-title">Selles</h2>
+            <div class="inventory-card blue-card"> 
+                <div class="tracker-grid">
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaBOTW/stable.png" 
+                        class="item" 
+                        id="zbotw-f-stable"
+                        onclick="toggleItem('zbotw-f-stable')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaBOTW/stable2.png" 
+                        class="item" 
+                        id="zbotw-f-stable2"
+                        onclick="toggleItem('zbotw-f-stable2')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaBOTW/traveler.png" 
+                        class="item" 
+                        id="zbotw-f-traveler"
+                        onclick="toggleItem('zbotw-f-traveler')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaBOTW/traveler2.png" 
+                        class="item" 
+                        id="zbotw-f-traveler2"
+                        onclick="toggleItem('zbotw-f-traveler2')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaBOTW/royal.png" 
+                        class="item" 
+                        id="zbotw-f-royal"
+                        onclick="toggleItem('zbotw-f-royal')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaBOTW/royal2.png" 
+                        class="item" 
+                        id="zbotw-f-royal2"
+                        onclick="toggleItem('zbotw-f-royal2')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaBOTW/monster.png" 
+                        class="item" 
+                        id="zbotw-f-monster"
+                        onclick="toggleItem('zbotw-f-monster')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaBOTW/monster2.png" 
+                        class="item" 
+                        id="zbotw-f-monster2"
+                        onclick="toggleItem('zbotw-f-monster2')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaBOTW/knight.png" 
+                        class="item" 
+                        id="zbotw-f-knight"
+                        onclick="toggleItem('zbotw-f-knight')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaBOTW/knight2.png" 
+                        class="item" 
+                        id="zbotw-f-knight2"
+                        onclick="toggleItem('zbotw-f-knight2')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaBOTW/extravagant.png" 
+                        class="item" 
+                        id="zbotw-f-extravagant"
+                        onclick="toggleItem('zbotw-f-extravagant')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaBOTW/extravagant2.png" 
+                        class="item" 
+                        id="zbotw-f-extravagant2"
+                        onclick="toggleItem('zbotw-f-extravagant2')">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>
