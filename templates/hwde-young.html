@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - HYRULE WARRIORS DEFINITIVE EDITION - Young Link</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="hwde.html" class="back-link">← Retour</a>
+        <h1 class="main-title">HYRULE WARRIORS DEFINITIVE EDITION - Young Link</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="inventory-section">
+            <h2 class="section-title">Global</h2>
+            <div class="inventory-card base-card"> 
+                <div class="tracker-grid">
+
+                    <div class="item-wrapper">
+                        <img src="../images/HW/heart.png" 
+                        class="item" 
+                        id="hwde-f-young-heart"
+                        data-max="4"
+                        data-name="0"
+                        onclick="toggleItem('hwde-f-young-heart')">
+                        <p class="item-name">0</p>
+                    </div>
+
+                    <div class="item-wrapper">
+                        <img src="../images/HW/full_heart.png" 
+                        class="item" 
+                        id="hwde-f-young-full_heart"
+                        data-max="49"
+                        data-name="0"
+                        onclick="toggleItem('hwde-f-young-full_heart')">
+                        <p class="item-name">0</p>
+                    </div>
+
+                    <div class="item-wrapper">
+                        <img src="../images/HW/lvl255.png" 
+                        class="item" 
+                        id="hwde-f-young-lvl255"
+                        onclick="toggleItem('hwde-f-young-lvl255')">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-row split-2-columns row-full">
+            <div class="inventory-section">
+                <h2 class="section-title">Costumes</h2>
+                <div class="inventory-card red-card"> 
+                    <div class="tracker-grid">
+                        
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/young1.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-young-costume1"
+                                    onclick="toggleItem('hwde-f-young-costume1')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/young2.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-young-costume2"
+                                    onclick="toggleItem('hwde-f-young-costume2')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/young3.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-young-costume3"
+                                    onclick="toggleItem('hwde-f-young-costume3')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/young4.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-young-costume4"
+                                    onclick="toggleItem('hwde-f-young-costume4')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/young5.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-young-costume5"
+                                    onclick="toggleItem('hwde-f-young-costume5')">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Armes</h2>
+                <div class="inventory-card blue-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/young1-1.png" class="item gros-item" id="hwde-f-young-arme11" data-stars="-1" onclick="toggleItem('hwde-f-young-arme11')">
+                                    <img src="" class="star-badge" id="star-hwde-f-young-arme11">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/young1-2.png" class="item gros-item" id="hwde-f-young-arme12" data-stars="-1" onclick="toggleItem('hwde-f-young-arme12')">
+                                    <img src="" class="star-badge" id="star-hwde-f-young-arme12">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/young1-3.png" class="item gros-item" id="hwde-f-young-arme13" data-stars="-1" onclick="toggleItem('hwde-f-young-arme13')">
+                                    <img src="" class="star-badge" id="star-hwde-f-young-arme13">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/young1-3.png" class="item gros-item" id="hwde-f-young-arme14" data-stars="-1" onclick="toggleItem('hwde-f-young-arme14')">
+                                    <img src="" class="star-badge" id="star-hwde-f-young-arme14">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/young1-3.png" class="item gros-item" id="hwde-f-young-arme15" data-stars="-1" onclick="toggleItem('hwde-f-young-arme15')">
+                                    <img src="" class="star-badge" id="star-hwde-f-young-arme15">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Badges</h2>
+                <div class="inventory-card green-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a1.png" 
+                                    class="item" 
+                                    id="hwde-f-young-a1"
+                                    onclick="toggleItem('hwde-f-young-a1')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a2.png" 
+                                    class="item" 
+                                    id="hwde-f-young-a2"
+                                    onclick="toggleItem('hwde-f-young-a2')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a3.png" 
+                                    class="item" 
+                                    id="hwde-f-young-a3"
+                                    onclick="toggleItem('hwde-f-young-a3')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a4.png" class="item" id="hwde-f-young-a4" onclick="toggleItem('hwde-f-young-a4')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a5.png" class="item" id="hwde-f-young-a5" onclick="toggleItem('hwde-f-young-a5')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a6.png" class="item" id="hwde-f-young-a6" onclick="toggleItem('hwde-f-young-a6')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a7.png" class="item" id="hwde-f-young-a7" onclick="toggleItem('hwde-f-young-a7')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a8.png" class="item" id="hwde-f-young-a8" onclick="toggleItem('hwde-f-young-a8')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a9.png" class="item" id="hwde-f-young-a9" onclick="toggleItem('hwde-f-young-a9')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a10.png" class="item" id="hwde-f-young-a10" onclick="toggleItem('hwde-f-young-a10')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a11.png" class="item" id="hwde-f-young-a11" onclick="toggleItem('hwde-f-young-a11')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a12.png" class="item" id="hwde-f-young-a12" onclick="toggleItem('hwde-f-young-a12')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a13.png" class="item" id="hwde-f-young-a13" onclick="toggleItem('hwde-f-young-a13')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a14.png" class="item" id="hwde-f-young-a14" onclick="toggleItem('hwde-f-young-a14')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a15.png" class="item" id="hwde-f-young-a15" onclick="toggleItem('hwde-f-young-a15')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a16.png" class="item" id="hwde-f-young-a16" onclick="toggleItem('hwde-f-young-a16')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a17.png" class="item" id="hwde-f-young-a17" onclick="toggleItem('hwde-f-young-a17')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a18.png" class="item" id="hwde-f-young-a18" onclick="toggleItem('hwde-f-young-a18')">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d1.png" class="item" id="hwde-f-young-d1" onclick="toggleItem('hwde-f-young-d1')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d2.png" class="item" id="hwde-f-young-d2" onclick="toggleItem('hwde-f-young-d2')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d3.png" class="item" id="hwde-f-young-d3" onclick="toggleItem('hwde-f-young-d3')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d4.png" class="item" id="hwde-f-young-d4" onclick="toggleItem('hwde-f-young-d4')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d5.png" class="item" id="hwde-f-young-d5" onclick="toggleItem('hwde-f-young-d5')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d6.png" class="item" id="hwde-f-young-d6" onclick="toggleItem('hwde-f-young-d6')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d7.png" class="item" id="hwde-f-young-d7" onclick="toggleItem('hwde-f-young-d7')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d8.png" class="item" id="hwde-f-young-d8" onclick="toggleItem('hwde-f-young-d8')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d9.png" class="item" id="hwde-f-young-d9" onclick="toggleItem('hwde-f-young-d9')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d10.png" class="item" id="hwde-f-young-d10" onclick="toggleItem('hwde-f-young-d10')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d11.png" class="item" id="hwde-f-young-d11" onclick="toggleItem('hwde-f-young-d11')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d12.png" class="item" id="hwde-f-young-d12" onclick="toggleItem('hwde-f-young-d12')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d13.png" class="item" id="hwde-f-young-d13" onclick="toggleItem('hwde-f-young-d13')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d14.png" class="item" id="hwde-f-young-d14" onclick="toggleItem('hwde-f-young-d14')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d15.png" class="item" id="hwde-f-young-d15" onclick="toggleItem('hwde-f-young-d15')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d16.png" class="item" id="hwde-f-young-d16" onclick="toggleItem('hwde-f-young-d16')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d17.png" class="item" id="hwde-f-young-d17" onclick="toggleItem('hwde-f-young-d17')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d18.png" class="item" id="hwde-f-young-d18" onclick="toggleItem('hwde-f-young-d18')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d19.png" class="item" id="hwde-f-young-d19" onclick="toggleItem('hwde-f-young-d19')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d20.png" class="item" id="hwde-f-young-d20" onclick="toggleItem('hwde-f-young-d20')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d21.png" class="item" id="hwde-f-young-d21" onclick="toggleItem('hwde-f-young-d21')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d22.png" class="item" id="hwde-f-young-d22" onclick="toggleItem('hwde-f-young-d22')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d23.png" class="item" id="hwde-f-young-d23" onclick="toggleItem('hwde-f-young-d23')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d24.png" class="item" id="hwde-f-young-d24" onclick="toggleItem('hwde-f-young-d24')">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s1.png" class="item" id="hwde-f-young-s1" onclick="toggleItem('hwde-f-young-s1')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s2.png" class="item" id="hwde-f-young-s2" onclick="toggleItem('hwde-f-young-s2')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s3.png" class="item" id="hwde-f-young-s3" onclick="toggleItem('hwde-f-young-s3')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s4.png" class="item" id="hwde-f-young-s4" onclick="toggleItem('hwde-f-young-s4')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s5.png" class="item" id="hwde-f-young-s5" onclick="toggleItem('hwde-f-young-s5')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s7.png" class="item" id="hwde-f-young-s7" onclick="toggleItem('hwde-f-young-s7')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s8.png" class="item" id="hwde-f-young-s8" onclick="toggleItem('hwde-f-young-s8')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s10.png" class="item" id="hwde-f-young-s10" onclick="toggleItem('hwde-f-young-s10')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s11.png" class="item" id="hwde-f-young-s11" onclick="toggleItem('hwde-f-young-s11')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s13.png" class="item" id="hwde-f-young-s13" onclick="toggleItem('hwde-f-young-s13')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s14.png" class="item" id="hwde-f-young-s14" onclick="toggleItem('hwde-f-young-s14')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s16.png" class="item" id="hwde-f-young-s16" onclick="toggleItem('hwde-f-young-s16')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s17.png" class="item" id="hwde-f-young-s17" onclick="toggleItem('hwde-f-young-s17')">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

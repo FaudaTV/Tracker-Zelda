@@ -475,4 +475,21 @@ p.hw-warriors {
         left: 15px;
         right: 15px;
     }
+
+    .hw-illustration {
+        padding: 0;
+        margin: 0;
+        gap: 0;
+        height: auto;
+        width: auto;
+    }
+
+    .hw-ill-im {
+        width: 6vw;
+    }
+
+    .gros-item {
+        width: 2.5vw;
+        height: 2.5vw;
+    }
 }

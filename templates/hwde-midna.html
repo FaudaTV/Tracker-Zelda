@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - HYRULE WARRIORS DEFINITIVE EDITION - Midona</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="hwde.html" class="back-link">← Retour</a>
+        <h1 class="main-title">HYRULE WARRIORS DEFINITIVE EDITION - Midona</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="inventory-section">
+            <h2 class="section-title">Global</h2>
+            <div class="inventory-card base-card"> 
+                <div class="tracker-grid">
+
+                    <div class="item-wrapper">
+                        <img src="../images/HW/heart.png" 
+                        class="item" 
+                        id="hwde-f-midna-heart"
+                        data-max="4"
+                        data-name="0"
+                        onclick="toggleItem('hwde-f-midna-heart')">
+                        <p class="item-name">0</p>
+                    </div>
+
+                    <div class="item-wrapper">
+                        <img src="../images/HW/full_heart.png" 
+                        class="item" 
+                        id="hwde-f-midna-full_heart"
+                        data-max="49"
+                        data-name="0"
+                        onclick="toggleItem('hwde-f-midna-full_heart')">
+                        <p class="item-name">0</p>
+                    </div>
+
+                    <div class="item-wrapper">
+                        <img src="../images/HW/lvl255.png" 
+                        class="item" 
+                        id="hwde-f-midna-lvl255"
+                        onclick="toggleItem('hwde-f-midna-lvl255')">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-row split-2-columns row-full">
+            <div class="inventory-section">
+                <h2 class="section-title">Costumes</h2>
+                <div class="inventory-card red-card"> 
+                    <div class="tracker-grid">
+                        
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/midna1.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-midna-costume1"
+                                    onclick="toggleItem('hwde-f-midna-costume1')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/midna2.png" 
+                                    class="item gros-item"
+                                    id="hwde-f-midna-costume2"
+                                    onclick="toggleItem('hwde-f-midna-costume2')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/midna3.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-midna-costume3"
+                                    onclick="toggleItem('hwde-f-midna-costume3')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/midna4.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-midna-costume4"
+                                    onclick="toggleItem('hwde-f-midna-costume4')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/midna5.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-midna-costume5"
+                                    onclick="toggleItem('hwde-f-midna-costume5')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/midna6.png" 
+                                    class="item gros-item"
+                                    id="hwde-f-midna-costume6"
+                                    onclick="toggleItem('hwde-f-midna-costume6')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/midna7.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-midna-costume7"
+                                    onclick="toggleItem('hwde-f-midna-costume7')">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Armes</h2>
+                <div class="inventory-card blue-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/midna1-1.png" class="item gros-item" id="hwde-f-midna-arme11" data-stars="-1" onclick="toggleItem('hwde-f-midna-arme11')">
+                                    <img src="" class="star-badge" id="star-hwde-f-midna-arme11">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/midna1-2.png" class="item gros-item" id="hwde-f-midna-arme12" data-stars="-1" onclick="toggleItem('hwde-f-midna-arme12')">
+                                    <img src="" class="star-badge" id="star-hwde-f-midna-arme12">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/midna1-3.png" class="item gros-item" id="hwde-f-midna-arme13" data-stars="-1" onclick="toggleItem('hwde-f-midna-arme13')">
+                                    <img src="" class="star-badge" id="star-hwde-f-midna-arme13">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/midna1-3.png" class="item gros-item" id="hwde-f-midna-arme14" data-stars="-1" onclick="toggleItem('hwde-f-midna-arme14')">
+                                    <img src="" class="star-badge" id="star-hwde-f-midna-arme14">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/midna1-3.png" class="item gros-item" id="hwde-f-midna-arme15" data-stars="-1" onclick="toggleItem('hwde-f-midna-arme15')">
+                                    <img src="" class="star-badge" id="star-hwde-f-midna-arme15">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/midna1-6.png" class="item gros-item" id="hwde-f-midna-arme16" data-stars="-1" onclick="toggleItem('hwde-f-midna-arme16')">
+                                    <img src="" class="star-badge" id="star-hwde-f-midna-arme16">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Badges</h2>
+                <div class="inventory-card green-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a1.png" 
+                                    class="item" 
+                                    id="hwde-f-midna-a1"
+                                    onclick="toggleItem('hwde-f-midna-a1')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a2.png" 
+                                    class="item" 
+                                    id="hwde-f-midna-a2"
+                                    onclick="toggleItem('hwde-f-midna-a2')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a3.png" 
+                                    class="item" 
+                                    id="hwde-f-midna-a3"
+                                    onclick="toggleItem('hwde-f-midna-a3')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a4.png" class="item" id="hwde-f-midna-a4" onclick="toggleItem('hwde-f-midna-a4')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a5.png" class="item" id="hwde-f-midna-a5" onclick="toggleItem('hwde-f-midna-a5')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a6.png" class="item" id="hwde-f-midna-a6" onclick="toggleItem('hwde-f-midna-a6')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a7.png" class="item" id="hwde-f-midna-a7" onclick="toggleItem('hwde-f-midna-a7')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a8.png" class="item" id="hwde-f-midna-a8" onclick="toggleItem('hwde-f-midna-a8')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a9.png" class="item" id="hwde-f-midna-a9" onclick="toggleItem('hwde-f-midna-a9')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a10.png" class="item" id="hwde-f-midna-a10" onclick="toggleItem('hwde-f-midna-a10')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a11.png" class="item" id="hwde-f-midna-a11" onclick="toggleItem('hwde-f-midna-a11')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a12.png" class="item" id="hwde-f-midna-a12" onclick="toggleItem('hwde-f-midna-a12')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a13.png" class="item" id="hwde-f-midna-a13" onclick="toggleItem('hwde-f-midna-a13')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a14.png" class="item" id="hwde-f-midna-a14" onclick="toggleItem('hwde-f-midna-a14')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a15.png" class="item" id="hwde-f-midna-a15" onclick="toggleItem('hwde-f-midna-a15')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a16.png" class="item" id="hwde-f-midna-a16" onclick="toggleItem('hwde-f-midna-a16')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a17.png" class="item" id="hwde-f-midna-a17" onclick="toggleItem('hwde-f-midna-a17')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a18.png" class="item" id="hwde-f-midna-a18" onclick="toggleItem('hwde-f-midna-a18')">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d1.png" class="item" id="hwde-f-midna-d1" onclick="toggleItem('hwde-f-midna-d1')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d2.png" class="item" id="hwde-f-midna-d2" onclick="toggleItem('hwde-f-midna-d2')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d3.png" class="item" id="hwde-f-midna-d3" onclick="toggleItem('hwde-f-midna-d3')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d4.png" class="item" id="hwde-f-midna-d4" onclick="toggleItem('hwde-f-midna-d4')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d5.png" class="item" id="hwde-f-midna-d5" onclick="toggleItem('hwde-f-midna-d5')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d6.png" class="item" id="hwde-f-midna-d6" onclick="toggleItem('hwde-f-midna-d6')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d7.png" class="item" id="hwde-f-midna-d7" onclick="toggleItem('hwde-f-midna-d7')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d8.png" class="item" id="hwde-f-midna-d8" onclick="toggleItem('hwde-f-midna-d8')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d9.png" class="item" id="hwde-f-midna-d9" onclick="toggleItem('hwde-f-midna-d9')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d10.png" class="item" id="hwde-f-midna-d10" onclick="toggleItem('hwde-f-midna-d10')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d11.png" class="item" id="hwde-f-midna-d11" onclick="toggleItem('hwde-f-midna-d11')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d12.png" class="item" id="hwde-f-midna-d12" onclick="toggleItem('hwde-f-midna-d12')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d13.png" class="item" id="hwde-f-midna-d13" onclick="toggleItem('hwde-f-midna-d13')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d14.png" class="item" id="hwde-f-midna-d14" onclick="toggleItem('hwde-f-midna-d14')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d15.png" class="item" id="hwde-f-midna-d15" onclick="toggleItem('hwde-f-midna-d15')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d16.png" class="item" id="hwde-f-midna-d16" onclick="toggleItem('hwde-f-midna-d16')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d17.png" class="item" id="hwde-f-midna-d17" onclick="toggleItem('hwde-f-midna-d17')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d18.png" class="item" id="hwde-f-midna-d18" onclick="toggleItem('hwde-f-midna-d18')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d19.png" class="item" id="hwde-f-midna-d19" onclick="toggleItem('hwde-f-midna-d19')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d20.png" class="item" id="hwde-f-midna-d20" onclick="toggleItem('hwde-f-midna-d20')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d21.png" class="item" id="hwde-f-midna-d21" onclick="toggleItem('hwde-f-midna-d21')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d22.png" class="item" id="hwde-f-midna-d22" onclick="toggleItem('hwde-f-midna-d22')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d23.png" class="item" id="hwde-f-midna-d23" onclick="toggleItem('hwde-f-midna-d23')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d24.png" class="item" id="hwde-f-midna-d24" onclick="toggleItem('hwde-f-midna-d24')">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s1.png" class="item" id="hwde-f-midna-s1" onclick="toggleItem('hwde-f-midna-s1')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s2.png" class="item" id="hwde-f-midna-s2" onclick="toggleItem('hwde-f-midna-s2')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s3.png" class="item" id="hwde-f-midna-s3" onclick="toggleItem('hwde-f-midna-s3')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s4.png" class="item" id="hwde-f-midna-s4" onclick="toggleItem('hwde-f-midna-s4')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s5.png" class="item" id="hwde-f-midna-s5" onclick="toggleItem('hwde-f-midna-s5')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s7.png" class="item" id="hwde-f-midna-s7" onclick="toggleItem('hwde-f-midna-s7')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s8.png" class="item" id="hwde-f-midna-s8" onclick="toggleItem('hwde-f-midna-s8')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s10.png" class="item" id="hwde-f-midna-s10" onclick="toggleItem('hwde-f-midna-s10')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s11.png" class="item" id="hwde-f-midna-s11" onclick="toggleItem('hwde-f-midna-s11')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s13.png" class="item" id="hwde-f-midna-s13" onclick="toggleItem('hwde-f-midna-s13')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s14.png" class="item" id="hwde-f-midna-s14" onclick="toggleItem('hwde-f-midna-s14')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s16.png" class="item" id="hwde-f-midna-s16" onclick="toggleItem('hwde-f-midna-s16')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s17.png" class="item" id="hwde-f-midna-s17" onclick="toggleItem('hwde-f-midna-s17')">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

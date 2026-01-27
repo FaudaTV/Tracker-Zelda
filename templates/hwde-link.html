@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - HYRULE WARRIORS DEFINITIVE EDITION - Link</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="hwde.html" class="back-link">← Retour</a>
+        <h1 class="main-title">HYRULE WARRIORS DEFINITIVE EDITION - Link</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="inventory-section">
+            <h2 class="section-title">Global</h2>
+            <div class="inventory-card base-card"> 
+                <div class="tracker-grid">
+
+                    <div class="item-wrapper">
+                        <img src="../images/HW/heart.png" 
+                        class="item" 
+                        id="hwde-f-link-heart"
+                        data-max="12"
+                        data-name="0"
+                        onclick="toggleItem('hwde-f-link-heart')">
+                        <p class="item-name">0</p>
+                    </div>
+
+                    <div class="item-wrapper">
+                        <img src="../images/HW/full_heart.png" 
+                        class="item" 
+                        id="hwde-f-link-full_heart"
+                        data-max="47"
+                        data-name="0"
+                        onclick="toggleItem('hwde-f-link-full_heart')">
+                        <p class="item-name">0</p>
+                    </div>
+
+                    <div class="item-wrapper">
+                        <img src="../images/HW/lvl255.png" 
+                        class="item" 
+                        id="hwde-f-link-lvl255"
+                        onclick="toggleItem('hwde-f-link-lvl255')">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-row split-2-columns row-full">
+            <div class="inventory-section">
+                <h2 class="section-title">Costumes</h2>
+                <div class="inventory-card red-card"> 
+                    <div class="tracker-grid">
+                        
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/link1.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-link-costume1"
+                                    onclick="toggleItem('hwde-f-link-costume1')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/link2.png" 
+                                    class="item gros-item"
+                                    id="hwde-f-link-costume2"
+                                    onclick="toggleItem('hwde-f-link-costume2')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/link3.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-link-costume3"
+                                    onclick="toggleItem('hwde-f-link-costume3')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/link4.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-link-costume4"
+                                    onclick="toggleItem('hwde-f-link-costume4')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/link5.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-link-costume5"
+                                    onclick="toggleItem('hwde-f-link-costume5')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/link6.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-link-costume6"
+                                    onclick="toggleItem('hwde-f-link-costume6')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/link7.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-link-costume7"
+                                    onclick="toggleItem('hwde-f-link-costume7')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/link8.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-link-costume8"
+                                    onclick="toggleItem('hwde-f-link-costume8')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/link9.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-link-costume9"
+                                    onclick="toggleItem('hwde-f-link-costume9')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/link10.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-link-costume10"
+                                    onclick="toggleItem('hwde-f-link-costume10')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/link11.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-link-costume11"
+                                    onclick="toggleItem('hwde-f-link-costume11')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/link12.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-link-costume12"
+                                    onclick="toggleItem('hwde-f-link-costume12')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/link13.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-link-costume13"
+                                    onclick="toggleItem('hwde-f-link-costume13')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/link14.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-link-costume14"
+                                    onclick="toggleItem('hwde-f-link-costume14')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/link15.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-link-costume15"
+                                    onclick="toggleItem('hwde-f-link-costume15')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/link16.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-link-costume16"
+                                    onclick="toggleItem('hwde-f-link-costume16')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/link17.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-link-costume17"
+                                    onclick="toggleItem('hwde-f-link-costume17')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/link18.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-link-costume18"
+                                    onclick="toggleItem('hwde-f-link-costume18')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/link19.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-link-costume19"
+                                    onclick="toggleItem('hwde-f-link-costume19')">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Armes</h2>
+                <div class="inventory-card blue-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link1-1.png" class="item gros-item" id="hwde-f-link-arme11" data-stars="-1" onclick="toggleItem('hwde-f-link-arme11')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme11">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link1-2.png" class="item gros-item" id="hwde-f-link-arme12" data-stars="-1" onclick="toggleItem('hwde-f-link-arme12')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme12">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link1-3.png" class="item gros-item" id="hwde-f-link-arme13" data-stars="-1" onclick="toggleItem('hwde-f-link-arme13')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme13">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link1-3.png" class="item gros-item" id="hwde-f-link-arme14" data-stars="-1" onclick="toggleItem('hwde-f-link-arme14')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme14">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link1-3.png" class="item gros-item" id="hwde-f-link-arme15" data-stars="-1" onclick="toggleItem('hwde-f-link-arme15')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme15">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link1-6.png" class="item gros-item" id="hwde-f-link-arme16" data-stars="-1" onclick="toggleItem('hwde-f-link-arme16')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme16">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link2-1.png" class="item gros-item" id="hwde-f-link-arme21" data-stars="-1" onclick="toggleItem('hwde-f-link-arme21')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme21">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link2-2.png" class="item gros-item" id="hwde-f-link-arme22" data-stars="-1" onclick="toggleItem('hwde-f-link-arme22')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme22">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link2-3.png" class="item gros-item" id="hwde-f-link-arme23" data-stars="-1" onclick="toggleItem('hwde-f-link-arme23')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme23">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link2-3.png" class="item gros-item" id="hwde-f-link-arme24" data-stars="-1" onclick="toggleItem('hwde-f-link-arme24')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme24">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link2-3.png" class="item gros-item" id="hwde-f-link-arme25" data-stars="-1" onclick="toggleItem('hwde-f-link-arme25')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme25">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link2-6.png" class="item gros-item" id="hwde-f-link-arme26" data-stars="-1" onclick="toggleItem('hwde-f-link-arme26')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme26">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link3-1.png" class="item gros-item" id="hwde-f-link-arme31" data-stars="-1" onclick="toggleItem('hwde-f-link-arme31')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme31">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link3-2.png" class="item gros-item" id="hwde-f-link-arme32" data-stars="-1" onclick="toggleItem('hwde-f-link-arme32')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme32">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link3-3.png" class="item gros-item" id="hwde-f-link-arme33" data-stars="-1" onclick="toggleItem('hwde-f-link-arme33')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme33">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link3-3.png" class="item gros-item" id="hwde-f-link-arme34" data-stars="-1" onclick="toggleItem('hwde-f-link-arme34')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme34">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link3-3.png" class="item gros-item" id="hwde-f-link-arme35" data-stars="-1" onclick="toggleItem('hwde-f-link-arme35')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme35">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link3-6.png" class="item gros-item" id="hwde-f-link-arme36" data-stars="-1" onclick="toggleItem('hwde-f-link-arme36')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme36">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link4-1.png" class="item gros-item" id="hwde-f-link-arme41" data-stars="-1" onclick="toggleItem('hwde-f-link-arme41')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme41">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link4-2.png" class="item gros-item" id="hwde-f-link-arme42" data-stars="-1" onclick="toggleItem('hwde-f-link-arme42')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme42">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link4-3.png" class="item gros-item" id="hwde-f-link-arme43" data-stars="-1" onclick="toggleItem('hwde-f-link-arme43')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme43">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link4-3.png" class="item gros-item" id="hwde-f-link-arme44" data-stars="-1" onclick="toggleItem('hwde-f-link-arme44')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme44">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link4-3.png" class="item gros-item" id="hwde-f-link-arme45" data-stars="-1" onclick="toggleItem('hwde-f-link-arme45')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme45">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link4-6.png" class="item gros-item" id="hwde-f-link-arme46" data-stars="-1" onclick="toggleItem('hwde-f-link-arme46')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme46">
+                                </div>
+                            </div>
+
+                            <div class="item-wrapper item-star">
+                                <img src="../images/HW/Weapons/link5.png" class="item gros-item" id="hwde-f-link-arme5" data-stars="-1" onclick="toggleItem('hwde-f-link-arme5')">
+                                <img src="" class="star-badge" id="star-hwde-f-link-arme5">
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link6-1.png" class="item gros-item" id="hwde-f-link-arme61" data-stars="-1" onclick="toggleItem('hwde-f-link-arme61')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme61">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link6-2.png" class="item gros-item" id="hwde-f-link-arme62" data-stars="-1" onclick="toggleItem('hwde-f-link-arme62')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme62">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link6-3.png" class="item gros-item" id="hwde-f-link-arme63" data-stars="-1" onclick="toggleItem('hwde-f-link-arme63')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme63">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link6-3.png" class="item gros-item" id="hwde-f-link-arme64" data-stars="-1" onclick="toggleItem('hwde-f-link-arme64')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme64">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link6-3.png" class="item gros-item" id="hwde-f-link-arme65" data-stars="-1" onclick="toggleItem('hwde-f-link-arme65')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme65">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link7-1.png" class="item gros-item" id="hwde-f-link-arme71" data-stars="-1" onclick="toggleItem('hwde-f-link-arme71')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme71">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link7-2.png" class="item gros-item" id="hwde-f-link-arme72" data-stars="-1" onclick="toggleItem('hwde-f-link-arme72')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme72">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link7-3.png" class="item gros-item" id="hwde-f-link-arme73" data-stars="-1" onclick="toggleItem('hwde-f-link-arme73')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme73">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link7-3.png" class="item gros-item" id="hwde-f-link-arme74" data-stars="-1" onclick="toggleItem('hwde-f-link-arme74')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme74">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/link7-3.png" class="item gros-item" id="hwde-f-link-arme75" data-stars="-1" onclick="toggleItem('hwde-f-link-arme75')">
+                                    <img src="" class="star-badge" id="star-hwde-f-link-arme75">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Badges</h2>
+                <div class="inventory-card green-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a1.png" 
+                                    class="item" 
+                                    id="hwde-f-link-a1"
+                                    onclick="toggleItem('hwde-f-link-a1')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a2.png" 
+                                    class="item" 
+                                    id="hwde-f-link-a2"
+                                    onclick="toggleItem('hwde-f-link-a2')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a3.png" 
+                                    class="item" 
+                                    id="hwde-f-link-a3"
+                                    onclick="toggleItem('hwde-f-link-a3')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a4.png" class="item" id="hwde-f-link-a4" onclick="toggleItem('hwde-f-link-a4')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a5.png" class="item" id="hwde-f-link-a5" onclick="toggleItem('hwde-f-link-a5')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a6.png" class="item" id="hwde-f-link-a6" onclick="toggleItem('hwde-f-link-a6')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a7.png" class="item" id="hwde-f-link-a7" onclick="toggleItem('hwde-f-link-a7')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a8.png" class="item" id="hwde-f-link-a8" onclick="toggleItem('hwde-f-link-a8')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a9.png" class="item" id="hwde-f-link-a9" onclick="toggleItem('hwde-f-link-a9')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a10.png" class="item" id="hwde-f-link-a10" onclick="toggleItem('hwde-f-link-a10')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a11.png" class="item" id="hwde-f-link-a11" onclick="toggleItem('hwde-f-link-a11')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a12.png" class="item" id="hwde-f-link-a12" onclick="toggleItem('hwde-f-link-a12')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a13.png" class="item" id="hwde-f-link-a13" onclick="toggleItem('hwde-f-link-a13')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a14.png" class="item" id="hwde-f-link-a14" onclick="toggleItem('hwde-f-link-a14')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a15.png" class="item" id="hwde-f-link-a15" onclick="toggleItem('hwde-f-link-a15')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a16.png" class="item" id="hwde-f-link-a16" onclick="toggleItem('hwde-f-link-a16')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a17.png" class="item" id="hwde-f-link-a17" onclick="toggleItem('hwde-f-link-a17')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a18.png" class="item" id="hwde-f-link-a18" onclick="toggleItem('hwde-f-link-a18')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a19.png" class="item" id="hwde-f-link-a19" onclick="toggleItem('hwde-f-link-a19')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a20.png" class="item" id="hwde-f-link-a20" onclick="toggleItem('hwde-f-link-a20')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a21.png" class="item" id="hwde-f-link-a21" onclick="toggleItem('hwde-f-link-a21')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a22.png" class="item" id="hwde-f-link-a22" onclick="toggleItem('hwde-f-link-a22')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a23.png" class="item" id="hwde-f-link-a23" onclick="toggleItem('hwde-f-link-a23')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a24.png" class="item" id="hwde-f-link-a24" onclick="toggleItem('hwde-f-link-a24')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a25.png" class="item" id="hwde-f-link-a25" onclick="toggleItem('hwde-f-link-a25')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a26.png" class="item" id="hwde-f-link-a26" onclick="toggleItem('hwde-f-link-a26')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a27.png" class="item" id="hwde-f-link-a27" onclick="toggleItem('hwde-f-link-a27')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a28.png" class="item" id="hwde-f-link-a28" onclick="toggleItem('hwde-f-link-a28')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a29.png" class="item" id="hwde-f-link-a29" onclick="toggleItem('hwde-f-link-a29')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a30.png" class="item" id="hwde-f-link-a30" onclick="toggleItem('hwde-f-link-a30')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a31.png" class="item" id="hwde-f-link-a31" onclick="toggleItem('hwde-f-link-a31')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a32.png" class="item" id="hwde-f-link-a32" onclick="toggleItem('hwde-f-link-a32')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a33.png" class="item" id="hwde-f-link-a33" onclick="toggleItem('hwde-f-link-a33')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a34.png" class="item" id="hwde-f-link-a34" onclick="toggleItem('hwde-f-link-a34')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a35.png" class="item" id="hwde-f-link-a35" onclick="toggleItem('hwde-f-link-a35')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a36.png" class="item" id="hwde-f-link-a36" onclick="toggleItem('hwde-f-link-a36')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a37.png" class="item" id="hwde-f-link-a37" onclick="toggleItem('hwde-f-link-a37')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a38.png" class="item" id="hwde-f-link-a38" onclick="toggleItem('hwde-f-link-a38')">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d1.png" class="item" id="hwde-f-link-d1" onclick="toggleItem('hwde-f-link-d1')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d2.png" class="item" id="hwde-f-link-d2" onclick="toggleItem('hwde-f-link-d2')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d3.png" class="item" id="hwde-f-link-d3" onclick="toggleItem('hwde-f-link-d3')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d4.png" class="item" id="hwde-f-link-d4" onclick="toggleItem('hwde-f-link-d4')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d5.png" class="item" id="hwde-f-link-d5" onclick="toggleItem('hwde-f-link-d5')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d6.png" class="item" id="hwde-f-link-d6" onclick="toggleItem('hwde-f-link-d6')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d7.png" class="item" id="hwde-f-link-d7" onclick="toggleItem('hwde-f-link-d7')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d8.png" class="item" id="hwde-f-link-d8" onclick="toggleItem('hwde-f-link-d8')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d9.png" class="item" id="hwde-f-link-d9" onclick="toggleItem('hwde-f-link-d9')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d10.png" class="item" id="hwde-f-link-d10" onclick="toggleItem('hwde-f-link-d10')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d11.png" class="item" id="hwde-f-link-d11" onclick="toggleItem('hwde-f-link-d11')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d12.png" class="item" id="hwde-f-link-d12" onclick="toggleItem('hwde-f-link-d12')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d13.png" class="item" id="hwde-f-link-d13" onclick="toggleItem('hwde-f-link-d13')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d14.png" class="item" id="hwde-f-link-d14" onclick="toggleItem('hwde-f-link-d14')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d15.png" class="item" id="hwde-f-link-d15" onclick="toggleItem('hwde-f-link-d15')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d16.png" class="item" id="hwde-f-link-d16" onclick="toggleItem('hwde-f-link-d16')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d17.png" class="item" id="hwde-f-link-d17" onclick="toggleItem('hwde-f-link-d17')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d18.png" class="item" id="hwde-f-link-d18" onclick="toggleItem('hwde-f-link-d18')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d19.png" class="item" id="hwde-f-link-d19" onclick="toggleItem('hwde-f-link-d19')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d20.png" class="item" id="hwde-f-link-d20" onclick="toggleItem('hwde-f-link-d20')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d21.png" class="item" id="hwde-f-link-d21" onclick="toggleItem('hwde-f-link-d21')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d22.png" class="item" id="hwde-f-link-d22" onclick="toggleItem('hwde-f-link-d22')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d23.png" class="item" id="hwde-f-link-d23" onclick="toggleItem('hwde-f-link-d23')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d24.png" class="item" id="hwde-f-link-d24" onclick="toggleItem('hwde-f-link-d24')">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s1.png" class="item" id="hwde-f-link-s1" onclick="toggleItem('hwde-f-link-s1')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s2.png" class="item" id="hwde-f-link-s2" onclick="toggleItem('hwde-f-link-s2')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s3.png" class="item" id="hwde-f-link-s3" onclick="toggleItem('hwde-f-link-s3')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s4.png" class="item" id="hwde-f-link-s4" onclick="toggleItem('hwde-f-link-s4')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s5.png" class="item" id="hwde-f-link-s5" onclick="toggleItem('hwde-f-link-s5')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s7.png" class="item" id="hwde-f-link-s7" onclick="toggleItem('hwde-f-link-s7')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s8.png" class="item" id="hwde-f-link-s8" onclick="toggleItem('hwde-f-link-s8')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s10.png" class="item" id="hwde-f-link-s10" onclick="toggleItem('hwde-f-link-s10')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s11.png" class="item" id="hwde-f-link-s11" onclick="toggleItem('hwde-f-link-s11')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s13.png" class="item" id="hwde-f-link-s13" onclick="toggleItem('hwde-f-link-s13')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s14.png" class="item" id="hwde-f-link-s14" onclick="toggleItem('hwde-f-link-s14')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s16.png" class="item" id="hwde-f-link-s16" onclick="toggleItem('hwde-f-link-s16')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s17.png" class="item" id="hwde-f-link-s17" onclick="toggleItem('hwde-f-link-s17')">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

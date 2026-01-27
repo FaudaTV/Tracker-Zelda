@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - HYRULE WARRIORS DEFINITIVE EDITION - Tetra</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="hwde.html" class="back-link">← Retour</a>
+        <h1 class="main-title">HYRULE WARRIORS DEFINITIVE EDITION - Tetra</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="inventory-section">
+            <h2 class="section-title">Global</h2>
+            <div class="inventory-card base-card"> 
+                <div class="tracker-grid">
+
+                    <div class="item-wrapper">
+                        <img src="../images/HW/full_heart.png" 
+                        class="item" 
+                        id="hwde-f-tetra-full_heart"
+                        data-max="50"
+                        data-name="0"
+                        onclick="toggleItem('hwde-f-tetra-full_heart')">
+                        <p class="item-name">0</p>
+                    </div>
+
+                    <div class="item-wrapper">
+                        <img src="../images/HW/lvl255.png" 
+                        class="item" 
+                        id="hwde-f-tetra-lvl255"
+                        onclick="toggleItem('hwde-f-tetra-lvl255')">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-row split-2-columns row-full">
+            <div class="inventory-section">
+                <h2 class="section-title">Costumes</h2>
+                <div class="inventory-card red-card"> 
+                    <div class="tracker-grid">
+                        
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/tetra1.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-tetra-costume1"
+                                    onclick="toggleItem('hwde-f-tetra-costume1')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/tetra2.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-tetra-costume2"
+                                    onclick="toggleItem('hwde-f-tetra-costume2')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/tetra3.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-tetra-costume3"
+                                    onclick="toggleItem('hwde-f-tetra-costume3')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/tetra4.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-tetra-costume4"
+                                    onclick="toggleItem('hwde-f-tetra-costume4')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Costume/tetra5.png" 
+                                    class="item gros-item" 
+                                    id="hwde-f-tetra-costume5"
+                                    onclick="toggleItem('hwde-f-tetra-costume5')">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Armes</h2>
+                <div class="inventory-card blue-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/tetra1-1.png" class="item gros-item" id="hwde-f-tetra-arme11" data-stars="-1" onclick="toggleItem('hwde-f-tetra-arme11')">
+                                    <img src="" class="star-badge" id="star-hwde-f-tetra-arme11">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/tetra1-2.png" class="item gros-item" id="hwde-f-tetra-arme12" data-stars="-1" onclick="toggleItem('hwde-f-tetra-arme12')">
+                                    <img src="" class="star-badge" id="star-hwde-f-tetra-arme12">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/tetra1-3.png" class="item gros-item" id="hwde-f-tetra-arme13" data-stars="-1" onclick="toggleItem('hwde-f-tetra-arme13')">
+                                    <img src="" class="star-badge" id="star-hwde-f-tetra-arme13">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/tetra1-3.png" class="item gros-item" id="hwde-f-tetra-arme14" data-stars="-1" onclick="toggleItem('hwde-f-tetra-arme14')">
+                                    <img src="" class="star-badge" id="star-hwde-f-tetra-arme14">
+                                </div>
+
+                                <div class="item-wrapper item-star">
+                                    <img src="../images/HW/Weapons/tetra1-3.png" class="item gros-item" id="hwde-f-tetra-arme15" data-stars="-1" onclick="toggleItem('hwde-f-tetra-arme15')">
+                                    <img src="" class="star-badge" id="star-hwde-f-tetra-arme15">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Badges</h2>
+                <div class="inventory-card green-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a1.png" 
+                                    class="item" 
+                                    id="hwde-f-tetra-a1"
+                                    onclick="toggleItem('hwde-f-tetra-a1')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a2.png" 
+                                    class="item" 
+                                    id="hwde-f-tetra-a2"
+                                    onclick="toggleItem('hwde-f-tetra-a2')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a3.png" 
+                                    class="item" 
+                                    id="hwde-f-tetra-a3"
+                                    onclick="toggleItem('hwde-f-tetra-a3')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a4.png" class="item" id="hwde-f-tetra-a4" onclick="toggleItem('hwde-f-tetra-a4')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a5.png" class="item" id="hwde-f-tetra-a5" onclick="toggleItem('hwde-f-tetra-a5')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a6.png" class="item" id="hwde-f-tetra-a6" onclick="toggleItem('hwde-f-tetra-a6')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a7.png" class="item" id="hwde-f-tetra-a7" onclick="toggleItem('hwde-f-tetra-a7')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a8.png" class="item" id="hwde-f-tetra-a8" onclick="toggleItem('hwde-f-tetra-a8')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a9.png" class="item" id="hwde-f-tetra-a9" onclick="toggleItem('hwde-f-tetra-a9')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a10.png" class="item" id="hwde-f-tetra-a10" onclick="toggleItem('hwde-f-tetra-a10')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a11.png" class="item" id="hwde-f-tetra-a11" onclick="toggleItem('hwde-f-tetra-a11')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a12.png" class="item" id="hwde-f-tetra-a12" onclick="toggleItem('hwde-f-tetra-a12')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a13.png" class="item" id="hwde-f-tetra-a13" onclick="toggleItem('hwde-f-tetra-a13')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a14.png" class="item" id="hwde-f-tetra-a14" onclick="toggleItem('hwde-f-tetra-a14')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a15.png" class="item" id="hwde-f-tetra-a15" onclick="toggleItem('hwde-f-tetra-a15')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a16.png" class="item" id="hwde-f-tetra-a16" onclick="toggleItem('hwde-f-tetra-a16')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a17.png" class="item" id="hwde-f-tetra-a17" onclick="toggleItem('hwde-f-tetra-a17')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/a18.png" class="item" id="hwde-f-tetra-a18" onclick="toggleItem('hwde-f-tetra-a18')">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d1.png" class="item" id="hwde-f-tetra-d1" onclick="toggleItem('hwde-f-tetra-d1')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d2.png" class="item" id="hwde-f-tetra-d2" onclick="toggleItem('hwde-f-tetra-d2')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d3.png" class="item" id="hwde-f-tetra-d3" onclick="toggleItem('hwde-f-tetra-d3')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d4.png" class="item" id="hwde-f-tetra-d4" onclick="toggleItem('hwde-f-tetra-d4')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d5.png" class="item" id="hwde-f-tetra-d5" onclick="toggleItem('hwde-f-tetra-d5')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d6.png" class="item" id="hwde-f-tetra-d6" onclick="toggleItem('hwde-f-tetra-d6')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d7.png" class="item" id="hwde-f-tetra-d7" onclick="toggleItem('hwde-f-tetra-d7')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d8.png" class="item" id="hwde-f-tetra-d8" onclick="toggleItem('hwde-f-tetra-d8')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d9.png" class="item" id="hwde-f-tetra-d9" onclick="toggleItem('hwde-f-tetra-d9')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d10.png" class="item" id="hwde-f-tetra-d10" onclick="toggleItem('hwde-f-tetra-d10')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d11.png" class="item" id="hwde-f-tetra-d11" onclick="toggleItem('hwde-f-tetra-d11')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d12.png" class="item" id="hwde-f-tetra-d12" onclick="toggleItem('hwde-f-tetra-d12')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d13.png" class="item" id="hwde-f-tetra-d13" onclick="toggleItem('hwde-f-tetra-d13')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d14.png" class="item" id="hwde-f-tetra-d14" onclick="toggleItem('hwde-f-tetra-d14')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d15.png" class="item" id="hwde-f-tetra-d15" onclick="toggleItem('hwde-f-tetra-d15')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d16.png" class="item" id="hwde-f-tetra-d16" onclick="toggleItem('hwde-f-tetra-d16')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d17.png" class="item" id="hwde-f-tetra-d17" onclick="toggleItem('hwde-f-tetra-d17')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d18.png" class="item" id="hwde-f-tetra-d18" onclick="toggleItem('hwde-f-tetra-d18')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d19.png" class="item" id="hwde-f-tetra-d19" onclick="toggleItem('hwde-f-tetra-d19')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d20.png" class="item" id="hwde-f-tetra-d20" onclick="toggleItem('hwde-f-tetra-d20')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d21.png" class="item" id="hwde-f-tetra-d21" onclick="toggleItem('hwde-f-tetra-d21')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d22.png" class="item" id="hwde-f-tetra-d22" onclick="toggleItem('hwde-f-tetra-d22')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d23.png" class="item" id="hwde-f-tetra-d23" onclick="toggleItem('hwde-f-tetra-d23')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/d24.png" class="item" id="hwde-f-tetra-d24" onclick="toggleItem('hwde-f-tetra-d24')">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s1.png" class="item" id="hwde-f-tetra-s1" onclick="toggleItem('hwde-f-tetra-s1')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s2.png" class="item" id="hwde-f-tetra-s2" onclick="toggleItem('hwde-f-tetra-s2')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s3.png" class="item" id="hwde-f-tetra-s3" onclick="toggleItem('hwde-f-tetra-s3')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s4.png" class="item" id="hwde-f-tetra-s4" onclick="toggleItem('hwde-f-tetra-s4')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s5.png" class="item" id="hwde-f-tetra-s5" onclick="toggleItem('hwde-f-tetra-s5')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s7.png" class="item" id="hwde-f-tetra-s7" onclick="toggleItem('hwde-f-tetra-s7')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s8.png" class="item" id="hwde-f-tetra-s8" onclick="toggleItem('hwde-f-tetra-s8')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s10.png" class="item" id="hwde-f-tetra-s10" onclick="toggleItem('hwde-f-tetra-s10')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s11.png" class="item" id="hwde-f-tetra-s11" onclick="toggleItem('hwde-f-tetra-s11')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s13.png" class="item" id="hwde-f-tetra-s13" onclick="toggleItem('hwde-f-tetra-s13')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s14.png" class="item" id="hwde-f-tetra-s14" onclick="toggleItem('hwde-f-tetra-s14')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s16.png" class="item" id="hwde-f-tetra-s16" onclick="toggleItem('hwde-f-tetra-s16')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/HW/Badges/s17.png" class="item" id="hwde-f-tetra-s17" onclick="toggleItem('hwde-f-tetra-s17')">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>
