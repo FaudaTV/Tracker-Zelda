@@ -420,6 +420,15 @@ p.hw-warriors {
     border: solid 2px grey;
 }
 
+.star-container {
+    color: #ffd700;
+    font-size: 12px;
+    height: 16px;
+    text-shadow: 0 0 2px black;
+    user-select: none;
+    pointer-events: none;
+}
+
 @media screen and (max-width: 1920px) {
     .item {
         width: 1.7vw;
