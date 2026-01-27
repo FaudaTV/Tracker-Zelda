@@ -419,3 +419,51 @@ p.hw-warriors {
     padding: 2px;
     border: solid 2px grey;
 }
+
+@media screen and (max-width: 1920px) {
+    .item {
+        width: 1.7vw;
+        height: 1.7vw;
+    }
+
+    .item.boss-item {
+        width: 4.5vw;
+        height: 4.5vw;
+    }
+
+    .tracker-grid {
+        gap: 0.5vw;
+    }
+
+    .inventory-row {
+        width: 90%;
+    }
+
+    .split-3-columns > .inventory-section, 
+    .split-3-columns > .inventory-column {
+        max-width: 23vw;
+    }
+
+    .item-wrapper {
+        gap: 0;
+    }
+
+    main.quest-container {
+        gap: 1vw;
+    }
+
+    .main-title {
+        font-size: 1.5vw;
+        padding: 2vh 0;
+    }
+
+    .section-title {
+        font-size: 0.7vw;
+    }
+
+    .content {
+        bottom: 10px;
+        left: 15px;
+        right: 15px;
+    }
+}
