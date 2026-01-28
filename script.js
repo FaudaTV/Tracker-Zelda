@@ -10,6 +10,14 @@
  * Gère l'activation, les niveaux, les compteurs, les étoiles HW 
  * et les améliorations BOTW.
  */
+
+console.log(
+  "%c🚀 Projet : [https://faudatv.github.io/Tracker-Zelda/] \n%c© [FaudaTV] - Licence AGPLv3 \n%cNote: Les assets Nintendo appartiennent à Nintendo.",
+  "color: #e74c3c; font-size: 20px; font-weight: bold;", // Style du titre
+  "color: #2ecc71; font-size: 14px;",                   // Style auteur
+  "color: #f1c40f; font-style: italic;"                 // Style Nintendo
+);
+
 function toggleItem(id, direction = 1) {
     const item = document.getElementById(id);
     if (!item) return;
