@@ -437,6 +437,18 @@ p.hw-warriors {
     pointer-events: none;
 }
 
+.my-fairy {
+    width: auto;
+    height: auto;
+    padding: 0 0.3vw;
+    user-select: none;
+}
+
+.my-fairy.active {
+    color: var(--gold);
+    text-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+}
+
 @media screen and (max-width: 1920px) {
     .item {
         width: 1.7vw;
