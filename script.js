@@ -1,4 +1,12 @@
 /**
+ * Nom du Projet : [https://faudatv.github.io/Tracker-Zelda/]
+ * Auteur : [FaudaTV]
+ * GitHub : https://github.com/FaudaTV
+ * Licence : GNU AGPLv3
+ * * Note : Les images Nintendo sont la propriété de Nintendo.
+ */
+
+/**
  * Gère l'activation, les niveaux, les compteurs, les étoiles HW 
  * et les améliorations BOTW.
  */
