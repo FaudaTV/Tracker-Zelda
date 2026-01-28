@@ -1,5 +1,6 @@
 # 🚀 Tracker-Zelda
-A Tracker off all the different game of the saga, include also the spin off and all the version !
+
+Un Tracker pour tous les différents jeux de la saga, inclus également les spin-off et les différentes versions !
 
 ---
 
