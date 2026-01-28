@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - COH</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="coh.html" class="back-link">← Retour</a>
+        <h1 class="main-title">COH - ITEMS</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="inventory-row split-3-columns">
+            <div class="inventory-section">
+                <h2 class="section-title">Équipement</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="../images/COH/dagger.png" 
+                            class="item" 
+                            id="coh-f-dagger"
+                            data-levels="../images/COH/dagger.png,../images/COH/dagger2.png,../images/COH/dagger3.png,../images/COH/dagger4.png,../images/COH/dagger5.png,../images/COH/dagger6.png,../images/COH/dagger7.png"
+                            onclick="toggleItem('coh-f-dagger')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/sword.png" 
+                            class="item" 
+                            id="coh-f-sword"
+                            data-levels="../images/COH/sword.png,../images/COH/sword2.png,../images/COH/sword3.png,../images/COH/sword4.png,../images/COH/sword5.png,../images/COH/sword6.png,../images/COH/sword7.png"
+                            onclick="toggleItem('coh-f-sword')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/broadsword.png" 
+                            class="item" 
+                            id="coh-f-broadsword"
+                            data-levels="../images/COH/broadsword.png,../images/COH/broadsword2.png,../images/COH/broadsword3.png,../images/COH/broadsword4.png,../images/COH/broadsword5.png,../images/COH/broadsword6.png,../images/COH/broadsword7.png"
+                            onclick="toggleItem('coh-f-broadsword')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/spear.png" 
+                            class="item" 
+                            id="coh-f-spear"
+                            data-levels="../images/COH/spear.png,../images/COH/spear2.png,../images/COH/spear3.png,../images/COH/spear4.png,../images/COH/spear5.png,../images/COH/spear6.png,../images/COH/spear7.png"
+                            onclick="toggleItem('coh-f-spear')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/flail.png" 
+                            class="item" 
+                            id="coh-f-flail"
+                            data-levels="../images/COH/flail.png,../images/COH/flail2.png,../images/COH/flail3.png,../images/COH/flail4.png,../images/COH/flail5.png,../images/COH/flail6.png,../images/COH/flail7.png"
+                            onclick="toggleItem('coh-f-flail')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/greatshovel.png" 
+                            class="item" 
+                            id="coh-f-greatshovel"
+                            data-levels="../images/COH/greatshovel.png,../images/COH/greatshovel2.png,../images/COH/greatshovel3.png,../images/COH/greatshovel4.png,../images/COH/greatshovel5.png,../images/COH/greatshovel6.png,../images/COH/greatshovel7.png"
+                            onclick="toggleItem('coh-f-greatshovel')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/longsword.png" 
+                            class="item" 
+                            id="coh-f-longsword"
+                            data-levels="../images/COH/longsword.png,../images/COH/longsword2.png,../images/COH/longsword3.png,../images/COH/longsword4.png,../images/COH/longsword5.png,../images/COH/longsword6.png,../images/COH/longsword7.png"
+                            onclick="toggleItem('coh-f-longsword')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/rapier.png" 
+                            class="item" 
+                            id="coh-f-rapier"
+                            data-levels="../images/COH/rapier.png,../images/COH/rapier2.png,../images/COH/rapier3.png,../images/COH/rapier4.png,../images/COH/rapier5.png,../images/COH/rapier6.png,../images/COH/rapier7.png"
+                            onclick="toggleItem('coh-f-rapier')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/shovel.png" 
+                            class="item" 
+                            id="coh-f-shovel"
+                            data-levels="../images/COH/shovel.png,../images/COH/shovel2.png,../images/COH/shovel3.png,../images/COH/shovel4.png,../images/COH/shovel5.png,../images/COH/shovel6.png,../images/COH/shovel7.png"
+                            onclick="toggleItem('coh-f-shovel')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/torch.png" 
+                            class="item" 
+                            id="coh-f-torch"
+                            data-levels="../images/COH/torch.png,../images/COH/torch2.png,../images/COH/torch3.png,../images/COH/torch4.png,../images/COH/torch5.png,../images/COH/torch6.png,../images/COH/torch7.png"
+                            onclick="toggleItem('coh-f-torch')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/boot.png" 
+                            class="item" 
+                            id="coh-f-boot"
+                            data-levels="../images/COH/boot.png,../images/COH/boot2.png,../images/COH/boot3.png,../images/COH/boot4.png,../images/COH/boot5.png,../images/COH/boot6.png,../images/COH/boot7.png"
+                            onclick="toggleItem('coh-f-boot')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/deku.png" 
+                            class="item" 
+                            id="coh-f-deku"
+                            onclick="toggleItem('coh-f-deku')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/skull.png" 
+                            class="item" 
+                            id="coh-f-skull"
+                            onclick="toggleItem('coh-f-skull')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/zora.png" 
+                            class="item" 
+                            id="coh-f-zora"
+                            onclick="toggleItem('coh-f-zora')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/goron.png" 
+                            class="item" 
+                            id="coh-f-goron"
+                            onclick="toggleItem('coh-f-goron')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/darknut.png" 
+                            class="item" 
+                            id="coh-f-darknut"
+                            onclick="toggleItem('coh-f-darknut')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/truth.png" 
+                            class="item" 
+                            id="coh-f-truth"
+                            onclick="toggleItem('coh-f-truth')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/bomb.png" 
+                            class="item" 
+                            id="coh-f-bomb"
+                            onclick="toggleItem('coh-f-bomb')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/bombchu.png" 
+                            class="item" 
+                            id="coh-f-bombchu"
+                            onclick="toggleItem('coh-f-bombchu')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/boomerang.png" 
+                            class="item" 
+                            id="coh-f-boomerang"
+                            data-levels="../images/COH/boomerang.png,../images/COH/boomerang2.png"
+                            onclick="toggleItem('coh-f-boomerang')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/bow.png" 
+                            class="item" 
+                            id="coh-f-bow"
+                            data-levels="../images/COH/bow.png,../images/COH/bow2.png"
+                            onclick="toggleItem('coh-f-bow')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/cane.png" 
+                            class="item" 
+                            id="coh-f-cane"
+                            onclick="toggleItem('coh-f-cane')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/leaf.png" 
+                            class="item" 
+                            id="coh-f-leaf"
+                            onclick="toggleItem('coh-f-leaf')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/fire.png" 
+                            class="item" 
+                            id="coh-f-fire"
+                            onclick="toggleItem('coh-f-fire')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/goldenlute.png" 
+                            class="item" 
+                            id="coh-f-goldenlute"
+                            onclick="toggleItem('coh-f-goldenlute')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/hookshot.png" 
+                            class="item" 
+                            id="coh-f-hookshot"
+                            data-levels="../images/COH/hookshot.png,../images/COH/hookshot2.png"
+                            onclick="toggleItem('coh-f-hookshot')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/ice.png" 
+                            class="item" 
+                            id="coh-f-ice"
+                            onclick="toggleItem('coh-f-ice')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/lute.png" 
+                            class="item" 
+                            id="coh-f-lute"
+                            onclick="toggleItem('coh-f-lute')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/cap.png" 
+                            class="item" 
+                            id="coh-f-cap"
+                            onclick="toggleItem('coh-f-cap')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/hammer.png" 
+                            class="item" 
+                            id="coh-f-hammer"
+                            onclick="toggleItem('coh-f-hammer')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/locket.png" 
+                            class="item" 
+                            id="coh-f-locket"
+                            onclick="toggleItem('coh-f-locket')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/pegasus.png" 
+                            class="item" 
+                            id="coh-f-pegasus"
+                            onclick="toggleItem('coh-f-pegasus')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/power.png" 
+                            class="item" 
+                            id="coh-f-power"
+                            onclick="toggleItem('coh-f-power')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/feather.png" 
+                            class="item" 
+                            id="coh-f-feather"
+                            onclick="toggleItem('coh-f-feather')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/dowser.png" 
+                            class="item" 
+                            id="coh-f-dowser"
+                            onclick="toggleItem('coh-f-dowser')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/drum.png" 
+                            class="item" 
+                            id="coh-f-drum"
+                            onclick="toggleItem('coh-f-drum')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/arrow.png" 
+                            class="item" 
+                            id="coh-f-arrow"
+                            onclick="toggleItem('coh-f-arrow')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/firearrow.png" 
+                            class="item" 
+                            id="coh-f-firearrow"
+                            onclick="toggleItem('coh-f-firearrow')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/icearrow.png" 
+                            class="item" 
+                            id="coh-f-icearrow"
+                            onclick="toggleItem('coh-f-icearrow')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/lightning.png" 
+                            class="item" 
+                            id="coh-f-lightning"
+                            onclick="toggleItem('coh-f-lightning')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/poison.png" 
+                            class="item" 
+                            id="coh-f-poison"
+                            onclick="toggleItem('coh-f-poison')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/bottle.png" 
+                            class="item" 
+                            id="coh-f-bottle"
+                            data-max="3"
+                            data-name="0"
+                            onclick="toggleItem('coh-f-bottle')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/scroll1.png" 
+                            class="item" 
+                            id="coh-f-scroll1"
+                            onclick="toggleItem('coh-f-scroll1')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/scroll2.png" 
+                            class="item" 
+                            id="coh-f-scroll2"
+                            onclick="toggleItem('coh-f-scroll2')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/scroll3.png" 
+                            class="item" 
+                            id="coh-f-scroll3"
+                            onclick="toggleItem('coh-f-scroll3')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/scroll4.png" 
+                            class="item" 
+                            id="coh-f-scroll4"
+                            onclick="toggleItem('coh-f-scroll4')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/scroll5.png" 
+                            class="item" 
+                            id="coh-f-scroll5"
+                            onclick="toggleItem('coh-f-scroll5')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/scroll6.png" 
+                            class="item" 
+                            id="coh-f-scroll6"
+                            onclick="toggleItem('coh-f-scroll6')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/r1.png" 
+                            class="item" 
+                            id="coh-f-r1"
+                            onclick="toggleItem('coh-f-r1')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/r2.png" 
+                            class="item" 
+                            id="coh-f-r2"
+                            onclick="toggleItem('coh-f-r2')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/r3.png" 
+                            class="item" 
+                            id="coh-f-r3"
+                            onclick="toggleItem('coh-f-r3')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/r4.png" 
+                            class="item" 
+                            id="coh-f-r4"
+                            onclick="toggleItem('coh-f-r4')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/r5.png" 
+                            class="item" 
+                            id="coh-f-r5"
+                            onclick="toggleItem('coh-f-r5')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/r6.png" 
+                            class="item" 
+                            id="coh-f-r6"
+                            onclick="toggleItem('coh-f-r6')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/r7.png" 
+                            class="item" 
+                            id="coh-f-r7"
+                            onclick="toggleItem('coh-f-r7')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/r8.png" 
+                            class="item" 
+                            id="coh-f-r8"
+                            onclick="toggleItem('coh-f-r8')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/r9.png" 
+                            class="item" 
+                            id="coh-f-r9"
+                            onclick="toggleItem('coh-f-r9')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/r10.png" 
+                            class="item" 
+                            id="coh-f-r10"
+                            onclick="toggleItem('coh-f-r10')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/c1.png" 
+                            class="item" 
+                            id="coh-f-c1"
+                            onclick="toggleItem('coh-f-c1')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/c2.png" 
+                            class="item" 
+                            id="coh-f-c2"
+                            onclick="toggleItem('coh-f-c2')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/c3.png" 
+                            class="item" 
+                            id="coh-f-c3"
+                            onclick="toggleItem('coh-f-c3')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/c4.png" 
+                            class="item" 
+                            id="coh-f-c4"
+                            onclick="toggleItem('coh-f-c4')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/c5.png" 
+                            class="item" 
+                            id="coh-f-c5"
+                            onclick="toggleItem('coh-f-c5')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/bomb_bag.png" 
+                            class="item" 
+                            id="coh-f-bomb_bag"
+                            onclick="toggleItem('coh-f-bomb_bag')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/quiver.png" 
+                            class="item" 
+                            id="coh-f-quiver"
+                            onclick="toggleItem('coh-f-quiver')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/full_heart.png" 
+                            class="item" 
+                            id="coh-f-full_heart"
+                            data-max="6"
+                            data-name="0"
+                            onclick="toggleItem('coh-f-full_heart')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/COH/heart.png" 
+                            class="item" 
+                            id="coh-f-heart"
+                            data-max="16"
+                            data-name="0"
+                            onclick="toggleItem('coh-f-heart')">
+                            <p class="item-name">0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-column">
+                <div class="inventory-section">
+                    <h2 class="section-title">Objet Clé</h2>
+                    <div class="inventory-card green-card"> 
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="../images/COH/k1.png" 
+                                class="item" 
+                                id="coh-f-k1"
+                                onclick="toggleItem('coh-f-k1')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/COH/k2.png" 
+                                class="item" 
+                                id="coh-f-k2"
+                                onclick="toggleItem('coh-f-k2')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/COH/k3.png" 
+                                class="item" 
+                                id="coh-f-k3"
+                                onclick="toggleItem('coh-f-k3')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/COH/k4.png" 
+                                class="item" 
+                                id="coh-f-k4"
+                                onclick="toggleItem('coh-f-k4')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/COH/k5.png" 
+                                class="item" 
+                                id="coh-f-k5"
+                                onclick="toggleItem('coh-f-k5')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/COH/k6.png" 
+                                class="item" 
+                                id="coh-f-k6"
+                                onclick="toggleItem('coh-f-k6')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/COH/k7.png" 
+                                class="item" 
+                                id="coh-f-k7"
+                                onclick="toggleItem('coh-f-k7')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/COH/k8.png" 
+                                class="item" 
+                                id="coh-f-k8"
+                                onclick="toggleItem('coh-f-k8')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/COH/k9.png" 
+                                class="item" 
+                                id="coh-f-k9"
+                                onclick="toggleItem('coh-f-k9')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/COH/k10.png" 
+                                class="item" 
+                                id="coh-f-k10"
+                                onclick="toggleItem('coh-f-k10')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inventory-section">
+                    <h2 class="section-title">Objet de Boss</h2>
+                    <div class="inventory-card cyan-card"> 
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="../images/COH/b1.png" 
+                                class="item" 
+                                id="coh-f-b1"
+                                onclick="toggleItem('coh-f-b1')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/COH/b2.png" 
+                                class="item" 
+                                id="coh-f-b2"
+                                onclick="toggleItem('coh-f-b2')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/COH/b3.png" 
+                                class="item" 
+                                id="coh-f-b3"
+                                onclick="toggleItem('coh-f-b3')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/COH/b4.png" 
+                                class="item" 
+                                id="coh-f-b4"
+                                onclick="toggleItem('coh-f-b4')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/COH/b5.png" 
+                                class="item" 
+                                id="coh-f-b5"
+                                onclick="toggleItem('coh-f-b5')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/COH/b6.png" 
+                                class="item" 
+                                id="coh-f-b6"
+                                data-levels="../images/COH/b6.png,../images/COH/b62.png"
+                                onclick="toggleItem('coh-f-b6')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-column">
+                <div class="inventory-section">
+                    <h2 class="section-title">Capacités</h2>
+                    <div class="inventory-card red-card"> 
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="../images/COH/link1.png" 
+                                class="item" 
+                                id="coh-f-link1"
+                                onclick="toggleItem('coh-f-link1')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/COH/link2.png" 
+                                class="item" 
+                                id="coh-f-link2"
+                                onclick="toggleItem('coh-f-link2')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/COH/link3.png" 
+                                class="item" 
+                                id="coh-f-link3"
+                                onclick="toggleItem('coh-f-link3')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/COH/link4.png" 
+                                class="item" 
+                                id="coh-f-link4"
+                                onclick="toggleItem('coh-f-link4')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/COH/slink1.png" 
+                                class="item" 
+                                id="coh-f-slink1"
+                                onclick="toggleItem('coh-f-slink1')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/COH/slink2.png" 
+                                class="item" 
+                                id="coh-f-slink2"
+                                onclick="toggleItem('coh-f-slink2')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/COH/slink3.png" 
+                                class="item" 
+                                id="coh-f-slink3"
+                                onclick="toggleItem('coh-f-slink3')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/COH/slink4.png" 
+                                class="item" 
+                                id="coh-f-slink4"
+                                onclick="toggleItem('coh-f-slink4')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/COH/zelda1.png" 
+                                class="item" 
+                                id="coh-f-zelda1"
+                                onclick="toggleItem('coh-f-zelda1')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/COH/zelda2.png" 
+                                class="item" 
+                                id="coh-f-zelda2"
+                                onclick="toggleItem('coh-f-zelda2')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/COH/szelda1.png" 
+                                class="item" 
+                                id="coh-f-szelda1"
+                                onclick="toggleItem('coh-f-szelda1')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/COH/szelda2.png" 
+                                class="item" 
+                                id="coh-f-szelda2"
+                                onclick="toggleItem('coh-f-szelda2')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/COH/octavo1.png" 
+                                class="item" 
+                                id="coh-f-octavo1"
+                                onclick="toggleItem('coh-f-octavo1')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/COH/octavo2.png" 
+                                class="item" 
+                                id="coh-f-octavo2"
+                                onclick="toggleItem('coh-f-octavo2')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/COH/cadence1.png" 
+                                class="item" 
+                                id="coh-f-cadence1"
+                                onclick="toggleItem('coh-f-cadence1')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/COH/cadence2.png" 
+                                class="item" 
+                                id="coh-f-cadence2"
+                                onclick="toggleItem('coh-f-cadence2')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/COH/cadence3.png" 
+                                class="item" 
+                                id="coh-f-cadence3"
+                                onclick="toggleItem('coh-f-cadence3')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/COH/cadence4.png" 
+                                class="item" 
+                                id="coh-f-cadence4"
+                                onclick="toggleItem('coh-f-cadence4')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/COH/yves1.png" 
+                                class="item" 
+                                id="coh-f-yves1"
+                                onclick="toggleItem('coh-f-yves1')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/COH/yves2.png" 
+                                class="item" 
+                                id="coh-f-yves2"
+                                onclick="toggleItem('coh-f-yves2')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/COH/sk1.png" 
+                                class="item" 
+                                id="coh-f-sk1"
+                                onclick="toggleItem('coh-f-sk1')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/COH/sk2.png" 
+                                class="item" 
+                                id="coh-f-sk2"
+                                onclick="toggleItem('coh-f-sk2')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/COH/sk3.png" 
+                                class="item" 
+                                id="coh-f-sk3"
+                                onclick="toggleItem('coh-f-sk3')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/COH/sk4.png" 
+                                class="item" 
+                                id="coh-f-sk4"
+                                onclick="toggleItem('coh-f-sk4')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/COH/sk5.png" 
+                                class="item" 
+                                id="coh-f-sk5"
+                                onclick="toggleItem('coh-f-sk5')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/COH/sk6.png" 
+                                class="item" 
+                                id="coh-f-sk6"
+                                onclick="toggleItem('coh-f-sk6')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/COH/sk7.png" 
+                                class="item" 
+                                id="coh-f-sk7"
+                                onclick="toggleItem('coh-f-sk7')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/COH/sk8.png" 
+                                class="item" 
+                                id="coh-f-sk8"
+                                onclick="toggleItem('coh-f-sk8')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/COH/frederick1.png" 
+                                class="item" 
+                                id="coh-f-frederick1"
+                                onclick="toggleItem('coh-f-frederick1')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/COH/frederick2.png" 
+                                class="item" 
+                                id="coh-f-frederick2"
+                                onclick="toggleItem('coh-f-frederick2')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/COH/impa1.png" 
+                                class="item" 
+                                id="coh-f-impa1"
+                                onclick="toggleItem('coh-f-impa1')">
+                            </div>
+                            <div class="item-wrapper">
+                                <img src="../images/COH/impa2.png" 
+                                class="item" 
+                                id="coh-f-impa2"
+                                onclick="toggleItem('coh-f-impa2')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inventory-section">
+                    <h2 class="section-title">Ganon</h2>
+                    <div class="inventory-card dark-card">
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="../images/COH/ganon.png" class="item boss-item" id="coh-f-ganon" onclick="toggleItem('coh-f-ganon')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-section">
+            <h2 class="section-title">Progression Map</h2>
+            <div class="inventory-card blue-card"> 
+                <div class="tracker-grid">
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D1</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/COH/map.png" class="item" id="coh-f-map1" onclick="toggleItem('coh-f-map1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/COH/compass.png" class="item" id="coh-f-compass1" onclick="toggleItem('coh-f-compass1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/COH/boss.png" class="item" id="coh-f-boss1" onclick="toggleItem('coh-f-boss1')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D2</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/COH/map.png" class="item" id="coh-f-map2" onclick="toggleItem('coh-f-map2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/COH/compass.png" class="item" id="coh-f-compass2" onclick="toggleItem('coh-f-compass2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/COH/boss.png" class="item" id="coh-f-boss2" onclick="toggleItem('coh-f-boss2')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D3</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/COH/map.png" class="item" id="coh-f-map3" onclick="toggleItem('coh-f-map3')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/COH/compass.png" class="item" id="coh-f-compass3" onclick="toggleItem('coh-f-compass3')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/COH/boss.png" class="item" id="coh-f-boss3" onclick="toggleItem('coh-f-boss3')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D4</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/COH/map.png" class="item" id="coh-f-map4" onclick="toggleItem('coh-f-map4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/COH/compass.png" class="item" id="coh-f-compass4" onclick="toggleItem('coh-f-compass4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/COH/boss.png" class="item" id="coh-f-boss4" onclick="toggleItem('coh-f-boss4')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D5</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/COH/map.png" class="item" id="coh-f-map5" onclick="toggleItem('coh-f-map5')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/COH/compass.png" class="item" id="coh-f-compass5" onclick="toggleItem('coh-f-compass5')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/COH/boss.png" class="item" id="coh-f-boss5" onclick="toggleItem('coh-f-boss5')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D6</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/COH/map.png" class="item" id="coh-f-map6" onclick="toggleItem('coh-f-map6')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/COH/compass.png" class="item" id="coh-f-compass6" onclick="toggleItem('coh-f-compass6')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/COH/boss.png" class="item" id="coh-f-boss6" onclick="toggleItem('coh-f-boss6')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D7</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/COH/map.png" class="item" id="coh-f-map7" onclick="toggleItem('coh-f-map7')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/COH/compass.png" class="item" id="coh-f-compass7" onclick="toggleItem('coh-f-compass7')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/COH/boss.png" class="item" id="coh-f-boss7" onclick="toggleItem('coh-f-boss7')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>
