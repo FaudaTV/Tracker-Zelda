@@ -1,0 +1,634 @@
+<!--
+Nom du Projet : [https://faudatv.github.io/Tracker-Zelda/]
+Auteur : [FaudaTV]
+GitHub : https://github.com/FaudaTV
+Licence : GNU AGPLv3
+Note : Les images Nintendo sont la propriété de Nintendo.
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - Zelda LA Switch</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="laswitch.html" class="back-link">← Retour</a>
+        <h1 class="main-title">Zelda LA Switch - ITEMS</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="inventory-row split-3-columns">
+            <div class="inventory-section">
+                <h2 class="section-title">Équipement</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/sword.png" 
+                                class="item" 
+                                id="zlaswitch-f-2-sword" 
+                                data-levels="../images/ZeldaLASwitch/sword.png,../images/ZeldaLASwitch/sword2.png" 
+                                onclick="toggleItem('zlaswitch-f-2-sword')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/shield.png" 
+                                class="item" 
+                                id="zlaswitch-f-2-shield" 
+                                data-levels="../images/ZeldaLASwitch/shield.png,../images/ZeldaLASwitch/shield2.png" 
+                                onclick="toggleItem('zlaswitch-f-2-shield')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/boomerang.png" 
+                                class="item" 
+                                id="zlaswitch-f-2-boomerang" 
+                                onclick="toggleItem('zlaswitch-f-2-boomerang')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/bomb.png" 
+                                class="item" 
+                                id="zlaswitch-f-2-bomb"  
+                            onclick="toggleItem('zlaswitch-f-2-bomb')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/arc.png" 
+                                class="item" 
+                                id="zlaswitch-f-2-arc"
+                                onclick="toggleItem('zlaswitch-f-2-arc')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/heart.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-heart"
+                            data-max="32"
+                            data-name="0"
+                            onclick="toggleItem('zlaswitch-f-2-heart')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/bracelet.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-bracelet" 
+                            data-levels="../images/ZeldaLASwitch/bracelet.png,../images/ZeldaLASwitch/bracelet2.png"
+                            onclick="toggleItem('zlaswitch-f-2-bracelet')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/hookshot.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-hookshot" 
+                            onclick="toggleItem('zlaswitch-f-2-hookshot')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/magic.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-magic" 
+                            onclick="toggleItem('zlaswitch-f-2-magic')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/shovel.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-shovel" 
+                            onclick="toggleItem('zlaswitch-f-2-shovel')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/rod.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-rod" 
+                            onclick="toggleItem('zlaswitch-f-2-rod')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/ocarina.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-ocarina" 
+                            onclick="toggleItem('zlaswitch-f-2-ocarina')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/flipper.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-flipper" 
+                            onclick="toggleItem('zlaswitch-f-2-flipper')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/champi.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-champi" 
+                            onclick="toggleItem('zlaswitch-f-2-champi')">
+                        </div>
+                        
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/leaf.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-leaf" 
+                            onclick="toggleItem('zlaswitch-f-2-leaf')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/pegasus.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-pegasus" 
+                            onclick="toggleItem('zlaswitch-f-2-pegasus')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/full_heart.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-full_heart"
+                            data-max="9"
+                            data-name="0"
+                            onclick="toggleItem('zlaswitch-f-2-full_heart')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/medicine.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-medicine" 
+                            onclick="toggleItem('zlaswitch-f-2-medicine')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/marine.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-marine" 
+                            onclick="toggleItem('zlaswitch-f-2-marine')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/manbo.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-manbo" 
+                            onclick="toggleItem('zlaswitch-f-2-manbo')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/rap.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-rap" 
+                            onclick="toggleItem('zlaswitch-f-2-rap')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/mad_batter_bomb.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-mad_batter_bomb" 
+                            onclick="toggleItem('zlaswitch-f-2-mad_batter_bomb')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/mad_batter_arrow.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-mad_batter_arrow" 
+                            onclick="toggleItem('zlaswitch-f-2-mad_batter_arrow')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/mad_batter_magic.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-mad_batter_magic" 
+                            onclick="toggleItem('zlaswitch-f-2-mad_batter_magic')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/golden_leaf.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-golden_leaf"
+                            data-max="5"
+                            data-name="0"
+                            onclick="toggleItem('zlaswitch-f-2-golden_leaf')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/echange.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-echange" 
+                            data-levels="../images/ZeldaLASwitch/echange.png,../images/ZeldaLASwitch/echange2.png,../images/ZeldaLASwitch/echange3.png,../images/ZeldaLASwitch/echange4.png,../images/ZeldaLASwitch/echange5.png,../images/ZeldaLASwitch/echange6.png,../images/ZeldaLASwitch/echange7.png,../images/ZeldaLASwitch/echange8.png,../images/ZeldaLASwitch/echange9.png,../images/ZeldaLASwitch/echange10.png,../images/ZeldaLASwitch/echange11.png,../images/ZeldaLASwitch/echange12.png,../images/ZeldaLASwitch/echange13.png,../images/ZeldaLASwitch/echange14.png"
+                            onclick="toggleItem('zlaswitch-f-2-echange')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/chomp.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-chomp" 
+                            onclick="toggleItem('zlaswitch-f-2-chomp')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/rooster.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-rooster" 
+                            onclick="toggleItem('zlaswitch-f-2-rooster')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/coquillage.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-coquillage"
+                            data-max="50"
+                            data-name="0"
+                            onclick="toggleItem('zlaswitch-f-2-coquillage')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/green.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-green"
+                            data-levels="../images/ZeldaLASwitch/green.png,../images/ZeldaLASwitch/bluered.png"
+                            onclick="toggleItem('zlaswitch-f-2-green')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/bottle.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-bottle"
+                            data-max="3"
+                            data-name="0"
+                            onclick="toggleItem('zlaswitch-f-2-bottle')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/sensor.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-sensor"
+                            onclick="toggleItem('zlaswitch-f-2-sensor')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/dungeon.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-dungeon"
+                            data-max="24"
+                            data-name="0"
+                            onclick="toggleItem('zlaswitch-f-2-dungeon')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/effect.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-effect"
+                            data-max="6"
+                            data-name="0"
+                            onclick="toggleItem('zlaswitch-f-2-effect')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/stone.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-stone"
+                            data-max="14"
+                            data-name="0"
+                            onclick="toggleItem('zlaswitch-f-2-stone')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/lure1.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-lure1"
+                            onclick="toggleItem('zlaswitch-f-2-lure1')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/lure2.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-lure2"
+                            onclick="toggleItem('zlaswitch-f-2-lure2')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/lure3.png" 
+                            class="item" 
+                            id="zlaswitch-f-2-lure3"
+                            onclick="toggleItem('zlaswitch-f-2-lure3')">
+                        </div>
+                    </div>
+                </div>        
+            </div>
+
+            <div class="inventory-column">
+                <div class="inventory-section">
+                    <h2 class="section-title">Figurines</h2>
+                    <div class="inventory-card green-card"> 
+                        <div class="tracker-grid">
+
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaLASwitch/fig1.png" 
+                                class="item" 
+                                id="zlaswitch-f-2-fig1"
+                                onclick="toggleItem('zlaswitch-f-2-fig1')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaLASwitch/fig2.png" 
+                                class="item" 
+                                id="zlaswitch-f-2-fig2"
+                                onclick="toggleItem('zlaswitch-f-2-fig2')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaLASwitch/fig3.png" 
+                                class="item" 
+                                id="zlaswitch-f-2-fig3"
+                                onclick="toggleItem('zlaswitch-f-2-fig3')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaLASwitch/fig4.png" 
+                                class="item" 
+                                id="zlaswitch-f-2-fig4"
+                                onclick="toggleItem('zlaswitch-f-2-fig4')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaLASwitch/fig5.png" 
+                                class="item" 
+                                id="zlaswitch-f-2-fig5"
+                                onclick="toggleItem('zlaswitch-f-2-fig5')">
+                            </div>
+                            
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaLASwitch/fig6.png" 
+                                class="item" 
+                                id="zlaswitch-f-2-fig6"
+                                onclick="toggleItem('zlaswitch-f-2-fig6')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaLASwitch/fig7.png" 
+                                class="item" 
+                                id="zlaswitch-f-2-fig7"
+                                onclick="toggleItem('zlaswitch-f-2-fig7')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaLASwitch/fig8.png" 
+                                class="item" 
+                                id="zlaswitch-f-2-fig8"
+                                onclick="toggleItem('zlaswitch-f-2-fig8')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaLASwitch/fig9.png" 
+                                class="item" 
+                                id="zlaswitch-f-2-fig9"
+                                onclick="toggleItem('zlaswitch-f-2-fig9')">
+                            </div>
+
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaLASwitch/fig10.png" 
+                                class="item" 
+                                id="zlaswitch-f-2-fig10"
+                                onclick="toggleItem('zlaswitch-f-2-fig10')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="inventory-section">
+                    <h2 class="section-title">Maléfice</h2>
+                    <div class="inventory-card dark-card">
+                        <div class="tracker-grid">
+                            <div class="item-wrapper">
+                                <img src="../images/ZeldaLASwitch/dethl.png" class="item boss-item" id="zlaswitch-f-2-dethl" onclick="toggleItem('zlaswitch-f-2-dethl')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-section">
+            <h2 class="section-title">Progression Map</h2>
+            <div class="inventory-card red-card"> 
+                <div class="tracker-grid">
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D1</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/map.png" class="item" id="zlaswitch-f-2-map1" onclick="toggleItem('zlaswitch-f-2-map1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/compass.png" class="item" id="zlaswitch-f-2-cp1" onclick="toggleItem('zlaswitch-f-2-cp1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/bec.png" class="item" id="zlaswitch-f-2-bec1" onclick="toggleItem('zlaswitch-f-2-bec1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/key.png" class="item" id="zlaswitch-f-2-key1" onclick="toggleItem('zlaswitch-f-2-key1')" data-max="3" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/boss.png" class="item" id="zlaswitch-f-2-boss1" onclick="toggleItem('zlaswitch-f-2-boss1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/guitard.png" class="item" id="zlaswitch-f-2-guitard" onclick="toggleItem('zlaswitch-f-2-guitard')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D2</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/map.png" class="item" id="zlaswitch-f-2-map2" onclick="toggleItem('zlaswitch-f-2-map2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/compass.png" class="item" id="zlaswitch-f-2-cp2" onclick="toggleItem('zlaswitch-f-2-cp2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/bec.png" class="item" id="zlaswitch-f-2-bec2" onclick="toggleItem('zlaswitch-f-2-bec2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/key.png" class="item" id="zlaswitch-f-2-key2" onclick="toggleItem('zlaswitch-f-2-key2')" data-max="5" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/boss.png" class="item" id="zlaswitch-f-2-boss2" onclick="toggleItem('zlaswitch-f-2-boss2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/trompette.png" class="item" id="zlaswitch-f-2-trompette" onclick="toggleItem('zlaswitch-f-2-trompette')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D3</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/map.png" class="item" id="zlaswitch-f-2-map3" onclick="toggleItem('zlaswitch-f-2-map3')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/compass.png" class="item" id="zlaswitch-f-2-cp3" onclick="toggleItem('zlaswitch-f-2-cp3')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/bec.png" class="item" id="zlaswitch-f-2-bec3" onclick="toggleItem('zlaswitch-f-2-bec3')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/key.png" class="item" id="zlaswitch-f-2-key3" onclick="toggleItem('zlaswitch-f-2-key3')" data-max="9" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/boss.png" class="item" id="zlaswitch-f-2-boss3" onclick="toggleItem('zlaswitch-f-2-boss3')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/cloche.png" class="item" id="zlaswitch-f-2-cloche" onclick="toggleItem('zlaswitch-f-2-cloche')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D4</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/map.png" class="item" id="zlaswitch-f-2-map4" onclick="toggleItem('zlaswitch-f-2-map4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/compass.png" class="item" id="zlaswitch-f-2-cp4" onclick="toggleItem('zlaswitch-f-2-cp4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/bec.png" class="item" id="zlaswitch-f-2-bec4" onclick="toggleItem('zlaswitch-f-2-bec4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/key.png" class="item" id="zlaswitch-f-2-key4" onclick="toggleItem('zlaswitch-f-2-key4')" data-max="5" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/boss.png" class="item" id="zlaswitch-f-2-boss4" onclick="toggleItem('zlaswitch-f-2-boss4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/harp.png" class="item" id="zlaswitch-f-2-harp" onclick="toggleItem('zlaswitch-f-2-harp')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D5</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/map.png" class="item" id="zlaswitch-f-2-map5" onclick="toggleItem('zlaswitch-f-2-map5')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/compass.png" class="item" id="zlaswitch-f-2-cp5" onclick="toggleItem('zlaswitch-f-2-cp5')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/bec.png" class="item" id="zlaswitch-f-2-bec5" onclick="toggleItem('zlaswitch-f-2-bec5')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/key.png" class="item" id="zlaswitch-f-2-key5" onclick="toggleItem('zlaswitch-f-2-key5')" data-max="3" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/boss.png" class="item" id="zlaswitch-f-2-boss5" onclick="toggleItem('zlaswitch-f-2-boss5')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/xylophone.png" class="item" id="zlaswitch-f-2-xylophone" onclick="toggleItem('zlaswitch-f-2-xylophone')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D6</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/map.png" class="item" id="zlaswitch-f-2-map6" onclick="toggleItem('zlaswitch-f-2-map6')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/compass.png" class="item" id="zlaswitch-f-2-cp6" onclick="toggleItem('zlaswitch-f-2-cp6')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/bec.png" class="item" id="zlaswitch-f-2-bec6" onclick="toggleItem('zlaswitch-f-2-bec6')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/key.png" class="item" id="zlaswitch-f-2-key6" onclick="toggleItem('zlaswitch-f-2-key6')" data-max="3" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/boss.png" class="item" id="zlaswitch-f-2-boss6" onclick="toggleItem('zlaswitch-f-2-boss6')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/triangle.png" class="item" id="zlaswitch-f-2-triangle" onclick="toggleItem('zlaswitch-f-2-triangle')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D7</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/map.png" class="item" id="zlaswitch-f-2-map7" onclick="toggleItem('zlaswitch-f-2-map7')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/compass.png" class="item" id="zlaswitch-f-2-cp7" onclick="toggleItem('zlaswitch-f-2-cp7')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/bec.png" class="item" id="zlaswitch-f-2-bec7" onclick="toggleItem('zlaswitch-f-2-bec7')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/key.png" class="item" id="zlaswitch-f-2-key7" onclick="toggleItem('zlaswitch-f-2-key7')" data-max="3" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/boss.png" class="item" id="zlaswitch-f-2-boss7" onclick="toggleItem('zlaswitch-f-2-boss7')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/piano.png" class="item" id="zlaswitch-f-2-piano" onclick="toggleItem('zlaswitch-f-2-piano')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D8</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/map.png" class="item" id="zlaswitch-f-2-map8" onclick="toggleItem('zlaswitch-f-2-map8')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/compass.png" class="item" id="zlaswitch-f-2-cp8" onclick="toggleItem('zlaswitch-f-2-cp8')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/bec.png" class="item" id="zlaswitch-f-2-bec8" onclick="toggleItem('zlaswitch-f-2-bec8')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/key.png" class="item" id="zlaswitch-f-2-key8" onclick="toggleItem('zlaswitch-f-2-key8')" data-max="7" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/boss.png" class="item" id="zlaswitch-f-2-boss8" onclick="toggleItem('zlaswitch-f-2-boss8')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/tambourre.png" class="item" id="zlaswitch-f-2-tambourre" onclick="toggleItem('zlaswitch-f-2-tambourre')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D9</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/map.png" class="item" id="zlaswitch-f-2-map9" onclick="toggleItem('zlaswitch-f-2-map9')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/compass.png" class="item" id="zlaswitch-f-2-cp9" onclick="toggleItem('zlaswitch-f-2-cp9')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/bec.png" class="item" id="zlaswitch-f-2-bec9" onclick="toggleItem('zlaswitch-f-2-bec9')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/key.png" class="item" id="zlaswitch-f-2-key9" onclick="toggleItem('zlaswitch-f-2-key9')" data-max="3" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaLASwitch/boss.png" class="item" id="zlaswitch-f-2-boss9" onclick="toggleItem('zlaswitch-f-2-boss9')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>
