@@ -116,6 +116,46 @@ function toggleItem(id, direction = 1) {
         return;
     }
 
+    // --- AJOUT SPÉCIFIQUE AOC (TON NOUVEAU CODE) ---
+    const aocLevelsAttr = item.getAttribute('data-aoc-levels');
+    if (aocLevelsAttr) {
+        const levels = aocLevelsAttr.split(','); 
+        let currentStep = parseInt(item.getAttribute('data-aoc-step') || "-1");
+        
+        currentStep += direction;
+        if (currentStep > levels.length) currentStep = -1;
+        if (currentStep < -1) currentStep = levels.length;
+
+        item.setAttribute('data-aoc-step', currentStep);
+        localStorage.setItem(id + '-aoc-step', currentStep);
+
+        if (currentStep === -1) {
+            item.classList.remove('active');
+            if (textElement) {
+                textElement.innerText = originalName || "";
+                textElement.classList.remove('maxed'); // On enlève le cyan
+            }
+        } else {
+            item.classList.add('active');
+            if (textElement) {
+                if (currentStep === 0) {
+                    textElement.innerText = originalName || ""; 
+                    textElement.classList.remove('maxed');
+                } else {
+                    const val = levels[currentStep - 1];
+                    textElement.innerText = val;
+                    // --- AJOUT ICI : Si c'est 50, on met en Cyan ---
+                    if (val === "50") {
+                        textElement.classList.add('maxed');
+                    } else {
+                        textElement.classList.remove('maxed');
+                    }
+                }
+            }
+        }
+        return;
+    }
+
     // 4. GESTION DES NIVEAUX OU ITEMS SIMPLES
     const levelsAttr = item.getAttribute('data-levels');
     const levels = levelsAttr ? levelsAttr.split(',') : [];
@@ -200,6 +240,24 @@ window.addEventListener('load', () => {
             e.preventDefault();
             toggleItem(item.id, -1);
         });
+
+        // RESTAURATION AOC (AJOUT)
+        if (item.hasAttribute('data-aoc-levels')) {
+            const savedStep = localStorage.getItem(item.id + '-aoc-step');
+            if (savedStep !== null && savedStep !== "-1") {
+                const step = parseInt(savedStep);
+                const levels = item.getAttribute('data-aoc-levels').split(',');
+                item.setAttribute('data-aoc-step', step);
+                item.classList.add('active');
+                const textElement = item.nextElementSibling;
+                if (textElement && step > 0) {
+                    const val = levels[step - 1];
+                    textElement.innerText = val;
+                    // --- AJOUT ICI : Restaure le Cyan au chargement ---
+                    if (val === "50") textElement.classList.add('maxed');
+                }
+            }
+        }
 
         // 1. Restauration BOTW
         if (item.classList.contains('botw-upgrade')) {

@@ -205,6 +205,7 @@ main.quest-container {
     flex-direction: column;
     align-items: center;
     gap: 0.2vw;
+    position: relative;
 }
 
 .item {
@@ -447,6 +448,29 @@ p.hw-warriors {
 .my-fairy.active {
     color: var(--gold);
     text-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+}
+
+.item-text {
+    position: absolute; /* <--- DOIT ÊTRE absolute pour survoler l'image */
+    bottom: 0;          /* Aligné en bas de l'image */
+    right: 0;           /* Aligné à droite de l'image */
+    
+    /* Garde le reste de ton style (font-size, color, etc.) tel quel */
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px; /* Tu peux baisser à 1vw si c'est trop gros sur petit écran */
+    font-weight: bold;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0px 0px 5px rgba(0,0,0,0.8);
+    pointer-events: none;
+    z-index: 10;
+}
+
+.item-text.maxed {
+    color: var(--gold); 
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    pointer-events: none;
+    z-index: 10;
 }
 
 @media screen and (max-width: 1920px) {
