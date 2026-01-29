@@ -1,0 +1,69 @@
+<!--
+Nom du Projet : [https://faudatv.github.io/Tracker-Zelda/]
+Auteur : [FaudaTV]
+GitHub : https://github.com/FaudaTV
+Licence : GNU AGPLv3
+Note : Les images Nintendo sont la propriété de Nintendo.
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ganon - HW AOC</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="aoc.html" class="back-link">← Retour</a>
+        <h1 class="main-title">HW AOC - GANON</h1>
+    </header>
+
+    <main class="quest-container">
+
+        <div class="inventory-row split-2-columns">
+            <div class="inventory-section">
+                <h2 class="section-title">Global</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOC/lvl100.png" 
+                            class="item" 
+                            id="aoc-f-ganon-lvl100"
+                            onclick="toggleItem('aoc-f-ganon-lvl100')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOC/mganon.png" 
+                            class="item" 
+                            id="aoc-f-ganon-mganon"
+                            data-max="11"
+                            data-name="0"
+                            onclick="toggleItem('aoc-f-ganon-mganon')">
+                            <p class="item-name">0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Armes</h2>
+                <div class="inventory-card cyan-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOC/Weapon/ganon.png" 
+                            class="item" 
+                            id="aoc-f-weapon-ganon"
+                            onclick="toggleItem('aoc-f-weapon-ganon')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!--
+Nom du Projet : [https://faudatv.github.io/Tracker-Zelda/]
+Auteur : [FaudaTV]
+GitHub : https://github.com/FaudaTV
+Licence : GNU AGPLv3
+Note : Les images Nintendo sont la propriété de Nintendo.
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Revali - HW AOC</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="aoc.html" class="back-link">← Retour</a>
+        <h1 class="main-title">HW AOC - REVALI</h1>
+    </header>
+
+    <main class="quest-container">
+
+        <div class="inventory-row split-2-columns">
+            <div class="inventory-section">
+                <h2 class="section-title">Global</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOC/lvl100.png" 
+                            class="item" 
+                            id="aoc-f-revali-lvl100"
+                            onclick="toggleItem('aoc-f-revali-lvl100')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOC/mrevali.png" 
+                            class="item" 
+                            id="aoc-f-revali-mrevali"
+                            data-max="14"
+                            data-name="0"
+                            onclick="toggleItem('aoc-f-revali-mrevali')">
+                            <p class="item-name">0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Armes</h2>
+                <div class="inventory-card cyan-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOC/Weapon/revali.png" 
+                            class="item" 
+                            id="aoc-f-weapon-revali"
+                            onclick="toggleItem('aoc-f-weapon-revali')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-section">
+            <h2 class="section-title">Tenues</h2>
+            <div class="inventory-card red-card"> 
+                <div class="tracker-grid">
+
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/revali1.png" 
+                        class="item" 
+                        id="aoc-f-tenue-revali1"
+                        onclick="toggleItem('aoc-f-tenue-revali1')">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

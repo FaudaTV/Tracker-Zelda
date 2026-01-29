@@ -1,0 +1,84 @@
+<!--
+Nom du Projet : [https://faudatv.github.io/Tracker-Zelda/]
+Auteur : [FaudaTV]
+GitHub : https://github.com/FaudaTV
+Licence : GNU AGPLv3
+Note : Les images Nintendo sont la propriété de Nintendo.
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mipha - HW AOC</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="aoc.html" class="back-link">← Retour</a>
+        <h1 class="main-title">HW AOC - MIPHA</h1>
+    </header>
+
+    <main class="quest-container">
+
+        <div class="inventory-row split-2-columns">
+            <div class="inventory-section">
+                <h2 class="section-title">Global</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOC/lvl100.png" 
+                            class="item" 
+                            id="aoc-f-mipha-lvl100"
+                            onclick="toggleItem('aoc-f-mipha-lvl100')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOC/mmipha.png" 
+                            class="item" 
+                            id="aoc-f-mipha-mmipha"
+                            data-max="15"
+                            data-name="0"
+                            onclick="toggleItem('aoc-f-mipha-mmipha')">
+                            <p class="item-name">0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Armes</h2>
+                <div class="inventory-card cyan-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOC/Weapon/mipha.png" 
+                            class="item" 
+                            id="aoc-f-weapon-mipha"
+                            onclick="toggleItem('aoc-f-weapon-mipha')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-section">
+            <h2 class="section-title">Tenues</h2>
+            <div class="inventory-card red-card"> 
+                <div class="tracker-grid">
+
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/mipha1.png" 
+                        class="item" 
+                        id="aoc-f-tenue-mipha1"
+                        onclick="toggleItem('aoc-f-tenue-mipha1')">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

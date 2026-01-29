@@ -1,0 +1,317 @@
+<!--
+Nom du Projet : [https://faudatv.github.io/Tracker-Zelda/]
+Auteur : [FaudaTV]
+GitHub : https://github.com/FaudaTV
+Licence : GNU AGPLv3
+Note : Les images Nintendo sont la propriété de Nintendo.
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Link - HW AOC</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="aoc.html" class="back-link">← Retour</a>
+        <h1 class="main-title">HW AOC - LINK</h1>
+    </header>
+
+    <main class="quest-container">
+
+        <div class="inventory-row split-2-columns">
+            <div class="inventory-section">
+                <h2 class="section-title">Global</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOC/lvl100.png" 
+                            class="item" 
+                            id="aoc-f-link-lvl100"
+                            onclick="toggleItem('aoc-f-link-lvl100')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOC/mlink.png" 
+                            class="item" 
+                            id="aoc-f-link-mlink"
+                            data-max="33"
+                            data-name="0"
+                            onclick="toggleItem('aoc-f-link-mlink')">
+                            <p class="item-name">0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Armes</h2>
+                <div class="inventory-card cyan-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOC/Weapon/link1.png" 
+                            class="item" 
+                            id="aoc-f-weapon-link1"
+                            onclick="toggleItem('aoc-f-weapon-link1')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOC/Weapon/link2.png" 
+                            class="item" 
+                            id="aoc-f-weapon-link2"
+                            onclick="toggleItem('aoc-f-weapon-link2')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOC/Weapon/link3.png" 
+                            class="item" 
+                            id="aoc-f-weapon-link3"
+                            onclick="toggleItem('aoc-f-weapon-link3')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOC/Weapon/link4.png" 
+                            class="item" 
+                            id="aoc-f-weapon-link4"
+                            onclick="toggleItem('aoc-f-weapon-link4')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-section">
+            <h2 class="section-title">Tenues</h2>
+            <div class="inventory-card red-card"> 
+                <div class="tracker-grid">
+
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link1.png" 
+                        class="item" 
+                        id="aoc-f-tenue-link1"
+                        onclick="toggleItem('aoc-f-tenue-link1')">
+                    </div>
+
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link2.png" 
+                        class="item" 
+                        id="aoc-f-tenue-link2"
+                        onclick="toggleItem('aoc-f-tenue-link2')">
+                    </div>
+
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link3.png" 
+                        class="item" 
+                        id="aoc-f-tenue-link3"
+                        onclick="toggleItem('aoc-f-tenue-link3')">
+                    </div>
+
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link4.png" 
+                        class="item" 
+                        id="aoc-f-tenue-link4"
+                        onclick="toggleItem('aoc-f-tenue-link4')">
+                    </div>
+
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link5.png" 
+                        class="item" 
+                        id="aoc-f-tenue-link5"
+                        onclick="toggleItem('aoc-f-tenue-link5')">
+                    </div>
+
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link6.png" class="item" id="aoc-f-tenue-link6" onclick="toggleItem('aoc-f-tenue-link6')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link7.png" class="item" id="aoc-f-tenue-link7" onclick="toggleItem('aoc-f-tenue-link7')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link8.png" class="item" id="aoc-f-tenue-link8" onclick="toggleItem('aoc-f-tenue-link8')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link9.png" class="item" id="aoc-f-tenue-link9" onclick="toggleItem('aoc-f-tenue-link9')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link10.png" class="item" id="aoc-f-tenue-link10" onclick="toggleItem('aoc-f-tenue-link10')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link11.png" class="item" id="aoc-f-tenue-link11" onclick="toggleItem('aoc-f-tenue-link11')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link12.png" class="item" id="aoc-f-tenue-link12" onclick="toggleItem('aoc-f-tenue-link12')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link13.png" class="item" id="aoc-f-tenue-link13" onclick="toggleItem('aoc-f-tenue-link13')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link14.png" class="item" id="aoc-f-tenue-link14" onclick="toggleItem('aoc-f-tenue-link14')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link15.png" class="item" id="aoc-f-tenue-link15" onclick="toggleItem('aoc-f-tenue-link15')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link16.png" class="item" id="aoc-f-tenue-link16" onclick="toggleItem('aoc-f-tenue-link16')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link17.png" class="item" id="aoc-f-tenue-link17" onclick="toggleItem('aoc-f-tenue-link17')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link18.png" class="item" id="aoc-f-tenue-link18" onclick="toggleItem('aoc-f-tenue-link18')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link19.png" class="item" id="aoc-f-tenue-link19" onclick="toggleItem('aoc-f-tenue-link19')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link20.png" class="item" id="aoc-f-tenue-link20" onclick="toggleItem('aoc-f-tenue-link20')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link21.png" class="item" id="aoc-f-tenue-link21" onclick="toggleItem('aoc-f-tenue-link21')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link22.png" class="item" id="aoc-f-tenue-link22" onclick="toggleItem('aoc-f-tenue-link22')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link23.png" class="item" id="aoc-f-tenue-link23" onclick="toggleItem('aoc-f-tenue-link23')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link24.png" class="item" id="aoc-f-tenue-link24" onclick="toggleItem('aoc-f-tenue-link24')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link25.png" class="item" id="aoc-f-tenue-link25" onclick="toggleItem('aoc-f-tenue-link25')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link26.png" class="item" id="aoc-f-tenue-link26" onclick="toggleItem('aoc-f-tenue-link26')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link27.png" class="item" id="aoc-f-tenue-link27" onclick="toggleItem('aoc-f-tenue-link27')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link28.png" class="item" id="aoc-f-tenue-link28" onclick="toggleItem('aoc-f-tenue-link28')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link29.png" class="item" id="aoc-f-tenue-link29" onclick="toggleItem('aoc-f-tenue-link29')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link30.png" class="item" id="aoc-f-tenue-link30" onclick="toggleItem('aoc-f-tenue-link30')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link31.png" class="item" id="aoc-f-tenue-link31" onclick="toggleItem('aoc-f-tenue-link31')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link32.png" class="item" id="aoc-f-tenue-link32" onclick="toggleItem('aoc-f-tenue-link32')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link33.png" class="item" id="aoc-f-tenue-link33" onclick="toggleItem('aoc-f-tenue-link33')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link34.png" class="item" id="aoc-f-tenue-link34" onclick="toggleItem('aoc-f-tenue-link34')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link35.png" class="item" id="aoc-f-tenue-link35" onclick="toggleItem('aoc-f-tenue-link35')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link36.png" class="item" id="aoc-f-tenue-link36" onclick="toggleItem('aoc-f-tenue-link36')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link37.png" class="item" id="aoc-f-tenue-link37" onclick="toggleItem('aoc-f-tenue-link37')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link38.png" class="item" id="aoc-f-tenue-link38" onclick="toggleItem('aoc-f-tenue-link38')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link39.png" class="item" id="aoc-f-tenue-link39" onclick="toggleItem('aoc-f-tenue-link39')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link40.png" class="item" id="aoc-f-tenue-link40" onclick="toggleItem('aoc-f-tenue-link40')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link41.png" class="item" id="aoc-f-tenue-link41" onclick="toggleItem('aoc-f-tenue-link41')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link42.png" class="item" id="aoc-f-tenue-link42" onclick="toggleItem('aoc-f-tenue-link42')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link43.png" class="item" id="aoc-f-tenue-link43" onclick="toggleItem('aoc-f-tenue-link43')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link44.png" class="item" id="aoc-f-tenue-link44" onclick="toggleItem('aoc-f-tenue-link44')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link45.png" class="item" id="aoc-f-tenue-link45" onclick="toggleItem('aoc-f-tenue-link45')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link46.png" class="item" id="aoc-f-tenue-link46" onclick="toggleItem('aoc-f-tenue-link46')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link47.png" class="item" id="aoc-f-tenue-link47" onclick="toggleItem('aoc-f-tenue-link47')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link48.png" class="item" id="aoc-f-tenue-link48" onclick="toggleItem('aoc-f-tenue-link48')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link49.png" class="item" id="aoc-f-tenue-link49" onclick="toggleItem('aoc-f-tenue-link49')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link50.png" class="item" id="aoc-f-tenue-link50" onclick="toggleItem('aoc-f-tenue-link50')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link51.png" class="item" id="aoc-f-tenue-link51" onclick="toggleItem('aoc-f-tenue-link51')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link52.png" class="item" id="aoc-f-tenue-link52" onclick="toggleItem('aoc-f-tenue-link52')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link53.png" class="item" id="aoc-f-tenue-link53" onclick="toggleItem('aoc-f-tenue-link53')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link54.png" class="item" id="aoc-f-tenue-link54" onclick="toggleItem('aoc-f-tenue-link54')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link55.png" class="item" id="aoc-f-tenue-link55" onclick="toggleItem('aoc-f-tenue-link55')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link56.png" class="item" id="aoc-f-tenue-link56" onclick="toggleItem('aoc-f-tenue-link56')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link57.png" class="item" id="aoc-f-tenue-link57" onclick="toggleItem('aoc-f-tenue-link57')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link58.png" class="item" id="aoc-f-tenue-link58" onclick="toggleItem('aoc-f-tenue-link58')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link59.png" class="item" id="aoc-f-tenue-link59" onclick="toggleItem('aoc-f-tenue-link59')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link60.png" class="item" id="aoc-f-tenue-link60" onclick="toggleItem('aoc-f-tenue-link60')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link61.png" class="item" id="aoc-f-tenue-link61" onclick="toggleItem('aoc-f-tenue-link61')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link62.png" class="item" id="aoc-f-tenue-link62" onclick="toggleItem('aoc-f-tenue-link62')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link63.png" class="item" id="aoc-f-tenue-link63" onclick="toggleItem('aoc-f-tenue-link63')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link64.png" class="item" id="aoc-f-tenue-link64" onclick="toggleItem('aoc-f-tenue-link64')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link65.png" class="item" id="aoc-f-tenue-link65" onclick="toggleItem('aoc-f-tenue-link65')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/AOC/tenues/link66.png" class="item" id="aoc-f-tenue-link66" onclick="toggleItem('aoc-f-tenue-link66')">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>
