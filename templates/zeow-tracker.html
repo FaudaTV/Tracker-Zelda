@@ -1,0 +1,860 @@
+<!--
+Nom du Projet : [https://faudatv.github.io/Tracker-Zelda/]
+Auteur : [FaudaTV]
+GitHub : https://github.com/FaudaTV
+Licence : GNU AGPLv3
+Note : Les images Nintendo sont la propriété de Nintendo.
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - Zelda EOW</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="eow.html" class="back-link">← Retour</a>
+        <h1 class="main-title">Zelda EOW - ITEMS</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="split-row">
+            <div class="inventory-section">
+                <h2 class="section-title">Équipement</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/rod.png" 
+                                    class="item" 
+                                    id="zeow-f-rod"
+                                    onclick="toggleItem('zeow-f-rod')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/sword.png" 
+                                    class="item" 
+                                    id="zeow-f-sword"
+                                    data-levels="../images/ZeldaEOW/sword.png,../images/ZeldaEOW/sword2.png,../images/ZeldaEOW/sword3.png"
+                                    onclick="toggleItem('zeow-f-sword')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/bow.png" 
+                                    class="item" 
+                                    id="zeow-f-bow"
+                                    data-levels="../images/ZeldaEOW/bow.png,../images/ZeldaEOW/bow2.png,../images/ZeldaEOW/bow3.png"
+                                    onclick="toggleItem('zeow-f-bow')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/bomb.png" 
+                                    class="item" 
+                                    id="zeow-f-bomb"
+                                    data-levels="../images/ZeldaEOW/bomb.png,../images/ZeldaEOW/bomb2.png,../images/ZeldaEOW/bomb3.png"
+                                    onclick="toggleItem('zeow-f-bomb')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/key1.png" 
+                                    class="item" 
+                                    id="zeow-f-key1"
+                                    onclick="toggleItem('zeow-f-key1')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/key2.png" 
+                                    class="item" 
+                                    id="zeow-f-key2"
+                                    onclick="toggleItem('zeow-f-key2')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/membership.png" 
+                                    class="item" 
+                                    id="zeow-f-membership"
+                                    onclick="toggleItem('zeow-f-membership')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/crystal.png" 
+                                    class="item" 
+                                    id="zeow-f-crystal"
+                                    data-max="150"
+                                    data-name="0"
+                                    onclick="toggleItem('zeow-f-crystal')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/bottle.png" 
+                                    class="item" 
+                                    id="zeow-f-bottle"
+                                    data-max="4"
+                                    data-name="0"
+                                    onclick="toggleItem('zeow-f-bottle')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/stamp.png" 
+                                    class="item" 
+                                    id="zeow-f-stamp"
+                                    data-max="5"
+                                    data-name="0"
+                                    onclick="toggleItem('zeow-f-stamp')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/stamp2.png" 
+                                    class="item" 
+                                    id="zeow-f-stamp2"
+                                    data-max="5"
+                                    data-name="0"
+                                    onclick="toggleItem('zeow-f-stamp2')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/stamp3.png" 
+                                    class="item" 
+                                    id="zeow-f-stamp3"
+                                    data-max="5"
+                                    data-name="0"
+                                    onclick="toggleItem('zeow-f-stamp3')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/stamp4.png" 
+                                    class="item" 
+                                    id="zeow-f-stamp4"
+                                    data-max="5"
+                                    data-name="0"
+                                    onclick="toggleItem('zeow-f-stamp4')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/stamp5.png" 
+                                    class="item" 
+                                    id="zeow-f-stamp5"
+                                    data-max="5"
+                                    data-name="0"
+                                    onclick="toggleItem('zeow-f-stamp5')">
+                                    <p class="item-name">0</p>
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/main.png" 
+                                    class="item" 
+                                    id="zeow-f-main"
+                                    data-max="18"
+                                    data-name="0"
+                                    onclick="toggleItem('zeow-f-main')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/side.png" 
+                                    class="item" 
+                                    id="zeow-f-side"
+                                    data-max="50"
+                                    data-name="0"
+                                    onclick="toggleItem('zeow-f-side')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/monolithe.png" 
+                                    class="item" 
+                                    id="zeow-f-monolithe"
+                                    data-max="41"
+                                    data-name="0"
+                                    onclick="toggleItem('zeow-f-monolithe')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/smoothie.png" 
+                                    class="item" 
+                                    id="zeow-f-smoothie"
+                                    data-max="69"
+                                    data-name="0"
+                                    onclick="toggleItem('zeow-f-smoothie')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/heart.png" 
+                                    class="item" 
+                                    id="zeow-f-heart"
+                                    data-max="40"
+                                    data-name="0"
+                                    onclick="toggleItem('zeow-f-heart')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/full_heart.png" 
+                                    class="item" 
+                                    id="zeow-f-full_heart"
+                                    data-max="7"
+                                    data-name="0"
+                                    onclick="toggleItem('zeow-f-full_heart')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/tri.png" 
+                                    class="item" 
+                                    id="zeow-f-tri"
+                                    data-max="11"
+                                    data-name="0"
+                                    onclick="toggleItem('zeow-f-tri')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/flipper.png" 
+                                    class="item" 
+                                    id="zeow-f-flipper"
+                                    onclick="toggleItem('zeow-f-flipper')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/scale.png" 
+                                    class="item" 
+                                    id="zeow-f-scale"
+                                    onclick="toggleItem('zeow-f-scale')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/sandals.png" 
+                                    class="item" 
+                                    id="zeow-f-sandals"
+                                    onclick="toggleItem('zeow-f-sandals')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/sash.png" 
+                                    class="item" 
+                                    id="zeow-f-sash"
+                                    onclick="toggleItem('zeow-f-sash')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/band.png" 
+                                    class="item" 
+                                    id="zeow-f-band"
+                                    onclick="toggleItem('zeow-f-band')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/bracelet.png" 
+                                    class="item" 
+                                    id="zeow-f-bracelet"
+                                    onclick="toggleItem('zeow-f-bracelet')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/brace.png" 
+                                    class="item" 
+                                    id="zeow-f-brace"
+                                    onclick="toggleItem('zeow-f-brace')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/spikes.png" 
+                                    class="item" 
+                                    id="zeow-f-spikes"
+                                    onclick="toggleItem('zeow-f-spikes')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/ring.png" 
+                                    class="item" 
+                                    id="zeow-f-ring"
+                                    onclick="toggleItem('zeow-f-ring')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/horn.png" 
+                                    class="item" 
+                                    id="zeow-f-horn"
+                                    onclick="toggleItem('zeow-f-horn')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/anklet.png" 
+                                    class="item" 
+                                    id="zeow-f-anklet"
+                                    onclick="toggleItem('zeow-f-anklet')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/bangle.png" 
+                                    class="item" 
+                                    id="zeow-f-bangle"
+                                    onclick="toggleItem('zeow-f-bangle')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/first.png" 
+                                    class="item" 
+                                    id="zeow-f-first"
+                                    onclick="toggleItem('zeow-f-first')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/second.png" 
+                                    class="item" 
+                                    id="zeow-f-second"
+                                    onclick="toggleItem('zeow-f-second')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/final.png" 
+                                    class="item" 
+                                    id="zeow-f-final"
+                                    onclick="toggleItem('zeow-f-final')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/bell.png" 
+                                    class="item" 
+                                    id="zeow-f-bell"
+                                    onclick="toggleItem('zeow-f-bell')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/pin.png" 
+                                    class="item" 
+                                    id="zeow-f-pin"
+                                    onclick="toggleItem('zeow-f-pin')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/barrette.png" 
+                                    class="item" 
+                                    id="zeow-f-barrette"
+                                    onclick="toggleItem('zeow-f-barrette')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/silver.png" 
+                                    class="item" 
+                                    id="zeow-f-silver"
+                                    onclick="toggleItem('zeow-f-silver')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/gold.png" 
+                                    class="item" 
+                                    id="zeow-f-gold"
+                                    onclick="toggleItem('zeow-f-gold')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/glove.png" 
+                                    class="item" 
+                                    id="zeow-f-glove"
+                                    onclick="toggleItem('zeow-f-glove')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/belt.png" 
+                                    class="item" 
+                                    id="zeow-f-belt"
+                                    onclick="toggleItem('zeow-f-belt')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/scope.png" 
+                                    class="item" 
+                                    id="zeow-f-scope"
+                                    data-levels="../images/ZeldaEOW/scope.png,../images/ZeldaEOW/scope2.png"
+                                    onclick="toggleItem('zeow-f-scope')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/flower.png" 
+                                    class="item" 
+                                    id="zeow-f-flower"
+                                    onclick="toggleItem('zeow-f-flower')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/fragrance.png" 
+                                    class="item" 
+                                    id="zeow-f-fragrance"
+                                    onclick="toggleItem('zeow-f-fragrance')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/charm.png" 
+                                    class="item" 
+                                    id="zeow-f-charm"
+                                    data-levels="../images/ZeldaEOW/charm.png,../images/ZeldaEOW/charm2.png"
+                                    onclick="toggleItem('zeow-f-charm')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/fairy.png" 
+                                    class="item" 
+                                    id="zeow-f-fairy"
+                                    data-max="5"
+                                    data-name="0"
+                                    onclick="toggleItem('zeow-f-fairy')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/o1.png" 
+                                    class="item" 
+                                    id="zeow-f-o1"
+                                    onclick="toggleItem('zeow-f-o1')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/o2.png" 
+                                    class="item" 
+                                    id="zeow-f-o2"
+                                    onclick="toggleItem('zeow-f-o2')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/o3.png" 
+                                    class="item" 
+                                    id="zeow-f-o3"
+                                    onclick="toggleItem('zeow-f-o3')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/o4.png" 
+                                    class="item" 
+                                    id="zeow-f-o4"
+                                    onclick="toggleItem('zeow-f-o4')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/o5.png" 
+                                    class="item" 
+                                    id="zeow-f-o5"
+                                    onclick="toggleItem('zeow-f-o5')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/o6.png" 
+                                    class="item" 
+                                    id="zeow-f-o6"
+                                    onclick="toggleItem('zeow-f-o6')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/o7.png" 
+                                    class="item" 
+                                    id="zeow-f-o7"
+                                    onclick="toggleItem('zeow-f-o7')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/o8.png" 
+                                    class="item" 
+                                    id="zeow-f-o8"
+                                    onclick="toggleItem('zeow-f-o8')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/o9.png" 
+                                    class="item" 
+                                    id="zeow-f-o9"
+                                    onclick="toggleItem('zeow-f-o9')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/o10.png" 
+                                    class="item" 
+                                    id="zeow-f-o10"
+                                    onclick="toggleItem('zeow-f-o10')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/t1.png" 
+                                    class="item" 
+                                    id="zeow-f-t1"
+                                    onclick="toggleItem('zeow-f-t1')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/t2.png" 
+                                    class="item" 
+                                    id="zeow-f-t2"
+                                    onclick="toggleItem('zeow-f-t2')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/t3.png" 
+                                    class="item" 
+                                    id="zeow-f-t3"
+                                    onclick="toggleItem('zeow-f-t3')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/t4.png" 
+                                    class="item" 
+                                    id="zeow-f-t4"
+                                    onclick="toggleItem('zeow-f-t4')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/t5.png" 
+                                    class="item" 
+                                    id="zeow-f-t5"
+                                    onclick="toggleItem('zeow-f-t5')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/t6.png" 
+                                    class="item" 
+                                    id="zeow-f-t6"
+                                    onclick="toggleItem('zeow-f-t6')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/t7.png" 
+                                    class="item" 
+                                    id="zeow-f-t7"
+                                    onclick="toggleItem('zeow-f-t7')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/t8.png" 
+                                    class="item" 
+                                    id="zeow-f-t8"
+                                    onclick="toggleItem('zeow-f-t8')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/t9.png" 
+                                    class="item" 
+                                    id="zeow-f-t9"
+                                    onclick="toggleItem('zeow-f-t9')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/t10.png" 
+                                    class="item" 
+                                    id="zeow-f-t10"
+                                    onclick="toggleItem('zeow-f-t10')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/t11.png" 
+                                    class="item" 
+                                    id="zeow-f-t11"
+                                    onclick="toggleItem('zeow-f-t11')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaEOW/energy.png" 
+                                    class="item" 
+                                    id="zeow-f-energy"
+                                    data-max="4"
+                                    data-name="0"
+                                    onclick="toggleItem('zeow-f-energy')">
+                                    <p class="item-name">0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="split-column">
+                <div class="inventory-section">
+                    <h2 class="section-title">Ingrédients</h2>
+                    <div class="inventory-card red-card"> 
+                        <div class="tracker-grid">
+                            <div class="split-column">
+                                <div class="split-row">
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/i1.png" 
+                                        class="item" 
+                                        id="zeow-f-i1"
+                                        onclick="toggleItem('zeow-f-i1')">
+                                    </div>
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/i2.png" 
+                                        class="item" 
+                                        id="zeow-f-i2"
+                                        onclick="toggleItem('zeow-f-i2')">
+                                    </div>
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/i3.png" 
+                                        class="item" 
+                                        id="zeow-f-i3"
+                                        onclick="toggleItem('zeow-f-i3')">
+                                    </div>
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/i4.png" 
+                                        class="item" 
+                                        id="zeow-f-i4"
+                                        onclick="toggleItem('zeow-f-i4')">
+                                    </div>
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/i5.png" 
+                                        class="item" 
+                                        id="zeow-f-i5"
+                                        onclick="toggleItem('zeow-f-i5')">
+                                    </div>
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/i6.png" 
+                                        class="item" 
+                                        id="zeow-f-i6"
+                                        onclick="toggleItem('zeow-f-i6')">
+                                    </div>
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/i7.png" 
+                                        class="item" 
+                                        id="zeow-f-i7"
+                                        onclick="toggleItem('zeow-f-i7')">
+                                    </div>
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/i8.png" 
+                                        class="item" 
+                                        id="zeow-f-i8"
+                                        onclick="toggleItem('zeow-f-i8')">
+                                    </div>
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/i9.png" 
+                                        class="item" 
+                                        id="zeow-f-i9"
+                                        onclick="toggleItem('zeow-f-i9')">
+                                    </div>
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/i10.png" 
+                                        class="item" 
+                                        id="zeow-f-i10"
+                                        onclick="toggleItem('zeow-f-i10')">
+                                    </div>
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/i11.png" 
+                                        class="item" 
+                                        id="zeow-f-i11"
+                                        onclick="toggleItem('zeow-f-i11')">
+                                    </div>
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/i12.png" 
+                                        class="item" 
+                                        id="zeow-f-i12"
+                                        onclick="toggleItem('zeow-f-i12')">
+                                    </div>
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/i13.png" 
+                                        class="item" 
+                                        id="zeow-f-i13"
+                                        onclick="toggleItem('zeow-f-i13')">
+                                    </div>
+                                </div>
+                                <div class="split-row">
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/i14.png" class="item" id="zeow-f-i14" onclick="toggleItem('zeow-f-i14')">
+                                    </div>
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/i15.png" class="item" id="zeow-f-i15" onclick="toggleItem('zeow-f-i15')">
+                                    </div>
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/i16.png" class="item" id="zeow-f-i16" onclick="toggleItem('zeow-f-i16')">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="split-row">
+                    <div class="inventory-section">
+                        <h2 class="section-title">Faille</h2>
+                        <div class="inventory-card purple-card"> 
+                            <div class="tracker-grid">
+                                <div class="split-row">
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/din.png" class="item" id="zeow-f-din" onclick="toggleItem('zeow-f-din')">
+                                    </div>
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/nayru.png" class="item" id="zeow-f-nayru" onclick="toggleItem('zeow-f-nayru')">
+                                    </div>
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/farore.png" class="item" id="zeow-f-farore" onclick="toggleItem('zeow-f-farore')">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="inventory-section">
+                        <h2 class="section-title">Automates</h2>
+                        <div class="inventory-card orange-card"> 
+                            <div class="tracker-grid">
+                                <div class="split-row">
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/a1.png" class="item" id="zeow-f-a1" onclick="toggleItem('zeow-f-a1')">
+                                    </div>
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/a2.png" class="item" id="zeow-f-a2" onclick="toggleItem('zeow-f-a2')">
+                                    </div>
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/a3.png" class="item" id="zeow-f-a3" onclick="toggleItem('zeow-f-a3')">
+                                    </div>
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/a4.png" class="item" id="zeow-f-a4" onclick="toggleItem('zeow-f-a4')">
+                                    </div>
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/a5.png" class="item" id="zeow-f-a5" onclick="toggleItem('zeow-f-a5')">
+                                    </div>
+                                    <div class="item-wrapper">
+                                        <img src="../images/ZeldaEOW/a6.png" class="item" id="zeow-f-a6" onclick="toggleItem('zeow-f-a6')">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Nihil</h2>
+                <div class="inventory-card dark-card">
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaEOW/nihil.png" class="item boss-item" id="zeow-f-nihil" onclick="toggleItem('zeow-f-nihil')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="inventory-section">
+            <h2 class="section-title">Progression Map</h2>
+            <div class="inventory-card blue-card"> 
+                <div class="tracker-grid">
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D1</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaEOW/map.png" class="item" id="zeow-f-map1" onclick="toggleItem('zeow-f-map1')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaEOW/key.png" class="item" id="zeow-f-key11" onclick="toggleItem('zeow-f-key11')" data-max="1" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaEOW/boss.png" class="item" id="zeow-f-boss1" onclick="toggleItem('zeow-f-boss1')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D2</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaEOW/map.png" class="item" id="zeow-f-map2" onclick="toggleItem('zeow-f-map2')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaEOW/key.png" class="item" id="zeow-f-key21" onclick="toggleItem('zeow-f-key21')" data-max="1" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaEOW/boss.png" class="item" id="zeow-f-boss2" onclick="toggleItem('zeow-f-boss2')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D3</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaEOW/map.png" class="item" id="zeow-f-map3" onclick="toggleItem('zeow-f-map3')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaEOW/key.png" class="item" id="zeow-f-key3" onclick="toggleItem('zeow-f-key3')" data-max="1" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaEOW/boss.png" class="item" id="zeow-f-boss3" onclick="toggleItem('zeow-f-boss3')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D4</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaEOW/map.png" class="item" id="zeow-f-map4" onclick="toggleItem('zeow-f-map4')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaEOW/key.png" class="item" id="zeow-f-key4" onclick="toggleItem('zeow-f-key4')" data-max="1" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaEOW/boss.png" class="item" id="zeow-f-boss4" onclick="toggleItem('zeow-f-boss4')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D5</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaEOW/map.png" class="item" id="zeow-f-map5" onclick="toggleItem('zeow-f-map5')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaEOW/key.png" class="item" id="zeow-f-key5" onclick="toggleItem('zeow-f-key5')" data-max="1" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaEOW/boss.png" class="item" id="zeow-f-boss5" onclick="toggleItem('zeow-f-boss5')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D6</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaEOW/map.png" class="item" id="zeow-f-map6" onclick="toggleItem('zeow-f-map6')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaEOW/key.png" class="item" id="zeow-f-key6" onclick="toggleItem('zeow-f-key6')" data-max="1" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaEOW/boss.png" class="item" id="zeow-f-boss6" onclick="toggleItem('zeow-f-boss6')">
+                        </div>
+                    </div>
+
+                    <div class="dungeon-column">
+                        <h3 class="dungeon-title">D7</h3>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaEOW/map.png" class="item" id="zeow-f-map7" onclick="toggleItem('zeow-f-map7')">
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaEOW/key.png" class="item" id="zeow-f-key7" onclick="toggleItem('zeow-f-key7')" data-max="1" data-name="0">
+                            <p class="item-name">0</p>
+                        </div>
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaEOW/boss.png" class="item" id="zeow-f-boss7" onclick="toggleItem('zeow-f-boss7')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>
