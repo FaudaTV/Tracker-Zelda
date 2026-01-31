@@ -1,0 +1,93 @@
+<!--
+Nom du Projet : [https://faudatv.github.io/Tracker-Zelda/]
+Auteur : [FaudaTV]
+GitHub : https://github.com/FaudaTV
+Licence : GNU AGPLv3
+Note : Les images Nintendo sont la propriété de Nintendo.
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Zelda - HW AOI</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="aoi.html" class="back-link">← Retour</a>
+        <h1 class="main-title">HW AOI - ZELDA</h1>
+    </header>
+
+    <main class="quest-container">
+
+        <div class="inventory-row split-2-columns">
+            <div class="inventory-section">
+                <h2 class="section-title">Global</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOI/lvl100.png" 
+                            class="item" 
+                            id="aoi-f-zelda-lvl100"
+                            onclick="toggleItem('aoi-f-zelda-lvl100')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOI/mzelda.png" 
+                            class="item" 
+                            id="aoi-f-zelda-mzelda"
+                            data-max="20"
+                            data-name="0"
+                            onclick="toggleItem('aoi-f-zelda-mzelda')">
+                            <p class="item-name">0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Armes</h2>
+                <div class="inventory-card cyan-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOI/Weapon/zelda.png" 
+                            class="item" 
+                            id="aoi-f-weapon-zelda"
+                            data-aoi-levels="20,30,50"
+                            onclick="toggleItem('aoi-f-weapon-zelda')">
+                            <div class="item-text"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-section">
+            <h2 class="section-title">Tenues</h2>
+            <div class="inventory-card red-card"> 
+                <div class="tracker-grid">
+
+                    <div class="item-wrapper">
+                        <img src="../images/AOI/tenues/zelda1.png" 
+                        class="item" 
+                        id="aoi-f-tenue-zelda1"
+                        onclick="toggleItem('aoi-f-tenue-zelda1')">
+                    </div>
+
+                    <div class="item-wrapper">
+                        <img src="../images/AOI/tenues/zelda2.png" 
+                        class="item" 
+                        id="aoi-f-tenue-zelda2"
+                        onclick="toggleItem('aoi-f-tenue-zelda2')">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!--
+Nom du Projet : [https://faudatv.github.io/Tracker-Zelda/]
+Auteur : [FaudaTV]
+GitHub : https://github.com/FaudaTV
+Licence : GNU AGPLv3
+Note : Les images Nintendo sont la propriété de Nintendo.
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - HW AOI</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="aoi.html" class="back-link">← Retour</a>
+        <h1 class="main-title">HW AOI - ITEMS</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="inventory-row split-2-columns">
+            <div class="inventory-section">
+                <h2 class="section-title">Équipement</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOI/easy.png" 
+                            class="item" 
+                            id="aoi-f-easy"
+                            data-max="190"
+                            data-name="0"
+                            onclick="toggleItem('aoi-f-easy')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOI/medium.png" 
+                            class="item" 
+                            id="aoi-f-medium"
+                            data-max="190"
+                            data-name="0"
+                            onclick="toggleItem('aoi-f-medium')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOI/hard.png" 
+                            class="item" 
+                            id="aoi-f-hard"
+                            data-max="190"
+                            data-name="0"
+                            onclick="toggleItem('aoi-f-hard')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOI/hero.png" 
+                            class="item" 
+                            id="aoi-f-hero"
+                            data-max="190"
+                            data-name="0"
+                            onclick="toggleItem('aoi-f-hero')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOI/maudit.png" 
+                            class="item" 
+                            id="aoi-f-maudit"
+                            data-max="190"
+                            data-name="0"
+                            onclick="toggleItem('aoi-f-maudit')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOI/korok.png" 
+                            class="item" 
+                            id="aoi-f-korok"
+                            data-max="56"
+                            data-name="0"
+                            onclick="toggleItem('aoi-f-korok')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOI/chest.png" 
+                            class="item" 
+                            id="aoi-f-chest"
+                            data-max="78"
+                            data-name="0"
+                            onclick="toggleItem('aoi-f-chest')">
+                            <p class="item-name">0</p>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOI/all.png" 
+                            class="item" 
+                            id="aoi-f-all"
+                            data-max="108"
+                            data-name="0"
+                            onclick="toggleItem('aoi-f-all')">
+                            <p class="item-name">0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Ganondorf</h2>
+                <div class="inventory-card dark-card">
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="../images/AOI/ganondorf.png" class="item boss-item" id="aoi-f-ganondorf" onclick="toggleItem('aoi-f-ganondorf')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>
