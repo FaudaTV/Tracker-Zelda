@@ -1,0 +1,1213 @@
+<!--
+Nom du Projet : [https://faudatv.github.io/Tracker-Zelda/]
+Auteur : [FaudaTV]
+GitHub : https://github.com/FaudaTV
+Licence : GNU AGPLv3
+Note : Les images Nintendo sont la propriété de Nintendo.
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Tracker - Zelda TOTK NS2E</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="totk2.html" class="back-link">← Retour</a>
+        <h1 class="main-title">Zelda TOTK NS2E - ITEMS</h1>
+    </header>
+
+    <main class="quest-container">
+        <div class="split-row">
+            <div class="inventory-section">
+                <h2 class="section-title">Équipement</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/emprise.png" 
+                                    class="item" 
+                                    id="ztotk2-f-emprise"
+                                    onclick="toggleItem('ztotk2-f-emprise')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/amalgame.png" 
+                                    class="item" 
+                                    id="ztotk2-f-amalgame"
+                                    onclick="toggleItem('ztotk2-f-amalgame')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/ascend.png" 
+                                    class="item" 
+                                    id="ztotk2-f-ascend"
+                                    onclick="toggleItem('ztotk2-f-ascend')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/recall.png" 
+                                    class="item" 
+                                    id="ztotk2-f-recall"
+                                    onclick="toggleItem('ztotk2-f-recall')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/autobuild.png" 
+                                    class="item" 
+                                    id="ztotk2-f-autobuild"
+                                    onclick="toggleItem('ztotk2-f-autobuild')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/camera.png" 
+                                    class="item" 
+                                    id="ztotk2-f-camera"
+                                    data-levels="../images/ZeldaTOTK/camera.png,../images/ZeldaTOTK/camera2.png"
+                                    onclick="toggleItem('ztotk2-f-camera')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/b3.png" 
+                                    class="item" 
+                                    id="ztotk2-f-b3"
+                                    data-levels="../images/ZeldaTOTK/b3.png,../images/ZeldaTOTK/b4.png,../images/ZeldaTOTK/b5.png,../images/ZeldaTOTK/b6.png,../images/ZeldaTOTK/b7.png,../images/ZeldaTOTK/b8.png,../images/ZeldaTOTK/b9.png,../images/ZeldaTOTK/b10.png,../images/ZeldaTOTK/b11.png,../images/ZeldaTOTK/b12.png,../images/ZeldaTOTK/b13.png,../images/ZeldaTOTK/b14.png,../images/ZeldaTOTK/b15.png,../images/ZeldaTOTK/b16.png,../images/ZeldaTOTK/b17.png,../images/ZeldaTOTK/b18.png,../images/ZeldaTOTK/b19.png,../images/ZeldaTOTK/b20.png,../images/ZeldaTOTK/b21.png,../images/ZeldaTOTK/b22.png,../images/ZeldaTOTK/b23.png,../images/ZeldaTOTK/b24.png,../images/ZeldaTOTK/b25.png,../images/ZeldaTOTK/b26.png,../images/ZeldaTOTK/b27.png,../images/ZeldaTOTK/b28.png,../images/ZeldaTOTK/b29.png,../images/ZeldaTOTK/b30.png,../images/ZeldaTOTK/b31.png,../images/ZeldaTOTK/b32.png,../images/ZeldaTOTK/b33.png,../images/ZeldaTOTK/b34.png,../images/ZeldaTOTK/b35.png,../images/ZeldaTOTK/b36.png,../images/ZeldaTOTK/b37.png,../images/ZeldaTOTK/b38.png,../images/ZeldaTOTK/b39.png,../images/ZeldaTOTK/b40.png,../images/ZeldaTOTK/b41.png,../images/ZeldaTOTK/b42.png,../images/ZeldaTOTK/b43.png,../images/ZeldaTOTK/b44.png,../images/ZeldaTOTK/b45.png,../images/ZeldaTOTK/b46.png,../images/ZeldaTOTK/b47.png,../images/ZeldaTOTK/b48.png"
+                                    onclick="toggleItem('ztotk2-f-b3')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/tower.png" 
+                                    class="item" 
+                                    id="ztotk2-f-tower"
+                                    data-max="15"
+                                    data-name="0"
+                                    onclick="toggleItem('ztotk2-f-tower')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/shrine.png" 
+                                    class="item" 
+                                    id="ztotk2-f-shrine"
+                                    data-max="152"
+                                    data-name="0"
+                                    onclick="toggleItem('ztotk2-f-shrine')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/lightroot.png" 
+                                    class="item" 
+                                    id="ztotk2-f-lightroot"
+                                    data-max="120"
+                                    data-name="0"
+                                    onclick="toggleItem('ztotk2-f-lightroot')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/chest.png" 
+                                    class="item" 
+                                    id="ztotk2-f-chest"
+                                    data-max="152"
+                                    data-name="0"
+                                    onclick="toggleItem('ztotk2-f-chest')">
+                                    <p class="item-name">0</p>
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/main.png" 
+                                    class="item" 
+                                    id="ztotk2-f-main"
+                                    data-max="23"
+                                    data-name="0"
+                                    onclick="toggleItem('ztotk2-f-main')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/sidequest.png" 
+                                    class="item" 
+                                    id="ztotk2-f-sidequest"
+                                    data-max="60"
+                                    data-name="0"
+                                    onclick="toggleItem('ztotk2-f-sidequest')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/side.png" 
+                                    class="item" 
+                                    id="ztotk2-f-side"
+                                    data-max="139"
+                                    data-name="0"
+                                    onclick="toggleItem('ztotk2-f-side')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/shrineq.png" 
+                                    class="item" 
+                                    id="ztotk2-f-shrineq"
+                                    data-max="31"
+                                    data-name="0"
+                                    onclick="toggleItem('ztotk2-f-shrineq')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/memory.png" 
+                                    class="item" 
+                                    id="ztotk2-f-memory"
+                                    data-max="12"
+                                    data-name="0"
+                                    onclick="toggleItem('ztotk2-f-memory')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/korok.png" 
+                                    class="item" 
+                                    id="ztotk2-f-korok"
+                                    data-max="1000"
+                                    data-name="0"
+                                    onclick="toggleItem('ztotk2-f-korok')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/korok2.png" 
+                                    class="item" 
+                                    id="ztotk2-f-korok2"
+                                    onclick="toggleItem('ztotk2-f-korok2')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/tulin.png" 
+                                    class="item" 
+                                    id="ztotk2-f-tulin"
+                                    data-levels="../images/ZeldaTOTK/tulin.png,../images/ZeldaTOTK/tulin2.png"
+                                    onclick="toggleItem('ztotk2-f-tulin')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/yunobo.png" 
+                                    class="item" 
+                                    id="ztotk2-f-yunobo"
+                                    data-levels="../images/ZeldaTOTK/yunobo.png,../images/ZeldaTOTK/yunobo2.png"
+                                    onclick="toggleItem('ztotk2-f-yunobo')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/riju.png" 
+                                    class="item" 
+                                    id="ztotk2-f-riju"
+                                    data-levels="../images/ZeldaTOTK/riju.png,../images/ZeldaTOTK/riju2.png"
+                                    onclick="toggleItem('ztotk2-f-riju')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/sidon.png" 
+                                    class="item" 
+                                    id="ztotk2-f-sidon"
+                                    data-levels="../images/ZeldaTOTK/sidon.png,../images/ZeldaTOTK/sidon2.png"
+                                    onclick="toggleItem('ztotk2-f-sidon')">
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/mineru.png" 
+                                    class="item" 
+                                    id="ztotk2-f-mineru"
+                                    data-levels="../images/ZeldaTOTK/mineru.png,../images/ZeldaTOTK/mineru2.png"
+                                    onclick="toggleItem('ztotk2-f-mineru')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/construct.png" 
+                                    class="item" 
+                                    id="ztotk2-f-construct"
+                                    onclick="toggleItem('ztotk2-f-construct')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/frox.png" 
+                                    class="item" 
+                                    id="ztotk2-f-frox"
+                                    onclick="toggleItem('ztotk2-f-frox')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/gleeok.png" 
+                                    class="item" 
+                                    id="ztotk2-f-gleeok"
+                                    onclick="toggleItem('ztotk2-f-gleeok')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/hinox.png" 
+                                    class="item" 
+                                    id="ztotk2-f-hinox"
+                                    onclick="toggleItem('ztotk2-f-hinox')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/molduga.png" 
+                                    class="item" 
+                                    id="ztotk2-f-molduga"
+                                    onclick="toggleItem('ztotk2-f-molduga')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/talus.png" 
+                                    class="item" 
+                                    id="ztotk2-f-talus"
+                                    onclick="toggleItem('ztotk2-f-talus')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/lightfull.png" 
+                                    class="item" 
+                                    id="ztotk2-f-lightfull"
+                                    onclick="toggleItem('ztotk2-f-lightfull')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/well.png" 
+                                    class="item" 
+                                    id="ztotk2-f-well"
+                                    onclick="toggleItem('ztotk2-f-well')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/sage.png" 
+                                    class="item" 
+                                    id="ztotk2-f-sage"
+                                    data-max="20"
+                                    data-name="0"
+                                    onclick="toggleItem('ztotk2-f-sage')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/bubbul.png" 
+                                    class="item" 
+                                    id="ztotk2-f-bubbul"
+                                    data-max="100"
+                                    data-name="0"
+                                    onclick="toggleItem('ztotk2-f-bubbul')">
+                                    <p class="item-name">0</p>
+                                </div>
+                            </div>
+
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/oldmap.png" 
+                                    class="item" 
+                                    id="ztotk2-f-oldmap"
+                                    data-max="31"
+                                    data-name="0"
+                                    onclick="toggleItem('ztotk2-f-oldmap')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/schema.png" 
+                                    class="item" 
+                                    id="ztotk2-f-schema"
+                                    data-max="12"
+                                    data-name="0"
+                                    onclick="toggleItem('ztotk2-f-schema')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/yiga.png" 
+                                    class="item" 
+                                    id="ztotk2-f-yiga"
+                                    data-max="34"
+                                    data-name="0"
+                                    onclick="toggleItem('ztotk2-f-yiga')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/earthwake.png" 
+                                    class="item" 
+                                    id="ztotk2-f-earthwake"
+                                    onclick="toggleItem('ztotk2-f-earthwake')">
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/weapon.png" 
+                                    class="item" 
+                                    id="ztotk2-f-weapon"
+                                    data-max="111"
+                                    data-name="0"
+                                    onclick="toggleItem('ztotk2-f-weapon')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/bow.png" 
+                                    class="item" 
+                                    id="ztotk2-f-bow"
+                                    data-max="30"
+                                    data-name="0"
+                                    onclick="toggleItem('ztotk2-f-bow')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/shield.png" 
+                                    class="item" 
+                                    id="ztotk2-f-shield"
+                                    data-max="33"
+                                    data-name="0"
+                                    onclick="toggleItem('ztotk2-f-shield')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/material.png" 
+                                    class="item" 
+                                    id="ztotk2-f-material"
+                                    data-max="251"
+                                    data-name="0"
+                                    onclick="toggleItem('ztotk2-f-material')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/food.png" 
+                                    class="item" 
+                                    id="ztotk2-f-food"
+                                    data-max="228"
+                                    data-name="0"
+                                    onclick="toggleItem('ztotk2-f-food')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/travel.png" 
+                                    class="item" 
+                                    id="ztotk2-f-travel"
+                                    data-max="3"
+                                    data-name="0"
+                                    onclick="toggleItem('ztotk2-f-travel')">
+                                    <p class="item-name">0</p>
+                                </div>
+
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/zelda.png" 
+                                    class="item" 
+                                    id="ztotk2-f-zelda"
+                                    data-max="240"
+                                    data-name="0"
+                                    onclick="toggleItem('ztotk2-f-zelda')">
+                                    <p class="item-name">0</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Selles & Tissus</h2>
+                <div class="inventory-card blue-card"> 
+                    <div class="tracker-grid">
+                        <div class="split-column">
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/stable.png" 
+                                    class="item" 
+                                    id="ztotk2-f-stable"
+                                    onclick="toggleItem('ztotk2-f-stable')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/stable2.png" 
+                                    class="item" 
+                                    id="ztotk2-f-stable2"
+                                    onclick="toggleItem('ztotk2-f-stable2')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/traveler.png" 
+                                    class="item" 
+                                    id="ztotk2-f-traveler"
+                                    onclick="toggleItem('ztotk2-f-traveler')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/traveler2.png" 
+                                    class="item" 
+                                    id="ztotk2-f-traveler2"
+                                    onclick="toggleItem('ztotk2-f-traveler2')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/royal.png" 
+                                    class="item" 
+                                    id="ztotk2-f-royal"
+                                    onclick="toggleItem('ztotk2-f-royal')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/royal2.png" 
+                                    class="item" 
+                                    id="ztotk2-f-royal2"
+                                    onclick="toggleItem('ztotk2-f-royal2')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/monster.png" 
+                                    class="item" 
+                                    id="ztotk2-f-monster"
+                                    onclick="toggleItem('ztotk2-f-monster')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/monster2.png" 
+                                    class="item" 
+                                    id="ztotk2-f-monster2"
+                                    onclick="toggleItem('ztotk2-f-monster2')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/knight.png" 
+                                    class="item" 
+                                    id="ztotk2-f-knight"
+                                    onclick="toggleItem('ztotk2-f-knight')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/knight2.png" 
+                                    class="item" 
+                                    id="ztotk2-f-knight2"
+                                    onclick="toggleItem('ztotk2-f-knight2')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/extravagant.png" 
+                                    class="item" 
+                                    id="ztotk2-f-extravagant"
+                                    onclick="toggleItem('ztotk2-f-extravagant')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/extravagant2.png" 
+                                    class="item" 
+                                    id="ztotk2-f-extravagant2"
+                                    onclick="toggleItem('ztotk2-f-extravagant2')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/harness.png" 
+                                    class="item" 
+                                    id="ztotk2-f-harness"
+                                    onclick="toggleItem('ztotk2-f-harness')">
+                                </div>
+                            </div>
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p1.png" class="item" id="ztotk2-f-p1" onclick="toggleItem('ztotk2-f-p1')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p2.png" class="item" id="ztotk2-f-p2" onclick="toggleItem('ztotk2-f-p2')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p3.png" class="item" id="ztotk2-f-p3" onclick="toggleItem('ztotk2-f-p3')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p4.png" class="item" id="ztotk2-f-p4" onclick="toggleItem('ztotk2-f-p4')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p5.png" class="item" id="ztotk2-f-p5" onclick="toggleItem('ztotk2-f-p5')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p6.png" class="item" id="ztotk2-f-p6" onclick="toggleItem('ztotk2-f-p6')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p7.png" class="item" id="ztotk2-f-p7" onclick="toggleItem('ztotk2-f-p7')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p8.png" class="item" id="ztotk2-f-p8" onclick="toggleItem('ztotk2-f-p8')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p9.png" class="item" id="ztotk2-f-p9" onclick="toggleItem('ztotk2-f-p9')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p10.png" class="item" id="ztotk2-f-p10" onclick="toggleItem('ztotk2-f-p10')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p11.png" class="item" id="ztotk2-f-p11" onclick="toggleItem('ztotk2-f-p11')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p12.png" class="item" id="ztotk2-f-p12" onclick="toggleItem('ztotk2-f-p12')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p13.png" class="item" id="ztotk2-f-p13" onclick="toggleItem('ztotk2-f-p13')">
+                                </div>
+                            </div>
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p14.png" class="item" id="ztotk2-f-p14" onclick="toggleItem('ztotk2-f-p14')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p15.png" class="item" id="ztotk2-f-p15" onclick="toggleItem('ztotk2-f-p15')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p16.png" class="item" id="ztotk2-f-p16" onclick="toggleItem('ztotk2-f-p16')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p17.png" class="item" id="ztotk2-f-p17" onclick="toggleItem('ztotk2-f-p17')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p18.png" class="item" id="ztotk2-f-p18" onclick="toggleItem('ztotk2-f-p18')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p19.png" class="item" id="ztotk2-f-p19" onclick="toggleItem('ztotk2-f-p19')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p20.png" class="item" id="ztotk2-f-p20" onclick="toggleItem('ztotk2-f-p20')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p21.png" class="item" id="ztotk2-f-p21" onclick="toggleItem('ztotk2-f-p21')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p22.png" class="item" id="ztotk2-f-p22" onclick="toggleItem('ztotk2-f-p22')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p23.png" class="item" id="ztotk2-f-p23" onclick="toggleItem('ztotk2-f-p23')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p24.png" class="item" id="ztotk2-f-p24" onclick="toggleItem('ztotk2-f-p24')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p25.png" class="item" id="ztotk2-f-p25" onclick="toggleItem('ztotk2-f-p25')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p26.png" class="item" id="ztotk2-f-p26" onclick="toggleItem('ztotk2-f-p26')">
+                                </div>
+                            </div>
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p27.png" class="item" id="ztotk2-f-p27" onclick="toggleItem('ztotk2-f-p27')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p28.png" class="item" id="ztotk2-f-p28" onclick="toggleItem('ztotk2-f-p28')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p29.png" class="item" id="ztotk2-f-p29" onclick="toggleItem('ztotk2-f-p29')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p30.png" class="item" id="ztotk2-f-p30" onclick="toggleItem('ztotk2-f-p30')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p31.png" class="item" id="ztotk2-f-p31" onclick="toggleItem('ztotk2-f-p31')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p32.png" class="item" id="ztotk2-f-p32" onclick="toggleItem('ztotk2-f-p32')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p33.png" class="item" id="ztotk2-f-p33" onclick="toggleItem('ztotk2-f-p33')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p34.png" class="item" id="ztotk2-f-p34" onclick="toggleItem('ztotk2-f-p34')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p35.png" class="item" id="ztotk2-f-p35" onclick="toggleItem('ztotk2-f-p35')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p36.png" class="item" id="ztotk2-f-p36" onclick="toggleItem('ztotk2-f-p36')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p37.png" class="item" id="ztotk2-f-p37" onclick="toggleItem('ztotk2-f-p37')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p38.png" class="item" id="ztotk2-f-p38" onclick="toggleItem('ztotk2-f-p38')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p39.png" class="item" id="ztotk2-f-p39" onclick="toggleItem('ztotk2-f-p39')">
+                                </div>
+                            </div>
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p40.png" class="item" id="ztotk2-f-p40" onclick="toggleItem('ztotk2-f-p40')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p41.png" class="item" id="ztotk2-f-p41" onclick="toggleItem('ztotk2-f-p41')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p42.png" class="item" id="ztotk2-f-p42" onclick="toggleItem('ztotk2-f-p42')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p43.png" class="item" id="ztotk2-f-p43" onclick="toggleItem('ztotk2-f-p43')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p44.png" class="item" id="ztotk2-f-p44" onclick="toggleItem('ztotk2-f-p44')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p45.png" class="item" id="ztotk2-f-p45" onclick="toggleItem('ztotk2-f-p45')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p46.png" class="item" id="ztotk2-f-p46" onclick="toggleItem('ztotk2-f-p46')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p47.png" class="item" id="ztotk2-f-p47" onclick="toggleItem('ztotk2-f-p47')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p48.png" class="item" id="ztotk2-f-p48" onclick="toggleItem('ztotk2-f-p48')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p49.png" class="item" id="ztotk2-f-p49" onclick="toggleItem('ztotk2-f-p49')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p50.png" class="item" id="ztotk2-f-p50" onclick="toggleItem('ztotk2-f-p50')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p51.png" class="item" id="ztotk2-f-p51" onclick="toggleItem('ztotk2-f-p51')">
+                                </div>
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p52.png" class="item" id="ztotk2-f-p52" onclick="toggleItem('ztotk2-f-p52')">
+                                </div>
+                            </div>
+                            <div class="split-row">
+                                <div class="item-wrapper">
+                                    <img src="../images/ZeldaTOTK/p53.png" class="item" id="ztotk2-f-p53" onclick="toggleItem('ztotk2-f-p53')">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Dragon Noir</h2>
+                <div class="inventory-card dark-card">
+                    <div class="tracker-grid">
+                        <div class="item-wrapper">
+                            <img src="../images/ZeldaTOTK/DragonNoir.png" class="item boss-item" id="ztotk2-f-dragonnoir" onclick="toggleItem('ztotk2-f-dragonnoir')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-section">
+            <h2 class="section-title">Tenue</h2>
+            <div class="inventory-card red-card"> 
+                <div class="tracker-grid">
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t1.png" class="item botw-upgrade" id="ztotk2-f-t1" onclick="toggleItem('ztotk2-f-t1')">
+                        <div id="stars-ztotk2-f-t1" class="star-container"></div>
+                    </div><div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t2.png" class="item botw-upgrade" id="ztotk2-f-t2" onclick="toggleItem('ztotk2-f-t2')">
+                        <div id="stars-ztotk2-f-t2" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t3.png" class="item" id="ztotk2-f-t3" onclick="toggleItem('ztotk2-f-t3')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t4.png" class="item" id="ztotk2-f-t4" onclick="toggleItem('ztotk2-f-t4')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t5.png" class="item" id="ztotk2-f-t5" onclick="toggleItem('ztotk2-f-t5')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t6.png" class="item botw-upgrade" id="ztotk2-f-t6" onclick="toggleItem('ztotk2-f-t6')">
+                        <div id="stars-ztotk2-f-t6" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t7.png" class="item botw-upgrade" id="ztotk2-f-t7" onclick="toggleItem('ztotk2-f-t7')">
+                        <div id="stars-ztotk2-f-t7" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t8.png" class="item botw-upgrade" id="ztotk2-f-t8" onclick="toggleItem('ztotk2-f-t8')">
+                        <div id="stars-ztotk2-f-t8" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t9.png" class="item" id="ztotk2-f-t9" onclick="toggleItem('ztotk2-f-t9')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t10.png" class="item" id="ztotk2-f-t10" onclick="toggleItem('ztotk2-f-t10')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t11.png" class="item botw-upgrade" id="ztotk2-f-t11" onclick="toggleItem('ztotk2-f-t11')">
+                        <div id="stars-ztotk2-f-t11" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t12.png" class="item botw-upgrade" id="ztotk2-f-t12" onclick="toggleItem('ztotk2-f-t12')">
+                        <div id="stars-ztotk2-f-t12" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t13.png" class="item botw-upgrade" id="ztotk2-f-t13" onclick="toggleItem('ztotk2-f-t13')">
+                        <div id="stars-ztotk2-f-t13" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t14.png" class="item botw-upgrade" id="ztotk2-f-t14" onclick="toggleItem('ztotk2-f-t14')">
+                        <div id="stars-ztotk2-f-t14" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t15.png" class="item botw-upgrade" id="ztotk2-f-t15" onclick="toggleItem('ztotk2-f-t15')">
+                        <div id="stars-ztotk2-f-t15" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t16.png" class="item botw-upgrade" id="ztotk2-f-t16" onclick="toggleItem('ztotk2-f-t16')">
+                        <div id="stars-ztotk2-f-t16" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t17.png" class="item botw-upgrade" id="ztotk2-f-t17" onclick="toggleItem('ztotk2-f-t17')">
+                        <div id="stars-ztotk2-f-t17" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t18.png" class="item" id="ztotk2-f-t18" onclick="toggleItem('ztotk2-f-t18')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t19.png" class="item" id="ztotk2-f-t19" onclick="toggleItem('ztotk2-f-t19')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t20.png" class="item" id="ztotk2-f-t20" onclick="toggleItem('ztotk2-f-t20')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t21.png" class="item botw-upgrade" id="ztotk2-f-t21" onclick="toggleItem('ztotk2-f-t21')">
+                        <div id="stars-ztotk2-f-t21" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t22.png" class="item botw-upgrade" id="ztotk2-f-t22" onclick="toggleItem('ztotk2-f-t22')">
+                        <div id="stars-ztotk2-f-t22" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t23.png" class="item botw-upgrade" id="ztotk2-f-t23" onclick="toggleItem('ztotk2-f-t23')">
+                        <div id="stars-ztotk2-f-t23" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t24.png" class="item botw-upgrade" id="ztotk2-f-t24" onclick="toggleItem('ztotk2-f-t24')">
+                        <div id="stars-ztotk2-f-t24" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t25.png" class="item botw-upgrade" id="ztotk2-f-t25" onclick="toggleItem('ztotk2-f-t25')">
+                        <div id="stars-ztotk2-f-t25" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t26.png" class="item botw-upgrade" id="ztotk2-f-t26" onclick="toggleItem('ztotk2-f-t26')">
+                        <div id="stars-ztotk2-f-t26" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t27.png" class="item botw-upgrade" id="ztotk2-f-t27" onclick="toggleItem('ztotk2-f-t27')">
+                        <div id="stars-ztotk2-f-t27" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t28.png" class="item" id="ztotk2-f-t28" onclick="toggleItem('ztotk2-f-t28')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t29.png" class="item" id="ztotk2-f-t29" onclick="toggleItem('ztotk2-f-t29')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t30.png" class="item" id="ztotk2-f-t30" onclick="toggleItem('ztotk2-f-t30')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t31.png" class="item botw-upgrade" id="ztotk2-f-t31" onclick="toggleItem('ztotk2-f-t31')">
+                        <div id="stars-ztotk2-f-t31" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t32.png" class="item botw-upgrade" id="ztotk2-f-t32" onclick="toggleItem('ztotk2-f-t32')">
+                        <div id="stars-ztotk2-f-t32" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t33.png" class="item botw-upgrade" id="ztotk2-f-t33" onclick="toggleItem('ztotk2-f-t33')">
+                        <div id="stars-ztotk2-f-t33" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t34.png" class="item botw-upgrade" id="ztotk2-f-t34" onclick="toggleItem('ztotk2-f-t34')">
+                        <div id="stars-ztotk2-f-t34" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t35.png" class="item botw-upgrade" id="ztotk2-f-t35" onclick="toggleItem('ztotk2-f-t35')">
+                        <div id="stars-ztotk2-f-t35" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t36.png" class="item botw-upgrade" id="ztotk2-f-t36" onclick="toggleItem('ztotk2-f-t36')">
+                        <div id="stars-ztotk2-f-t36" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t37.png" class="item botw-upgrade" id="ztotk2-f-t37" onclick="toggleItem('ztotk2-f-t37')">
+                        <div id="stars-ztotk2-f-t37" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t38.png" class="item botw-upgrade" id="ztotk2-f-t38" onclick="toggleItem('ztotk2-f-t38')">
+                        <div id="stars-ztotk2-f-t38" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t39.png" class="item botw-upgrade" id="ztotk2-f-t39" onclick="toggleItem('ztotk2-f-t39')">
+                        <div id="stars-ztotk2-f-t39" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t40.png" class="item botw-upgrade" id="ztotk2-f-t40" onclick="toggleItem('ztotk2-f-t40')">
+                        <div id="stars-ztotk2-f-t40" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t41.png" class="item botw-upgrade" id="ztotk2-f-t41" onclick="toggleItem('ztotk2-f-t41')">
+                        <div id="stars-ztotk2-f-t41" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t42.png" class="item botw-upgrade" id="ztotk2-f-t42" onclick="toggleItem('ztotk2-f-t42')">
+                        <div id="stars-ztotk2-f-t42" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t43.png" class="item botw-upgrade" id="ztotk2-f-t43" onclick="toggleItem('ztotk2-f-t43')">
+                        <div id="stars-ztotk2-f-t43" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t44.png" class="item botw-upgrade" id="ztotk2-f-t44" onclick="toggleItem('ztotk2-f-t44')">
+                        <div id="stars-ztotk2-f-t44" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t45.png" class="item botw-upgrade" id="ztotk2-f-t45" onclick="toggleItem('ztotk2-f-t45')">
+                        <div id="stars-ztotk2-f-t45" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t46.png" class="item" id="ztotk2-f-t46" onclick="toggleItem('ztotk2-f-t46')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t47.png" class="item botw-upgrade" id="ztotk2-f-t47" onclick="toggleItem('ztotk2-f-t47')">
+                        <div id="stars-ztotk2-f-t47" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t48.png" class="item botw-upgrade" id="ztotk2-f-t48" onclick="toggleItem('ztotk2-f-t48')">
+                        <div id="stars-ztotk2-f-t48" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t49.png" class="item botw-upgrade" id="ztotk2-f-t49" onclick="toggleItem('ztotk2-f-t49')">
+                        <div id="stars-ztotk2-f-t49" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t50.png" class="item" id="ztotk2-f-t50" onclick="toggleItem('ztotk2-f-t50')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t51.png" class="item" id="ztotk2-f-t51" onclick="toggleItem('ztotk2-f-t51')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t52.png" class="item" id="ztotk2-f-t52" onclick="toggleItem('ztotk2-f-t52')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t53.png" class="item" id="ztotk2-f-t53" onclick="toggleItem('ztotk2-f-t53')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t54.png" class="item" id="ztotk2-f-t54" onclick="toggleItem('ztotk2-f-t54')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t55.png" class="item" id="ztotk2-f-t55" onclick="toggleItem('ztotk2-f-t55')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t56.png" class="item" id="ztotk2-f-t56" onclick="toggleItem('ztotk2-f-t56')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t57.png" class="item botw-upgrade" id="ztotk2-f-t57" onclick="toggleItem('ztotk2-f-t57')">
+                        <div id="stars-ztotk2-f-t57" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t58.png" class="item botw-upgrade" id="ztotk2-f-t58" onclick="toggleItem('ztotk2-f-t58')">
+                        <div id="stars-ztotk2-f-t58" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t59.png" class="item botw-upgrade" id="ztotk2-f-t59" onclick="toggleItem('ztotk2-f-t59')">
+                        <div id="stars-ztotk2-f-t59" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t60.png" class="item" id="ztotk2-f-t60" onclick="toggleItem('ztotk2-f-t60')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t61.png" class="item" id="ztotk2-f-t61" onclick="toggleItem('ztotk2-f-t61')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t62.png" class="item" id="ztotk2-f-t62" onclick="toggleItem('ztotk2-f-t62')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t63.png" class="item" id="ztotk2-f-t63" onclick="toggleItem('ztotk2-f-t63')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t64.png" class="item botw-upgrade" id="ztotk2-f-t64" onclick="toggleItem('ztotk2-f-t64')">
+                        <div id="stars-ztotk2-f-t64" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t65.png" class="item botw-upgrade" id="ztotk2-f-t65" onclick="toggleItem('ztotk2-f-t65')">
+                        <div id="stars-ztotk2-f-t65" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t66.png" class="item botw-upgrade" id="ztotk2-f-t66" onclick="toggleItem('ztotk2-f-t66')">
+                        <div id="stars-ztotk2-f-t66" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t67.png" class="item botw-upgrade" id="ztotk2-f-t67" onclick="toggleItem('ztotk2-f-t67')">
+                        <div id="stars-ztotk2-f-t67" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t68.png" class="item botw-upgrade" id="ztotk2-f-t68" onclick="toggleItem('ztotk2-f-t68')">
+                        <div id="stars-ztotk2-f-t68" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t69.png" class="item botw-upgrade" id="ztotk2-f-t69" onclick="toggleItem('ztotk2-f-t69')">
+                        <div id="stars-ztotk2-f-t69" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t70.png" class="item botw-upgrade" id="ztotk2-f-t70" onclick="toggleItem('ztotk2-f-t70')">
+                        <div id="stars-ztotk2-f-t70" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t71.png" class="item botw-upgrade" id="ztotk2-f-t71" onclick="toggleItem('ztotk2-f-t71')">
+                        <div id="stars-ztotk2-f-t71" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t72.png" class="item botw-upgrade" id="ztotk2-f-t72" onclick="toggleItem('ztotk2-f-t72')">
+                        <div id="stars-ztotk2-f-t72" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t73.png" class="item botw-upgrade" id="ztotk2-f-t73" onclick="toggleItem('ztotk2-f-t73')">
+                        <div id="stars-ztotk2-f-t73" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t74.png" class="item botw-upgrade" id="ztotk2-f-t74" onclick="toggleItem('ztotk2-f-t74')">
+                        <div id="stars-ztotk2-f-t74" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t75.png" class="item botw-upgrade" id="ztotk2-f-t75" onclick="toggleItem('ztotk2-f-t75')">
+                        <div id="stars-ztotk2-f-t75" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t76.png" class="item botw-upgrade" id="ztotk2-f-t76" onclick="toggleItem('ztotk2-f-t76')">
+                        <div id="stars-ztotk2-f-t76" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t77.png" class="item botw-upgrade" id="ztotk2-f-t77" onclick="toggleItem('ztotk2-f-t77')">
+                        <div id="stars-ztotk2-f-t77" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t78.png" class="item botw-upgrade" id="ztotk2-f-t78" onclick="toggleItem('ztotk2-f-t78')">
+                        <div id="stars-ztotk2-f-t78" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t79.png" class="item botw-upgrade" id="ztotk2-f-t79" onclick="toggleItem('ztotk2-f-t79')">
+                        <div id="stars-ztotk2-f-t79" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t80.png" class="item botw-upgrade" id="ztotk2-f-t80" onclick="toggleItem('ztotk2-f-t80')">
+                        <div id="stars-ztotk2-f-t80" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t81.png" class="item botw-upgrade" id="ztotk2-f-t81" onclick="toggleItem('ztotk2-f-t81')">
+                        <div id="stars-ztotk2-f-t81" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t82.png" class="item botw-upgrade" id="ztotk2-f-t82" onclick="toggleItem('ztotk2-f-t82')">
+                        <div id="stars-ztotk2-f-t82" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t83.png" class="item botw-upgrade" id="ztotk2-f-t83" onclick="toggleItem('ztotk2-f-t83')">
+                        <div id="stars-ztotk2-f-t83" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t84.png" class="item botw-upgrade" id="ztotk2-f-t84" onclick="toggleItem('ztotk2-f-t84')">
+                        <div id="stars-ztotk2-f-t84" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t85.png" class="item botw-upgrade" id="ztotk2-f-t85" onclick="toggleItem('ztotk2-f-t85')">
+                        <div id="stars-ztotk2-f-t85" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t86.png" class="item botw-upgrade" id="ztotk2-f-t86" onclick="toggleItem('ztotk2-f-t86')">
+                        <div id="stars-ztotk2-f-t86" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t87.png" class="item botw-upgrade" id="ztotk2-f-t87" onclick="toggleItem('ztotk2-f-t87')">
+                        <div id="stars-ztotk2-f-t87" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t88.png" class="item botw-upgrade" id="ztotk2-f-t88" onclick="toggleItem('ztotk2-f-t88')">
+                        <div id="stars-ztotk2-f-t88" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t89.png" class="item" id="ztotk2-f-t89" onclick="toggleItem('ztotk2-f-t89')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t90.png" class="item" id="ztotk2-f-t90" onclick="toggleItem('ztotk2-f-t90')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t91.png" class="item" id="ztotk2-f-t91" onclick="toggleItem('ztotk2-f-t91')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t92.png" class="item botw-upgrade" id="ztotk2-f-t92" onclick="toggleItem('ztotk2-f-t92')">
+                        <div id="stars-ztotk2-f-t92" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t93.png" class="item botw-upgrade" id="ztotk2-f-t93" onclick="toggleItem('ztotk2-f-t93')">
+                        <div id="stars-ztotk2-f-t93" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t94.png" class="item botw-upgrade" id="ztotk2-f-t94" onclick="toggleItem('ztotk2-f-t94')">
+                        <div id="stars-ztotk2-f-t94" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t95.png" class="item" id="ztotk2-f-t95" onclick="toggleItem('ztotk2-f-t95')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t96.png" class="item botw-upgrade" id="ztotk2-f-t96" onclick="toggleItem('ztotk2-f-t96')">
+                        <div id="stars-ztotk2-f-t96" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t97.png" class="item botw-upgrade" id="ztotk2-f-t97" onclick="toggleItem('ztotk2-f-t97')">
+                        <div id="stars-ztotk2-f-t97" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t98.png" class="item botw-upgrade" id="ztotk2-f-t98" onclick="toggleItem('ztotk2-f-t98')">
+                        <div id="stars-ztotk2-f-t98" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t99.png" class="item botw-upgrade" id="ztotk2-f-t99" onclick="toggleItem('ztotk2-f-t99')">
+                        <div id="stars-ztotk2-f-t99" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t100.png" class="item botw-upgrade" id="ztotk2-f-t100" onclick="toggleItem('ztotk2-f-t100')">
+                        <div id="stars-ztotk2-f-t100" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t101.png" class="item botw-upgrade" id="ztotk2-f-t101" onclick="toggleItem('ztotk2-f-t101')">
+                        <div id="stars-ztotk2-f-t101" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t102.png" class="item botw-upgrade" id="ztotk2-f-t102" onclick="toggleItem('ztotk2-f-t102')">
+                        <div id="stars-ztotk2-f-t102" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t103.png" class="item botw-upgrade" id="ztotk2-f-t103" onclick="toggleItem('ztotk2-f-t103')">
+                        <div id="stars-ztotk2-f-t103" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t104.png" class="item botw-upgrade" id="ztotk2-f-t104" onclick="toggleItem('ztotk2-f-t104')">
+                        <div id="stars-ztotk2-f-t104" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t105.png" class="item botw-upgrade" id="ztotk2-f-t105" onclick="toggleItem('ztotk2-f-t105')">
+                        <div id="stars-ztotk2-f-t105" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t106.png" class="item botw-upgrade" id="ztotk2-f-t106" onclick="toggleItem('ztotk2-f-t106')">
+                        <div id="stars-ztotk2-f-t106" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t107.png" class="item botw-upgrade" id="ztotk2-f-t107" onclick="toggleItem('ztotk2-f-t107')">
+                        <div id="stars-ztotk2-f-t107" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t108.png" class="item botw-upgrade" id="ztotk2-f-t108" onclick="toggleItem('ztotk2-f-t108')">
+                        <div id="stars-ztotk2-f-t108" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t109.png" class="item botw-upgrade" id="ztotk2-f-t109" onclick="toggleItem('ztotk2-f-t109')">
+                        <div id="stars-ztotk2-f-t109" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t110.png" class="item botw-upgrade" id="ztotk2-f-t110" onclick="toggleItem('ztotk2-f-t110')">
+                        <div id="stars-ztotk2-f-t110" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t111.png" class="item botw-upgrade" id="ztotk2-f-t111" onclick="toggleItem('ztotk2-f-t111')">
+                        <div id="stars-ztotk2-f-t111" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t112.png" class="item botw-upgrade" id="ztotk2-f-t112" onclick="toggleItem('ztotk2-f-t112')">
+                        <div id="stars-ztotk2-f-t112" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t113.png" class="item botw-upgrade" id="ztotk2-f-t113" onclick="toggleItem('ztotk2-f-t113')">
+                        <div id="stars-ztotk2-f-t113" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t114.png" class="item botw-upgrade" id="ztotk2-f-t114" onclick="toggleItem('ztotk2-f-t114')">
+                        <div id="stars-ztotk2-f-t114" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t115.png" class="item botw-upgrade" id="ztotk2-f-t115" onclick="toggleItem('ztotk2-f-t115')">
+                        <div id="stars-ztotk2-f-t115" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t116.png" class="item" id="ztotk2-f-t116" onclick="toggleItem('ztotk2-f-t116')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t117.png" class="item" id="ztotk2-f-t117" onclick="toggleItem('ztotk2-f-t117')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t118.png" class="item" id="ztotk2-f-t118" onclick="toggleItem('ztotk2-f-t118')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t119.png" class="item botw-upgrade" id="ztotk2-f-t119" onclick="toggleItem('ztotk2-f-t119')">
+                        <div id="stars-ztotk2-f-t119" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t120.png" class="item botw-upgrade" id="ztotk2-f-t120" onclick="toggleItem('ztotk2-f-t120')">
+                        <div id="stars-ztotk2-f-t120" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t121.png" class="item botw-upgrade" id="ztotk2-f-t121" onclick="toggleItem('ztotk2-f-t121')">
+                        <div id="stars-ztotk2-f-t121" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t122.png" class="item botw-upgrade" id="ztotk2-f-t122" onclick="toggleItem('ztotk2-f-t122')">
+                        <div id="stars-ztotk2-f-t122" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t123.png" class="item botw-upgrade" id="ztotk2-f-t123" onclick="toggleItem('ztotk2-f-t123')">
+                        <div id="stars-ztotk2-f-t123" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t124.png" class="item botw-upgrade" id="ztotk2-f-t124" onclick="toggleItem('ztotk2-f-t124')">
+                        <div id="stars-ztotk2-f-t124" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t125.png" class="item" id="ztotk2-f-t125" onclick="toggleItem('ztotk2-f-t125')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t126.png" class="item botw-upgrade" id="ztotk2-f-t126" onclick="toggleItem('ztotk2-f-t126')">
+                        <div id="stars-ztotk2-f-t126" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t127.png" class="item botw-upgrade" id="ztotk2-f-t127" onclick="toggleItem('ztotk2-f-t127')">
+                        <div id="stars-ztotk2-f-t127" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t128.png" class="item botw-upgrade" id="ztotk2-f-t128" onclick="toggleItem('ztotk2-f-t128')">
+                        <div id="stars-ztotk2-f-t128" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t129.png" class="item" id="ztotk2-f-t129" onclick="toggleItem('ztotk2-f-t129')">
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t130.png" class="item botw-upgrade" id="ztotk2-f-t130" onclick="toggleItem('ztotk2-f-t130')">
+                        <div id="stars-ztotk2-f-t130" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t131.png" class="item botw-upgrade" id="ztotk2-f-t131" onclick="toggleItem('ztotk2-f-t131')">
+                        <div id="stars-ztotk2-f-t131" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t132.png" class="item botw-upgrade" id="ztotk2-f-t132" onclick="toggleItem('ztotk2-f-t132')">
+                        <div id="stars-ztotk2-f-t132" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t133.png" class="item botw-upgrade" id="ztotk2-f-t133" onclick="toggleItem('ztotk2-f-t133')">
+                        <div id="stars-ztotk2-f-t133" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t134.png" class="item botw-upgrade" id="ztotk2-f-t134" onclick="toggleItem('ztotk2-f-t134')">
+                        <div id="stars-ztotk2-f-t134" class="star-container"></div>
+                    </div>
+                    <div class="item-wrapper">
+                        <img src="../images/ZeldaTOTK/t135.png" class="item botw-upgrade" id="ztotk2-f-t135" onclick="toggleItem('ztotk2-f-t135')">
+                        <div id="stars-ztotk2-f-t135" class="star-container"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>
