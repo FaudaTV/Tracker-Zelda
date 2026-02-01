@@ -120,6 +120,7 @@ function toggleItem(id, direction = 1) {
     const aocLevelsAttr = item.getAttribute('data-aoc-levels');
     if (aocLevelsAttr) {
         const levels = aocLevelsAttr.split(','); 
+        const lastLevel = levels[levels.length - 1];
         let currentStep = parseInt(item.getAttribute('data-aoc-step') || "-1");
         
         currentStep += direction;
@@ -145,7 +146,7 @@ function toggleItem(id, direction = 1) {
                     const val = levels[currentStep - 1];
                     textElement.innerText = val;
                     // --- AJOUT ICI : Si c'est 50, on met en Cyan ---
-                    if (val === "50") {
+                    if (val === lastLevel) {
                         textElement.classList.add('maxed');
                     } else {
                         textElement.classList.remove('maxed');

@@ -1,0 +1,111 @@
+<!--
+Nom du Projet : [https://faudatv.github.io/Tracker-Zelda/]
+Auteur : [FaudaTV]
+GitHub : https://github.com/FaudaTV
+Licence : GNU AGPLv3
+Note : Les images Nintendo sont la propriété de Nintendo.
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Golem - HW AOI</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="aoi.html" class="back-link">← Retour</a>
+        <h1 class="main-title">HW AOI - GOLEM</h1>
+    </header>
+
+    <main class="quest-container">
+
+        <div class="inventory-row split-2-columns">
+            <div class="inventory-section">
+                <h2 class="section-title">Global</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOI/lvl100.png" 
+                            class="item gros-item" 
+                            id="aoi-f-golem-lvl100"
+                            onclick="toggleItem('aoi-f-golem-lvl100')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOI/mgolem.png" 
+                            class="item gros-item" 
+                            id="aoi-f-golem-mgolem"
+                            data-max="32"
+                            data-name="0"
+                            onclick="toggleItem('aoi-f-golem-mgolem')">
+                            <p class="item-name">0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Armes</h2>
+                <div class="inventory-card cyan-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOI/Weapon/golem1.png" 
+                            class="item gros-item" 
+                            id="aoi-f-weapon-golem1"
+                            data-aoc-levels="10,20"
+                            onclick="toggleItem('aoi-f-weapon-golem1')">
+                            <div class="item-text"></div>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOI/Weapon/golem2.png" 
+                            class="item gros-item" 
+                            id="aoi-f-weapon-golem2"
+                            data-aoc-levels="10,20"
+                            onclick="toggleItem('aoi-f-weapon-golem2')">
+                            <div class="item-text"></div>
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOI/Weapon/golem3.png" 
+                            class="item gros-item" 
+                            id="aoi-f-weapon-golem3"
+                            data-aoc-levels="10,20"
+                            onclick="toggleItem('aoi-f-weapon-golem3')">
+                            <div class="item-text"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-section">
+            <h2 class="section-title">Tenues</h2>
+            <div class="inventory-card red-card"> 
+                <div class="tracker-grid">
+
+                    <div class="item-wrapper">
+                        <img src="../images/AOI/tenues/golem1.png" 
+                        class="item gros-item" 
+                        id="aoi-f-tenue-golem1"
+                        onclick="toggleItem('aoi-f-tenue-golem1')">
+                    </div>
+
+                    <div class="item-wrapper">
+                        <img src="../images/AOI/tenues/golem2.png" 
+                        class="item gros-item" 
+                        id="aoi-f-tenue-golem2"
+                        onclick="toggleItem('aoi-f-tenue-golem2')">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

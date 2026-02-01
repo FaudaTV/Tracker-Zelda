@@ -458,7 +458,7 @@ p.hw-warriors {
     /* Garde le reste de ton style (font-size, color, etc.) tel quel */
     color: #ffffff;
     font-family: 'Arial', sans-serif;
-    font-size: 18px; /* Tu peux baisser à 1vw si c'est trop gros sur petit écran */
+    font-size: 25px; /* Tu peux baisser à 1vw si c'est trop gros sur petit écran */
     font-weight: bold;
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000, 0px 0px 5px rgba(0,0,0,0.8);
     pointer-events: none;
@@ -535,5 +535,14 @@ p.hw-warriors {
     .gros-item {
         width: 2.5vw;
         height: 2.5vw;
+    }
+
+    .item-text {
+        font-size: 18px;
+    }
+
+    .star-badge {
+        width: 20px;
+        height: 20px;
     }
 }

@@ -1,0 +1,71 @@
+<!--
+Nom du Projet : [https://faudatv.github.io/Tracker-Zelda/]
+Auteur : [FaudaTV]
+GitHub : https://github.com/FaudaTV
+Licence : GNU AGPLv3
+Note : Les images Nintendo sont la propriété de Nintendo.
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Sholani - HW AOI</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="aoi.html" class="back-link">← Retour</a>
+        <h1 class="main-title">HW AOI - SHOLANI</h1>
+    </header>
+
+    <main class="quest-container">
+
+        <div class="inventory-row split-2-columns">
+            <div class="inventory-section">
+                <h2 class="section-title">Global</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOI/lvl100.png" 
+                            class="item gros-item" 
+                            id="aoi-f-sholani-lvl100"
+                            onclick="toggleItem('aoi-f-sholani-lvl100')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOI/msholani.png" 
+                            class="item gros-item" 
+                            id="aoi-f-sholani-msholani"
+                            data-max="14"
+                            data-name="0"
+                            onclick="toggleItem('aoi-f-sholani-msholani')">
+                            <p class="item-name">0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Armes</h2>
+                <div class="inventory-card cyan-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOI/Weapon/sholani.png" 
+                            class="item gros-item" 
+                            id="aoi-f-weapon-sholani"
+                            data-aoc-levels="10,20"
+                            onclick="toggleItem('aoi-f-weapon-sholani')">
+                            <div class="item-text"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>

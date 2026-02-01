@@ -1,0 +1,100 @@
+<!--
+Nom du Projet : [https://faudatv.github.io/Tracker-Zelda/]
+Auteur : [FaudaTV]
+GitHub : https://github.com/FaudaTV
+Licence : GNU AGPLv3
+Note : Les images Nintendo sont la propriété de Nintendo.
+-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Ardi - HW AOI</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="zelda-bg">
+    <header>
+        <a href="aoi.html" class="back-link">← Retour</a>
+        <h1 class="main-title">HW AOI - ARDI</h1>
+    </header>
+
+    <main class="quest-container">
+
+        <div class="inventory-row split-2-columns">
+            <div class="inventory-section">
+                <h2 class="section-title">Global</h2>
+                <div class="inventory-card base-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOI/lvl100.png" 
+                            class="item gros-item" 
+                            id="aoi-f-ardi-lvl100"
+                            onclick="toggleItem('aoi-f-ardi-lvl100')">
+                        </div>
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOI/mardi.png" 
+                            class="item gros-item" 
+                            id="aoi-f-ardi-mardi"
+                            data-max="15"
+                            data-name="0"
+                            onclick="toggleItem('aoi-f-ardi-mardi')">
+                            <p class="item-name">0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inventory-section">
+                <h2 class="section-title">Armes</h2>
+                <div class="inventory-card cyan-card"> 
+                    <div class="tracker-grid">
+
+                        <div class="item-wrapper">
+                            <img src="../images/AOI/Weapon/ardi.png" 
+                            class="item gros-item" 
+                            id="aoi-f-weapon-ardi"
+                            data-aoc-levels="10,20"
+                            onclick="toggleItem('aoi-f-weapon-ardi')">
+                            <div class="item-text"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="inventory-section">
+            <h2 class="section-title">Tenues</h2>
+            <div class="inventory-card red-card"> 
+                <div class="tracker-grid">
+
+                    <div class="item-wrapper">
+                        <img src="../images/AOI/tenues/ardi1.png" 
+                        class="item gros-item" 
+                        id="aoi-f-tenue-ardi1"
+                        onclick="toggleItem('aoi-f-tenue-ardi1')">
+                    </div>
+
+                    <div class="item-wrapper">
+                        <img src="../images/AOI/tenues/ardi2.png" 
+                        class="item gros-item" 
+                        id="aoi-f-tenue-ardi2"
+                        onclick="toggleItem('aoi-f-tenue-ardi2')">
+                    </div>
+
+                    <div class="item-wrapper">
+                        <img src="../images/AOI/tenues/ardi3.png" 
+                        class="item gros-item" 
+                        id="aoi-f-tenue-ardi3"
+                        onclick="toggleItem('aoi-f-tenue-ardi3')">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>
